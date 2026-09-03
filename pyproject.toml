@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mechanical-design-rag"
+version = "1.0.0"
+description = "Hybrid RAG and deterministic calculation agent for mechanical design"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "chromadb",
+    "fastapi",
+    "langgraph",
+    "numpy",
+    "rank-bm25",
+    "scikit-learn",
+    "uvicorn",
+]
+
+[project.optional-dependencies]
+dev = ["httpx", "pytest"]
+
+[project.scripts]
+mech-rag = "src.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["src*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
