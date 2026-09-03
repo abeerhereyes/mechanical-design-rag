@@ -1,54 +1,67 @@
-# Mechanical Design RAG
+# Multi-Subject Course RAG
 
-A  assistant for mechanical-design questions about bolts,
-welds, springs, and bearings. It routes each question to either:
+A local study assistant that answers from the selected course's own notes,
+shows exact page citations, separates outside knowledge, and uses reviewed
+Python formulas for numerical work.
 
-- a deterministic Python engineering calculation, or
-- hybrid document retrieval followed by a grounded Ollama answer with citations.
+Included courses:
 
-Calculations never rely on the language model for arithmetic.
+- Mechanical Design
+- Aerodynamics
+- Quality, Reliability, and Maintenance (QRM)
+
+The design is intentionally course-first. A response may include broader
+knowledge, but it is displayed separately and never presented as if it came
+from the uploaded notes.
+
+## Why this exists
+
+General-purpose LLMs may choose a different convention, equation, or method
+from the one taught in a course. This project reduces that risk through:
+
+- mandatory course selection and course-filtered retrieval;
+- document, page, and section provenance;
+- explicit warnings when course notation differs from a common convention;
+- calculation tools that execute only after their formulas are reviewed;
+- refusal or clarification when evidence or parameters are insufficient.
+
+This is still a study aid. Verify safety-critical decisions and graded work
+against the original notes, standards, and instructor guidance.
 
 ## Architecture
 
 ```text
-Question
-   |
-LangGraph router
-   |-- calculation -> parameter extraction -> validate -> Python formula
-   |
-   `-- lookup -> Chroma + BM25 -> RRF -> lexical reranker
-                                      -> Ollama generation -> citations
+Student question + selected course
+                 |
+            LangGraph router
+          /                    \
+ reviewed calculation      document question
+          |                      |
+ typed parameters       Chroma + BM25 by course
+ unit validation             -> RRF -> rerank
+ Python formula                    |
+          \                 grounded Ollama answer
+           \______________________/
+               page citations
 ```
 
-The Chroma index is built automatically on the first document question and is
-stored under `data/chroma/`. The CLI and API reuse it on later requests.
+PDF ingestion is a separate review-gated pipeline:
 
-## Features
+```text
+PDF -> native layout + page render -> optional OCR + local vision
+    -> raw JSON/assets -> developer review -> approved content -> index
+```
 
-- Section-aware Markdown chunking with source, section, and page metadata
-- Local dense retrieval plus BM25 sparse retrieval
-- Reciprocal-rank fusion and candidate reranking
-- Grounded local generation through Ollama
-- Seven calculation routes:
-  - metric tensile stress area
-  - bolt preload
-  - bolt joint load sharing
-  - fillet-weld direct shear
-  - compression-spring rate
-  - spring maximum shear stress
-  - bearing L10 life
-- Missing-parameter clarification and physical input validation
-- Interactive/one-shot CLI and FastAPI API
-- 25-query retrieval evaluation set and automated unit/API tests
+Raw OCR or vision output is never automatically calculation-safe.
 
 ## Requirements
 
-- Python 3.9 or newer
-- [Ollama](https://ollama.com/) for document-answer generation
+- Python 3.9 or newer; Python 3.11 is recommended
+- Ollama for generated document answers
+- Optional: Tesseract for weak/image-only text
+- Optional: an Ollama vision model for diagrams, charts, and rasterized slides
 
-Calculations can run without Ollama. Lookup questions need the Ollama server.
-
-## Install on macOS
+## Install
 
 ```bash
 cd /Users/abeer/Downloads/mech_rag
@@ -58,112 +71,242 @@ python -m pip install --upgrade pip
 python -m pip install -e ".[dev]"
 ```
 
-Install Ollama and download the default model:
+Install and start the text model:
 
 ```bash
 brew install ollama
+brew services start ollama
 ollama pull llama3.2:3b
-ollama serve
 ```
 
-If the Ollama desktop application is already running, do not run a second
-`ollama serve` process.
+If you prefer a foreground server, use `ollama serve` instead of the service.
+Do not run both at the same time.
 
-## Run the CLI
-
-Interactive:
+Optional OCR and local vision setup:
 
 ```bash
-source .venv/bin/activate
-mech-rag
+python -m pip install -e ".[ocr]"
+brew install tesseract
+ollama pull llava:latest
 ```
 
-One question:
-
-```bash
-mech-rag "When should a compression spring be checked for buckling?"
-```
-
-One calculation:
-
-```bash
-mech-rag "Spring rate with G=79300 MPa, wire 3 mm, mean D 25 mm, 8 active coils"
-```
-
-The calculation returns approximately `6.423 N/mm`.
-
-## Run the API
+## Run the student web app
 
 ```bash
 source .venv/bin/activate
 uvicorn src.api:app --reload
 ```
 
-Open the interactive API documentation at:
+Open:
 
-- http://127.0.0.1:8000/docs
+- Student chat: http://127.0.0.1:8000/
+- API documentation: http://127.0.0.1:8000/docs
 
-Example request:
+The web app provides a course selector, browser-local chat history, separate
+course/general answers, source-page previews, calculation details, assumptions,
+and discrepancy warnings.
+
+## Run the CLI
+
+```bash
+mech-rag --course aerodynamics \
+  "Explain how circulation creates lift in the supplied notes"
+
+mech-rag --course qrm \
+  "Explain producer risk and consumer risk in acceptance sampling"
+
+mech-rag --course mechanical-design \
+  "Calculate spring rate for G=79300 MPa, wire 3 mm, mean D 25 mm, 8 active coils"
+```
+
+Use `--no-general` to return only the course-grounded answer.
+
+## API examples
+
+Document question:
 
 ```bash
 curl -X POST http://127.0.0.1:8000/ask \
   -H "Content-Type: application/json" \
-  -d '{"query":"How does bolt preload improve fatigue life?"}'
+  -d '{
+    "course_id": "qrm",
+    "query": "What is an operating characteristic curve?",
+    "include_general": true
+  }'
 ```
 
-Health check:
+Exact reviewed formula execution can be selected with `formula_id`, `params`,
+and canonical `units`:
 
 ```bash
-curl http://127.0.0.1:8000/health
+curl -X POST http://127.0.0.1:8000/ask \
+  -H "Content-Type: application/json" \
+  -d '{
+    "course_id": "qrm",
+    "query": "Calculate the average run length",
+    "formula_id": "qrm.average_run_length",
+    "params": {"signal_probability": 0.0027}
+  }'
 ```
 
-## Configuration
+Useful endpoints:
 
-Environment variables:
+- `GET /courses`
+- `GET /ingestion/status`
+- `GET /calculations?course_id=qrm`
+- `GET /calculations/{formula_id}/schema`
+- `GET /sources/{filename}/pages/{page}`
+
+## Course data
+
+```text
+data/courses/
+  mechanical-design/
+    manifest.json
+  aerodynamics/
+    manifest.json
+    sources/
+    raw/
+    processed/
+  qrm/
+    manifest.json
+    sources/
+    raw/
+    processed/
+```
+
+`raw/` contains extraction results and page assets. `processed/` contains only
+units explicitly approved for indexing. The current PDF notes are included
+with permission.
+
+## Ingest and review PDFs
+
+List courses:
 
 ```bash
-export OLLAMA_BASE_URL=http://localhost:11434
-export OLLAMA_MODEL=llama3.2:3b
-export OLLAMA_TIMEOUT_SECONDS=120
+python -m src.ingestion courses
 ```
 
-Defaults are also listed in `.env.example`. The project does not automatically
-load `.env`; export values in the shell or use your process manager.
+Extract a whole course:
+
+```bash
+python -m src.ingestion ingest qrm
+```
+
+Use OCR and local visual descriptions where needed:
+
+```bash
+python -m src.ingestion ingest aerodynamics \
+  --ocr --vision --render-dpi 300 --vision-model llava:latest
+```
+
+Check review status:
+
+```bash
+python -m src.ingestion status aerodynamics
+```
+
+Inspect `data/courses/<course>/raw/` and its page assets before approval.
+Approval can be limited to safe content kinds:
+
+```bash
+python -m src.ingestion approve aerodynamics DOCUMENT_ID --kind page_text
+python -m src.ingestion approve aerodynamics DOCUMENT_ID --kind visual_caption
+```
+
+Formula and table units should be checked against their page image before
+approval. Vision captions start as `unreviewed`.
+
+Export approved, deduplicated units:
+
+```bash
+python -m src.ingestion export approved.jsonl
+```
+
+## Add another course
+
+1. Create `data/courses/<course-id>/manifest.json`.
+2. Put PDFs in `data/courses/<course-id>/sources/`.
+3. Add each source to the manifest.
+4. Run ingestion with OCR/vision as appropriate.
+5. Review and approve safe units.
+6. Add reviewed formulas under `src/calculations/` when numerical tools are
+   required.
+7. Add retrieval, citation, refusal, and calculation evaluation cases.
+
+The retrieval architecture does not need to change for each new course.
+
+## Calculation registry
+
+The project includes 26 reviewed formulas across the three courses. Each
+definition stores:
+
+- course and formula IDs;
+- equation and source document/page;
+- typed variables, canonical units, and output units;
+- assumptions and validation bounds;
+- review state and source-convention warnings.
+
+Only `reviewed` formulas execute. Call the registry directly with:
+
+```python
+from src.calculations import execute, get_formula, list_formulas
+
+result = execute(
+    "qrm.average_run_length",
+    {"signal_probability": 0.0027},
+)
+```
 
 ## Test and evaluate
 
 ```bash
 pytest
 python eval/run_eval.py
+python eval/run_multicourse_eval.py
 ```
 
-The evaluation compares dense-only, hybrid, and hybrid-plus-reranked retrieval
-using Precision@3, Recall@3, and MRR.
+Tests cover formula review gates and units, course isolation, duplicate
+suppression, grounded API fields, source-page previews, and the web interface.
+The original 25-question Mechanical Design retrieval benchmark remains
+available for regression testing.
 
-## Project layout
+## Configuration
+
+```bash
+export OLLAMA_BASE_URL=http://localhost:11434
+export OLLAMA_MODEL=llama3.2:3b
+export OLLAMA_VISION_MODEL=llava:latest
+export OLLAMA_TIMEOUT_SECONDS=120
+```
+
+The application does not load `.env` automatically; export variables in your
+shell or configure your process manager.
+
+## Main modules
 
 ```text
-data/corpus/             Mechanical-design source notes
-src/chunker.py           Section-aware corpus parser
-src/dense_retriever.py   Persistent Chroma index
-src/sparse_retriever.py  BM25 index
+src/ingestion/           PDF extraction, OCR/vision, review and deduplication
+src/calculations/        Reviewed multi-course formula registry
+src/chunker.py           Approved-content and legacy Markdown loaders
+src/dense_retriever.py   Persistent content-hashed Chroma index
+src/sparse_retriever.py  Course-filtered BM25
 src/hybrid_retriever.py  Reciprocal-rank fusion
-src/reranker.py          Candidate reranking
-src/calc_tools.py        Validated engineering formulas
-src/llm.py               Ollama HTTP client and grounded prompt
-src/agent.py             LangGraph workflow and parameter extraction
-src/cli.py               Command-line interface
-src/api.py               FastAPI application
-eval/                    Labeled retrieval evaluation
-tests/                   Formula, routing, and API tests
+src/reranker.py          Candidate reranking and duplicate suppression
+src/agent.py             Course-aware routing, clarification and execution
+src/llm.py               Structured grounded Ollama generation
+src/api.py               FastAPI, metadata and exact-source endpoints
+src/web/                 Browser chat UI
 ```
 
-## Scope and limitations
+## Current limitations
 
-- The included corpus is intentionally small and educational; calculations
-  should be independently reviewed before safety-critical use.
-- Parameter extraction is deterministic and supports common labels and ordered
-  numeric input. The API accepts explicit `params` when exact control is needed.
-- The bundled dense embedder and reranker are lightweight local lexical models,
-  not pretrained semantic models. Their interfaces can later be replaced with
-  Sentence Transformers without changing the agent workflow.
+- Aerodynamics is a raster-heavy slide deck. Its 17 native-text pages are
+  indexed; remaining visual pages require OCR/vision review for complete
+  conceptual coverage.
+- Native QRM page text is indexed, but calculation-critical tables, plots, and
+  extracted equation objects remain review-gated.
+- The included local hash embedder and lexical reranker are lightweight. They
+  can later be replaced by local pretrained retrieval models without changing
+  course filtering or provenance.
+- There are no accounts or server-side chat histories in this local release.

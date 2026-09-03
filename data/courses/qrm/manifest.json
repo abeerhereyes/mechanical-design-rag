@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "id": "qrm",
+  "title": "Quality, Reliability, and Maintenance",
+  "description": "Quality, reliability, maintenance, and acceptance-sampling course material.",
+  "sources": [
+    {"id": "acceptance-sampling-oc-curve", "file": "Acceptance_Sampling_OC_Curve_ME327E.pdf", "title": "Acceptance Sampling OC Curve", "kind": "pdf"},
+    {"id": "quality-cost-l5-note", "file": "Quality_Cost_L5_Note.pdf", "title": "Quality Cost L5 Note", "kind": "pdf"},
+    {"id": "quality-cost-me3327e", "file": "Quality_Cost_ME3327E.pdf", "title": "Quality Cost ME3327E", "kind": "pdf"},
+    {"id": "acceptance-sampling-notes", "file": "Quality_Reliability_Maintenance_Acceptance_Sampling_Notes.pdf", "title": "Acceptance Sampling Notes", "kind": "pdf"},
+    {"id": "control-chart-2-note", "file": "Quality_Reliability_Maintenance_Control_Chart_2_Note.pdf", "title": "Control Chart 2 Note", "kind": "pdf"},
+    {"id": "control-chart-3-note", "file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf", "title": "Control Chart 3 Note", "kind": "pdf"},
+    {"id": "control-chart-l9-note", "file": "Quality_Reliability_Maintenance_Control_Chart_Note_L9.pdf", "title": "Control Chart L9 Note", "kind": "pdf"},
+    {"id": "probability-distribution-l6", "file": "Quality_Reliability_Maintenance_L6_Probability_Distribution.pdf", "title": "Probability Distribution L6", "kind": "pdf"},
+    {"id": "qrm-l8", "file": "Quality_Reliability_Maintenance_L8.pdf", "title": "QRM L8", "kind": "pdf"},
+    {"id": "qrm-me3327e", "file": "Quality_Reliability_Maintenance_ME3327E.pdf", "title": "QRM ME3327E", "kind": "pdf"},
+    {"id": "quality-tools-me3327e", "file": "Quality_Tools_ME3327E.pdf", "title": "Quality Tools ME3327E", "kind": "pdf"},
+    {"id": "sampling-plan-l15", "file": "Sampling_Plan_L15.pdf", "title": "Sampling Plan L15", "kind": "pdf"},
+    {"id": "qrm-l2", "file": "l2.pdf", "title": "QRM L2", "kind": "pdf"}
+  ]
+}

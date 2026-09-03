@@ -34,17 +34,17 @@ def test_labeled_spring_parameters_are_extracted():
     )
     result = extract_params(state)
     assert result["intent"] == "calculate"
-    assert result["params"]["g_mpa"] == 79300
-    assert result["params"]["d_wire_mm"] == 3
-    assert result["params"]["d_mean_mm"] == 25
-    assert result["params"]["n_active"] == 8
+    assert result["params"]["shear_modulus_mpa"] == 79300
+    assert result["params"]["wire_diameter_mm"] == 3
+    assert result["params"]["mean_diameter_mm"] == 25
+    assert result["params"]["active_coils"] == 8
 
 
 def test_missing_parameters_produce_clarification():
     agent = MechanicalDesignAgent(retriever=FakeRetriever(), llm=FakeLlm())
     result = agent.ask("What is the spring rate for my compression spring?")
     assert result["intent"] == "clarify"
-    assert "g mpa" in result["answer"]
+    assert "Wire shear modulus" in result["answer"]
     assert result["missing_params"]
 
 

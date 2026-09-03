@@ -1,0 +1,1197 @@
+{
+  "document_id": "qrm-sampling-plan-l15-12190ff13dab",
+  "course_id": "qrm",
+  "source_id": "sampling-plan-l15",
+  "source_file": "Sampling_Plan_L15.pdf",
+  "source_sha256": "12190ff13dab9e9af264193e4d70a9285c725a00b8c15297b5de8c0ffccd1af1",
+  "units": [
+    {
+      "unit_id": "qrm-sampling-plan-l15-12190ff13dab:p0001:text",
+      "course_id": "qrm",
+      "document_id": "qrm-sampling-plan-l15-12190ff13dab",
+      "kind": "page_text",
+      "text": "QUALITY, RELIABILITY AND\n     MAINTENANCE\n       ME327E\n\n\n\n                  Course Instructor:\n                          Dr. Nehem Tudu\n       Assistant Professor, Dept. of Mechanical Engineering",
+      "locator": {
+        "page": 1,
+        "slide": 1,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Sampling_Plan_L15.pdf",
+        "source_sha256": "12190ff13dab9e9af264193e4d70a9285c725a00b8c15297b5de8c0ffccd1af1",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:54.228261+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "592a5260bd14c4f553479b415a4541478c9d4d8ee762417674e13f3daf290079",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              106.15,
+              95.52,
+              628.2,
+              163.74
+            ],
+            "text": "QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              223.54,
+              151.18,
+              498.67,
+              219.43
+            ],
+            "text": "MAINTENANCE",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              283.56,
+              206.91,
+              438.6,
+              275.13
+            ],
+            "text": "ME327E",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              285.58,
+              373.73,
+              442.73,
+              401.98
+            ],
+            "text": "Course Instructor:",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              161.95,
+              399.7,
+              560.97,
+              453.6
+            ],
+            "text": "Dr. Nehem Tudu\nAssistant Professor, Dept. of Mechanical Engineering",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0001.png"
+      },
+      "near_duplicate_of": "qrm-acceptance-sampling-notes-1e1572055b50:p0001:text"
+    },
+    {
+      "unit_id": "qrm-sampling-plan-l15-12190ff13dab:p0002:text",
+      "course_id": "qrm",
+      "document_id": "qrm-sampling-plan-l15-12190ff13dab",
+      "kind": "page_text",
+      "text": "Evaluating Sampling Plans\n  Evaluating sampling plans involves analyzing how well a\n  given plan performs, especially in the context of quality\n  control. Several key measures are used to assess the\n  effectiveness and efficiency of sampling plans.\n Operating Characteristic (OC) Curve\nDefinition: The OC curve plots the probability of accepting a\n  lot (Pa) versus the proportion nonconforming in the lot (p).\nPurpose: It visually shows the discriminatory power of the\n plan—how well it can distinguish between good and poor\n quality lots.\nSteeper OC curves (more “S-shaped”) indicate greater\n discriminatory power.\nA plan should ideally accept lots with low nonconformance most of\n the time and rarely accept lots with high nonconformance",
+      "locator": {
+        "page": 2,
+        "slide": 2,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Sampling_Plan_L15.pdf",
+        "source_sha256": "12190ff13dab9e9af264193e4d70a9285c725a00b8c15297b5de8c0ffccd1af1",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:54.228305+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "c2cd575bb6175c9f5a8cfb6d95eda55227a97939d977e61d4f750128115d10af",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              14.06,
+              5.64,
+              450.62,
+              44.12
+            ],
+            "text": "Evaluating Sampling Plans",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              30.36,
+              52.73,
+              655.9,
+              167.21
+            ],
+            "text": "Evaluating sampling plans involves analyzing how well a \ngiven plan performs, especially in the context of quality \ncontrol. Several key measures are used to assess the \neffectiveness and efficiency of sampling plans.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              21.36,
+              168.87,
+              605.74,
+              206.23
+            ],
+            "text": "Operating Characteristic (OC) Curve",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              213.08,
+              696.5,
+              241.13
+            ],
+            "text": "Definition: The OC curve plots the probability of accepting a",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              21.36,
+              241.85,
+              659.08,
+              274.02
+            ],
+            "text": "lot (Pa) versus the proportion nonconforming in the lot (p).",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              276.7,
+              661.87,
+              304.75
+            ],
+            "text": "Purpose: It visually shows the discriminatory power of the",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              21.36,
+              305.5,
+              659.54,
+              362.35
+            ],
+            "text": "plan—how well it can distinguish between good and poor \nquality lots.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              369.08,
+              580.6,
+              394.78
+            ],
+            "text": "Steeper OC curves (more “S-shaped”) indicate greater",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              21.36,
+              395.53,
+              243.71,
+              421.2
+            ],
+            "text": "discriminatory power.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              429.97,
+              697.51,
+              455.64
+            ],
+            "text": "A plan should ideally accept lots with low nonconformance most of",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              21.36,
+              456.37,
+              600.49,
+              482.04
+            ],
+            "text": "the time and rarely accept lots with high nonconformance",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              61.2,
+              502.69,
+              311.01,
+              514.33
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              684.29,
+              502.03,
+              690.38,
+              514.9
+            ],
+            "text": "2",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0002.png"
+      },
+      "near_duplicate_of": "qrm-acceptance-sampling-oc-curve-a47b09353043:p0014:text"
+    },
+    {
+      "unit_id": "qrm-sampling-plan-l15-12190ff13dab:p0003:text",
+      "course_id": "qrm",
+      "document_id": "qrm-sampling-plan-l15-12190ff13dab",
+      "kind": "page_text",
+      "text": "Average Outgoing Quality (AOQ)\n\n Definition: AOQ is the average quality level of lots leaving\n the inspection station, assuming rejected lots undergo 100%\n inspection (rectification).\n\n                                (𝑁−𝑛)\n Calculation:𝐴𝑂𝑄=   𝑝×                𝑃𝑎×                           𝑁\n   𝑁: Lot size\n   𝑛: Sample size\n   𝑝: Incoming proportion nonconforming\n    𝑃𝑎: Probability lot is accepted\n Interpretation: AOQ gives the long-term average\n nonconformance in outgoing lots after applying the\n sampling plan and rectification.",
+      "locator": {
+        "page": 3,
+        "slide": 3,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Sampling_Plan_L15.pdf",
+        "source_sha256": "12190ff13dab9e9af264193e4d70a9285c725a00b8c15297b5de8c0ffccd1af1",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:54.228346+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "31552633ac9910f290ad43cc9a0fe343f3f9448fb2e8b5f40a525cccb87a5c26",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              14.06,
+              5.64,
+              545.96,
+              44.12
+            ],
+            "text": "Average Outgoing Quality (AOQ)",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              30.36,
+              69.03,
+              696.89,
+              154.68
+            ],
+            "text": "Definition: AOQ is the average quality level of lots leaving\nthe inspection station, assuming rejected lots undergo 100% \ninspection (rectification).",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              348.38,
+              169.3,
+              401.04,
+              186.84
+            ],
+            "text": "(𝑁−𝑛)",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              30.36,
+              174.29,
+              343.08,
+              205.8
+            ],
+            "text": "Calculation:𝐴𝑂𝑄= 𝑃𝑎× 𝑝×",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              66.36,
+              195.46,
+              381.1,
+              249.5
+            ],
+            "text": "𝑁\n𝑁: Lot size",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              66.36,
+              262.22,
+              248.95,
+              290.31
+            ],
+            "text": "𝑛: Sample size",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              66.36,
+              303.08,
+              521.83,
+              331.13
+            ],
+            "text": "𝑝: Incoming proportion nonconforming",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              66.36,
+              343.88,
+              415.49,
+              375.39
+            ],
+            "text": "𝑃𝑎: Probability lot is accepted",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              30.36,
+              384.65,
+              600.6,
+              441.55
+            ],
+            "text": "Interpretation: AOQ gives the long-term average \nnonconformance in outgoing lots after applying the",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              30.36,
+              442.49,
+              380.33,
+              479.94
+            ],
+            "text": "sampling plan and rectification.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              61.2,
+              502.03,
+              690.38,
+              514.9
+            ],
+            "text": "3\nME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0003.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-sampling-plan-l15-12190ff13dab:p0004:text",
+      "course_id": "qrm",
+      "document_id": "qrm-sampling-plan-l15-12190ff13dab",
+      "kind": "page_text",
+      "text": "Average Outgoing Quality Limit\n(AOQL)\n\n Definition: AOQL is the maximum possible value for the\n  AOQ across all levels of incoming quality.\n Purpose: It represents the worst average quality that can\n   leave the inspection station, assuming rectification.\n    Gives a sense of risk protection: “the outgoing quality\n      won’t exceed AOQL.”",
+      "locator": {
+        "page": 4,
+        "slide": 4,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Sampling_Plan_L15.pdf",
+        "source_sha256": "12190ff13dab9e9af264193e4d70a9285c725a00b8c15297b5de8c0ffccd1af1",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:54.228378+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "15c3bfbc1df9ae1172d4b778fe0875e2747a7cece6edc8258fbe192dae473235",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              14.06,
+              5.4,
+              541.64,
+              79.53
+            ],
+            "text": "Average Outgoing Quality Limit \n(AOQL)",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              29.5,
+              101.19,
+              677.78,
+              129.24
+            ],
+            "text": "Definition: AOQL is the maximum possible value for the",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              29.5,
+              129.99,
+              682.82,
+              186.84
+            ],
+            "text": "AOQ across all levels of incoming quality.\nPurpose: It represents the worst average quality that can",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              52.06,
+              187.59,
+              610.42,
+              215.64
+            ],
+            "text": "leave the inspection station, assuming rectification.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              65.5,
+              216.36,
+              681.62,
+              244.45
+            ],
+            "text": "Gives a sense of risk protection: “the outgoing quality",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              88.06,
+              245.21,
+              323.71,
+              273.26
+            ],
+            "text": "won’t exceed AOQL.”",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              61.2,
+              502.03,
+              690.38,
+              514.9
+            ],
+            "text": "4\nME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0004.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-sampling-plan-l15-12190ff13dab:p0005:text",
+      "course_id": "qrm",
+      "document_id": "qrm-sampling-plan-l15-12190ff13dab",
+      "kind": "page_text",
+      "text": "Example\nConstruct an AOQ curve for a single sampling plan where\nthe lot size is 2000, the sample size is 50, and the\n                                              𝝀𝒙𝒆−𝝀acceptance number is 2.\n                   𝑷𝒙=\n                                                       𝒙!\nLot Acceptance Probabilities for Different Values of Proportion\nNonconforming for the Sampling Plan N = 2000, n = 50, c = 2",
+      "locator": {
+        "page": 5,
+        "slide": 5,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Sampling_Plan_L15.pdf",
+        "source_sha256": "12190ff13dab9e9af264193e4d70a9285c725a00b8c15297b5de8c0ffccd1af1",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:54.228405+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "14b20d44085ad3eb2ef6b15e00e1c84939eadda7248aa8b43227347e6ea93af1",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              14.06,
+              -4.4,
+              144.77,
+              30.58
+            ],
+            "text": "Example",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              6.84,
+              27.87,
+              648.27,
+              113.54
+            ],
+            "text": "Construct an AOQ curve for a single sampling plan where \nthe lot size is 2000, the sample size is 50, and the \nacceptance number is 2.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              359.23,
+              89.2,
+              465.8,
+              123.81
+            ],
+            "text": "𝑷𝒙= 𝝀𝒙𝒆−𝝀",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              435.67,
+              117.79,
+              451.26,
+              135.81
+            ],
+            "text": "𝒙!",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              6.84,
+              137.02,
+              695.5,
+              193.88
+            ],
+            "text": "Lot Acceptance Probabilities for Different Values of Proportion \nNonconforming for the Sampling Plan N = 2000, n = 50, c = 2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              61.2,
+              502.03,
+              690.38,
+              514.9
+            ],
+            "text": "5\nME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0005.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-sampling-plan-l15-12190ff13dab:p0006:text",
+      "course_id": "qrm",
+      "document_id": "qrm-sampling-plan-l15-12190ff13dab",
+      "kind": "page_text",
+      "text": "Average Total Inspection (ATI)\n\n\n Definition: ATI is the average number of items inspected\n   (including both the sample and any additional inspection\n    for rejected lots) per lot.\n Calculation for single sampling:\n            𝐴𝑇𝐼= 𝑛+ (1 −𝑃𝑎) × (𝑁−𝑛)\n   When a lot is accepted, only the sample is inspected.\n   When rejected, the remainder is 100% inspected.\n Use: Helps estimate inspection costs for a sampling plan.\n\n Exercise:\n Construct the ATI curve for the sapling plan where N = 2000,\n n = 50, c = 2.",
+      "locator": {
+        "page": 6,
+        "slide": 6,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Sampling_Plan_L15.pdf",
+        "source_sha256": "12190ff13dab9e9af264193e4d70a9285c725a00b8c15297b5de8c0ffccd1af1",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:54.228446+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "c87a8a97a667234735241fa4d817136dd71bc4cbf418ce812d6afd34795f1265",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              14.06,
+              11.84,
+              502.46,
+              50.32
+            ],
+            "text": "Average Total Inspection (ATI)",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              29.5,
+              101.19,
+              689.14,
+              129.24
+            ],
+            "text": "Definition: ATI is the average number of items inspected",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              29.5,
+              129.99,
+              685.51,
+              215.57
+            ],
+            "text": "(including both the sample and any additional inspection \nfor rejected lots) per lot.\nCalculation for single sampling:",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              29.5,
+              220.38,
+              679.88,
+              330.86
+            ],
+            "text": "𝐴𝑇𝐼= 𝑛+ (1 −𝑃𝑎) × (𝑁−𝑛)\nWhen a lot is accepted, only the sample is inspected.\nWhen rejected, the remainder is 100% inspected.\nUse: Helps estimate inspection costs for a sampling plan.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              29.5,
+              378.55,
+              697.63,
+              468.84
+            ],
+            "text": "Exercise:\nConstruct the ATI curve for the sapling plan where N = 2000, \nn = 50, c = 2.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              61.2,
+              502.03,
+              690.38,
+              514.9
+            ],
+            "text": "6\nME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0006.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-sampling-plan-l15-12190ff13dab:p0007:text",
+      "course_id": "qrm",
+      "document_id": "qrm-sampling-plan-l15-12190ff13dab",
+      "kind": "page_text",
+      "text": "Average Sample Number (ASN)\n Definition: The average number of samples required to\n   reach a decision, particularly for double and multiple\n  sampling plans.\n   For single sampling:\n                𝐴𝑆𝑁= 𝑛\n   For double sampling:\n         𝐴𝑆𝑁= 𝑛1 ⋅𝑃1 + (𝑛1 + 𝑛2) ⋅(1 −𝑃1)\n      𝑛1: First sample size, 𝑛2: Second sample size\n      𝑃1: Probability of decision after the first sample\n Purpose: Lower ASN means fewer inspections on average,\n   reducing costs and time.\n Exercise:\n For the double sampling plan N = 3000, n1 = 40, c1 = 1, r1 = 4, n2\n = 80, c2 = 3, r2 = 4, find the ASN for batches with proportion\n nonconforming of 0.02, assuming no curtailment.  Ans: 54.56",
+      "locator": {
+        "page": 7,
+        "slide": 7,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Sampling_Plan_L15.pdf",
+        "source_sha256": "12190ff13dab9e9af264193e4d70a9285c725a00b8c15297b5de8c0ffccd1af1",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:54.228498+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "0db3fe8b2b5a32397b41ed0c5586569be8a5643fb337fc164e9761a364d89c27",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              7.2,
+              7.57,
+              507.32,
+              46.08
+            ],
+            "text": "Average Sample Number (ASN)",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              15.72,
+              48.8,
+              659.32,
+              76.85
+            ],
+            "text": "Definition: The average number of samples required to",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              38.3,
+              77.57,
+              628.98,
+              134.47
+            ],
+            "text": "reach a decision, particularly for double and multiple \nsampling plans.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              51.74,
+              135.22,
+              302.16,
+              163.27
+            ],
+            "text": "For single sampling:",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              51.74,
+              168.02,
+              388.73,
+              220.87
+            ],
+            "text": "𝐴𝑆𝑁= 𝑛\nFor double sampling:",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              15.72,
+              225.61,
+              687.04,
+              336.09
+            ],
+            "text": "𝐴𝑆𝑁= 𝑛1 ⋅𝑃1 + (𝑛1 + 𝑛2) ⋅(1 −𝑃1)\n𝑛1: First sample size, 𝑛2: Second sample size\n𝑃1: Probability of decision after the first sample\nPurpose: Lower ASN means fewer inspections on average,",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              15.72,
+              336.81,
+              703.41,
+              486.29
+            ],
+            "text": "reducing costs and time.\nExercise:\nFor the double sampling plan N = 3000, n1 = 40, c1 = 1, r1 = 4, n2\n= 80, c2 = 3, r2 = 4, find the ASN for batches with proportion \nnonconforming of 0.02, assuming no curtailment.\nAns: 54.56",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              61.2,
+              502.03,
+              690.38,
+              514.9
+            ],
+            "text": "7\nME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0007.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-sampling-plan-l15-12190ff13dab:p0008:text",
+      "course_id": "qrm",
+      "document_id": "qrm-sampling-plan-l15-12190ff13dab",
+      "kind": "page_text",
+      "text": "Bayes Rule and Decision Making Based\non Samples\n\n\n\n\n Bayes Rule and decision making based on samples\n refers to using Bayesian probability theory to update\n knowledge or beliefs about an unknown parameter\n in quality control, by combining prior information\n and sample data.",
+      "locator": {
+        "page": 8,
+        "slide": 8,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Sampling_Plan_L15.pdf",
+        "source_sha256": "12190ff13dab9e9af264193e4d70a9285c725a00b8c15297b5de8c0ffccd1af1",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:54.228546+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "f62f16d89d882bd32880ede15ea8726e4545b154922c5a7eb0cfc860f6a078a8",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              14.06,
+              14.96,
+              664.3,
+              89.08
+            ],
+            "text": "Bayes Rule and Decision Making Based \non Samples",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              26.93,
+              205.25,
+              699.99,
+              372.36
+            ],
+            "text": "Bayes Rule and decision making based on samples \nrefers to using Bayesian probability theory to update \nknowledge or beliefs about an unknown parameter \nin quality control, by combining prior information \nand sample data.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              61.2,
+              502.03,
+              690.38,
+              514.9
+            ],
+            "text": "8\nME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0008.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-sampling-plan-l15-12190ff13dab:p0009:text",
+      "course_id": "qrm",
+      "document_id": "qrm-sampling-plan-l15-12190ff13dab",
+      "kind": "page_text",
+      "text": "Bayes Rule Concept\nPrior Probabilities: Before collecting any sample data, there\n   is a \"prior\" belief or probability about possible states or\n  values (e.g., which vendor supplied a part, expected demand\n  proportion).\nSample Information: Upon inspecting a sample, certain\n  outcomes are observed (e.g., a part is defective).\nPosterior Probabilities: Bayes Rule is then used to update\n  the prior probabilities by incorporating the likelihood of\n  observing the sample outcome, to get new \"posterior\"\n  probabilities for each possible state.\nThe mathematical formula described is:\n                             𝑃(𝐴|𝐵𝑖) ⋅𝑃(𝐵𝑖)\n                𝑃(𝐵𝑖|𝐴) = 𝑚\n                          σ𝑖=1 𝑃(𝐴|𝐵𝑖) ⋅𝑃(𝐵𝑖)\nwhere          is the probability of sample outcome 𝐴given      𝑃(𝐴|𝐵𝑖)                                                   𝐵𝑖,\nand          is the posterior probability after seeing the    𝑃(𝐵𝑖|𝐴)\noutcome 𝐴.",
+      "locator": {
+        "page": 9,
+        "slide": 9,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Sampling_Plan_L15.pdf",
+        "source_sha256": "12190ff13dab9e9af264193e4d70a9285c725a00b8c15297b5de8c0ffccd1af1",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:54.228569+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "69990bfe1de6f2e300478c9738396884ebd6e2dbc7ca2dc74f51c1d92404421f",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              14.06,
+              0.66,
+              335.02,
+              39.17
+            ],
+            "text": "Bayes Rule Concept",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              41.6,
+              711.03,
+              69.65
+            ],
+            "text": "Prior Probabilities: Before collecting any sample data, there",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              70.4,
+              713.28,
+              184.87
+            ],
+            "text": "is a \"prior\" belief or probability about possible states or \nvalues (e.g., which vendor supplied a part, expected demand \nproportion).\nSample Information: Upon inspecting a sample, certain",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              185.62,
+              683.76,
+              242.47
+            ],
+            "text": "outcomes are observed (e.g., a part is defective).\nPosterior Probabilities: Bayes Rule is then used to update",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              243.19,
+              660.46,
+              357.69
+            ],
+            "text": "the prior probabilities by incorporating the likelihood of \nobserving the sample outcome, to get new \"posterior\" \nprobabilities for each possible state.\nThe mathematical formula described is:",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              197.06,
+              359.8,
+              494.23,
+              423.34
+            ],
+            "text": "𝑃(𝐵𝑖|𝐴) =\n𝑃(𝐴|𝐵𝑖) ⋅𝑃(𝐵𝑖)\nσ𝑖=1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              389.91,
+              699.1,
+              505.68
+            ],
+            "text": "𝑚\n𝑃(𝐴|𝐵𝑖) ⋅𝑃(𝐵𝑖)\nwhere 𝑃(𝐴|𝐵𝑖) is the probability of sample outcome 𝐴given 𝐵𝑖, \nand 𝑃(𝐵𝑖|𝐴) is the posterior probability after seeing the \noutcome 𝐴.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              61.2,
+              502.03,
+              690.38,
+              514.9
+            ],
+            "text": "9\nME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0009.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-sampling-plan-l15-12190ff13dab:p0010:text",
+      "course_id": "qrm",
+      "document_id": "qrm-sampling-plan-l15-12190ff13dab",
+      "kind": "page_text",
+      "text": "Exercise\n Three vendors, B1, B2, and B3, provide microchips for a\n semiconductor manufacturer. Based on each vendor’s\n historical data, the probabilities of vendor B1, B2, and B3\n producing a defective microchip are 0.01, 0.03, and 0.05,\n respectively. Since the parts all look alike and have no\n company identification, it is not possible to identify the\n vendor they came from. Assume that 30% of the parts are\n provided by vendor B1, with the corresponding percentages\n for vendors B2 and B3 being 50% and 20%, respectively.\n Upon inspection of a part, it is found to be nonconforming.\n What is the probability that it was produced by vendor B1?\n By vendor B2? By vendor B3?\n\n  𝑷𝑩𝟏𝑨= 𝟎. 𝟏𝟎𝟕, 𝑷𝑩𝟐𝑨= 𝟎. 𝟓𝟑𝟔& 𝑷𝑩𝟑𝑨= 𝟎. 𝟑𝟓𝟕",
+      "locator": {
+        "page": 10,
+        "slide": 10,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Sampling_Plan_L15.pdf",
+        "source_sha256": "12190ff13dab9e9af264193e4d70a9285c725a00b8c15297b5de8c0ffccd1af1",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:54.228608+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "43046a22a0b70991d148e9d93132b9ab148d1c8a9facb26943bb491d49037c6d",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              14.06,
+              16.09,
+              153.56,
+              54.6
+            ],
+            "text": "Exercise",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              26.93,
+              57.63,
+              695.98,
+              402.53
+            ],
+            "text": "Three vendors, B1, B2, and B3, provide microchips for a \nsemiconductor manufacturer. Based on each vendor’s \nhistorical data, the probabilities of vendor B1, B2, and B3 \nproducing a defective microchip are 0.01, 0.03, and 0.05, \nrespectively. Since the parts all look alike and have no \ncompany identification, it is not possible to identify the \nvendor they came from. Assume that 30% of the parts are \nprovided by vendor B1, with the corresponding percentages \nfor vendors B2 and B3 being 50% and 20%, respectively. \nUpon inspection of a part, it is found to be nonconforming. \nWhat is the probability that it was produced by vendor B1? \nBy vendor B2? By vendor B3?",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              65.33,
+              436.1,
+              660.31,
+              463.61
+            ],
+            "text": "𝑷𝑩𝟏𝑨= 𝟎. 𝟏𝟎𝟕, 𝑷𝑩𝟐𝑨= 𝟎. 𝟓𝟑𝟔& 𝑷𝑩𝟑𝑨= 𝟎. 𝟑𝟓𝟕",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              61.2,
+              502.03,
+              693.02,
+              514.9
+            ],
+            "text": "10\nME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0010.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-sampling-plan-l15-12190ff13dab:p0011:text",
+      "course_id": "qrm",
+      "document_id": "qrm-sampling-plan-l15-12190ff13dab",
+      "kind": "page_text",
+      "text": "Quality Control Application\n\n Vendor Identification Example: If there are multiple\n   vendors with different defect rates and proportions of\n   supplied parts, and a defective item is found, Bayes rule\n   helps calculate the likelihood that the item came from each\n   vendor based on both prior production statistics and the\n   defect rates.\n Decision Updates: As more sample results are obtained,\n   the probability distribution for a parameter (such as defect\n   rate or expected demand) is continually updated. This\n   sequential learning allows better-informed decisions\n   about process improvement, vendor selection, or product\n   launch strategy.",
+      "locator": {
+        "page": 11,
+        "slide": 11,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Sampling_Plan_L15.pdf",
+        "source_sha256": "12190ff13dab9e9af264193e4d70a9285c725a00b8c15297b5de8c0ffccd1af1",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:54.228645+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "ee47d1f6295bd31804268a7ddf0b49135aea7b72b1ef9d75f10684311906548a",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              14.06,
+              16.09,
+              462.79,
+              54.6
+            ],
+            "text": "Quality Control Application",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              26.93,
+              95.31,
+              642.8,
+              123.36
+            ],
+            "text": "Vendor Identification Example: If there are multiple",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              26.93,
+              124.11,
+              702.22,
+              296.18
+            ],
+            "text": "vendors with different defect rates and proportions of \nsupplied parts, and a defective item is found, Bayes rule \nhelps calculate the likelihood that the item came from each \nvendor based on both prior production statistics and the \ndefect rates.\nDecision Updates: As more sample results are obtained,",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              49.49,
+              296.9,
+              702.46,
+              440.22
+            ],
+            "text": "the probability distribution for a parameter (such as defect \nrate or expected demand) is continually updated. This \nsequential learning allows better-informed decisions \nabout process improvement, vendor selection, or product \nlaunch strategy.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              61.2,
+              502.03,
+              693.02,
+              514.9
+            ],
+            "text": "11\nME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0011.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-sampling-plan-l15-12190ff13dab:p0012:text",
+      "course_id": "qrm",
+      "document_id": "qrm-sampling-plan-l15-12190ff13dab",
+      "kind": "page_text",
+      "text": "Exercise\nAn electronics company is considering the addition of a new product to its\nline. It currently has 40,000 customers. Management estimates product\ndevelopment costs to be Rs. 12,00,00,000,which may be assumed to be the\noverhead costs. Variable manufacturing costs per unit are expected to be Rs.\n80,000, along with variable selling expense of Rs. 10,000 per unit. Units will\nbe produced on a demand basis. From a market survey, it is estimated that\nthe new product could be priced at Rs. 1,50,000 per unit. Based on previous\nexperience with similar products, market research has come up with\nestimates of the proportion of existing customers that may purchase the new\nproduct and the corresponding probabilities of such happening are shown in\ntable. Should the company develop the new product?\n\n            Probability Distribution of Demand for a New Product\n          Demand Probability, p     Probability\n              0.02                         0.2\n              0.04                         0.4\n              0.06                         0.3\n              0.08                         0.1",
+      "locator": {
+        "page": 12,
+        "slide": 12,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Sampling_Plan_L15.pdf",
+        "source_sha256": "12190ff13dab9e9af264193e4d70a9285c725a00b8c15297b5de8c0ffccd1af1",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:54.228678+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "f7ff8458e8e5c7dd86128cbe73ace6201224e5d3beff2e0e0ab5adf34eb030a6",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              14.06,
+              1.64,
+              153.49,
+              40.12
+            ],
+            "text": "Exercise",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              37.73,
+              716.52,
+              301.23
+            ],
+            "text": "An electronics company is considering the addition of a new product to its \nline. It currently has 40,000 customers. Management estimates product \ndevelopment costs to be Rs. 12,00,00,000,which may be assumed to be the \noverhead costs. Variable manufacturing costs per unit are expected to be Rs. \n80,000, along with variable selling expense of Rs. 10,000 per unit. Units will \nbe produced on a demand basis. From a market survey, it is estimated that \nthe new product could be priced at Rs. 1,50,000 per unit. Based on previous \nexperience with similar products, market research has come up with \nestimates of the proportion of existing customers that may purchase the new \nproduct and the corresponding probabilities of such happening are shown in \ntable. Should the company develop the new product?",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              116.5,
+              323.22,
+              591.27,
+              344.21
+            ],
+            "text": "Probability Distribution of Demand for a New Product",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              127.22,
+              351.97,
+              466.57,
+              372.96
+            ],
+            "text": "Demand Probability, p\nProbability",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              127.22,
+              381.18,
+              392.02,
+              402.22
+            ],
+            "text": "0.02\n0.2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              127.22,
+              410.39,
+              392.02,
+              431.43
+            ],
+            "text": "0.04\n0.4",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              127.22,
+              439.55,
+              392.05,
+              460.62
+            ],
+            "text": "0.06\n0.3",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              127.22,
+              468.78,
+              392.02,
+              489.82
+            ],
+            "text": "0.08\n0.1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              61.2,
+              502.03,
+              693.02,
+              514.9
+            ],
+            "text": "12\nME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0012.png"
+      },
+      "near_duplicate_of": null
+    }
+  ],
+  "schema_version": "1.0",
+  "created_at": "2026-09-03T07:07:54.228718+00:00"
+}

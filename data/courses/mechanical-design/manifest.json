@@ -1,0 +1,7 @@
+{
+  "schema_version": "1.0",
+  "id": "mechanical-design",
+  "title": "Mechanical Design",
+  "description": "Mechanical design course registry. Existing Markdown corpus remains managed separately.",
+  "sources": []
+}

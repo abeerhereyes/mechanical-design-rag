@@ -1,0 +1,847 @@
+{
+  "document_id": "aerodynamics-aerodynamic-m1-459c61e7af07",
+  "course_id": "aerodynamics",
+  "source_id": "aerodynamic-m1",
+  "source_file": "Aerodynamic_M-1.pdf",
+  "source_sha256": "459c61e7af07368317ca68df303964433c3b1e160164501a89ad188e5ca2b353",
+  "units": [
+    {
+      "unit_id": "aerodynamics-aerodynamic-m1-459c61e7af07:p0001:text",
+      "course_id": "aerodynamics",
+      "document_id": "aerodynamics-aerodynamic-m1-459c61e7af07",
+      "kind": "page_text",
+      "text": "ME4028D/AERODYNAMICS\n                Faculty\n           Dr. Sanjeev K Manjhi\n           Assistant Professor\n\n\n\n\n\n   Department of Mechanical Engineering\n   National Institute of Technology Calicut,\n      Kozhikode, Kerala-673601, India",
+      "locator": {
+        "page": 1,
+        "slide": 1,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Aerodynamic_M-1.pdf",
+        "source_sha256": "459c61e7af07368317ca68df303964433c3b1e160164501a89ad188e5ca2b353",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:06:08.885724+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "c4f13dd9aa391f8ac83a8ffbbe6ec0af7e94fd9a1ae22664cbe27070f4cc65ef",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              227.18,
+              17.96,
+              740.23,
+              62.51
+            ],
+            "text": "ME4028D/AERODYNAMICS",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              352.73,
+              65.15,
+              614.24,
+              129.97
+            ],
+            "text": "Faculty\nDr. Sanjeev K Manjhi",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              362.81,
+              132.4,
+              603.88,
+              163.57
+            ],
+            "text": "Assistant Professor",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              269.04,
+              385.86,
+              766.76,
+              450.69
+            ],
+            "text": "Department of Mechanical Engineering\nNational Institute of Technology Calicut,",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              310.68,
+              452.27,
+              717.55,
+              483.45
+            ],
+            "text": "Kozhikode, Kerala-673601, India",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0001.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "aerodynamics-aerodynamic-m1-459c61e7af07:p0002:text",
+      "course_id": "aerodynamics",
+      "document_id": "aerodynamics-aerodynamic-m1-459c61e7af07",
+      "kind": "page_text",
+      "text": "Slot: H Or NA\n    Students Allowed: 2021 and earlier admissions (8th Semester)\n     Pre-requisites: ME2001D/ME2004D Fluid Mechanics & Machinery\n    Category: DE\n    Grading: Relative\n     Evaluations: Mid-Sem: 30, Assignments: 30 & End-Sem: 40 Marks\nContact: sanjeev@nitc.ac.in, 9188751746, 8210801064",
+      "locator": {
+        "page": 2,
+        "slide": 2,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Aerodynamic_M-1.pdf",
+        "source_sha256": "459c61e7af07368317ca68df303964433c3b1e160164501a89ad188e5ca2b353",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:06:08.885779+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "479f3572aa8330f52ab48b18da2ef48d16f577576fc8687d2671e42bd9d46624",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              218.28,
+              33.82,
+              437.44,
+              73.78
+            ],
+            "text": "Slot: H Or NA",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              184.7,
+              72.25,
+              900.87,
+              216.26
+            ],
+            "text": "Students Allowed: 2021 and earlier admissions (8th Semester)\nPre-requisites: ME2001D/ME2004D Fluid Mechanics & Machinery\nCategory: DE\nGrading: Relative\nEvaluations: Mid-Sem: 30, Assignments: 30 & End-Sem: 40 Marks\nContact: sanjeev@nitc.ac.in, 9188751746, 8210801064",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0002.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "aerodynamics-aerodynamic-m1-459c61e7af07:p0003:text",
+      "course_id": "aerodynamics",
+      "document_id": "aerodynamics-aerodynamic-m1-459c61e7af07",
+      "kind": "page_text",
+      "text": "References:\n\n\n\n1. J. D. Anderson, Fundamentals of Aerodynamics, 5th ed. McGraw Hill, 2010.\n2. E. L. Houghton, P. W. Carpenter, S. H. Collicott, and D. T. Valentine, Aerodynamics for Engineering\nStudents, 6th ed. Butterworth-Heinemann, 2013.\n3. A. M. Kuethe and C. Chow, Foundations of Aerodynamics: Bases of Aerodynamic Design, 5th ed. John\nWiley and Sons, 1998.\n4. L. Katz and A. Plotkin, Low Speed Aerodynamics. Cambridge University Press, 2001.\n5. Ronald L. Panton, Incompressible Flo, 4th ed. John Wiley & Sons, 2013.",
+      "locator": {
+        "page": 3,
+        "slide": 3,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Aerodynamic_M-1.pdf",
+        "source_sha256": "459c61e7af07368317ca68df303964433c3b1e160164501a89ad188e5ca2b353",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:06:08.885798+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "002bd94bab9f66e84abe2fa57dbb660e28e669f8026694d846ab6f5c3a88b9b3",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              59.45,
+              74.41,
+              200.65,
+              102.37
+            ],
+            "text": "References:",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              59.45,
+              166.36,
+              901.95,
+              330.43
+            ],
+            "text": "1. J. D. Anderson, Fundamentals of Aerodynamics, 5th ed. McGraw Hill, 2010.\n2. E. L. Houghton, P. W. Carpenter, S. H. Collicott, and D. T. Valentine, Aerodynamics for Engineering \nStudents, 6th ed. Butterworth-Heinemann, 2013.\n3. A. M. Kuethe and C. Chow, Foundations of Aerodynamics: Bases of Aerodynamic Design, 5th ed. John \nWiley and Sons, 1998.\n4. L. Katz and A. Plotkin, Low Speed Aerodynamics. Cambridge University Press, 2001.\n5. Ronald L. Panton, Incompressible Flo, 4th ed. John Wiley & Sons, 2013.",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0003.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "aerodynamics-aerodynamic-m1-459c61e7af07:p0004:text",
+      "course_id": "aerodynamics",
+      "document_id": "aerodynamics-aerodynamic-m1-459c61e7af07",
+      "kind": "page_text",
+      "text": "Wright Brothers, 1903",
+      "locator": {
+        "page": 4,
+        "slide": 4,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Aerodynamic_M-1.pdf",
+        "source_sha256": "459c61e7af07368317ca68df303964433c3b1e160164501a89ad188e5ca2b353",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:06:08.885820+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "7ab844a90a8606c110b2e55d9e464c8e3e3d277045b0abe9fbe1385cb3932997",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              132.94,
+              235.06,
+              307.52,
+              255.13
+            ],
+            "text": "Wright Brothers, 1903",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0004.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "aerodynamics-aerodynamic-m1-459c61e7af07:p0018:text",
+      "course_id": "aerodynamics",
+      "document_id": "aerodynamics-aerodynamic-m1-459c61e7af07",
+      "kind": "page_text",
+      "text": "Hypersonic Heat Flux Measurement on Double-cone Flow\n\n\nMach No. 8.6-8.8. Gas air (γ=1.4, R = 287 J/kg.K); ReD= 2.08 × 105, total enthalpy = 0.69 MJ/kg.\n\n\n\n\n\n                                                  •  Shock-shock interactions\n                                                  •  Large aerothermal Loads\n                                                  •  Rapid changing in heating condition\n\n\n\n          Fig. 8. 25◦-55◦double cone model (L1/D = 0.38, L2/D = 0.42, and Rn/D = 0.0125); and the flow\n        visualization over a double cone model\n\n                                                                                                                         18",
+      "locator": {
+        "page": 18,
+        "slide": 18,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Aerodynamic_M-1.pdf",
+        "source_sha256": "459c61e7af07368317ca68df303964433c3b1e160164501a89ad188e5ca2b353",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:06:08.885975+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "3e6b8a673efc98e54ded4be7a00ed6774475405f9f237cc53c80d330f58ca6bd",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              202.94,
+              25.53,
+              680.22,
+              45.57
+            ],
+            "text": "Hypersonic Heat Flux Measurement on Double-cone Flow",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              134.42,
+              82.53,
+              827.84,
+              103.1
+            ],
+            "text": "Mach No. 8.6-8.8. Gas air (γ=1.4, R = 287 J/kg.K); ReD= 2.08 × 105, total enthalpy = 0.69 MJ/kg.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              451.25,
+              328.16,
+              647.24,
+              348.98
+            ],
+            "text": "• Shock-shock interactions",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              451.25,
+              357.85,
+              724.38,
+              400.24
+            ],
+            "text": "• Large aerothermal Loads\n• Rapid changing in heating condition",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              188.33,
+              464.24,
+              809.86,
+              501.75
+            ],
+            "text": "Fig. 8. 25◦-55◦double cone model (L1/D = 0.38, L2/D = 0.42, and Rn/D = 0.0125); and the flow\nvisualization over a double cone model",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              874.56,
+              510.07,
+              886.76,
+              522.07
+            ],
+            "text": "18",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0018.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "aerodynamics-aerodynamic-m1-459c61e7af07:p0038:text",
+      "course_id": "aerodynamics",
+      "document_id": "aerodynamics-aerodynamic-m1-459c61e7af07",
+      "kind": "page_text",
+      "text": "COMBINATION OF A UNIFORM FLOW WITH A SOURCE AND SINK\n\n\n\n\n\n                                                                                     satisfies Laplace’s equation; that\n                                                                        describes a viable irrigational,\n                                                                       incompressible flow.",
+      "locator": {
+        "page": 38,
+        "slide": 38,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Aerodynamic_M-1.pdf",
+        "source_sha256": "459c61e7af07368317ca68df303964433c3b1e160164501a89ad188e5ca2b353",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:06:08.886258+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "9b632a7c3e6f196b910936dd79f9aaacfc3287858d7d6245ecb918bf0d0f1b57",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              36.0,
+              44.41,
+              598.41,
+              64.51
+            ],
+            "text": "COMBINATION OF A UNIFORM FLOW WITH A SOURCE AND SINK",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              648.55,
+              387.68,
+              913.62,
+              450.47
+            ],
+            "text": "satisfies Laplace’s equation; that \ndescribes a viable irrigational, \nincompressible flow.",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0038.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "aerodynamics-aerodynamic-m1-459c61e7af07:p0039:text",
+      "course_id": "aerodynamics",
+      "document_id": "aerodynamics-aerodynamic-m1-459c61e7af07",
+      "kind": "page_text",
+      "text": "The streamlines of the combined flow are obtained from Equation as\n\n\n\n\n\n      The velocity field is obtained by differentiating Equation",
+      "locator": {
+        "page": 39,
+        "slide": 39,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Aerodynamic_M-1.pdf",
+        "source_sha256": "459c61e7af07368317ca68df303964433c3b1e160164501a89ad188e5ca2b353",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:06:08.886286+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "37679853c7457a44355a505d8f899d9446562c458106fcb3242e429a2984ba75",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              114.74,
+              43.45,
+              658.76,
+              63.55
+            ],
+            "text": "The streamlines of the combined flow are obtained from Equation as",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              176.69,
+              222.08,
+              615.32,
+              242.15
+            ],
+            "text": "The velocity field is obtained by differentiating Equation",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0039.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "aerodynamics-aerodynamic-m1-459c61e7af07:p0040:text",
+      "course_id": "aerodynamics",
+      "document_id": "aerodynamics-aerodynamic-m1-459c61e7af07",
+      "kind": "page_text",
+      "text": "The stagnation points in the flow can be obtained by setting Equations equal to zero\n\n\n                                                  Solving for r and θ, we find that one stagnation point\n                                                          exists, located at (r, θ) = (˄/2πV∞, π), which is labeled as\n                                                      point B. That is, the stagnation\n                                                      point is a distance (˄/ 2πV∞) directly upstream of the\n                                                  source.\n\n\n\nIf the coordinates of the stagnation point at B are substituted into Equation\n\n                                              Hence, the streamline that goes through the stagnation\n                                                        point is described by                  . This streamline is shown\n                                              as curve ABC.",
+      "locator": {
+        "page": 40,
+        "slide": 40,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Aerodynamic_M-1.pdf",
+        "source_sha256": "459c61e7af07368317ca68df303964433c3b1e160164501a89ad188e5ca2b353",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:06:08.886305+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "31d9902b661e041fe1e5432af148d8f99777eac79e921eb083943bffa21d169c",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              57.12,
+              28.11,
+              724.2,
+              48.18
+            ],
+            "text": "The stagnation points in the flow can be obtained by setting Equations equal to zero",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              445.01,
+              78.65,
+              897.57,
+              184.63
+            ],
+            "text": "Solving for r and θ, we find that one stagnation point \nexists, located at (r, θ) = (˄/2πV∞, π), which is labeled as \npoint B. That is, the stagnation\npoint is a distance (˄/ 2πV∞) directly upstream of the \nsource.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              26.4,
+              244.59,
+              616.32,
+              264.66
+            ],
+            "text": "If the coordinates of the stagnation point at B are substituted into Equation",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              464.21,
+              282.53,
+              929.49,
+              345.33
+            ],
+            "text": "Hence, the streamline that goes through the stagnation \npoint is described by                  . This streamline is shown \nas curve ABC.",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0040.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "aerodynamics-aerodynamic-m1-459c61e7af07:p0041:text",
+      "course_id": "aerodynamics",
+      "document_id": "aerodynamics-aerodynamic-m1-459c61e7af07",
+      "kind": "page_text",
+      "text": "COMBINATION OF A UNIFORM FLOW WITH A SOURCE AND SINK\n\n                                                          The stream function for the combined flow at any\n                                                                     point P with coordinates (r, θ) is obtained from\n                                                                   Equations\n\n\n\n\n\nSuperposition of a uniform flow and a source-sink pair; flow over a Rankine oval",
+      "locator": {
+        "page": 41,
+        "slide": 41,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Aerodynamic_M-1.pdf",
+        "source_sha256": "459c61e7af07368317ca68df303964433c3b1e160164501a89ad188e5ca2b353",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:06:08.886361+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "f6dc83be15109bfb47ab54bfdcec19d0cfd9a5a6a296d5f7652a74635b0241ce",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              36.0,
+              44.41,
+              598.41,
+              64.51
+            ],
+            "text": "COMBINATION OF A UNIFORM FLOW WITH A SOURCE AND SINK",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              554.47,
+              89.24,
+              909.47,
+              150.44
+            ],
+            "text": "The stream function for the combined flow at any \npoint P with coordinates (r, θ) is obtained from \nEquations",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              36.0,
+              422.77,
+              671.03,
+              442.84
+            ],
+            "text": "Superposition of a uniform flow and a source-sink pair; flow over a Rankine oval",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0041.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "aerodynamics-aerodynamic-m1-459c61e7af07:p0043:text",
+      "course_id": "aerodynamics",
+      "document_id": "aerodynamics-aerodynamic-m1-459c61e7af07",
+      "kind": "page_text",
+      "text": "DOUBLET FLOW: OUR THIRD ELEMENTARY FLOW\n\n There is a special, degenerate case of a source-sink pair that leads to a singularity called a\n doublet. The doublet is frequently used in the theory of incompressible flow; the purpose of this\n section is to describe its properties.",
+      "locator": {
+        "page": 43,
+        "slide": 43,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Aerodynamic_M-1.pdf",
+        "source_sha256": "459c61e7af07368317ca68df303964433c3b1e160164501a89ad188e5ca2b353",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:06:08.886402+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "b9f78a5d72205873c1741dec00a8dac7b855d7f9374385080148dde36b314f23",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              21.6,
+              318.37,
+              462.13,
+              338.44
+            ],
+            "text": "DOUBLET FLOW: OUR THIRD ELEMENTARY FLOW",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              31.2,
+              357.53,
+              906.82,
+              427.28
+            ],
+            "text": "There is a special, degenerate case of a source-sink pair that leads to a singularity called a\ndoublet. The doublet is frequently used in the theory of incompressible flow; the purpose of this\nsection is to describe its properties.",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0043.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "aerodynamics-aerodynamic-m1-459c61e7af07:p0044:text",
+      "course_id": "aerodynamics",
+      "document_id": "aerodynamics-aerodynamic-m1-459c61e7af07",
+      "kind": "page_text",
+      "text": "Eq. (3.84)",
+      "locator": {
+        "page": 44,
+        "slide": 44,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Aerodynamic_M-1.pdf",
+        "source_sha256": "459c61e7af07368317ca68df303964433c3b1e160164501a89ad188e5ca2b353",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:06:08.886425+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "86f73d92c93595fb014a28b204bb7f8c88f67fbcc43672f56e3cbe7b9ac42e35",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              842.76,
+              216.53,
+              921.71,
+              236.6
+            ],
+            "text": "Eq. (3.84)",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0044.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "aerodynamics-aerodynamic-m1-459c61e7af07:p0050:text",
+      "course_id": "aerodynamics",
+      "document_id": "aerodynamics-aerodynamic-m1-459c61e7af07",
+      "kind": "page_text",
+      "text": "NONLIFTING FLOW OVER A CIRCULAR CYLINDER",
+      "locator": {
+        "page": 50,
+        "slide": 50,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Aerodynamic_M-1.pdf",
+        "source_sha256": "459c61e7af07368317ca68df303964433c3b1e160164501a89ad188e5ca2b353",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:06:08.886495+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "8c8cb315ea7d8b40f64a939e928fbf28deb371f6b8b36f7e438320f88d5dc5ba",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              54.24,
+              27.15,
+              490.91,
+              47.22
+            ],
+            "text": "NONLIFTING FLOW OVER A CIRCULAR CYLINDER",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0050.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "aerodynamics-aerodynamic-m1-459c61e7af07:p0053:text",
+      "course_id": "aerodynamics",
+      "document_id": "aerodynamics-aerodynamic-m1-459c61e7af07",
+      "kind": "page_text",
+      "text": "The pressure coefficient is given by Equation",
+      "locator": {
+        "page": 53,
+        "slide": 53,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Aerodynamic_M-1.pdf",
+        "source_sha256": "459c61e7af07368317ca68df303964433c3b1e160164501a89ad188e5ca2b353",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:06:08.886545+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "586a99e1fe594ccc457a7a11ea09be1c85ccad3c8a2b36ac230e509a66f1454f",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              443.4,
+              53.17,
+              800.9,
+              73.24
+            ],
+            "text": "The pressure coefficient is given by Equation",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0053.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "aerodynamics-aerodynamic-m1-459c61e7af07:p0056:text",
+      "course_id": "aerodynamics",
+      "document_id": "aerodynamics-aerodynamic-m1-459c61e7af07",
+      "kind": "page_text",
+      "text": "VORTEX FLOW: OUR FOURTH\nELEMENTARY FLOW",
+      "locator": {
+        "page": 56,
+        "slide": 56,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Aerodynamic_M-1.pdf",
+        "source_sha256": "459c61e7af07368317ca68df303964433c3b1e160164501a89ad188e5ca2b353",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:06:08.886584+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "b3afe9c1161776291a0483c3597cdef286853e7b89b5ccf53ced7d5e907e484f",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              57.79,
+              28.97,
+              320.45,
+              70.16
+            ],
+            "text": "VORTEX FLOW: OUR FOURTH\nELEMENTARY FLOW",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0056.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "aerodynamics-aerodynamic-m1-459c61e7af07:p0057:text",
+      "course_id": "aerodynamics",
+      "document_id": "aerodynamics-aerodynamic-m1-459c61e7af07",
+      "kind": "page_text",
+      "text": "LIFTING FLOW OVER A CYLINDER",
+      "locator": {
+        "page": 57,
+        "slide": 57,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Aerodynamic_M-1.pdf",
+        "source_sha256": "459c61e7af07368317ca68df303964433c3b1e160164501a89ad188e5ca2b353",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:06:08.886591+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "b10944bfdfc8fa3546b4e1007f30819910268d988f04dfce58a66fbf48004d76",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              45.5,
+              39.03,
+              343.1,
+              59.1
+            ],
+            "text": "LIFTING FLOW OVER A CYLINDER",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0057.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "aerodynamics-aerodynamic-m1-459c61e7af07:p0059:text",
+      "course_id": "aerodynamics",
+      "document_id": "aerodynamics-aerodynamic-m1-459c61e7af07",
+      "kind": "page_text",
+      "text": "Lifting flow over a cylinder of radius R,",
+      "locator": {
+        "page": 59,
+        "slide": 59,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Aerodynamic_M-1.pdf",
+        "source_sha256": "459c61e7af07368317ca68df303964433c3b1e160164501a89ad188e5ca2b353",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:06:08.886678+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "2cc0fc4a6baf5b6c4d00c7613e8d9e01dee65fcb3f35dbc4d2e5030855a0afc8",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              46.27,
+              48.63,
+              350.24,
+              68.7
+            ],
+            "text": "Lifting flow over a cylinder of radius R,",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0059.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "aerodynamics-aerodynamic-m1-459c61e7af07:p0067:text",
+      "course_id": "aerodynamics",
+      "document_id": "aerodynamics-aerodynamic-m1-459c61e7af07",
+      "kind": "page_text",
+      "text": "THANK\nYOU\nQ..??????\n??",
+      "locator": {
+        "page": 67,
+        "slide": 67,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Aerodynamic_M-1.pdf",
+        "source_sha256": "459c61e7af07368317ca68df303964433c3b1e160164501a89ad188e5ca2b353",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:06:08.886788+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "47bbc7f83658185fe9f4ec424ad7545ce7c53b899d7f143c759655effb9b7a8f",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              361.61,
+              186.95,
+              641.82,
+              449.18
+            ],
+            "text": "THANK \nYOU\nQ..??????\n??",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0067.png"
+      },
+      "near_duplicate_of": null
+    }
+  ],
+  "schema_version": "1.0",
+  "created_at": "2026-09-03T07:06:08.886845+00:00"
+}

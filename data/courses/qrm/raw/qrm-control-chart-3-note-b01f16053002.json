@@ -1,0 +1,5852 @@
+{
+  "document_id": "qrm-control-chart-3-note-b01f16053002",
+  "course_id": "qrm",
+  "source_id": "control-chart-3-note",
+  "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+  "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+  "units": [
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0001:text",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "page_text",
+      "text": "Quality, Reliability &\n   Maintenance\n    ME3327E\n\n\n\n\n             Course Instructor:\n                   Dr. Nehem Tudu\nAssistant Professor, Dept. of Mechanical Engineering",
+      "locator": {
+        "page": 1,
+        "slide": 1,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:39.386954+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "ea961a3c7991aba9f0e743cc8826df764fa1413a1ae1a4a1cef38e288ff10412",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              98.83,
+              49.79,
+              634.57,
+              112.21
+            ],
+            "text": "Quality, Reliability &",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              191.59,
+              108.11,
+              528.55,
+              170.53
+            ],
+            "text": "Maintenance",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              237.46,
+              166.4,
+              482.73,
+              228.86
+            ],
+            "text": "ME3327E",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              260.02,
+              352.12,
+              466.39,
+              384.16
+            ],
+            "text": "Course Instructor:",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              89.71,
+              382.36,
+              630.39,
+              444.64
+            ],
+            "text": "Dr. Nehem Tudu\nAssistant Professor, Dept. of Mechanical Engineering",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0001.png"
+      },
+      "near_duplicate_of": "qrm-control-chart-2-note-3aa698963876:p0001:text"
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0001:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 1,
+        "slide": 1,
+        "bbox": [
+          320.4,
+          223.68,
+          405.48,
+          327.24
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:39.386983+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 13,
+        "bboxes": [
+          [
+            320.4,
+            223.68,
+            405.48,
+            327.24
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0002:text",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "page_text",
+      "text": "Control Charts for the Mean and Standard\nDeviation\n\n The sample standard deviation is given by\n\n                                                     2                                         𝑛\n              𝑛                𝑛    2   σ𝑖=1 𝑋𝑖 ൘            σ𝑖=1 𝑋𝑖−ത𝑋2    σ𝑖=1 𝑋𝑖 −         𝑛\n    𝑠=          =\n          𝑛−1          𝑛−1\n\nIf the population distribution of a quality characteristic is normal with\na population standard deviation denoted by σ, the mean and standard\ndeviation of the sample standard deviation are given by\n           𝐸𝑠= 𝑐4𝜎\n\n                                        2\n                 𝜎𝑠= 𝜎1 −𝑐4\n\n                                       1                                          ൗ\n                          2     2   Γ 𝑛/2\n                          𝑐4 =\n                  𝑛−1   Γ 𝑛−1 Τ 2",
+      "locator": {
+        "page": 2,
+        "slide": 2,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:39.386990+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "111384d9ae68ed89aee927f28d1e5dfa5ace30af4f6466dfa974c2f00733ed19",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              15.77,
+              6.42,
+              544.01,
+              68.87
+            ],
+            "text": "Control Charts for the Mean and Standard \nDeviation",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              27.77,
+              92.95,
+              433.37,
+              116.95
+            ],
+            "text": "The sample standard deviation is given by",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              553.25,
+              139.76,
+              563.39,
+              157.3
+            ],
+            "text": "2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              486.77,
+              146.6,
+              540.8,
+              178.18
+            ],
+            "text": "𝑛\n𝑋𝑖",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              419.18,
+              149.71,
+              578.79,
+              189.94
+            ],
+            "text": "2 −\n൘\nσ𝑖=1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              174.96,
+              161.35,
+              301.26,
+              193.42
+            ],
+            "text": "𝑛\n𝑋𝑖−ത𝑋2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              369.02,
+              161.84,
+              423.05,
+              195.22
+            ],
+            "text": "𝑛\n𝑋𝑖",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              96.7,
+              164.95,
+              204.42,
+              208.06
+            ],
+            "text": "𝑠=\nσ𝑖=1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              202.2,
+              164.95,
+              398.6,
+              224.14
+            ],
+            "text": "𝑛−1\n=\nσ𝑖=1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              441.98,
+              171.31,
+              587.55,
+              224.14
+            ],
+            "text": "𝑛\n𝑛−1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              15.77,
+              242.59,
+              703.92,
+              324.19
+            ],
+            "text": "If the population distribution of a quality characteristic is normal with \na population standard deviation denoted by σ, the mean and standard \ndeviation of the sample standard deviation are given by",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              282.07,
+              334.41,
+              396.31,
+              361.92
+            ],
+            "text": "𝐸𝑠= 𝑐4𝜎",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              422.02,
+              376.3,
+              432.16,
+              393.84
+            ],
+            "text": "2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              282.07,
+              380.24,
+              430.5,
+              408.96
+            ],
+            "text": "𝜎𝑠= 𝜎1 −𝑐4",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              282.07,
+              432.12,
+              400.01,
+              490.34
+            ],
+            "text": "𝑐4 =\n2\n𝑛−1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              409.3,
+              418.09,
+              565.06,
+              490.34
+            ],
+            "text": "ൗ\n1 2\nΓ 𝑛/2\nΓ\nΤ\n𝑛−1\n2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              113.42,
+              503.47,
+              663.27,
+              522.05
+            ],
+            "text": "2\nME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0002.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0002:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 2,
+        "slide": 2,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:39.387023+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0003:text",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "page_text",
+      "text": "Control Chart Patterns and Corrective",
+      "locator": {
+        "page": 3,
+        "slide": 3,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:39.387029+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "238a0d14d6f4160e54213c96b96976327d894629bff155fa31857664cd535930",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              15.77,
+              21.19,
+              528.26,
+              54.19
+            ],
+            "text": "Control Chart Patterns and Corrective",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              113.42,
+              503.47,
+              663.27,
+              522.05
+            ],
+            "text": "3\nME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0003.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0003:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 3,
+        "slide": 3,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:39.387036+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0003:visual-002",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 3,
+        "slide": 3,
+        "bbox": [
+          -20.89,
+          -229.14,
+          751.28,
+          873.99
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:39.387042+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 2,
+        "xref": 36,
+        "bboxes": [
+          [
+            -20.89,
+            -229.14,
+            751.28,
+            873.99
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0004:text",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "page_text",
+      "text": "Control Charts for the Mean and Standard\nDeviation\n\n No Given Standards\n\n The centerline of a standard deviation chart is\n\n                           𝑔\n                         σ𝑖=1 𝑠𝑖\n            𝐶𝐿𝑠= ҧ𝑠=\n                      𝑔\n            𝑈𝐶𝐿𝑠= 𝐵4 ҧ𝑠\n            𝐿𝐶𝐿𝑠= 𝐵3 ҧ𝑠\nThe centerline of the chart for the mean ത𝑋is given by\n                             𝑔   ത𝑋𝑖                            σ𝑖=1                    ധ𝑋=                𝐶𝐿ത𝑋=\n                        𝑔\n                      ധ𝑋+      ҧ𝑠               𝑈𝐶𝐿ത𝑋=    𝐴3\n                𝐿𝐶𝐿ത𝑋= ധ𝑋−𝐴3 ҧ𝑠",
+      "locator": {
+        "page": 4,
+        "slide": 4,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:39.387047+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "0d4dff86981613fd45864ff3f3eae1c04b84a785ef37309177398e5f128fa20c",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              15.77,
+              6.42,
+              544.01,
+              68.87
+            ],
+            "text": "Control Charts for the Mean and Standard \nDeviation",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              27.77,
+              92.95,
+              223.97,
+              116.95
+            ],
+            "text": "No Given Standards",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              27.77,
+              129.31,
+              473.71,
+              153.31
+            ],
+            "text": "The centerline of a standard deviation chart is",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              307.32,
+              171.48,
+              353.94,
+              202.59
+            ],
+            "text": "σ𝑖=1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              196.3,
+              190.68,
+              300.77,
+              218.19
+            ],
+            "text": "𝐶𝐿𝑠= ҧ𝑠=",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              15.77,
+              164.96,
+              534.91,
+              321.74
+            ],
+            "text": "𝑔\n𝑠𝑖\n𝑔\n𝑈𝐶𝐿𝑠= 𝐵4 ҧ𝑠\n𝐿𝐶𝐿𝑠= 𝐵3 ҧ𝑠\nThe centerline of the chart for the mean ത𝑋is given by",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              218.5,
+              331.46,
+              383.7,
+              378.29
+            ],
+            "text": "𝐶𝐿ത𝑋= ധ𝑋= σ𝑖=1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              218.5,
+              324.99,
+              408.27,
+              457.13
+            ],
+            "text": "𝑔\nത𝑋𝑖\n𝑔\n𝑈𝐶𝐿ത𝑋= ധ𝑋+ 𝐴3 ҧ𝑠\n𝐿𝐶𝐿ത𝑋= ധ𝑋−𝐴3 ҧ𝑠",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              113.42,
+              503.47,
+              663.27,
+              522.05
+            ],
+            "text": "4\nME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0004.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0004:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 4,
+        "slide": 4,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:39.387068+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0005:text",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "page_text",
+      "text": "Control Charts for the Mean and Standard\nDeviation\n\n Given Standards\n\n The centerline of a standard deviation chart is\n\n            𝐶𝐿𝑠= 𝑐4𝜎𝑜\n            𝑈𝐶𝐿𝑠= 𝐵6𝜎𝑜\n            𝐿𝐶𝐿𝑠= 𝐵5𝜎𝑜\n\nThe centerline of the chart for the mean ത𝑋is given by\n                𝐶𝐿ത𝑋= ത𝑋𝑜\n               𝑈𝐶𝐿ത𝑋= ത𝑋𝑜+ 𝐴𝜎𝑜\n                𝐿𝐶𝐿ത𝑋= ത𝑋𝑜−𝐴𝜎𝑜",
+      "locator": {
+        "page": 5,
+        "slide": 5,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:39.387074+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "8780ffc9a57e3a8b64bdc491d5874d78677b1519ab16065cba52d1d3999cae1f",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              15.77,
+              6.42,
+              544.01,
+              68.87
+            ],
+            "text": "Control Charts for the Mean and Standard \nDeviation",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              27.77,
+              92.95,
+              190.03,
+              116.95
+            ],
+            "text": "Given Standards",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              27.77,
+              129.31,
+              473.71,
+              153.31
+            ],
+            "text": "The centerline of a standard deviation chart is",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              197.74,
+              171.0,
+              330.96,
+              255.27
+            ],
+            "text": "𝐶𝐿𝑠= 𝑐4𝜎𝑜\n𝑈𝐶𝐿𝑠= 𝐵6𝜎𝑜\n𝐿𝐶𝐿𝑠= 𝐵5𝜎𝑜",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              15.77,
+              292.48,
+              534.91,
+              321.74
+            ],
+            "text": "The centerline of the chart for the mean ത𝑋is given by",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              223.06,
+              326.42,
+              403.8,
+              415.49
+            ],
+            "text": "𝐶𝐿ത𝑋= ത𝑋𝑜\n𝑈𝐶𝐿ത𝑋= ത𝑋𝑜+ 𝐴𝜎𝑜\n𝐿𝐶𝐿ത𝑋= ത𝑋𝑜−𝐴𝜎𝑜",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              113.42,
+              503.47,
+              663.27,
+              522.05
+            ],
+            "text": "5\nME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0005.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0005:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 5,
+        "slide": 5,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:39.387090+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0006:text",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "page_text",
+      "text": "Control Charts for Individual Units\n\n\n No Given Standards\n\n The centerline of a moving range (MR) chart is\n\n           𝐶𝐿𝑀𝑅= 𝑀𝑅\n           𝑈𝐶𝐿𝑀𝑅= 𝐷4𝑀𝑅\n            𝐿𝐶𝐿𝑀𝑅= 𝐷3𝑀𝑅\n\n\nThe centerline of the chart for the mean X is given by\n                                    ത𝑋             𝐶𝐿𝑋=\n                    𝑀𝑅\n                      ത𝑋+ 3             𝑈𝐶𝐿𝑋=\n                              𝑑2\n                    𝑀𝑅\n                    ത𝑋−3             𝐿𝐶𝐿𝑋=\n                              𝑑2",
+      "locator": {
+        "page": 6,
+        "slide": 6,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:39.387096+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "84de39a7bf25a9e5e0a6ca861e830cff1fed702cb31b76cb2c93c8a67c18c286",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              15.77,
+              21.19,
+              482.52,
+              54.19
+            ],
+            "text": "Control Charts for Individual Units",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              27.77,
+              92.95,
+              223.97,
+              116.95
+            ],
+            "text": "No Given Standards",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              27.77,
+              129.31,
+              477.41,
+              153.31
+            ],
+            "text": "The centerline of a moving range (MR) chart is",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              199.66,
+              171.0,
+              364.97,
+              255.39
+            ],
+            "text": "𝐶𝐿𝑀𝑅= 𝑀𝑅\n𝑈𝐶𝐿𝑀𝑅= 𝐷4𝑀𝑅\n𝐿𝐶𝐿𝑀𝑅= 𝐷3𝑀𝑅",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              15.77,
+              297.5,
+              531.24,
+              321.5
+            ],
+            "text": "The centerline of the chart for the mean X is given by",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              221.14,
+              326.42,
+              307.9,
+              358.49
+            ],
+            "text": "𝐶𝐿𝑋= ത𝑋",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              221.14,
+              359.78,
+              406.61,
+              405.41
+            ],
+            "text": "𝑈𝐶𝐿𝑋= ത𝑋+ 3 𝑀𝑅",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              376.56,
+              393.98,
+              400.62,
+              421.49
+            ],
+            "text": "𝑑2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              221.14,
+              422.17,
+              402.78,
+              467.83
+            ],
+            "text": "𝐿𝐶𝐿𝑋= ത𝑋−3 𝑀𝑅",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              372.84,
+              456.41,
+              396.9,
+              483.91
+            ],
+            "text": "𝑑2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              113.42,
+              503.47,
+              663.27,
+              522.05
+            ],
+            "text": "6\nME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0006.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0006:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 6,
+        "slide": 6,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:39.387113+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0007:text",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "page_text",
+      "text": "Control Charts for Individual Units\n\n\n Given Standards\n\n The centerline of a moving range (MR) chart is\n\n           𝐶𝐿𝑀𝑅= 𝑑2𝜎𝑜\n           𝑈𝐶𝐿𝑀𝑅= 𝐷4𝑑2𝜎𝑜\n            𝐿𝐶𝐿𝑀𝑅= 𝐷3𝑑2𝜎𝑜\n\n\nThe centerline of the chart for the mean X is given by\n             𝐶𝐿𝑋= ത𝑋𝑜\n             𝑈𝐶𝐿𝑋= ത𝑋𝑜+ 3𝜎𝑜\n             𝐿𝐶𝐿𝑋= ത𝑋𝑜−3𝜎𝑜",
+      "locator": {
+        "page": 7,
+        "slide": 7,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:39.387119+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "5305493425a0755d541b3547258c6f3867e78e514089535d41a0311da8877ac8",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              15.77,
+              21.19,
+              482.52,
+              54.19
+            ],
+            "text": "Control Charts for Individual Units",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              27.77,
+              92.95,
+              190.03,
+              116.95
+            ],
+            "text": "Given Standards",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              27.77,
+              129.31,
+              477.41,
+              153.31
+            ],
+            "text": "The centerline of a moving range (MR) chart is",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              196.3,
+              171.0,
+              373.56,
+              255.27
+            ],
+            "text": "𝐶𝐿𝑀𝑅= 𝑑2𝜎𝑜\n𝑈𝐶𝐿𝑀𝑅= 𝐷4𝑑2𝜎𝑜\n𝐿𝐶𝐿𝑀𝑅= 𝐷3𝑑2𝜎𝑜",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              15.77,
+              297.5,
+              531.24,
+              321.5
+            ],
+            "text": "The centerline of the chart for the mean X is given by",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              224.26,
+              326.42,
+              402.84,
+              415.37
+            ],
+            "text": "𝐶𝐿𝑋= ത𝑋𝑜\n𝑈𝐶𝐿𝑋= ത𝑋𝑜+ 3𝜎𝑜\n𝐿𝐶𝐿𝑋= ത𝑋𝑜−3𝜎𝑜",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              113.42,
+              503.47,
+              663.27,
+              522.05
+            ],
+            "text": "7\nME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0007.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0007:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 7,
+        "slide": 7,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:39.387134+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0008:text",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "page_text",
+      "text": "Control Charts for Attributes\nDefinition of Attribute Data and Examples\nAttribute data refers to quality characteristics that are counted or classified\nrather than measured on a continuous scale. An attribute describes something\nin terms of distinct categories or labels, usually as \"conforming\" (meets a\nstandard) or \"nonconforming\" (fails to meet a standard). In statistics and\nquality control, attribute data is measured on a nominal scale—for example,\npass/fail, accept/reject, or by counting the number of occurrences of a specific\nevent.\nExamples:\n• Counting the number of faulty (nonconforming) light bulbs in a batch.\n•  Recording if a product passes or fails a final inspection.\n•  Tallying the number of errors or defects on a printed page.\n•  Classifying a food item as \"acceptable\" or \"not acceptable\" based on taste.\n•  Recording the number of insurance claims filed due to errors in policy\n  processing.",
+      "locator": {
+        "page": 8,
+        "slide": 8,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:39.387139+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "e48cb74e4cd39d27b44479fe612a56a291a127d51d468154631c69799e54f2f4",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              7.2,
+              10.08,
+              396.19,
+              43.11
+            ],
+            "text": "Control Charts for Attributes",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              48.53,
+              711.48,
+              413.78
+            ],
+            "text": "Definition of Attribute Data and Examples\nAttribute data refers to quality characteristics that are counted or classified \nrather than measured on a continuous scale. An attribute describes something \nin terms of distinct categories or labels, usually as \"conforming\" (meets a \nstandard) or \"nonconforming\" (fails to meet a standard). In statistics and \nquality control, attribute data is measured on a nominal scale—for example, \npass/fail, accept/reject, or by counting the number of occurrences of a specific \nevent.\nExamples:\n• Counting the number of faulty (nonconforming) light bulbs in a batch.\n• Recording if a product passes or fails a final inspection.\n• Tallying the number of errors or defects on a printed page.\n• Classifying a food item as \"acceptable\" or \"not acceptable\" based on taste.\n• Recording the number of insurance claims filed due to errors in policy",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              29.76,
+              418.2,
+              130.12,
+              440.19
+            ],
+            "text": "processing.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              113.42,
+              503.47,
+              368.07,
+              515.47
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              657.17,
+              510.03,
+              663.27,
+              522.05
+            ],
+            "text": "8",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0008.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0008:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 8,
+        "slide": 8,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:39.387175+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0009:text",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "page_text",
+      "text": "Difference Between Attributes and Variables\n\n Aspect            Attributes (Attribute Data)      Variables (Variable Data)\n\n Definition         Qualitative, categorical;          Quantitative; measured on a\n                      classified into discrete groups   numerical, continuous scale\n\n\n Measurement    Nominal (e.g., yes/no,            Interval or ratio (e.g., length in\n Scale             defect/no defect); integer      cm, weight in kg)\n                  counts\n\n Data Collected    Counts or classifications (e.g.,   Actual measurements (e.g.,\n As             number of defects, pass/fail)     thickness, volume,\n                                                temperature)\n\n Examples       Number of defective items,       Size, weight, temperature,\n                  type of defect                  pressure\n\n Statistical Charts  Attribute control charts (e.g.,    Variable control charts (e.g., X-\n                     p-chart, np-chart, c-chart, u-     bar, R chart, S chart)\n                    chart)",
+      "locator": {
+        "page": 9,
+        "slide": 9,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:39.387180+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "770c70efff37912a92b86efc9f1147bb574a799b9a143b6b3c52b8289beb8615",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              7.2,
+              6.19,
+              616.31,
+              39.19
+            ],
+            "text": "Difference Between Attributes and Variables",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              17.42,
+              61.31,
+              647.54,
+              81.35
+            ],
+            "text": "Aspect\nAttributes (Attribute Data)\nVariables (Variable Data)",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              17.42,
+              104.42,
+              412.59,
+              148.63
+            ],
+            "text": "Definition\nQualitative, categorical; \nclassified into discrete groups",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              442.63,
+              104.42,
+              679.37,
+              148.63
+            ],
+            "text": "Quantitative; measured on a \nnumerical, continuous scale",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              17.42,
+              182.32,
+              139.07,
+              226.48
+            ],
+            "text": "Measurement \nScale",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              442.63,
+              182.32,
+              694.21,
+              226.48
+            ],
+            "text": "Interval or ratio (e.g., length in \ncm, weight in kg)",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              172.61,
+              182.32,
+              386.42,
+              250.49
+            ],
+            "text": "Nominal (e.g., yes/no, \ndefect/no defect); integer \ncounts",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              17.42,
+              262.34,
+              142.51,
+              306.5
+            ],
+            "text": "Data Collected \nAs",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              172.61,
+              262.34,
+              417.42,
+              306.5
+            ],
+            "text": "Counts or classifications (e.g., \nnumber of defects, pass/fail)",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              442.63,
+              262.34,
+              670.26,
+              330.51
+            ],
+            "text": "Actual measurements (e.g., \nthickness, volume, \ntemperature)",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              17.42,
+              342.35,
+              398.52,
+              386.51
+            ],
+            "text": "Examples\nNumber of defective items, \ntype of defect",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              442.63,
+              342.35,
+              660.52,
+              386.51
+            ],
+            "text": "Size, weight, temperature, \npressure",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              442.63,
+              404.3,
+              692.17,
+              448.46
+            ],
+            "text": "Variable control charts (e.g., X-\nbar, R chart, S chart)",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              17.42,
+              404.3,
+              412.97,
+              472.48
+            ],
+            "text": "Statistical Charts\nAttribute control charts (e.g., \np-chart, np-chart, c-chart, u-\nchart)",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              113.42,
+              503.47,
+              663.27,
+              522.05
+            ],
+            "text": "9\nME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0009.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0009:table-001",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "table",
+      "text": "Definition | Qualitative, categorical;\nclassified into discrete groups | Quantitative; measured on a\nnumerical, continuous scale",
+      "locator": {
+        "page": 9,
+        "slide": 9,
+        "bbox": [
+          9.43,
+          96.74,
+          705.85,
+          174.59
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf-table",
+        "extracted_at": "2026-09-03T07:07:39.387206+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "4077d7ea36105397df1bed1d827abf97708159723923e3031792dddc9d17aab0",
+      "metadata": {
+        "table_index": 1
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0009:table-002",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "table",
+      "text": "Data Collected\nAs | Counts or classifications (e.g.,\nnumber of defects, pass/fail) | Actual measurements (e.g.,\nthickness, volume,\ntemperature)",
+      "locator": {
+        "page": 9,
+        "slide": 9,
+        "bbox": [
+          9.43,
+          254.59,
+          705.85,
+          334.59
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf-table",
+        "extracted_at": "2026-09-03T07:07:39.387215+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "d3f23b9bc07e6cd5df566a2fda9bb871a7f8842f76754a8c5a129eaba62bd335",
+      "metadata": {
+        "table_index": 2
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0009:table-003",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "table",
+      "text": "Statistical Charts | Attribute control charts (e.g.,\np-chart, np-chart, c-chart, u-\nchart) | Variable control charts (e.g., X-\nbar, R chart, S chart)",
+      "locator": {
+        "page": 9,
+        "slide": 9,
+        "bbox": [
+          9.43,
+          396.53,
+          705.85,
+          476.53
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf-table",
+        "extracted_at": "2026-09-03T07:07:39.387223+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "666687566dc5726c7f74224395c3d7fb1111522876c4d7cb8862e365b4138cf1",
+      "metadata": {
+        "table_index": 3
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0009:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 9,
+        "slide": 9,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:39.387232+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0010:text",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "page_text",
+      "text": "Importance of Attribute Control Charts:\n\n\n   • Attribute control charts provide a cost-effective and simple\n    method for monitoring processes where direct measurement is\n     impractical or unnecessary.\n   • They help in summarizing overall quality at various\n     organizational levels (e.g., operator, department, plant).\n   • Useful when decisions are based on compliance with\n     specifications rather than degree of conformance.",
+      "locator": {
+        "page": 10,
+        "slide": 10,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:39.387238+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "dc34981f02853922a00c6a940e6e8374ffb2ea9074d3f6e2907a4e2da0f9c18f",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              15.77,
+              43.1,
+              555.42,
+              76.1
+            ],
+            "text": "Importance of Attribute Control Charts:",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              42.36,
+              137.86,
+              642.42,
+              165.61
+            ],
+            "text": "• Attribute control charts provide a cost-effective and simple",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              42.36,
+              170.42,
+              685.42,
+              252.02
+            ],
+            "text": "method for monitoring processes where direct measurement is \nimpractical or unnecessary.\n• They help in summarizing overall quality at various",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              42.36,
+              256.8,
+              607.79,
+              309.65
+            ],
+            "text": "organizational levels (e.g., operator, department, plant).\n• Useful when decisions are based on compliance with",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              64.92,
+              314.45,
+              550.85,
+              338.45
+            ],
+            "text": "specifications rather than degree of conformance.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              113.42,
+              503.47,
+              663.27,
+              522.05
+            ],
+            "text": "10\nME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0010.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0010:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 10,
+        "slide": 10,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:39.387256+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0011:text",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "page_text",
+      "text": "Application of Attribute Control Charts in Quality\nControl\n\nKey Applications:\n•  Manufacturing: Monitoring the proportion of defective parts,\n   tracking the number of flaws in batches, or counting faulty units.\n•  Service industry: Recording customer complaints, transaction\n   errors, or incorrect billing instances.\n•  Healthcare: Counting adverse events (e.g., infections, medication\n   errors) or monitoring mortality/morbidity rates.\n•  Logistics: Proportion of on-time deliveries versus late deliveries.\n•  Administrative processes: Counting the number of application\n   rejections, claims processed incorrectly, or forms returned for\n   corrections.",
+      "locator": {
+        "page": 11,
+        "slide": 11,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:39.387261+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "67d88c635665232846b46a9a4b32bbce5fc3802b01bc9fc2ff465f4cfd216133",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              15.77,
+              6.71,
+              629.51,
+              69.12
+            ],
+            "text": "Application of Attribute Control Charts in Quality \nControl",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              15.77,
+              87.58,
+              647.71,
+              140.38
+            ],
+            "text": "Key Applications:\n• Manufacturing: Monitoring the proportion of defective parts,",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              15.77,
+              145.16,
+              671.5,
+              198.0
+            ],
+            "text": "tracking the number of flaws in batches, or counting faulty units.\n• Service industry: Recording customer complaints, transaction",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              15.77,
+              202.8,
+              682.61,
+              255.6
+            ],
+            "text": "errors, or incorrect billing instances.\n• Healthcare: Counting adverse events (e.g., infections, medication",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              15.77,
+              260.38,
+              664.61,
+              342.02
+            ],
+            "text": "errors) or monitoring mortality/morbidity rates.\n• Logistics: Proportion of on-time deliveries versus late deliveries.\n• Administrative processes: Counting the number of application",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              42.77,
+              346.82,
+              648.19,
+              399.62
+            ],
+            "text": "rejections, claims processed incorrectly, or forms returned for \ncorrections.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              113.42,
+              503.47,
+              663.27,
+              522.05
+            ],
+            "text": "11\nME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0011.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0011:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 11,
+        "slide": 11,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:39.387286+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0012:text",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "page_text",
+      "text": "Why Use Attribute Charts?\n\n•  They allow for overall assessment of process quality, especially when\n  measuring every output dimension is impractical.\n•  They are straightforward for operators to understand and\n  implement.\n•  Suitable for high-volume processes or when quick, binary (pass/fail)\n  feedback is essential.\n•  Examples include p-charts (proportion nonconforming), np-charts\n  (number nonconforming), c-charts (number of nonconformities),\n  and u-charts (nonconformities per unit).\nBy deploying attribute control charts, organizations can efficiently\nmonitor, identify, and address quality issues, thereby supporting\nongoing process improvement and customer satisfaction.",
+      "locator": {
+        "page": 12,
+        "slide": 12,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:39.387290+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "39418ca5776ac16f40a10a13ee0e4c9d2690003c614dd67eddf0148fa61dc5bc",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              15.77,
+              21.45,
+              379.96,
+              54.45
+            ],
+            "text": "Why Use Attribute Charts?",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              15.77,
+              83.86,
+              717.43,
+              111.58
+            ],
+            "text": "• They allow for overall assessment of process quality, especially when",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              15.77,
+              116.38,
+              606.95,
+              169.19
+            ],
+            "text": "measuring every output dimension is impractical.\n• They are straightforward for operators to understand and",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              15.77,
+              174.0,
+              706.73,
+              226.8
+            ],
+            "text": "implement.\n• Suitable for high-volume processes or when quick, binary (pass/fail)",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              15.77,
+              231.6,
+              685.96,
+              284.41
+            ],
+            "text": "feedback is essential.\n• Examples include p-charts (proportion nonconforming), np-charts",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              15.77,
+              289.22,
+              677.91,
+              428.43
+            ],
+            "text": "(number nonconforming), c-charts (number of nonconformities), \nand u-charts (nonconformities per unit).\nBy deploying attribute control charts, organizations can efficiently \nmonitor, identify, and address quality issues, thereby supporting \nongoing process improvement and customer satisfaction.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              113.42,
+              503.47,
+              663.27,
+              522.05
+            ],
+            "text": "12\nME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0012.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0012:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 12,
+        "slide": 12,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:39.387315+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0013:text",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "page_text",
+      "text": "Types of Control Charts for Attributes\n\n\n Chart       Tracks                   Key         When to Use\n Type                                     Distribution\n\n p-chart     Proportion nonconforming   Binomial        Variable/non-constant\n                                                   sample size\n\n np-chart   Number nonconforming     Binomial        Constant sample size\n\n c-chart    Number of                 Poisson         Defects per fixed\n             nonconformities                               area/unit, constant\n                                                   sample size\n\n u-chart    Number of                 Poisson          Variable area/sample\n             nonconformities per unit                        size\n\n U-chart    Weighted demerits per                    Weighted severity of\n              unit                                          defects\n\n g-chart     Cases/time between        Exponential/Ge  Highly conforming\n             nonconformities            ometric         processes",
+      "locator": {
+        "page": 13,
+        "slide": 13,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:39.387320+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "0fb5ba2435e33d2640dc8422d0cc4458871548968a268cd91f8371135867b739",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              7.2,
+              6.19,
+              517.78,
+              39.19
+            ],
+            "text": "Types of Control Charts for Attributes",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              504.31,
+              74.85,
+              611.66,
+              94.89
+            ],
+            "text": "When to Use",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              15.72,
+              74.73,
+              65.52,
+              118.89
+            ],
+            "text": "Chart \nType",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              120.31,
+              74.73,
+              459.6,
+              118.89
+            ],
+            "text": "Tracks\nKey \nDistribution",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              15.72,
+              130.7,
+              690.8,
+              174.91
+            ],
+            "text": "p-chart\nProportion nonconforming\nBinomial\nVariable/non-constant \nsample size",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              15.72,
+              186.86,
+              674.11,
+              206.9
+            ],
+            "text": "np-chart\nNumber nonconforming\nBinomial\nConstant sample size",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              15.72,
+              218.75,
+              254.14,
+              262.91
+            ],
+            "text": "c-chart\nNumber of \nnonconformities",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              360.34,
+              218.75,
+              664.55,
+              286.91
+            ],
+            "text": "Poisson\nDefects per fixed \narea/unit, constant \nsample size",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              15.72,
+              298.77,
+              322.99,
+              342.93
+            ],
+            "text": "u-chart\nNumber of \nnonconformities per unit",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              360.34,
+              298.77,
+              681.4,
+              342.93
+            ],
+            "text": "Poisson\nVariable area/sample \nsize",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              15.72,
+              354.79,
+              312.41,
+              398.95
+            ],
+            "text": "U-chart\nWeighted demerits per \nunit",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              504.31,
+              354.79,
+              676.81,
+              398.95
+            ],
+            "text": "Weighted severity of \ndefects",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              15.72,
+              410.76,
+              292.22,
+              454.96
+            ],
+            "text": "g-chart\nCases/time between \nnonconformities",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              360.34,
+              410.76,
+              486.68,
+              454.96
+            ],
+            "text": "Exponential/Ge\nometric",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              504.31,
+              410.76,
+              657.18,
+              454.96
+            ],
+            "text": "Highly conforming \nprocesses",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              113.42,
+              503.47,
+              663.27,
+              522.05
+            ],
+            "text": "13\nME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0013.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0013:table-001",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "table",
+      "text": "p-chart | Proportion nonconforming | Binomial | Variable/non-constant\nsample size",
+      "locator": {
+        "page": 13,
+        "slide": 13,
+        "bbox": [
+          7.71,
+          123.01,
+          712.69,
+          179.01
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf-table",
+        "extracted_at": "2026-09-03T07:07:39.387342+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "015b4f041f9a5aca03142a6e36b7dc9f6faa4628f4b32b8fd480a1259a7565f2",
+      "metadata": {
+        "table_index": 1
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0013:table-002",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "table",
+      "text": "c-chart | Number of\nnonconformities | Poisson | Defects per fixed\narea/unit, constant\nsample size",
+      "locator": {
+        "page": 13,
+        "slide": 13,
+        "bbox": [
+          7.71,
+          211.01,
+          712.69,
+          291.01
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf-table",
+        "extracted_at": "2026-09-03T07:07:39.387349+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "fed3a2fe6806d4b13c08760dc3f5b76a7b5fd228b5e29d5bcefabb29c2cf3709",
+      "metadata": {
+        "table_index": 2
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0013:table-003",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "table",
+      "text": "U-chart | Weighted demerits per\nunit |  | Weighted severity of\ndefects",
+      "locator": {
+        "page": 13,
+        "slide": 13,
+        "bbox": [
+          7.71,
+          347.01,
+          712.69,
+          403.01
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf-table",
+        "extracted_at": "2026-09-03T07:07:39.387357+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "b811cd84eeb14b35e404117c6376aa757878c992c5a0fe2f5ea0a2648374c8c2",
+      "metadata": {
+        "table_index": 3
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0013:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 13,
+        "slide": 13,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:39.387364+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0014:text",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "page_text",
+      "text": "Advantages of Attribute Control Charts\n\n• Simplicity of Use: Attribute charts are easy to construct and interpret, making them\n  accessible for operators and managers at all organizational levels.\n• Summarization: They allow you to condense multiple quality characteristics or\n  components into a single, overall quality indicator. For example, a product that must\n  meet specifications for length, width, and height can be monitored with one\n  attribute chart instead of three variable charts.\n• Cost and Resource Efficiency: Ideal for cases where measuring each characteristic as\n  a variable is too expensive, time-consuming, or resource-intensive. Attribute data\n  collection often requires less specialized equipment—sometimes just a visual\n  inspection or a go/no-go gage.\n• Broad Applicability: Can be used for summarizing quality at higher organizational\n  levels (e.g., plant, department, company), helping to quickly identify where\n  problems are occurring without the need to track every individual process\n  parameter.\n• Suitable for Certain Quality Characteristics: Some quality characteristics (e.g., taste,\n  visual appearance, presence of a scratch) are inherently categorical and can’t be\n  meaningfully measured as variables",
+      "locator": {
+        "page": 14,
+        "slide": 14,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:39.387370+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "973623acdf32feb4c9613687ec5bf07a515b87d9d5af1d3dde30fc8d557bbd21",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              15.77,
+              13.8,
+              547.06,
+              46.83
+            ],
+            "text": "Advantages of Attribute Control Charts",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              59.69,
+              708.39,
+              82.84
+            ],
+            "text": "• Simplicity of Use: Attribute charts are easy to construct and interpret, making them",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              86.8,
+              666.41,
+              136.84
+            ],
+            "text": "accessible for operators and managers at all organizational levels.\n• Summarization: They allow you to condense multiple quality characteristics or",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              140.78,
+              715.66,
+              238.87
+            ],
+            "text": "components into a single, overall quality indicator. For example, a product that must \nmeet specifications for length, width, and height can be monitored with one \nattribute chart instead of three variable charts.\n• Cost and Resource Efficiency: Ideal for cases where measuring each characteristic as",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              242.83,
+              689.39,
+              340.89
+            ],
+            "text": "a variable is too expensive, time-consuming, or resource-intensive. Attribute data \ncollection often requires less specialized equipment—sometimes just a visual \ninspection or a go/no-go gage.\n• Broad Applicability: Can be used for summarizing quality at higher organizational",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              344.85,
+              712.6,
+              442.91
+            ],
+            "text": "levels (e.g., plant, department, company), helping to quickly identify where \nproblems are occurring without the need to track every individual process \nparameter.\n• Suitable for Certain Quality Characteristics: Some quality characteristics (e.g., taste,",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              25.2,
+              446.87,
+              679.19,
+              490.91
+            ],
+            "text": "visual appearance, presence of a scratch) are inherently categorical and can’t be \nmeaningfully measured as variables",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              113.42,
+              503.47,
+              368.56,
+              515.47
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              651.05,
+              510.03,
+              663.27,
+              522.05
+            ],
+            "text": "14",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0014.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0014:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 14,
+        "slide": 14,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:39.387412+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0015:text",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "page_text",
+      "text": "Disadvantages of Attribute Control Charts\n\n• Lack of Detailed Information: Attribute charts provide only \"conforming\" or\n  \"nonconforming\" data—they do not indicate by how much a measurement\n  deviates from the target. This means they do not show the degree of\n  variability or how close items are to specification limits.\n• Limited Diagnostic Power: They do not provide insights into the mean or the\n  spread of the distribution, so it’s harder to diagnose the root cause of\n  process shifts compared to variable charts (like X̄ and R charts).\n• Slower Detection: Attribute charts may not signal a process shift until out-\n  of-spec items actually occur. Variable charts can sometimes warn of\n  impending problems before any defectives are produced.\n• Require Larger Sample Sizes: To achieve the same sensitivity as variable\n  charts, attribute charts often require larger samples—especially problematic\n when inspection is costly or destructive.",
+      "locator": {
+        "page": 15,
+        "slide": 15,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:39.387417+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "687df181c486a6b301c5bfcefbf266ef790f8b847333bda131739877409b7832",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              15.77,
+              13.8,
+              585.3,
+              46.83
+            ],
+            "text": "Disadvantages of Attribute Control Charts",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              63.36,
+              705.99,
+              88.72
+            ],
+            "text": "• Lack of Detailed Information: Attribute charts provide only \"conforming\" or",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              25.2,
+              95.78,
+              697.79,
+              175.87
+            ],
+            "text": "\"nonconforming\" data—they do not indicate by how much a measurement \ndeviates from the target. This means they do not show the degree of \nvariability or how close items are to specification limits.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              185.55,
+              714.46,
+              210.91
+            ],
+            "text": "• Limited Diagnostic Power: They do not provide insights into the mean or the",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              25.2,
+              217.97,
+              649.05,
+              269.89
+            ],
+            "text": "spread of the distribution, so it’s harder to diagnose the root cause of \nprocess shifts compared to variable charts (like X̄ and R charts).",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              278.69,
+              687.94,
+              304.05
+            ],
+            "text": "• Slower Detection: Attribute charts may not signal a process shift until out-",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              25.2,
+              311.13,
+              631.85,
+              362.14
+            ],
+            "text": "of-spec items actually occur. Variable charts can sometimes warn of \nimpending problems before any defectives are produced.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              371.83,
+              670.58,
+              397.19
+            ],
+            "text": "• Require Larger Sample Sizes: To achieve the same sensitivity as variable",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              25.2,
+              404.27,
+              710.38,
+              455.27
+            ],
+            "text": "charts, attribute charts often require larger samples—especially problematic \nwhen inspection is costly or destructive.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              113.42,
+              503.47,
+              368.56,
+              515.47
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              651.05,
+              510.03,
+              663.27,
+              522.05
+            ],
+            "text": "15",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0015.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0015:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 15,
+        "slide": 15,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:39.387451+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0016:text",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "page_text",
+      "text": "Chart for Proportion Nonconforming: p-Chart\n\nA chart for the proportion of nonconforming items (p-chart) is based on\na binomial distribution. For a given sample, the proportion\n                                𝑥\nnonconforming is defined as Ƹ𝑝=\n                             𝑛\nWhere x is the number of nonconforming items in the sample and n\nrepresents the sample size.\nThe distribution of the number of nonconforming items in a sample, as\ngiven by a binomial distribution, is\n                                𝑛!\n       𝑃𝑋= 𝑥=          𝑝𝑥(1 −𝑝)𝑛−𝑥\n                 𝑛−𝑥! 𝑥!\nGiven the mean and standard deviation of X, the mean of the sample\nproportion nonconforming is 𝐸 Ƹ𝑝= 𝑝\n                             𝑝(1 −𝑝)\n                   𝑉𝑎𝑟 Ƹ𝑝=\n                             𝑛",
+      "locator": {
+        "page": 16,
+        "slide": 16,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:39.387456+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "8f87e9084144b66e57293eadd8ea2b6a5a2f6402e6b212404f552f8596de648c",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              7.2,
+              23.83,
+              626.43,
+              56.83
+            ],
+            "text": "Chart for Proportion Nonconforming: p-Chart",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              71.62,
+              708.82,
+              157.1
+            ],
+            "text": "A chart for the proportion of nonconforming items (p-chart) is based on \na binomial distribution. For a given sample, the proportion \nnonconforming is defined as Ƹ𝑝=",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              123.41,
+              700.73,
+              290.21
+            ],
+            "text": "𝑥\n𝑛\nWhere x is the number of nonconforming items in the sample and n\nrepresents the sample size.\nThe distribution of the number of nonconforming items in a sample, as \ngiven by a binomial distribution, is",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              171.62,
+              291.43,
+              546.94,
+              349.68
+            ],
+            "text": "𝑃𝑋= 𝑥=\n𝑛!\n𝑛−𝑥! 𝑥! 𝑝𝑥(1 −𝑝)𝑛−𝑥",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              359.11,
+              683.28,
+              411.91
+            ],
+            "text": "Given the mean and standard deviation of X, the mean of the sample \nproportion nonconforming is 𝐸\nƸ𝑝= 𝑝",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              262.85,
+              413.97,
+              457.03,
+              456.13
+            ],
+            "text": "𝑉𝑎𝑟\nƸ𝑝= 𝑝(1 −𝑝)",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              405.43,
+              448.2,
+              419.21,
+              472.22
+            ],
+            "text": "𝑛",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              113.42,
+              503.47,
+              368.56,
+              515.47
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              651.05,
+              510.03,
+              663.27,
+              522.05
+            ],
+            "text": "16",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0016.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0016:formula-001",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "formula",
+      "text": "A chart for the proportion of nonconforming items (p-chart) is based on \na binomial distribution. For a given sample, the proportion \nnonconforming is defined as Ƹ𝑝=",
+      "locator": {
+        "page": 16,
+        "slide": 16,
+        "bbox": [
+          7.2,
+          71.62,
+          708.82,
+          157.1
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf-layout-heuristic",
+        "extracted_at": "2026-09-03T07:07:39.387483+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "aa6795d7932e02558e22c7f10519f4f10c3cf4747404bae908e80ec9c8577633",
+      "metadata": {
+        "formula_index": 1
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0016:formula-002",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "formula",
+      "text": "Given the mean and standard deviation of X, the mean of the sample \nproportion nonconforming is 𝐸\nƸ𝑝= 𝑝",
+      "locator": {
+        "page": 16,
+        "slide": 16,
+        "bbox": [
+          7.2,
+          359.11,
+          683.28,
+          411.91
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf-layout-heuristic",
+        "extracted_at": "2026-09-03T07:07:39.387494+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e33c9dfac775083fe65e8695a1fd02c44680be108b7098a7ed006805572818ef",
+      "metadata": {
+        "formula_index": 2
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0016:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 16,
+        "slide": 16,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:39.387504+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0017:text",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "page_text",
+      "text": "p-Chart: Construction and Interpretation\n\nStep-by-step walkthrough:\n• Define objective (plant, department, operator, etc.)\n• Decide sample size and interval (criteria/guidelines) (𝑛ҧ𝑝≥5)\n• Record and organize sample data\n• Calculate centerline and control limits (with formulae)\n• Plot, interpret out-of-control signals, and revise limits\n• Ongoing use and periodic review",
+      "locator": {
+        "page": 17,
+        "slide": 17,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:39.387509+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "27e5b63f2325e0f6a6fc676d7f7eb6cc0dc1da31144f8136ad5594f3aaf3cc6b",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              15.77,
+              13.8,
+              571.17,
+              46.83
+            ],
+            "text": "p-Chart: Construction and Interpretation",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              75.31,
+              264.58,
+              99.31
+            ],
+            "text": "Step-by-step walkthrough:",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              112.18,
+              523.42,
+              139.9
+            ],
+            "text": "• Define objective (plant, department, operator, etc.)",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              152.74,
+              622.3,
+              180.46
+            ],
+            "text": "• Decide sample size and interval (criteria/guidelines) (𝑛ҧ𝑝≥5)",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              193.3,
+              346.63,
+              221.02
+            ],
+            "text": "• Record and organize sample data",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              233.88,
+              549.89,
+              261.6
+            ],
+            "text": "• Calculate centerline and control limits (with formulae)",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              274.44,
+              544.99,
+              302.16
+            ],
+            "text": "• Plot, interpret out-of-control signals, and revise limits",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              315.0,
+              343.75,
+              342.72
+            ],
+            "text": "• Ongoing use and periodic review",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              113.42,
+              503.47,
+              368.56,
+              515.47
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              651.05,
+              510.03,
+              663.27,
+              522.05
+            ],
+            "text": "17",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0017.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0017:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 17,
+        "slide": 17,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:39.387527+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0018:text",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "page_text",
+      "text": "Calculate centerline and control limits\n\nNo Standard Specified:\nWhen no standard or target value of the proportion nonconforming is\nspecified, it must be estimated from the sample information.\n                             𝑔        𝑔\n                            σ𝑖=1 Ƹ𝑝𝑖   σ𝑖=1 𝑥𝑖\n             𝐶𝐿𝑝= ҧ𝑝=     =\n                        𝑔      𝑛𝑔\n\n                                        ҧ𝑝(1 −ҧ𝑝)\n             𝑈𝐶𝐿𝑝= ҧ𝑝+ 3\n                              𝑛\n\n                                        ҧ𝑝(1 −ҧ𝑝)\n              𝐿𝐶𝐿𝑝= ҧ𝑝−3\n                             𝑛",
+      "locator": {
+        "page": 18,
+        "slide": 18,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:39.387532+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "110b5ebb41b63e0cb38b883cd8cd805b32040530c048081a254da2012ab9a6fa",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              15.77,
+              13.8,
+              533.88,
+              46.83
+            ],
+            "text": "Calculate centerline and control limits",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              70.99,
+              689.64,
+              158.59
+            ],
+            "text": "No Standard Specified:\nWhen no standard or target value of the proportion nonconforming is \nspecified, it must be estimated from the sample information.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              331.25,
+              164.13,
+              377.87,
+              195.24
+            ],
+            "text": "σ𝑖=1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              433.39,
+              164.13,
+              480.01,
+              195.24
+            ],
+            "text": "σ𝑖=1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              215.78,
+              183.32,
+              324.6,
+              210.84
+            ],
+            "text": "𝐶𝐿𝑝=\nҧ𝑝=",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              348.29,
+              157.66,
+              426.74,
+              223.47
+            ],
+            "text": "𝑔\nƸ𝑝𝑖\n𝑔\n=",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              450.43,
+              157.66,
+              502.66,
+              223.47
+            ],
+            "text": "𝑔\n𝑥𝑖\n𝑛𝑔",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              215.78,
+              242.64,
+              465.79,
+              288.27
+            ],
+            "text": "𝑈𝐶𝐿𝑝=\nҧ𝑝+ 3\nҧ𝑝(1 −ҧ𝑝)",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              414.19,
+              276.84,
+              427.97,
+              300.87
+            ],
+            "text": "𝑛",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              215.78,
+              327.74,
+              462.07,
+              373.37
+            ],
+            "text": "𝐿𝐶𝐿𝑝=\nҧ𝑝−3\nҧ𝑝(1 −ҧ𝑝)",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              410.47,
+              361.94,
+              424.25,
+              385.97
+            ],
+            "text": "𝑛",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              113.42,
+              503.47,
+              368.07,
+              515.47
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              651.05,
+              510.03,
+              663.27,
+              522.05
+            ],
+            "text": "18",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0018.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0018:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 18,
+        "slide": 18,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:39.387550+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0019:text",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "page_text",
+      "text": "Calculate centerline and control limits\n\nStandard Specified:\nIf the target value of the proportion of nonconforming items is known or\nspecified, the centerline is selected as that target value. In other words,\nthe centerline is given by\n             𝐶𝐿𝑝= 𝑝𝑜\n\n                                𝑝𝑜(1 −𝑝𝑜)\n             𝑈𝐶𝐿𝑝= 𝑝𝑜+ 3\n                               𝑛\n\n                                𝑝𝑜(1 −𝑝𝑜)\n              𝐿𝐶𝐿𝑝= 𝑝𝑜−3\n                               𝑛",
+      "locator": {
+        "page": 19,
+        "slide": 19,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:39.387555+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "05a4ec1d80ea470742c15d2cdaef2d6eb34055e923de531c1fbf18d09c5dfe4d",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              15.77,
+              13.8,
+              533.88,
+              46.83
+            ],
+            "text": "Calculate centerline and control limits",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              70.99,
+              716.3,
+              187.39
+            ],
+            "text": "Standard Specified:\nIf the target value of the proportion of nonconforming items is known or \nspecified, the centerline is selected as that target value. In other words, \nthe centerline is given by",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              219.14,
+              192.0,
+              312.53,
+              219.51
+            ],
+            "text": "𝐶𝐿𝑝= 𝑝𝑜",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              219.14,
+              238.08,
+              500.71,
+              283.71
+            ],
+            "text": "𝑈𝐶𝐿𝑝= 𝑝𝑜+ 3 𝑝𝑜(1 −𝑝𝑜)",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              438.67,
+              272.28,
+              452.45,
+              296.31
+            ],
+            "text": "𝑛",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              219.14,
+              323.18,
+              496.99,
+              368.81
+            ],
+            "text": "𝐿𝐶𝐿𝑝= 𝑝𝑜−3 𝑝𝑜(1 −𝑝𝑜)",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              434.95,
+              357.38,
+              448.73,
+              381.41
+            ],
+            "text": "𝑛",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              113.42,
+              503.47,
+              368.56,
+              515.47
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              651.05,
+              510.03,
+              663.27,
+              522.05
+            ],
+            "text": "19",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0019.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0019:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 19,
+        "slide": 19,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:39.387572+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0020:text",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "page_text",
+      "text": "Calculate the revised control limits\n\nThe revised centerline and control limits are given by\n             𝐶𝐿𝑝= ҧ𝑝𝑟\n\n                                         ҧ𝑝𝑟(1 −ҧ𝑝𝑟)\n             𝑈𝐶𝐿𝑝= ҧ𝑝𝑟+ 3\n                               𝑛\n\n                                         ҧ𝑝𝑟(1 −ҧ𝑝𝑟)\n              𝐿𝐶𝐿𝑝= ҧ𝑝𝑟−3\n                               𝑛",
+      "locator": {
+        "page": 20,
+        "slide": 20,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:39.387578+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "8e512d92650dffeeeb64d3f23e1c2a31eb99e3e5641c96860ee669e082f4b5fc",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              15.77,
+              13.8,
+              489.23,
+              46.83
+            ],
+            "text": "Calculate the revised control limits",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              71.23,
+              521.52,
+              95.23
+            ],
+            "text": "The revised centerline and control limits are given by",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              220.58,
+              99.57,
+              312.92,
+              127.08
+            ],
+            "text": "𝐶𝐿𝑝=\nҧ𝑝𝑟",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              220.58,
+              145.65,
+              499.39,
+              191.28
+            ],
+            "text": "𝑈𝐶𝐿𝑝=\nҧ𝑝𝑟+ 3\nҧ𝑝𝑟(1 −ҧ𝑝𝑟)",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              438.19,
+              179.84,
+              451.98,
+              203.88
+            ],
+            "text": "𝑛",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              220.58,
+              230.76,
+              495.67,
+              276.39
+            ],
+            "text": "𝐿𝐶𝐿𝑝=\nҧ𝑝𝑟−3\nҧ𝑝𝑟(1 −ҧ𝑝𝑟)",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              434.47,
+              264.96,
+              448.25,
+              288.99
+            ],
+            "text": "𝑛",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              113.42,
+              503.47,
+              368.56,
+              515.47
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              651.05,
+              510.03,
+              663.27,
+              522.05
+            ],
+            "text": "20",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0020.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0020:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 20,
+        "slide": 20,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:39.387591+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0021:text",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "page_text",
+      "text": "Variable Sample Size\n\nThere are many reasons why samples vary in size.\nControl Limits for Individual Samples\nControl limits can be constructed for individual samples. If no standard\nis given and the sample average proportion nonconforming is ҧ𝑝, the\ncontrol limits for sample i with size 𝑛𝑖are\n\n                                          ҧ𝑝(1 −ҧ𝑝)\n              𝑈𝐶𝐿𝑝= ҧ𝑝+ 3\n                                          𝑛𝑖\n\n                                          ҧ𝑝(1 −ҧ𝑝)\n               𝐿𝐶𝐿𝑝= ҧ𝑝−3\n                                          𝑛𝑖",
+      "locator": {
+        "page": 21,
+        "slide": 21,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:39.387596+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "347f618f31bc318e894bba1fd746c7a8f077ec830ce6c84bb2ccd8816f2dd364",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              15.77,
+              13.8,
+              297.4,
+              46.83
+            ],
+            "text": "Variable Sample Size",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              70.99,
+              698.35,
+              225.15
+            ],
+            "text": "There are many reasons why samples vary in size.\nControl Limits for Individual Samples \nControl limits can be constructed for individual samples. If no standard \nis given and the sample average proportion nonconforming is ҧ𝑝, the \ncontrol limits for sample i with size 𝑛𝑖are",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              234.98,
+              239.4,
+              484.99,
+              285.03
+            ],
+            "text": "𝑈𝐶𝐿𝑝=\nҧ𝑝+ 3\nҧ𝑝(1 −ҧ𝑝)",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              429.79,
+              273.6,
+              449.74,
+              301.11
+            ],
+            "text": "𝑛𝑖",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              234.98,
+              324.5,
+              481.27,
+              370.13
+            ],
+            "text": "𝐿𝐶𝐿𝑝=\nҧ𝑝−3\nҧ𝑝(1 −ҧ𝑝)",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              426.07,
+              358.7,
+              446.02,
+              386.21
+            ],
+            "text": "𝑛𝑖",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              113.42,
+              503.47,
+              368.56,
+              515.47
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              651.05,
+              510.03,
+              663.27,
+              522.05
+            ],
+            "text": "21",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0021.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0021:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 21,
+        "slide": 21,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:39.387615+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0022:text",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "page_text",
+      "text": "Variable Sample Size\n\nStandardized Control Chart\nAnother approach to varying sample size is to construct a chart of\nnormalized or standardized values of the proportion nonconforming.\n                  𝐸 Ƹ𝑝= 𝑝\n\n                            𝑝(1 −𝑝)\n                      𝜎ො𝑝=\n                            𝑛\n\nrespectively, where p represents the true process nonconformance rate\nand n is the sample size.\nThe standardized value of the proportion nonconforming for the ith\nsample may be expressed as\n                                 Ƹ𝑝𝑖−ҧ𝑝\n             𝑍=\n                                   ҧ𝑝(1 −ҧ𝑝) Τ 𝑛𝑖",
+      "locator": {
+        "page": 22,
+        "slide": 22,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:39.387620+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "aa623a72f85a07dc168a78ea1037519a7cffa2e9bc73fb4e5d81e2eeb909965d",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              15.77,
+              13.8,
+              297.4,
+              46.83
+            ],
+            "text": "Variable Sample Size",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              70.99,
+              674.57,
+              158.59
+            ],
+            "text": "Standardized Control Chart\nAnother approach to varying sample size is to construct a chart of \nnormalized or standardized values of the proportion nonconforming.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              278.33,
+              163.65,
+              372.48,
+              187.68
+            ],
+            "text": "𝐸\nƸ𝑝= 𝑝",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              278.33,
+              207.0,
+              441.67,
+              252.63
+            ],
+            "text": "𝜎ො𝑝=\n𝑝(1 −𝑝)",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              389.93,
+              241.2,
+              403.71,
+              265.23
+            ],
+            "text": "𝑛",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              283.3,
+              707.49,
+              399.72
+            ],
+            "text": "respectively, where p represents the true process nonconformance rate \nand n is the sample size.\nThe standardized value of the proportion nonconforming for the ith\nsample may be expressed as",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              266.09,
+              401.9,
+              414.02,
+              444.05
+            ],
+            "text": "𝑍=\nƸ𝑝𝑖−ҧ𝑝",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              330.05,
+              440.33,
+              452.5,
+              468.79
+            ],
+            "text": "Τ\nҧ𝑝(1 −ҧ𝑝) 𝑛𝑖",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              113.42,
+              503.47,
+              368.56,
+              515.47
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              651.05,
+              510.03,
+              663.27,
+              522.05
+            ],
+            "text": "22",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0022.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0022:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 22,
+        "slide": 22,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:39.387642+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0023:text",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "page_text",
+      "text": "Variable Sample Size\n\n\n\n\n\n            Proportion-nonconforming chart for variable sample sizes.",
+      "locator": {
+        "page": 23,
+        "slide": 23,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:39.387646+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "289d6c93afe7e90bd937602449ce2419dfe28862a0444fe20d37b5b045c8f302",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              15.77,
+              13.8,
+              297.4,
+              46.83
+            ],
+            "text": "Variable Sample Size",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              123.48,
+              475.55,
+              595.96,
+              495.59
+            ],
+            "text": "Proportion-nonconforming chart for variable sample sizes.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              113.42,
+              503.47,
+              663.27,
+              522.05
+            ],
+            "text": "23\nME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0023.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0023:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 23,
+        "slide": 23,
+        "bbox": [
+          8.52,
+          45.84,
+          705.84,
+          466.68
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:39.387654+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 87,
+        "bboxes": [
+          [
+            8.52,
+            45.84,
+            705.84,
+            466.68
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0023:visual-002",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 23,
+        "slide": 23,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:39.387660+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 2,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0024:text",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "page_text",
+      "text": "Special Considerations for p-Charts\n\n• Necessary Assumptions\n• Observations Below the Lower Control Limit\n• Comparison with a Specified Standard\n• Impact of Design Specifications\n• Information About Overall Quality Level",
+      "locator": {
+        "page": 24,
+        "slide": 24,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:39.387665+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "1a3ec79ccf3f6837eb02800c64b290f85bb807b75ce592044d5cc227ab56b261",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              15.77,
+              13.8,
+              493.7,
+              46.83
+            ],
+            "text": "Special Considerations for p-Charts",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              71.59,
+              254.9,
+              99.31
+            ],
+            "text": "• Necessary Assumptions",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              112.18,
+              453.24,
+              139.9
+            ],
+            "text": "• Observations Below the Lower Control Limit",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              152.74,
+              394.99,
+              180.46
+            ],
+            "text": "• Comparison with a Specified Standard",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              193.3,
+              327.74,
+              221.02
+            ],
+            "text": "• Impact of Design Specifications",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              233.88,
+              410.93,
+              261.6
+            ],
+            "text": "• Information About Overall Quality Level",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              113.42,
+              503.47,
+              368.07,
+              515.47
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              651.05,
+              510.03,
+              663.27,
+              522.05
+            ],
+            "text": "24",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0024.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0024:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 24,
+        "slide": 24,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:39.387677+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0025:text",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "page_text",
+      "text": "Chart for Number of Nonconforming Items: np-\n Chart\nAs an alternative to calculating the proportion nonconforming, we can\ncount the number of nonconforming items in samples and use the count\nas the basis for the control chart.\nNo Standard Specified:\nWhen no standard or target value is specified, it must be estimated from\nthe sample information.\n                               𝑔\n                             σ𝑖=1 𝑥𝑖\n             𝐶𝐿𝑛𝑝= 𝑛ҧ𝑝=\n                         𝑔\n             𝜎𝑛𝑝=  𝑛ҧ𝑝(1 −𝑛ҧ𝑝)\n             𝑈𝐶𝐿𝑛𝑝= 𝑛ҧ𝑝+ 3  𝑛ҧ𝑝(1 −𝑛ҧ𝑝)\n              𝐿𝐶𝐿𝑛𝑝= 𝑛ҧ𝑝−3  𝑛ҧ𝑝(1 −𝑛ҧ𝑝)",
+      "locator": {
+        "page": 25,
+        "slide": 25,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:39.387682+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "9f1e9666f148ad010a9e01775a04979ef93e4a279197abe19805ef03978ae5c4",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              15.77,
+              2.53,
+              601.16,
+              64.93
+            ],
+            "text": "Chart for Number of Nonconforming Items: np-\nChart",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              70.99,
+              717.46,
+              251.02
+            ],
+            "text": "As an alternative to calculating the proportion nonconforming, we can \ncount the number of nonconforming items in samples and use the count \nas the basis for the control chart.\nNo Standard Specified:\nWhen no standard or target value is specified, it must be estimated from \nthe sample information.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              349.25,
+              256.56,
+              395.87,
+              287.67
+            ],
+            "text": "σ𝑖=1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              208.34,
+              275.76,
+              342.7,
+              303.27
+            ],
+            "text": "𝐶𝐿𝑛𝑝= 𝑛ҧ𝑝=",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              208.34,
+              250.09,
+              511.63,
+              423.89
+            ],
+            "text": "𝑔\n𝑥𝑖\n𝑔\n𝜎𝑛𝑝=\n𝑛ҧ𝑝(1 −𝑛ҧ𝑝)\n𝑈𝐶𝐿𝑛𝑝= 𝑛ҧ𝑝+ 3 𝑛ҧ𝑝(1 −𝑛ҧ𝑝)\n𝐿𝐶𝐿𝑛𝑝= 𝑛ҧ𝑝−3 𝑛ҧ𝑝(1 −𝑛ҧ𝑝)",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              113.42,
+              503.47,
+              368.56,
+              515.47
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              651.05,
+              510.03,
+              663.27,
+              522.05
+            ],
+            "text": "25",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0025.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0025:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 25,
+        "slide": 25,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:39.387704+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0026:text",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "page_text",
+      "text": "Chart for Number of Nonconforming Items:\n np-Chart\n\n\nStandard Specified:\nIf the target value is known or specified, the centerline is selected as\nthat target value. In other words, the centerline is given by\n            𝐶𝐿𝑛𝑝= 𝑛𝑝𝑜\n            𝑈𝐶𝐿𝑛𝑝= 𝑛𝑝𝑜+ 3 𝑛𝑝𝑜(1 −𝑛𝑝𝑜)\n             𝐿𝐶𝐿𝑛𝑝= 𝑛𝑝𝑜−3 𝑛𝑝𝑜(1 −𝑛𝑝𝑜)",
+      "locator": {
+        "page": 26,
+        "slide": 26,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:39.387709+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "be3850a4469fb31d12964d30cab23149b20a45e3262f07f6bb4efacf497faa13",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              15.77,
+              12.4,
+              615.08,
+              81.05
+            ],
+            "text": "Chart for Number of Nonconforming Items: \nnp-Chart",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              119.5,
+              676.27,
+              207.12
+            ],
+            "text": "Standard Specified:\nIf the target value is known or specified, the centerline is selected as \nthat target value. In other words, the centerline is given by",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              192.98,
+              211.7,
+              526.99,
+              310.73
+            ],
+            "text": "𝐶𝐿𝑛𝑝= 𝑛𝑝𝑜\n𝑈𝐶𝐿𝑛𝑝= 𝑛𝑝𝑜+ 3 𝑛𝑝𝑜(1 −𝑛𝑝𝑜)\n𝐿𝐶𝐿𝑛𝑝= 𝑛𝑝𝑜−3 𝑛𝑝𝑜(1 −𝑛𝑝𝑜)",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              113.42,
+              503.47,
+              368.56,
+              515.47
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              651.05,
+              510.03,
+              663.27,
+              522.05
+            ],
+            "text": "26",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0026.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0026:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 26,
+        "slide": 26,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:39.387725+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0027:text",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "page_text",
+      "text": "Chart for Number of Nonconformities: c-Chart\n\nA nonconformity is defined as a quality characteristic that does not meet\nsome specification. A nonconforming item has one or more\nnonconformities that make it nonfunctional. It is also possible for a\nproduct to have one or more nonconformities and still conform to\nstandards. The p- and np-charts deal with nonconforming items. A c-\nchart is used to track the total number of nonconformities in samples of\nconstant size. When the sample size varies, a u-chart is used to track the\nnumber of nonconformities per unit. In constructing c- and u-charts, the\nsize of the sample is also referred to as the area of opportunity.\nThe occurrence of nonconformities is assumed to follow a Poisson\ndistribution. If x represents the number of nonconformities in the\nsample unit and c is the mean, then the Poisson distribution yields\n        𝑒−𝑐𝑐𝑥\n𝑝𝑥=\n            𝑥!",
+      "locator": {
+        "page": 27,
+        "slide": 27,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:39.387730+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "12bd27e4dc1ca1b7bc90779c88cf82ccbcd92ae007a34f62ad542207a477c808",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              15.77,
+              20.54,
+              646.17,
+              53.54
+            ],
+            "text": "Chart for Number of Nonconformities: c-Chart",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              70.99,
+              717.57,
+              417.84
+            ],
+            "text": "A nonconformity is defined as a quality characteristic that does not meet \nsome specification. A nonconforming item has one or more \nnonconformities that make it nonfunctional. It is also possible for a \nproduct to have one or more nonconformities and still conform to \nstandards. The p- and np-charts deal with nonconforming items. A c-\nchart is used to track the total number of nonconformities in samples of \nconstant size. When the sample size varies, a u-chart is used to track the \nnumber of nonconformities per unit. In constructing c- and u-charts, the \nsize of the sample is also referred to as the area of opportunity.\nThe occurrence of nonconformities is assumed to follow a Poisson \ndistribution. If x represents the number of nonconformities in the \nsample unit and c is the mean, then the Poisson distribution yields",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              85.46,
+              418.02,
+              134.43,
+              439.49
+            ],
+            "text": "𝑒−𝑐𝑐𝑥",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              430.93,
+              78.91,
+              454.97
+            ],
+            "text": "𝑝𝑥=",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              102.26,
+              448.14,
+              118.19,
+              465.67
+            ],
+            "text": "𝑥!",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              113.42,
+              503.47,
+              368.56,
+              515.47
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              651.05,
+              510.03,
+              663.27,
+              522.05
+            ],
+            "text": "27",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0027.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0027:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 27,
+        "slide": 27,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:39.387765+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0028:text",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "page_text",
+      "text": "Chart for Number of Nonconformities: c-Chart\n\nNo Standard Specified:\nThe average number of nonconformities per sample unit is found from\nthe sample observations and is denoted by ҧ𝑐. The centerline and control\nlimits are\n                 𝐶𝐿𝑐= ҧ𝑐\n                 𝑈𝐶𝐿𝑐= ҧ𝑐+ 3   ҧ𝑐\n                  𝐿𝐶𝐿𝑐= ҧ𝑐−3   ҧ𝑐\nStandard Specified:\nLet the specified goal for the number of nonconformities per sample\nunit be 𝑐𝑜. The centerline and control limits are then calculated from\n                 𝐶𝐿𝑐= 𝑐𝑜\n                𝑈𝐶𝐿𝑐= 𝑐𝑜+ 3  𝑐𝑜\n                 𝐿𝐶𝐿𝑐= 𝑐𝑜−3  𝑐𝑜",
+      "locator": {
+        "page": 28,
+        "slide": 28,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:39.387769+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "1e3025af7a1dfd03530fa4e17c27e36f515719d93b025201c896f96db095f14a",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              15.77,
+              20.54,
+              646.17,
+              53.54
+            ],
+            "text": "Chart for Number of Nonconformities: c-Chart",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              70.99,
+              715.25,
+              187.63
+            ],
+            "text": "No Standard Specified:\nThe average number of nonconformities per sample unit is found from \nthe sample observations and is denoted by ҧ𝑐. The centerline and control \nlimits are",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              192.48,
+              678.07,
+              380.09
+            ],
+            "text": "𝐶𝐿𝑐= ҧ𝑐\n𝑈𝐶𝐿𝑐= ҧ𝑐+ 3\nҧ𝑐\n𝐿𝐶𝐿𝑐= ҧ𝑐−3\nҧ𝑐\nStandard Specified:\nLet the specified goal for the number of nonconformities per sample \nunit be 𝑐𝑜. The centerline and control limits are then calculated from",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              266.45,
+              382.22,
+              452.23,
+              466.75
+            ],
+            "text": "𝐶𝐿𝑐= 𝑐𝑜\n𝑈𝐶𝐿𝑐= 𝑐𝑜+ 3 𝑐𝑜\n𝐿𝐶𝐿𝑐= 𝑐𝑜−3 𝑐𝑜",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              113.42,
+              503.47,
+              368.56,
+              515.47
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              651.05,
+              510.03,
+              663.27,
+              522.05
+            ],
+            "text": "28",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0028.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0028:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 28,
+        "slide": 28,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:39.387792+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0029:text",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "page_text",
+      "text": "Chart for Number of Nonconformities Per Unit: u-\nChart\n\nA c-chart is used when the sample size is constant. If the area of\n opportunity changes from one sample to another, the centerline and\n control limits of a c-chart change as well. For situations in which the\nsample size varies, a u-chart is used. For companies that inspect all\n items produced or services rendered for the presence of\n nonconformities, the output per production run can vary because of\n fluctuating supplies of labor, machinery, and raw material;\n consequently, the number inspected per production run changes,\n thus causing varying sample sizes. When the sample size varies, a u-\n chart is constructed to monitor the number of nonconformities per\n unit. Even though the control limits change as the sample size varies,\n the centerline of a u-chart remains constant, which permits\n meaningful comparisons between the samples.",
+      "locator": {
+        "page": 29,
+        "slide": 29,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:39.387797+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "fb40e51cd64ed59dfbef8cd9cfc2c8060168209166a62490d949da2660498455",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              15.77,
+              5.82,
+              631.52,
+              68.22
+            ],
+            "text": "Chart for Number of Nonconformities Per Unit: u-\nChart",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              21.43,
+              80.93,
+              695.33,
+              450.58
+            ],
+            "text": "A c-chart is used when the sample size is constant. If the area of \nopportunity changes from one sample to another, the centerline and \ncontrol limits of a c-chart change as well. For situations in which the \nsample size varies, a u-chart is used. For companies that inspect all \nitems produced or services rendered for the presence of \nnonconformities, the output per production run can vary because of \nfluctuating supplies of labor, machinery, and raw material; \nconsequently, the number inspected per production run changes, \nthus causing varying sample sizes. When the sample size varies, a u-\nchart is constructed to monitor the number of nonconformities per \nunit. Even though the control limits change as the sample size varies, \nthe centerline of a u-chart remains constant, which permits \nmeaningful comparisons between the samples.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              113.42,
+              503.47,
+              663.27,
+              522.05
+            ],
+            "text": "29\nME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0029.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0029:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 29,
+        "slide": 29,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:39.387826+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0030:text",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "page_text",
+      "text": "Chart for Number of Nonconformities Per Unit: u-\n Chart\nVariable Sample Size and No Specified Standard:\nWhen the sample size varies, the number of nonconformities per unit\nfor the ith sample is given by\n                                             𝑐𝑖\n                     𝑢𝑖=\n                                     𝑛𝑖\nThe average number of nonconformities per unit \nu,which is also the\ncenterline of a u-chart, is given by\n                            𝑔\n                          σ𝑖=1 𝑐𝑖\n                    ത𝑢=                            𝑔\n                          σ𝑖=1 𝑛𝑖\n\n                                                              ത𝑢\n                𝑈𝐶𝐿𝑢= ത𝑢+ 3\n                                          𝑛𝑖\n\n                                                             ത𝑢\n                 𝐿𝐶𝐿𝑢= ത𝑢−3\n                                          𝑛𝑖",
+      "locator": {
+        "page": 30,
+        "slide": 30,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:39.387831+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "fcc98a1aa30c149d3cacc49e52b0a74154278208cf55c17b17957390767df335",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              15.77,
+              5.82,
+              631.52,
+              68.22
+            ],
+            "text": "Chart for Number of Nonconformities Per Unit: u-\nChart",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              68.11,
+              688.82,
+              149.95
+            ],
+            "text": "Variable Sample Size and No Specified Standard:\nWhen the sample size varies, the number of nonconformities per unit \nfor the ith sample is given by",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.97,
+              146.61,
+              393.92,
+              192.24
+            ],
+            "text": "𝑢𝑖= 𝑐𝑖",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              180.8,
+              676.88,
+              262.06
+            ],
+            "text": "𝑛𝑖\nThe average number of nonconformities per unit u, which is also the \ncenterline of a u-chart, is given by",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              315.53,
+              267.48,
+              362.15,
+              298.59
+            ],
+            "text": "σ𝑖=1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              268.25,
+              286.68,
+              307.18,
+              310.71
+            ],
+            "text": "ത𝑢=",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              330.89,
+              297.37,
+              384.45,
+              332.31
+            ],
+            "text": "𝑔\n𝑛𝑖",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              313.85,
+              261.01,
+              382.64,
+              335.81
+            ],
+            "text": "𝑔\n𝑐𝑖\nσ𝑖=1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              268.25,
+              348.02,
+              450.34,
+              409.73
+            ],
+            "text": "𝑈𝐶𝐿𝑢= ത𝑢+ 3\nത𝑢\n𝑛𝑖",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              268.25,
+              433.21,
+              446.5,
+              494.95
+            ],
+            "text": "𝐿𝐶𝐿𝑢= ത𝑢−3\nത𝑢\n𝑛𝑖",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              113.42,
+              503.47,
+              368.07,
+              515.47
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              651.05,
+              510.03,
+              663.27,
+              522.05
+            ],
+            "text": "30",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0030.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0030:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 30,
+        "slide": 30,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:39.387855+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0031:text",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "page_text",
+      "text": "Chart for Demerits Per Unit: U-Chart\n\nThe regular c- and u-charts treat all types of nonconformities equally\n regardless of their degree of severity. Let’s suppose that in inspecting\ncomputer monitors we find that one monitor has trouble retaining\n consistent color and a second monitor has five scratch marks on its\n surface. Using either a c- or u-chart, the relative importance of\n monitor 2’s defects, in terms of the number of nonconformities, is\n five times as great as that of monitor 1. However, the single defect\n associated with monitor 1 is much more serious than monitor 2’s\n scratch marks. An alternative approach assigns weights to\n nonconformities according to their relative degree of severity. This\n quality rating system, which rates demerits per unit and is called the\n U-chart, thus overcomes the deficiency of the c- and u-charts. These\n are often helpful in service applications.",
+      "locator": {
+        "page": 31,
+        "slide": 31,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:39.387860+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "39cbdd026fe37c15e5be91099e563ef36ac9fe039857ada12d4f63cb4b141477",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              15.77,
+              20.54,
+              512.83,
+              53.54
+            ],
+            "text": "Chart for Demerits Per Unit: U-Chart",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              21.43,
+              66.34,
+              698.93,
+              436.01
+            ],
+            "text": "The regular c- and u-charts treat all types of nonconformities equally \nregardless of their degree of severity. Let’s suppose that in inspecting \ncomputer monitors we find that one monitor has trouble retaining \nconsistent color and a second monitor has five scratch marks on its \nsurface. Using either a c- or u-chart, the relative importance of \nmonitor 2’s defects, in terms of the number of nonconformities, is \nfive times as great as that of monitor 1. However, the single defect \nassociated with monitor 1 is much more serious than monitor 2’s \nscratch marks. An alternative approach assigns weights to \nnonconformities according to their relative degree of severity. This \nquality rating system, which rates demerits per unit and is called the \nU-chart, thus overcomes the deficiency of the c- and u-charts. These \nare often helpful in service applications.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              113.42,
+              503.47,
+              663.27,
+              522.05
+            ],
+            "text": "31\nME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0031.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0031:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 31,
+        "slide": 31,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:39.387894+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0032:text",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "page_text",
+      "text": "Construction of a U-Chart\n\nSuppose that we have four categories of nonconformities.\nFor a sample of size n, the total number of demerits is given by\n         𝐷= 𝑤1𝑐1 + 𝑤2𝑐2 + 𝑤3𝑐3 + 𝑤4𝑐4\n                                           𝐷\nThe demerits per unit for the sample are given by, 𝑈=\n                                               𝑛\nThe centerline of the U-chart is given by\n             ഥ𝑈=    +    +    +                       𝑤1ത𝑢1   𝑤2ത𝑢2   𝑤3ത𝑢3   𝑤4ത𝑢4\nThe estimated standard deviation of U is given by\n\n                  𝑤12ത𝑢1 + 𝑤22ത𝑢2 + 𝑤32ത𝑢3 + 𝑤42ത𝑢4\n             ො𝜎𝑈=\n                            𝑛\n\nThe control limits for the U-chart are given by\n                          ഥ𝑈+ 3                𝑈𝐶𝐿𝑈=        ො𝜎𝑈\n                        ഥ𝑈−3                 𝐿𝐶𝐿𝑈=        ො𝜎𝑈",
+      "locator": {
+        "page": 32,
+        "slide": 32,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:39.387899+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "308d8e12cfcb0362eea61b90344312accb6033309a8f7b4e55d3f922581bedab",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              15.77,
+              20.54,
+              364.85,
+              53.54
+            ],
+            "text": "Construction of a U-Chart",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              70.99,
+              616.82,
+              129.79
+            ],
+            "text": "Suppose that we have four categories of nonconformities.\nFor a sample of size n, the total number of demerits is given by",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              546.19,
+              165.94,
+              558.73,
+              183.48
+            ],
+            "text": "𝐷",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              134.01,
+              539.66,
+              199.64
+            ],
+            "text": "𝐷= 𝑤1𝑐1 + 𝑤2𝑐2 + 𝑤3𝑐3 + 𝑤4𝑐4\nThe demerits per unit for the sample are given by, 𝑈=",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              192.08,
+              558.18,
+              240.58
+            ],
+            "text": "𝑛\nThe centerline of the U-chart is given by",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              240.12,
+              531.01,
+              303.94
+            ],
+            "text": "ഥ𝑈= 𝑤1ത𝑢1 + 𝑤2ത𝑢2 + 𝑤3ത𝑢3 + 𝑤4ത𝑢4\nThe estimated standard deviation of U is given by",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              264.29,
+              321.15,
+              355.19,
+              354.05
+            ],
+            "text": "2ത𝑢1 + 𝑤2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              347.45,
+              321.15,
+              438.97,
+              354.05
+            ],
+            "text": "2ത𝑢2 + 𝑤3",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              431.23,
+              321.15,
+              522.13,
+              354.05
+            ],
+            "text": "2ത𝑢3 + 𝑤4",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              168.98,
+              325.1,
+              270.83,
+              370.73
+            ],
+            "text": "ො𝜎𝑈=\n𝑤1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              390.89,
+              321.15,
+              550.09,
+              383.33
+            ],
+            "text": "2ത𝑢4\n𝑛",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              399.84,
+              449.47,
+              423.84
+            ],
+            "text": "The control limits for the U-chart are given by",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              272.93,
+              424.21,
+              445.71,
+              484.51
+            ],
+            "text": "𝑈𝐶𝐿𝑈= ഥ𝑈+ 3 ො𝜎𝑈\n𝐿𝐶𝐿𝑈= ഥ𝑈−3 ො𝜎𝑈",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              113.42,
+              503.47,
+              368.56,
+              515.47
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              651.05,
+              510.03,
+              663.27,
+              522.05
+            ],
+            "text": "32",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0032.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0032:formula-001",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "formula",
+      "text": "ഥ𝑈= 𝑤1ത𝑢1 + 𝑤2ത𝑢2 + 𝑤3ത𝑢3 + 𝑤4ത𝑢4\nThe estimated standard deviation of U is given by",
+      "locator": {
+        "page": 32,
+        "slide": 32,
+        "bbox": [
+          7.2,
+          240.12,
+          531.01,
+          303.94
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf-layout-heuristic",
+        "extracted_at": "2026-09-03T07:07:39.387926+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "c3443cbb43d7ac8b2420a4f442eee5cae022c27de9d42ec682df4aaa62953799",
+      "metadata": {
+        "formula_index": 1
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0032:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 32,
+        "slide": 32,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:39.387936+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0033:text",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "page_text",
+      "text": "Charts for Highly Conforming Processes\nUse of Exponential Distribution for Continuous Variables:\nWhen the process under consideration is continuous, an alternative\nunder the assumption that the occurrence of nonconformities conforms\nto a Poisson process with mean λ is to monitor the time or number of\nitems required (Q) to observe exactly one non conformity.\nHence, the probability of observing Q units in order to observe a defect\nis 𝐹𝑄= 1 −𝑒−𝜆𝑄, 𝑄≥0\nThe centerline and control limits are then calculated from\n                           1    0.6931             𝐶𝐿= −1    =                        𝜆ln 2      𝜆\n              𝐿𝐶𝐿= −1   1 −𝛼                         𝜆ln    2\n                          𝛼             𝑈𝐶𝐿= −1                          𝜆ln 2",
+      "locator": {
+        "page": 33,
+        "slide": 33,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:39.387941+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "e7dfb599e2e1d53273fdf782615c380f2a5818221db9196ab5daca9f84b8bd88",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              15.77,
+              16.17,
+              552.98,
+              49.17
+            ],
+            "text": "Charts for Highly Conforming Processes",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              60.34,
+              712.66,
+              305.3
+            ],
+            "text": "Use of Exponential Distribution for Continuous Variables:\nWhen the process under consideration is continuous, an alternative \nunder the assumption that the occurrence of nonconformities conforms \nto a Poisson process with mean λ is to monitor the time or number of \nitems required (Q) to observe exactly one non conformity.\nHence, the probability of observing Q units in order to observe a defect \nis 𝐹𝑄= 1 −𝑒−𝜆𝑄, 𝑄≥0\nThe centerline and control limits are then calculated from",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              227.54,
+              309.88,
+              321.51,
+              352.03
+            ],
+            "text": "𝐶𝐿= −1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              308.33,
+              309.88,
+              376.47,
+              368.14
+            ],
+            "text": "𝜆ln 1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              363.17,
+              309.88,
+              492.65,
+              368.14
+            ],
+            "text": "2\n= 0.6931",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              450.55,
+              344.11,
+              462.98,
+              368.14
+            ],
+            "text": "𝜆",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              227.54,
+              371.47,
+              334.23,
+              413.62
+            ],
+            "text": "𝐿𝐶𝐿= −1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              321.05,
+              371.47,
+              430.15,
+              429.7
+            ],
+            "text": "𝜆ln 1 −𝛼",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              416.71,
+              405.67,
+              430.01,
+              429.7
+            ],
+            "text": "2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              227.54,
+              426.19,
+              338.07,
+              468.34
+            ],
+            "text": "𝑈𝐶𝐿= −1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              324.89,
+              426.19,
+              392.09,
+              484.44
+            ],
+            "text": "𝜆ln 𝛼",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              378.65,
+              460.42,
+              391.95,
+              484.44
+            ],
+            "text": "2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              113.42,
+              503.47,
+              368.07,
+              515.47
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              651.05,
+              510.03,
+              663.27,
+              522.05
+            ],
+            "text": "33",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0033.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0033:formula-001",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "formula",
+      "text": "Use of Exponential Distribution for Continuous Variables:\nWhen the process under consideration is continuous, an alternative \nunder the assumption that the occurrence of nonconformities conforms \nto a Poisson process with mean λ is to monitor the time or number of \nitems required (Q) to observe exactly one non conformity.\nHence, the probability of observing Q units in order to observe a defect \nis 𝐹𝑄= 1 −𝑒−𝜆𝑄, 𝑄≥0\nThe centerline and control limits are then calculated from",
+      "locator": {
+        "page": 33,
+        "slide": 33,
+        "bbox": [
+          7.2,
+          60.34,
+          712.66,
+          305.3
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf-layout-heuristic",
+        "extracted_at": "2026-09-03T07:07:39.387967+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "a7c7d5c8409c4911b9e7e880f1d8bd70fe9047aa4fda83484a0f9a62dbc1efc0",
+      "metadata": {
+        "formula_index": 1
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0033:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 33,
+        "slide": 33,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:39.387992+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0034:text",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "page_text",
+      "text": "Charts for Highly Conforming Processes\nUse of Geometric Distribution for Discrete Variables:\nFor a highly conforming process, non conforming items are few and far\nbetween. This implies that monitoring the number of nonconforming\nitems will yield most observations with values of zero, which prevents\nthe detection of a change in the nonconformance rate. An alternative is\nto monitor the number of items until a nonconforming item is found,\nsometimes referred to as the number of trials upto the first success (X).\nWhen a nonconforming item is found, the count starts a new. The\ndiscrete variable X, as defined, has a geometric distribution given by\n𝑃𝑋= 𝑥= (1 −𝑝)𝑥−1𝑝𝑥, 𝑥= 1, 2, …\nWhere p represents the probability of success (nonconforming item) on\neach trial. The mean and variance of X, are given by\n                       1         1 −𝑝\n        𝐸𝑋= 𝑝, 𝑉𝑎𝑟𝑋=  𝑝2",
+      "locator": {
+        "page": 34,
+        "slide": 34,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:39.387997+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "58de8d5ec950acdf22247f5d4fc2bc674c1420ee8a79699b358be299c3ed14bb",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              14.93,
+              16.17,
+              552.14,
+              49.17
+            ],
+            "text": "Charts for Highly Conforming Processes",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              60.34,
+              707.64,
+              413.21
+            ],
+            "text": "Use of Geometric Distribution for Discrete Variables:\nFor a highly conforming process, non conforming items are few and far \nbetween. This implies that monitoring the number of nonconforming \nitems will yield most observations with values of zero, which prevents \nthe detection of a change in the nonconformance rate. An alternative is \nto monitor the number of items until a nonconforming item is found, \nsometimes referred to as the number of trials upto the first success (X). \nWhen a nonconforming item is found, the count starts a new. The \ndiscrete variable X, as defined, has a geometric distribution given by \n𝑃𝑋= 𝑥= (1 −𝑝)𝑥−1𝑝𝑥,\n𝑥= 1, 2, …\nWhere p represents the probability of success (nonconforming item) on \neach trial. The mean and variance of X, are given by",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              223.7,
+              414.67,
+              320.31,
+              456.82
+            ],
+            "text": "𝐸𝑋= 1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              306.77,
+              414.67,
+              496.1,
+              472.9
+            ],
+            "text": "𝑝, 𝑉𝑎𝑟𝑋= 1 −𝑝",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              456.07,
+              446.72,
+              480.13,
+              472.9
+            ],
+            "text": "𝑝2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              113.42,
+              503.47,
+              368.56,
+              515.47
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              651.05,
+              510.03,
+              663.27,
+              522.05
+            ],
+            "text": "34",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0034.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0034:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 34,
+        "slide": 34,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:39.388031+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0035:text",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "page_text",
+      "text": "Charts for Highly Conforming Processes\nUse of Geometric Distribution for Discrete Variables :\nThe centerline and control limits are then calculated from\n                        1\n               𝐶𝐿=\n                        𝑝\n                                  ln 1 −𝛼\n                               2                𝐿𝐶𝐿=\n                                  ln 1 −𝑝\n                           𝛼\n                                    ln\n                              2               𝑈𝐶𝐿=\n                                  ln 1 −𝑝\nThe probability of no nonconforming items in a sample of size n is\n𝑃0 nonconforming items = 1 −𝑝𝑛",
+      "locator": {
+        "page": 35,
+        "slide": 35,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:39.388036+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "7d2cac903869bae1f07b98197a4cc3b695e7d13397b3fb66a15c5dc7ee433ccc",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              15.77,
+              16.17,
+              552.98,
+              49.17
+            ],
+            "text": "Charts for Highly Conforming Processes",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              60.34,
+              566.4,
+              119.16
+            ],
+            "text": "Use of Geometric Distribution for Discrete Variables :\nThe centerline and control limits are then calculated from",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              272.09,
+              120.62,
+              344.43,
+              162.77
+            ],
+            "text": "𝐶𝐿= 1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              330.89,
+              154.82,
+              344.28,
+              178.85
+            ],
+            "text": "𝑝",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              343.61,
+              176.06,
+              435.55,
+              214.13
+            ],
+            "text": "ln 1 −𝛼",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              272.09,
+              213.64,
+              337.06,
+              237.67
+            ],
+            "text": "𝐿𝐶𝐿=",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              348.17,
+              202.21,
+              435.42,
+              253.75
+            ],
+            "text": "2\nln 1 −𝑝",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              363.77,
+              250.84,
+              413.81,
+              288.91
+            ],
+            "text": "ln 𝛼",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              272.09,
+              288.4,
+              340.78,
+              312.43
+            ],
+            "text": "𝑈𝐶𝐿=",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              277.0,
+              650.07,
+              390.94
+            ],
+            "text": "2\nln 1 −𝑝\nThe probability of no nonconforming items in a sample of size n is \n𝑃0 nonconforming items = 1 −𝑝𝑛",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              113.42,
+              503.47,
+              368.56,
+              515.47
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              651.05,
+              510.03,
+              663.27,
+              522.05
+            ],
+            "text": "35",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0035.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0035:formula-001",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "formula",
+      "text": "2\nln 1 −𝑝\nThe probability of no nonconforming items in a sample of size n is \n𝑃0 nonconforming items = 1 −𝑝𝑛",
+      "locator": {
+        "page": 35,
+        "slide": 35,
+        "bbox": [
+          7.2,
+          277.0,
+          650.07,
+          390.94
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf-layout-heuristic",
+        "extracted_at": "2026-09-03T07:07:39.388055+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "d7c70727d72c9f7d483d405289dc65552287d9f463c47cbbbb51092d325bc598",
+      "metadata": {
+        "formula_index": 1
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-3-note-b01f16053002:p0035:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-3-note-b01f16053002",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 35,
+        "slide": 35,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_3_Note.pdf",
+        "source_sha256": "b01f160530026d87923957e62752c71bed03e3eeb54094e053a391f9fc5d383c",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:39.388065+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    }
+  ],
+  "schema_version": "1.0",
+  "created_at": "2026-09-03T07:07:39.388071+00:00"
+}

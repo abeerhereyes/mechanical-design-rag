@@ -16,6 +16,7 @@ needs zero calibration and is robust by construction. This is the standard
 answer to the interview gotcha "why not just weight and add the two scores?"
 """
 from collections import defaultdict
+from typing import Optional
 
 
 def reciprocal_rank_fusion(ranked_lists: list[list[dict]], k_const: int = 60, top_k: int = 5):
@@ -32,11 +33,20 @@ def reciprocal_rank_fusion(ranked_lists: list[list[dict]], k_const: int = 60, to
     ]
 
 
-def hybrid_search(dense_collection, sparse_index, query: str, k: int = 5, fetch_k: int = 10):
+def hybrid_search(
+    dense_collection,
+    sparse_index,
+    query: str,
+    k: int = 5,
+    fetch_k: int = 10,
+    course_id: Optional[str] = None,
+):
     from src.dense_retriever import dense_search
 
-    dense_results = dense_search(dense_collection, query, k=fetch_k)
-    sparse_results = sparse_index.search(query, k=fetch_k)
+    dense_results = dense_search(
+        dense_collection, query, k=fetch_k, course_id=course_id
+    )
+    sparse_results = sparse_index.search(query, k=fetch_k, course_id=course_id)
     return reciprocal_rank_fusion([dense_results, sparse_results], top_k=k)
 
 

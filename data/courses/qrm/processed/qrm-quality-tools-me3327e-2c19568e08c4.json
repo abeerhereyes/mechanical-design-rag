@@ -1,0 +1,1147 @@
+{
+  "document_id": "qrm-quality-tools-me3327e-2c19568e08c4",
+  "course_id": "qrm",
+  "source_id": "quality-tools-me3327e",
+  "source_file": "Quality_Tools_ME3327E.pdf",
+  "source_sha256": "2c19568e08c47532602061323d534a4a6952cfc6e7d7f6f7f16f53ac9319c230",
+  "units": [
+    {
+      "unit_id": "qrm-quality-tools-me3327e-2c19568e08c4:p0001:text",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-tools-me3327e-2c19568e08c4",
+      "kind": "page_text",
+      "text": "Quality, Reliability &\n    ME3327E\n\n\n\n\n             Course Instructor:\n                   Dr. Nehem Tudu\nAssistant Professor, Dept. of Mechanical Engineering",
+      "locator": {
+        "page": 1,
+        "slide": 1,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Tools_ME3327E.pdf",
+        "source_sha256": "2c19568e08c47532602061323d534a4a6952cfc6e7d7f6f7f16f53ac9319c230",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:52.428650+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "be125b2a4bd449acfd44e6cd7912c630de3a9bccea1dfb69d211c7d09bfd297b",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              98.83,
+              49.79,
+              634.57,
+              112.21
+            ],
+            "text": "Quality, Reliability &",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              191.59,
+              108.11,
+              528.55,
+              170.53
+            ],
+            "text": "Maintenance",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              237.46,
+              166.4,
+              482.73,
+              228.86
+            ],
+            "text": "ME3327E",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              260.02,
+              352.12,
+              466.39,
+              384.16
+            ],
+            "text": "Course Instructor:",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              89.71,
+              382.36,
+              630.39,
+              444.64
+            ],
+            "text": "Dr. Nehem Tudu\nAssistant Professor, Dept. of Mechanical Engineering",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0001.png"
+      },
+      "near_duplicate_of": "qrm-probability-distribution-l6-b8e4e6eede40:p0001:text"
+    },
+    {
+      "unit_id": "qrm-quality-tools-me3327e-2c19568e08c4:p0002:text",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-tools-me3327e-2c19568e08c4",
+      "kind": "page_text",
+      "text": "Statistical Methods for Quality Control and\nImprovement\n• Three major areas:\n    • Statistical process control\n    • Design of experiments\n    • Acceptance sampling\n\n\n\n\n\n                                 Production process inputs and outputs\n                                       ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 2,
+        "slide": 2,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Tools_ME3327E.pdf",
+        "source_sha256": "2c19568e08c47532602061323d534a4a6952cfc6e7d7f6f7f16f53ac9319c230",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:52.428685+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "db5830809bddb7cb82f5407a94b49da4b1dfc1d5a473770a40cd233520f349ef",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              12.67,
+              18.91,
+              606.01,
+              87.55
+            ],
+            "text": "Statistical Methods for Quality Control and \nImprovement",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              12.67,
+              91.36,
+              250.69,
+              123.65
+            ],
+            "text": "• Three major areas:",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              48.67,
+              126.98,
+              313.68,
+              216.5
+            ],
+            "text": "• Statistical process control\n• Design of experiments\n• Acceptance sampling",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              280.99,
+              479.44,
+              563.66,
+              497.44
+            ],
+            "text": "Production process inputs and outputs",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n2",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0002.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-tools-me3327e-2c19568e08c4:p0003:text",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-tools-me3327e-2c19568e08c4",
+      "kind": "page_text",
+      "text": "Statistical process control\n • A control chart is one of the primary techniques of\n   statistical process control (SPC).\n\n\n\n\n\n                         A typical control chart\n\n\n\n                                       ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 3,
+        "slide": 3,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Tools_ME3327E.pdf",
+        "source_sha256": "2c19568e08c47532602061323d534a4a6952cfc6e7d7f6f7f16f53ac9319c230",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:52.428712+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "746173f5d58dbc470c5cba4374f5cbd7819ef424e5f561b222a01673c60e7ab6",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              12.67,
+              36.69,
+              368.77,
+              69.72
+            ],
+            "text": "Statistical process control",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              26.06,
+              81.6,
+              623.0,
+              113.89
+            ],
+            "text": "• A control chart is one of the primary techniques of",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              44.06,
+              116.17,
+              402.96,
+              144.13
+            ],
+            "text": "statistical process control (SPC).",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              275.81,
+              453.83,
+              436.73,
+              471.83
+            ],
+            "text": "A typical control chart",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n3",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0003.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-tools-me3327e-2c19568e08c4:p0004:text",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-tools-me3327e-2c19568e08c4",
+      "kind": "page_text",
+      "text": "Design of experiments\n • Genichi Taguchi\n • One major type of designed experiment is the factorial\n   design\n\n\n\n\n\n                                 Factorial designs for the process\n\n\n\n\n\n                                       ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 4,
+        "slide": 4,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Tools_ME3327E.pdf",
+        "source_sha256": "2c19568e08c47532602061323d534a4a6952cfc6e7d7f6f7f16f53ac9319c230",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:52.428735+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "5202b5572028154295cfe268d42928352fb85268a593667a2d8d02f94d473fbc",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              12.67,
+              36.69,
+              318.84,
+              69.72
+            ],
+            "text": "Design of experiments",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              26.06,
+              81.6,
+              670.51,
+              154.21
+            ],
+            "text": "• Genichi Taguchi\n• One major type of designed experiment is the factorial",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              44.06,
+              156.47,
+              117.86,
+              184.46
+            ],
+            "text": "design",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              238.85,
+              422.08,
+              473.32,
+              440.11
+            ],
+            "text": "Factorial designs for the process",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n4",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0004.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-tools-me3327e-2c19568e08c4:p0005:text",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-tools-me3327e-2c19568e08c4",
+      "kind": "page_text",
+      "text": "Acceptance sampling\n\nAcceptance sampling, defined as the inspection and classification of a\nsample of units selected at random from a larger batch or lot and the\nultimate decision about disposition of the lot, usually occurs at two\npoints: incoming raw materials or components, or final production.\n\n\n\n\n\n                               Variations of acceptance sampling\n                                        ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 5,
+        "slide": 5,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Tools_ME3327E.pdf",
+        "source_sha256": "2c19568e08c47532602061323d534a4a6952cfc6e7d7f6f7f16f53ac9319c230",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:52.428755+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "321e873e9a72ae4556a8a15a93b4c26a08189fbc4b2006bfea9ae3a4ee560989",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              14.38,
+              14.69,
+              310.4,
+              47.72
+            ],
+            "text": "Acceptance sampling",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              8.5,
+              60.1,
+              689.93,
+              161.88
+            ],
+            "text": "Acceptance sampling, defined as the inspection and classification of a \nsample of units selected at random from a larger batch or lot and the \nultimate decision about disposition of the lot, usually occurs at two \npoints: incoming raw materials or components, or final production.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              231.77,
+              486.68,
+              480.37,
+              504.68
+            ],
+            "text": "Variations of acceptance sampling",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n5",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0005.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-tools-me3327e-2c19568e08c4:p0006:text",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-tools-me3327e-2c19568e08c4",
+      "kind": "page_text",
+      "text": "Other basic tools for quality improvement\n• Flowcharting of processes\n• Pareto analysis\n• Cause-and-effect diagram\n• Histogram\n• Control charts\n• Check sheets\n• Scatter plots\n\n\nThere are several versions of this problem-solving methodology, each of\nwhich combines or splits some of the above steps. Dr. Deming’s “plan-\ndo-check-act” (PDCA) cycle and Dr. Juran’s “breakthrough sequence”\nare examples of problem-solving approaches.\n\n\n\n\n                                        ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 6,
+        "slide": 6,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Tools_ME3327E.pdf",
+        "source_sha256": "2c19568e08c47532602061323d534a4a6952cfc6e7d7f6f7f16f53ac9319c230",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:52.428781+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "ca0d06d3a999a19e92bf8648140cb28df9d77e92ab06bb9c2a799fb3e80eb1be",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              14.38,
+              14.69,
+              589.29,
+              47.72
+            ],
+            "text": "Other basic tools for quality improvement",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              8.5,
+              56.38,
+              278.74,
+              299.66
+            ],
+            "text": "• Flowcharting of processes\n• Pareto analysis\n• Cause-and-effect diagram\n• Histogram\n• Control charts\n• Check sheets\n• Scatter plots",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              8.5,
+              347.52,
+              712.66,
+              449.33
+            ],
+            "text": "There are several versions of this problem-solving methodology, each of \nwhich combines or splits some of the above steps. Dr. Deming’s “plan-\ndo-check-act” (PDCA) cycle and Dr. Juran’s “breakthrough sequence” \nare examples of problem-solving approaches.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n6",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0006.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-tools-me3327e-2c19568e08c4:p0007:text",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-tools-me3327e-2c19568e08c4",
+      "kind": "page_text",
+      "text": "Deming’s PDCA Cycle\n\n\n\n\n\n                                       ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 7,
+        "slide": 7,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Tools_ME3327E.pdf",
+        "source_sha256": "2c19568e08c47532602061323d534a4a6952cfc6e7d7f6f7f16f53ac9319c230",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:52.428807+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "3f2e131989cad20dd28a49377deb1956eb87b70c163f652d8f2059ba86432d44",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              14.38,
+              25.0,
+              303.16,
+              58.0
+            ],
+            "text": "Deming’s PDCA Cycle",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n7",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0007.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-tools-me3327e-2c19568e08c4:p0008:text",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-tools-me3327e-2c19568e08c4",
+      "kind": "page_text",
+      "text": "Juran’s Breakthrough Sequence\n• Establish proof of need\n• Identify the project\n• Organize a project team\n• Make the diagnostic journey\n• Make the remedial journey\n• Institute controls to hold the gains\n\n\n\n\n\n                                       ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 8,
+        "slide": 8,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Tools_ME3327E.pdf",
+        "source_sha256": "2c19568e08c47532602061323d534a4a6952cfc6e7d7f6f7f16f53ac9319c230",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:52.428825+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "16d4627150ddf782674db84da91b7582bcbf0fd0582cdfc693632e6e42d8838d",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              14.38,
+              25.0,
+              443.11,
+              58.0
+            ],
+            "text": "Juran’s Breakthrough Sequence",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              14.38,
+              64.89,
+              421.9,
+              298.47
+            ],
+            "text": "• Establish proof of need\n• Identify the project\n• Organize a project team\n• Make the diagnostic journey\n• Make the remedial journey\n• Institute controls to hold the gains",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n8",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0008.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-tools-me3327e-2c19568e08c4:p0009:text",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-tools-me3327e-2c19568e08c4",
+      "kind": "page_text",
+      "text": "Juran’s Breakthrough Sequence\n\n\n\n\n\n                                       ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 9,
+        "slide": 9,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Tools_ME3327E.pdf",
+        "source_sha256": "2c19568e08c47532602061323d534a4a6952cfc6e7d7f6f7f16f53ac9319c230",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:52.428842+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "eb31c18f51048b717627fa27c9b8c18c33a8bda0d9302b8e224dc2826bd718f4",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              14.38,
+              25.0,
+              443.11,
+              58.0
+            ],
+            "text": "Juran’s Breakthrough Sequence",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n9",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0009.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-tools-me3327e-2c19568e08c4:p0010:text",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-tools-me3327e-2c19568e08c4",
+      "kind": "page_text",
+      "text": "ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 10,
+        "slide": 10,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Tools_ME3327E.pdf",
+        "source_sha256": "2c19568e08c47532602061323d534a4a6952cfc6e7d7f6f7f16f53ac9319c230",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:52.428860+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "f49410e5be53a4beb182b186661440f6a9b6d7168662fa75c50167519c892eb8",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n10",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0010.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-tools-me3327e-2c19568e08c4:p0011:text",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-tools-me3327e-2c19568e08c4",
+      "kind": "page_text",
+      "text": "Cause-and-Effect Diagram\n\n\n\n\n\n                                       ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 11,
+        "slide": 11,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Tools_ME3327E.pdf",
+        "source_sha256": "2c19568e08c47532602061323d534a4a6952cfc6e7d7f6f7f16f53ac9319c230",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:52.428876+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "6219434831941484ff767dd7f06081a37e168d8e86bac19f7c2e2091db88651b",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              14.38,
+              25.0,
+              367.71,
+              58.0
+            ],
+            "text": "Cause-and-Effect Diagram",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n11",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0011.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-tools-me3327e-2c19568e08c4:p0012:text",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-tools-me3327e-2c19568e08c4",
+      "kind": "page_text",
+      "text": "Pareto Analysis\n\n\n\n\n\n                                       ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 12,
+        "slide": 12,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Tools_ME3327E.pdf",
+        "source_sha256": "2c19568e08c47532602061323d534a4a6952cfc6e7d7f6f7f16f53ac9319c230",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:52.428893+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "3a195d10c6bfc67b15b65cce1e4fb9f9c308a51cc3830faae1e989371dd9a06f",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              14.38,
+              25.0,
+              223.89,
+              58.0
+            ],
+            "text": "Pareto Analysis",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n12",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0012.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-tools-me3327e-2c19568e08c4:p0013:text",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-tools-me3327e-2c19568e08c4",
+      "kind": "page_text",
+      "text": "Pareto Analysis\n\n\n\n\n\n                                       ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 13,
+        "slide": 13,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Tools_ME3327E.pdf",
+        "source_sha256": "2c19568e08c47532602061323d534a4a6952cfc6e7d7f6f7f16f53ac9319c230",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:52.428909+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "3a195d10c6bfc67b15b65cce1e4fb9f9c308a51cc3830faae1e989371dd9a06f",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              14.38,
+              25.0,
+              223.89,
+              58.0
+            ],
+            "text": "Pareto Analysis",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n13",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0013.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-tools-me3327e-2c19568e08c4:p0014:text",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-tools-me3327e-2c19568e08c4",
+      "kind": "page_text",
+      "text": "Histogram\n\n\n\n\n\n                                       ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 14,
+        "slide": 14,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Tools_ME3327E.pdf",
+        "source_sha256": "2c19568e08c47532602061323d534a4a6952cfc6e7d7f6f7f16f53ac9319c230",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:52.428925+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "8962875b8908e7d32aab7a64671f0fea450d7c7ca515c18a7d16ce0bfbe9beb4",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              14.38,
+              25.0,
+              154.69,
+              58.0
+            ],
+            "text": "Histogram",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n14",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0014.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-tools-me3327e-2c19568e08c4:p0015:text",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-tools-me3327e-2c19568e08c4",
+      "kind": "page_text",
+      "text": "Control Chart\n\n\n\n\n\n                                       ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 15,
+        "slide": 15,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Tools_ME3327E.pdf",
+        "source_sha256": "2c19568e08c47532602061323d534a4a6952cfc6e7d7f6f7f16f53ac9319c230",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:52.428941+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "07fd5c8a8dea1d9fb2873cfbc7f38e0a31388b52be515339506652bd8b4d5920",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              14.38,
+              25.0,
+              198.02,
+              58.0
+            ],
+            "text": "Control Chart",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n15",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0015.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-tools-me3327e-2c19568e08c4:p0016:text",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-tools-me3327e-2c19568e08c4",
+      "kind": "page_text",
+      "text": "Control Chart\n\n\n\n\n\n                                       ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 16,
+        "slide": 16,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Tools_ME3327E.pdf",
+        "source_sha256": "2c19568e08c47532602061323d534a4a6952cfc6e7d7f6f7f16f53ac9319c230",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:52.428957+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "07fd5c8a8dea1d9fb2873cfbc7f38e0a31388b52be515339506652bd8b4d5920",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              14.38,
+              25.0,
+              198.02,
+              58.0
+            ],
+            "text": "Control Chart",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n16",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0016.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-tools-me3327e-2c19568e08c4:p0017:text",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-tools-me3327e-2c19568e08c4",
+      "kind": "page_text",
+      "text": "Scatter Plot\n\n\n\n\n\n                                       ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 17,
+        "slide": 17,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Tools_ME3327E.pdf",
+        "source_sha256": "2c19568e08c47532602061323d534a4a6952cfc6e7d7f6f7f16f53ac9319c230",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:52.428972+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "375d8611a26027bda4d17218a8e187fddb0923aea1ce3187d8f533eca20dcfc2",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              14.38,
+              25.0,
+              172.48,
+              58.0
+            ],
+            "text": "Scatter Plot",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n17",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0017.png"
+      },
+      "near_duplicate_of": null
+    }
+  ],
+  "schema_version": "1.0",
+  "created_at": "2026-09-03T07:07:52.428988+00:00"
+}

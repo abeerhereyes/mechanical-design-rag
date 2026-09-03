@@ -5,6 +5,7 @@ __pycache__/
 .pytest_cache/
 .venv/
 data/chroma/
+data/courses/*/raw/assets/
 *.egg-info/
 build/
 dist/

@@ -13,6 +13,7 @@ dependencies = [
     "fastapi",
     "langgraph",
     "numpy",
+    "PyMuPDF",
     "rank-bm25",
     "scikit-learn",
     "uvicorn",
@@ -20,12 +21,16 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = ["httpx", "pytest"]
+ocr = ["Pillow", "pytesseract"]
 
 [project.scripts]
 mech-rag = "src.cli:main"
 
 [tool.setuptools.packages.find]
 include = ["src*"]
+
+[tool.setuptools.package-data]
+src = ["web/*"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

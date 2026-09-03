@@ -1,206 +1,325 @@
-"""LangGraph agent for deterministic calculations and grounded retrieval."""
+"""Course-aware LangGraph agent with reviewed calculations and cited retrieval."""
 from __future__ import annotations
 
-import os
 import re
 from pathlib import Path
-from typing import Literal, Optional, TypedDict, Union
+from typing import Any, Dict, Literal, Optional, TypedDict
 
 from langgraph.graph import END, StateGraph
 
-from src.calc_tools import (
-    bearing_l10_life_hours,
-    bolt_joint_load,
-    bolt_preload,
-    spring_max_shear_stress,
-    spring_rate,
-    tensile_stress_area_metric,
-    weld_primary_shear,
+from src.calculations import (
+    FormulaError,
+    execute,
+    get_formula,
+    list_formulas,
 )
-from src.llm import OllamaClient
+from src.llm import GroundedAnswer, OllamaClient
+
+
+SUPPORTED_COURSES = {
+    "mechanical-design": "Mechanical Design",
+    "aerodynamics": "Aerodynamics",
+    "qrm": "Quality, Reliability, and Maintenance",
+}
 
 
 class AgentState(TypedDict, total=False):
     query: str
+    course_id: str
+    include_general: bool
     intent: Literal["calculate", "retrieve", "clarify"]
+    formula_id: Optional[str]
     calc_type: Optional[str]
-    params: dict
+    params: Dict[str, Any]
+    units: Dict[str, str]
     missing_params: list[str]
     retrieved_chunks: list[dict]
     answer: str
+    course_answer: str
+    general_answer: Optional[str]
     citations: list[dict]
+    warnings: list[str]
+    assumptions: list[str]
 
 
-CALC_PATTERNS = {
-    "spring_rate": [r"spring rate", r"spring stiffness"],
-    "spring_stress": [r"spring.*(?:stress|wahl)", r"shear stress.*spring"],
-    "bolt_preload": [r"(?:calculate|compute|find|what is|how much).*preload", r"proof load"],
-    "bolt_joint_load": [r"(?:bolt|joint).*(?:load sharing|joint load|separat)"],
-    "tensile_stress_area": [r"tensile stress area"],
-    "weld_shear": [r"(?:calculate|compute|find|what is).*weld.*shear", r"direct shear.*weld"],
-    "bearing_life": [r"(?:calculate|compute|find|what is).*bearing life", r"\bl10\b.*(?:hours|rpm)"],
+FORMULA_PATTERNS = {
+    "mechanical.metric_thread_tensile_area": [r"tensile stress area", r"metric thread area"],
+    "mechanical.bolt_preload": [r"bolt preload", r"proof load"],
+    "mechanical.bolt_joint_load": [r"joint load", r"load sharing", r"joint separat"],
+    "mechanical.weld_primary_shear": [r"weld.*(?:direct|primary).*shear", r"fillet weld shear"],
+    "mechanical.helical_spring_rate": [r"spring rate", r"spring stiffness"],
+    "mechanical.wahl_factor": [r"wahl factor"],
+    "mechanical.spring_max_shear_stress": [r"spring.*shear stress", r"spring.*maximum stress"],
+    "mechanical.bearing_l10_life": [r"bearing.*(?:l10|life)", r"\bl10\b"],
+    "aero.force_decomposition": [r"(?:lift|drag).*(?:normal|axial)", r"force decomposition"],
+    "aero.point_source_velocity": [r"(?:point )?(?:source|sink).*velocity"],
+    "aero.doublet_velocity": [r"doublet.*velocity"],
+    "aero.point_vortex_velocity": [r"(?:point )?vortex.*velocity"],
+    "aero.cylinder_flow_velocity": [r"(?:cylinder|circular cylinder).*velocity"],
+    "aero.pressure_coefficient": [r"pressure coefficient", r"\bcp\b"],
+    "aero.kutta_joukowski_cylinder": [r"kutta.?joukowski", r"lifting cylinder", r"lift per.*span"],
+    "qrm.normal_cdf": [r"normal.*(?:cdf|cumulative|probability)"],
+    "qrm.binomial_probability": [r"binomial.*probability"],
+    "qrm.poisson_probability": [r"poisson.*probability"],
+    "qrm.acceptance_oc_binomial": [r"(?:oc|acceptance).*(?:binomial|large lot)"],
+    "qrm.acceptance_oc_hypergeometric": [r"(?:oc|acceptance).*(?:hypergeometric|finite lot)"],
+    "qrm.rectifying_sampling_performance": [r"\b(?:aoq|ati|asn)\b", r"rectifying sampling"],
+    "qrm.average_run_length": [r"average run length", r"\barl\b"],
+    "qrm.xbar_control_limits": [r"x.?bar.*control limit", r"mean chart.*limit"],
+    "qrm.p_control_limits": [r"\bp.?chart.*limit", r"fraction nonconforming.*limit"],
+    "qrm.exponential_reliability": [r"exponential.*reliability", r"constant failure rate"],
+    "qrm.weibull_reliability": [r"weibull.*reliability", r"weibull.*failure"],
 }
 
-CALC_REQUIRED_PARAMS = {
-    "spring_rate": ["g_mpa", "d_wire_mm", "d_mean_mm", "n_active"],
-    "spring_stress": ["force_n", "d_mean_mm", "d_wire_mm"],
-    "bolt_preload": ["at_mm2", "proof_strength_mpa"],
-    "bolt_joint_load": ["fi_n", "kb", "km", "external_load_n"],
-    "tensile_stress_area": ["dp_mm", "pitch_mm"],
-    "weld_shear": ["force_n", "leg_size_mm", "weld_length_mm"],
-    "bearing_life": ["c_rating_n", "p_equiv_n", "speed_rpm"],
+PARAM_ALIASES = {
+    "dp_mm": ("major diameter", "dp", "m"),
+    "pitch_mm": ("pitch", "p"),
+    "area_mm2": ("stress area", "area", "at"),
+    "proof_strength_mpa": ("proof strength", "sp"),
+    "preload_n": ("preload", "fi"),
+    "bolt_stiffness_n_per_mm": ("bolt stiffness", "kb"),
+    "member_stiffness_n_per_mm": ("member stiffness", "km"),
+    "external_load_n": ("external load", "load", "p"),
+    "force_n": ("force", "load", "f"),
+    "leg_size_mm": ("leg size", "h"),
+    "weld_length_mm": ("weld length", "length", "l"),
+    "shear_modulus_mpa": ("shear modulus", "g"),
+    "wire_diameter_mm": ("wire diameter", "wire", "d"),
+    "mean_diameter_mm": ("mean diameter", "mean d"),
+    "active_coils": ("active coils", "na"),
+    "spring_index": ("spring index", "c"),
+    "dynamic_rating_n": ("dynamic rating", "c rating"),
+    "equivalent_load_n": ("equivalent load", "p"),
+    "speed_rpm": ("speed", "rpm", "n"),
+    "normal_force_n": ("normal force", "n"),
+    "axial_force_n": ("axial force", "a"),
+    "angle_of_attack_rad": ("angle of attack", "alpha"),
+    "x_m": ("x",),
+    "y_m": ("y",),
+    "strength_m2_per_s": ("source strength", "strength", "lambda"),
+    "strength_m3_per_s": ("doublet strength", "strength", "kappa"),
+    "circulation_m2_per_s": ("circulation", "gamma"),
+    "freestream_speed_m_per_s": ("freestream speed", "freestream", "u infinity"),
+    "cylinder_radius_m": ("cylinder radius", "radius", "r"),
+    "radial_position_m": ("radial position", "position radius", "r"),
+    "theta_rad": ("theta", "angle"),
+    "local_speed_m_per_s": ("local speed", "velocity", "v"),
+    "density_kg_per_m3": ("density", "rho"),
+    "standard_deviation": ("standard deviation", "sigma"),
+    "mean": ("mean", "mu"),
+    "x": ("x", "threshold"),
+    "trials": ("trials", "n"),
+    "successes": ("successes", "x"),
+    "event_probability": ("event probability", "probability", "p"),
+    "event_count": ("event count", "count", "x"),
+    "mean_count": ("mean count", "lambda"),
+    "sample_size": ("sample size", "sample", "n"),
+    "acceptance_number": ("acceptance number", "c"),
+    "fraction_defective": ("fraction defective", "defective fraction", "p"),
+    "lot_size": ("lot size", "n lot"),
+    "defective_units": ("defective units", "defectives", "d"),
+    "acceptance_probability": ("acceptance probability", "pa"),
+    "signal_probability": ("signal probability", "pd"),
+    "process_mean": ("process mean", "mean", "mu"),
+    "process_standard_deviation": ("process standard deviation", "sigma"),
+    "sigma_multiplier": ("sigma multiplier", "z", "k"),
+    "average_fraction_nonconforming": ("average fraction nonconforming", "p bar"),
+    "time": ("time", "t"),
+    "failure_rate_per_time": ("failure rate", "lambda"),
+    "scale_time": ("scale", "eta"),
+    "shape": ("shape", "beta"),
 }
 
-PARAM_PATTERNS = {
-    "g_mpa": [r"(?:\bG\b|shear modulus)\s*(?:=|of|is)?\s*(-?\d+(?:\.\d+)?)"],
-    "d_wire_mm": [r"(?:wire(?: diameter)?|\bd\b)\s*(?:=|of|is)?\s*(-?\d+(?:\.\d+)?)"],
-    "d_mean_mm": [r"(?:mean(?: coil)? (?:diameter|D)|\bD\b)\s*(?:=|of|is)?\s*(-?\d+(?:\.\d+)?)"],
-    "n_active": [r"(-?\d+(?:\.\d+)?)\s*active coils?", r"(?:active coils?|Na)\s*(?:=|of|is)?\s*(-?\d+(?:\.\d+)?)"],
-    "force_n": [r"(?:force|load|\bF\b)\s*(?:=|of|is)?\s*(-?\d+(?:\.\d+)?)"],
-    "at_mm2": [r"(?:stress area|\bAt\b)\s*(?:=|of|is)?\s*(-?\d+(?:\.\d+)?)"],
-    "proof_strength_mpa": [r"(?:proof strength|\bSp\b)\s*(?:=|of|is)?\s*(-?\d+(?:\.\d+)?)"],
-    "fi_n": [r"(?:preload|\bFi\b)\s*(?:=|of|is)?\s*(-?\d+(?:\.\d+)?)"],
-    "kb": [r"\bkb\b\s*(?:=|of|is)?\s*(-?\d+(?:\.\d+)?)"],
-    "km": [r"\bkm\b\s*(?:=|of|is)?\s*(-?\d+(?:\.\d+)?)"],
-    "external_load_n": [r"(?:external load|\bP\b)\s*(?:=|of|is)?\s*(-?\d+(?:\.\d+)?)"],
-    "dp_mm": [r"(?:major diameter|\bdp\b|M)\s*(?:=|of|is)?\s*(-?\d+(?:\.\d+)?)"],
-    "pitch_mm": [r"(?:pitch|[x×])\s*(?:=|of|is)?\s*(-?\d+(?:\.\d+)?)"],
-    "leg_size_mm": [r"(?:leg size|\bh\b)\s*(?:=|of|is)?\s*(-?\d+(?:\.\d+)?)"],
-    "weld_length_mm": [r"(?:weld length|length|\bL\b)\s*(?:=|of|is)?\s*(-?\d+(?:\.\d+)?)"],
-    "c_rating_n": [r"(?:dynamic (?:load )?rating|C rating|\bC\b)\s*(?:=|of|is)?\s*(-?\d+(?:\.\d+)?)"],
-    "p_equiv_n": [r"(?:equivalent (?:dynamic )?load|\bP\b)\s*(?:=|of|is)?\s*(-?\d+(?:\.\d+)?)"],
-    "speed_rpm": [r"(?:speed|n)\s*(?:=|of|is)?\s*(-?\d+(?:\.\d+)?)\s*(?:rpm)?"],
-}
+CONCEPTUAL_RE = re.compile(
+    r"\b(?:formula|equation|derive|derivation|explain|why|meaning|definition|"
+    r"how (?:do|can) i (?:calculate|compute))\b",
+    re.IGNORECASE,
+)
+NUMBER_RE = re.compile(r"-?\d+(?:\.\d+)?(?:e[+-]?\d+)?", re.IGNORECASE)
 
-CALC_CITATIONS = {
-    "spring_rate": ("springs.md", "S1", 1),
-    "spring_stress": ("springs.md", "S2", 2),
-    "bolt_preload": ("bolts.md", "B1", 1),
-    "bolt_joint_load": ("bolts.md", "B3", 3),
-    "tensile_stress_area": ("bolts.md", "B2", 2),
-    "weld_shear": ("welds.md", "W2", 2),
-    "bearing_life": ("bearings.md", "BR1/BR4", 1),
-}
+
+def _select_formula(query: str, course_id: str) -> Optional[str]:
+    for formula_id, patterns in FORMULA_PATTERNS.items():
+        definition = get_formula(formula_id)
+        if definition.course_id != course_id:
+            continue
+        if any(re.search(pattern, query, re.IGNORECASE) for pattern in patterns):
+            return formula_id
+    return None
 
 
 def classify_intent(state: AgentState) -> AgentState:
-    query = state["query"].lower()
-    conceptual = re.search(
-        r"\b(?:formula|equation|explain|why|how (?:do|can) i (?:calculate|compute))\b",
-        query,
-    )
-    for calc_type, patterns in CALC_PATTERNS.items():
-        if any(re.search(pattern, query, re.IGNORECASE) for pattern in patterns):
-            if conceptual:
-                return {**state, "intent": "retrieve", "calc_type": None}
-            return {**state, "intent": "calculate", "calc_type": calc_type}
-    return {**state, "intent": "retrieve"}
+    course_id = state.get("course_id", "mechanical-design")
+    explicit_formula = bool(state.get("formula_id"))
+    formula_id = state.get("formula_id") or _select_formula(state["query"], course_id)
+    if formula_id and (explicit_formula or not CONCEPTUAL_RE.search(state["query"])):
+        return {
+            **state,
+            "intent": "calculate",
+            "formula_id": formula_id,
+            "calc_type": formula_id,
+        }
+    return {**state, "intent": "retrieve", "formula_id": None, "calc_type": None}
+
+
+def _extract_labeled_number(query: str, aliases: tuple[str, ...]) -> Optional[float]:
+    for alias in sorted(aliases, key=len, reverse=True):
+        escaped = re.escape(alias).replace(r"\ ", r"\s*")
+        match = re.search(
+            rf"(?<![A-Za-z]){escaped}\s*(?:=|:|of|is)?\s*({NUMBER_RE.pattern})",
+            query,
+            re.IGNORECASE,
+        )
+        if match:
+            return float(match.group(1))
+        reverse = re.search(
+            rf"({NUMBER_RE.pattern})\s*(?:[A-Za-z0-9/^²³.-]+\s*)?"
+            rf"(?<![A-Za-z]){escaped}(?![A-Za-z])",
+            query,
+            re.IGNORECASE,
+        )
+        if reverse:
+            return float(reverse.group(1))
+    return None
 
 
 def extract_params(state: AgentState) -> AgentState:
-    calc_type = state["calc_type"]
-    required = CALC_REQUIRED_PARAMS[calc_type]
+    definition = get_formula(state["formula_id"])
     params = dict(state.get("params") or {})
+    units = dict(state.get("units") or {})
     query = state["query"]
 
-    for name in required:
-        if name in params:
+    for variable in definition.variables:
+        if variable.name in params:
             continue
-        for pattern in PARAM_PATTERNS[name]:
-            match = re.search(pattern, query, re.IGNORECASE)
-            if match:
-                params[name] = float(match.group(1))
-                break
+        if variable.value_type in {"number", "integer"}:
+            value = _extract_labeled_number(
+                query, PARAM_ALIASES.get(variable.name, (variable.name,))
+            )
+            if value is not None:
+                params[variable.name] = int(value) if variable.value_type == "integer" else value
+        elif variable.value_type == "boolean" and variable.name == "reused":
+            params[variable.name] = not bool(
+                re.search(r"\b(?:permanent|new)\b", query, re.IGNORECASE)
+            )
+        elif variable.value_type == "string" and variable.name == "bearing_type":
+            params[variable.name] = (
+                "roller" if re.search(r"\broller\b", query, re.IGNORECASE) else "ball"
+            )
 
-    # Natural ordered input remains supported when no labels were recognized.
-    if not params:
-        numbers = [float(value) for value in re.findall(r"-?\d+(?:\.\d+)?", query)]
-        params.update(dict(zip(required, numbers)))
+    supplied_required = [
+        variable
+        for variable in definition.variables
+        if variable.required and variable.name in params
+    ]
+    if not supplied_required:
+        numbers = [float(value) for value in NUMBER_RE.findall(query)]
+        numeric_required = [
+            variable
+            for variable in definition.variables
+            if variable.required and variable.value_type in {"number", "integer"}
+        ]
+        for variable, value in zip(numeric_required, numbers):
+            params[variable.name] = int(value) if variable.value_type == "integer" else value
 
-    if calc_type == "bolt_preload":
-        params["reused"] = not bool(re.search(r"\b(permanent|new)\b", query, re.IGNORECASE))
-    if calc_type == "bearing_life":
-        params["bearing_type"] = (
-            "roller" if re.search(r"\broller\b", query, re.IGNORECASE) else "ball"
-        )
+    for variable in definition.variables:
+        if variable.name in params and variable.unit != "1":
+            units.setdefault(variable.name, variable.unit)
 
-    missing = [name for name in required if name not in params]
+    missing = [
+        variable.name
+        for variable in definition.variables
+        if variable.required and variable.name not in params
+    ]
     return {
         **state,
         "params": params,
+        "units": units,
         "missing_params": missing,
         "intent": "clarify" if missing else "calculate",
     }
 
 
 def clarify_node(state: AgentState) -> AgentState:
-    readable = ", ".join(name.replace("_", " ") for name in state["missing_params"])
+    definition = get_formula(state["formula_id"])
+    variables = {variable.name: variable for variable in definition.variables}
+    needed = [
+        f"{variables[name].description} ({variables[name].unit})"
+        for name in state["missing_params"]
+    ]
+    text = "I can use the reviewed course formula, but I still need: " + "; ".join(needed) + "."
     return {
         **state,
-        "answer": f"I can calculate this once you provide: {readable}.",
+        "answer": text,
+        "course_answer": text,
+        "general_answer": None,
         "citations": [],
+        "warnings": [],
+        "assumptions": list(definition.assumptions),
     }
 
 
-def _format_value(value: object) -> str:
+def _format_value(value: Any) -> str:
     if isinstance(value, float):
-        return f"{value:,.4g}"
+        return f"{value:,.6g}"
     return str(value)
 
 
 def calculate_node(state: AgentState) -> AgentState:
-    calc_type = state["calc_type"]
-    params = state["params"]
-    functions = {
-        "spring_rate": spring_rate,
-        "spring_stress": spring_max_shear_stress,
-        "bolt_preload": bolt_preload,
-        "bolt_joint_load": bolt_joint_load,
-        "tensile_stress_area": tensile_stress_area_metric,
-        "weld_shear": weld_primary_shear,
-        "bearing_life": bearing_l10_life_hours,
-    }
-    units = {
-        "spring_rate": "N/mm",
-        "tensile_stress_area": "mm²",
-        "weld_shear": "MPa",
-    }
+    definition = get_formula(state["formula_id"])
     try:
-        result = functions[calc_type](**params)
-    except (TypeError, ValueError, ZeroDivisionError) as exc:
-        return {**state, "answer": f"Invalid calculation input: {exc}", "citations": []}
+        result = execute(state["formula_id"], state["params"], state["units"])
+    except FormulaError as exc:
+        text = f"Invalid calculation input: {exc}"
+        return {
+            **state,
+            "answer": text,
+            "course_answer": text,
+            "general_answer": None,
+            "citations": [],
+            "warnings": [str(exc)],
+            "assumptions": list(definition.assumptions),
+        }
 
-    if isinstance(result, dict):
-        details = ", ".join(
-            f"{key.replace('_', ' ')} = {_format_value(value)}"
-            for key, value in result.items()
-        )
-    else:
-        details = f"{_format_value(result)} {units.get(calc_type, '')}".strip()
-
-    filename, section, page = CALC_CITATIONS[calc_type]
+    details = ", ".join(
+        f"{name.replace('_', ' ')} = {_format_value(value)}"
+        + (f" {result.units.get(name)}" if result.units.get(name, "1") != "1" else "")
+        for name, value in result.values.items()
+    )
+    course_answer = f"Using {definition.title}: {details}."
+    first_page = result.source.pages[0]
+    page_match = re.search(r"\d+", first_page)
     citation = {
-        "id": f"{filename}::{section}",
-        "source": filename,
-        "section": section,
-        "page": page,
+        "id": result.formula_id,
+        "source": result.source.document,
+        "section": result.source.section,
+        "page": int(page_match.group()) if page_match else 1,
+        "pages": list(result.source.pages),
+        "course_id": result.course_id,
+        "formula_id": result.formula_id,
     }
     return {
         **state,
-        "answer": f"Calculated result: {details}.",
+        "answer": course_answer,
+        "course_answer": course_answer,
+        "general_answer": None,
         "citations": [citation],
+        "warnings": list(result.warnings),
+        "assumptions": list(result.assumptions),
     }
 
 
 class RetrievalEngine:
-    """Lazily constructs and caches the local retrieval pipeline."""
+    """Lazily loads all approved courses into a shared, filtered index."""
 
     def __init__(
         self,
-        corpus_dir: Optional[Union[str, Path]] = None,
-        persist_dir: Optional[Union[str, Path]] = None,
+        courses_dir: Optional[Path] = None,
+        corpus_dir: Optional[Path] = None,
+        persist_dir: Optional[Path] = None,
     ):
         root = Path(__file__).resolve().parent.parent
+        self.courses_dir = Path(courses_dir or root / "data" / "courses")
         self.corpus_dir = Path(corpus_dir or root / "data" / "corpus")
         self.persist_dir = Path(persist_dir or root / "data" / "chroma")
         self._dense = None
@@ -208,35 +327,40 @@ class RetrievalEngine:
         self._reranker = None
 
     def _initialize(self) -> None:
-        from src.chunker import load_corpus
-        from src.dense_retriever import build_dense_index, get_collection
+        from src.chunker import load_course_corpus
+        from src.dense_retriever import ensure_dense_index
         from src.reranker import LexicalCrossEncoder
         from src.sparse_retriever import SparseIndex
 
-        chunks = load_corpus(str(self.corpus_dir))
+        chunks = load_course_corpus(
+            str(self.courses_dir), str(self.corpus_dir)
+        )
+        if not chunks:
+            raise RuntimeError("No reviewed course content is available")
         self.persist_dir.mkdir(parents=True, exist_ok=True)
-        try:
-            dense = get_collection(str(self.persist_dir))
-            if dense.count() != len(chunks):
-                dense = build_dense_index(chunks, str(self.persist_dir))
-        except Exception:
-            dense = build_dense_index(chunks, str(self.persist_dir))
-        self._dense = dense
+        self._dense = ensure_dense_index(chunks, str(self.persist_dir))
         self._sparse = SparseIndex(chunks)
         self._reranker = LexicalCrossEncoder()
 
-    def search(self, query: str, top_k: int = 3) -> list[dict]:
+    def search(self, query: str, course_id: str, top_k: int = 4) -> list[dict]:
         from src.hybrid_retriever import hybrid_search
 
         if self._dense is None:
             self._initialize()
         candidates = hybrid_search(
-            self._dense, self._sparse, query, k=10, fetch_k=10
+            self._dense,
+            self._sparse,
+            query,
+            k=12,
+            fetch_k=20,
+            course_id=course_id,
         )
         return self._reranker.rerank(query, candidates, top_k=top_k)
 
 
 class MechanicalDesignAgent:
+    """Compatibility name retained for existing callers; now supports all courses."""
+
     def __init__(
         self,
         retriever: Optional[RetrievalEngine] = None,
@@ -247,22 +371,61 @@ class MechanicalDesignAgent:
         self.graph = self._build_graph()
 
     def _retrieve_node(self, state: AgentState) -> AgentState:
-        chunks = self.retriever.search(state["query"])
+        try:
+            chunks = self.retriever.search(
+                state["query"], state["course_id"], top_k=4
+            )
+        except TypeError:
+            chunks = self.retriever.search(state["query"], top_k=4)
+        if not chunks:
+            text = "No reviewed material is indexed for this course yet."
+            return {
+                **state,
+                "answer": text,
+                "course_answer": text,
+                "general_answer": None,
+                "retrieved_chunks": [],
+                "citations": [],
+                "warnings": [],
+                "assumptions": [],
+            }
+
+        if hasattr(self.llm, "generate_structured"):
+            generated = self.llm.generate_structured(
+                state["query"], chunks, state.get("include_general", True)
+            )
+        else:
+            generated = GroundedAnswer(
+                course_answer=self.llm.generate(state["query"], chunks),
+                general_answer=None,
+                citation_ids=[item["id"] for item in chunks],
+            )
+        selected_ids = set(generated.citation_ids)
+        cited_chunks = [item for item in chunks if item["id"] in selected_ids]
         citations = [
             {
                 "id": item["id"],
                 "source": item["metadata"]["source"],
-                "section": item["metadata"]["section"],
+                "section": item["metadata"].get("section", ""),
                 "page": item["metadata"]["page"],
+                "slide": item["metadata"].get("slide"),
+                "course_id": item["metadata"].get("course_id"),
+                "document_id": item["metadata"].get("document_id"),
             }
-            for item in chunks
+            for item in cited_chunks
         ]
-        answer = self.llm.generate(state["query"], chunks)
+        answer = generated.course_answer
+        if generated.general_answer:
+            answer += f"\n\nGeneral clarification: {generated.general_answer}"
         return {
             **state,
             "retrieved_chunks": chunks,
             "citations": citations,
             "answer": answer,
+            "course_answer": generated.course_answer,
+            "general_answer": generated.general_answer,
+            "warnings": [],
+            "assumptions": [],
         }
 
     def _build_graph(self):
@@ -283,33 +446,46 @@ class MechanicalDesignAgent:
             lambda state: "clarify" if state["intent"] == "clarify" else "calculate",
             {"clarify": "clarify", "calculate": "calculate"},
         )
-        graph.add_edge("calculate", END)
-        graph.add_edge("retrieve", END)
-        graph.add_edge("clarify", END)
+        for node in ("calculate", "retrieve", "clarify"):
+            graph.add_edge(node, END)
         return graph.compile()
 
-    def ask(self, query: str, params: Optional[dict] = None) -> AgentState:
+    def ask(
+        self,
+        query: str,
+        params: Optional[dict] = None,
+        course_id: str = "mechanical-design",
+        include_general: bool = True,
+        formula_id: Optional[str] = None,
+        units: Optional[dict] = None,
+    ) -> AgentState:
         if not query.strip():
             raise ValueError("Query cannot be empty")
-        return self.graph.invoke({"query": query.strip(), "params": params or {}})
+        if course_id not in SUPPORTED_COURSES:
+            raise ValueError(
+                f"Unknown course '{course_id}'. Choose from: "
+                + ", ".join(SUPPORTED_COURSES)
+            )
+        if formula_id and get_formula(formula_id).course_id != course_id:
+            raise ValueError("Selected formula does not belong to the selected course")
+        return self.graph.invoke(
+            {
+                "query": query.strip(),
+                "course_id": course_id,
+                "include_general": include_general,
+                "formula_id": formula_id,
+                "params": params or {},
+                "units": units or {},
+            }
+        )
+
+    @staticmethod
+    def formulas(course_id: Optional[str] = None):
+        return list_formulas(course_id=course_id)
+
+
+CourseRagAgent = MechanicalDesignAgent
 
 
 def build_graph():
-    """Compatibility helper returning the default compiled graph."""
     return MechanicalDesignAgent().graph
-
-
-if __name__ == "__main__":
-    agent = MechanicalDesignAgent()
-    print("Mechanical Design RAG. Type 'quit' to exit.")
-    while True:
-        query = input("\nYou: ").strip()
-        if query.lower() in {"quit", "exit"}:
-            break
-        result = agent.ask(query)
-        print("Assistant:", result["answer"])
-        for citation in result.get("citations", []):
-            print(
-                f"  - {citation['source']} — Section {citation['section']} "
-                f"(p. {citation['page']})"
-            )

@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "id": "aerodynamics",
+  "title": "Aerodynamics",
+  "description": "Aerodynamics lecture material.",
+  "sources": [
+    {
+      "id": "aerodynamic-m1",
+      "file": "Aerodynamic_M-1.pdf",
+      "title": "Aerodynamic M-1",
+      "kind": "pdf"
+    }
+  ]
+}

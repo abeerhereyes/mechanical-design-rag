@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ask grounded questions across your course notes.">
+  <title>Course Notes Assistant</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <div class="shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true">Σ</span>
+        <div>
+          <strong>Course Notes</strong>
+          <span>Study assistant</span>
+        </div>
+      </div>
+
+      <label class="field-label" for="course-select">Current course</label>
+      <select id="course-select" aria-label="Select course">
+        <option value="mechanical-design">Mechanical Design</option>
+      </select>
+
+      <div class="status-card">
+        <div class="status-heading">
+          <span id="status-dot" class="status-dot"></span>
+          <strong>Notes status</strong>
+        </div>
+        <p id="ingestion-status">Checking local notes…</p>
+      </div>
+
+      <button id="new-chat" class="secondary-button" type="button">＋ New chat</button>
+      <p class="privacy-note">Chat history stays in this browser. No account required.</p>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Grounded learning workspace</p>
+          <h1 id="course-title">Mechanical Design</h1>
+        </div>
+        <button id="clear-history" class="text-button" type="button">Clear history</button>
+      </header>
+
+      <section id="chat" class="chat" aria-live="polite">
+        <div id="welcome" class="welcome">
+          <div class="welcome-icon" aria-hidden="true">⌁</div>
+          <h2>Study with your notes in view</h2>
+          <p>Ask a concept question or describe an engineering calculation. Answers distinguish course evidence from broader context.</p>
+          <div class="prompts">
+            <button class="prompt" type="button">When should I check a spring for buckling?</button>
+            <button class="prompt" type="button">Explain how preload improves bolt fatigue life.</button>
+            <button class="prompt" type="button">Calculate spring rate for G=79300, wire 3 mm, mean D 25 mm, 8 active coils.</button>
+          </div>
+        </div>
+      </section>
+
+      <form id="composer" class="composer">
+        <textarea id="question" rows="1" maxlength="2000" placeholder="Ask your course notes…" aria-label="Question" required></textarea>
+        <div class="composer-footer">
+          <label class="toggle">
+            <input id="include-general" type="checkbox" checked>
+            <span>Include general knowledge</span>
+          </label>
+          <button id="send" class="send-button" type="submit" aria-label="Send question">↑</button>
+        </div>
+      </form>
+      <p class="disclaimer">Verify critical design decisions against original standards and course materials.</p>
+    </main>
+  </div>
+
+  <dialog id="source-dialog">
+    <div class="dialog-header">
+      <div>
+        <p class="eyebrow">Exact source page</p>
+        <h2 id="source-title">Source</h2>
+      </div>
+      <button id="close-dialog" class="close-button" type="button" aria-label="Close">×</button>
+    </div>
+    <p id="source-meta" class="source-meta"></p>
+    <article id="source-content" class="source-content"></article>
+  </dialog>
+
+  <template id="message-template">
+    <article class="message">
+      <div class="question-row">
+        <span class="avatar">You</span>
+        <p class="question-text"></p>
+      </div>
+      <div class="answer-panel">
+        <div class="answer-head">
+          <span class="assistant-mark" aria-hidden="true">Σ</span>
+          <span class="intent-badge"></span>
+        </div>
+        <section class="answer-section course-section">
+          <h3>From your course notes</h3>
+          <div class="course-answer"></div>
+          <div class="citations"></div>
+        </section>
+        <section class="answer-section general-section">
+          <h3>General knowledge</h3>
+          <div class="general-answer"></div>
+        </section>
+        <section class="engineering-details" hidden>
+          <h3>Engineering details</h3>
+          <div class="detail-grid"></div>
+        </section>
+      </div>
+    </article>
+  </template>
+
+  <script src="/static/app.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,2995 @@
+{
+  "document_id": "qrm-acceptance-sampling-oc-curve-a47b09353043",
+  "course_id": "qrm",
+  "source_id": "acceptance-sampling-oc-curve",
+  "source_file": "Acceptance_Sampling_OC_Curve_ME327E.pdf",
+  "source_sha256": "a47b093530435fbddde0958b0f692a1d1a20d47dd6a134e7d63ac148b71c3237",
+  "units": [
+    {
+      "unit_id": "qrm-acceptance-sampling-oc-curve-a47b09353043:p0001:text",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-oc-curve-a47b09353043",
+      "kind": "page_text",
+      "text": "QUALITY, RELIABILITY AND\n     MAINTENANCE\n       ME327E\n\n\n\n                  Course Instructor:\n                          Dr. Nehem Tudu\n       Assistant Professor, Dept. of Mechanical Engineering",
+      "locator": {
+        "page": 1,
+        "slide": 1,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Acceptance_Sampling_OC_Curve_ME327E.pdf",
+        "source_sha256": "a47b093530435fbddde0958b0f692a1d1a20d47dd6a134e7d63ac148b71c3237",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:18.882295+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "592a5260bd14c4f553479b415a4541478c9d4d8ee762417674e13f3daf290079",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              106.15,
+              95.52,
+              628.2,
+              163.74
+            ],
+            "text": "QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              223.54,
+              151.18,
+              498.67,
+              219.43
+            ],
+            "text": "MAINTENANCE",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              283.56,
+              206.91,
+              438.6,
+              275.13
+            ],
+            "text": "ME327E",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              285.58,
+              373.73,
+              442.73,
+              401.98
+            ],
+            "text": "Course Instructor:",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              161.95,
+              399.7,
+              560.97,
+              453.6
+            ],
+            "text": "Dr. Nehem Tudu\nAssistant Professor, Dept. of Mechanical Engineering",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0001.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-oc-curve-a47b09353043:p0001:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-oc-curve-a47b09353043",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 1,
+        "slide": 1,
+        "bbox": [
+          238.54,
+          -159.03,
+          481.46,
+          -20.17
+        ]
+      },
+      "provenance": {
+        "source_file": "Acceptance_Sampling_OC_Curve_ME327E.pdf",
+        "source_sha256": "a47b093530435fbddde0958b0f692a1d1a20d47dd6a134e7d63ac148b71c3237",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:18.882331+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 7,
+        "bboxes": [
+          [
+            238.54,
+            -159.03,
+            481.46,
+            -20.17
+          ],
+          [
+            238.54,
+            75.59,
+            481.46,
+            214.45
+          ],
+          [
+            238.54,
+            -38.91,
+            481.46,
+            99.95
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-oc-curve-a47b09353043:p0001:visual-002",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-oc-curve-a47b09353043",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 1,
+        "slide": 1,
+        "bbox": [
+          569.64,
+          323.4,
+          794.07,
+          456.02
+        ]
+      },
+      "provenance": {
+        "source_file": "Acceptance_Sampling_OC_Curve_ME327E.pdf",
+        "source_sha256": "a47b093530435fbddde0958b0f692a1d1a20d47dd6a134e7d63ac148b71c3237",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:18.882342+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 2,
+        "xref": 12,
+        "bboxes": [
+          [
+            569.64,
+            323.4,
+            794.07,
+            456.02
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-oc-curve-a47b09353043:p0001:visual-003",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-oc-curve-a47b09353043",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 1,
+        "slide": 1,
+        "bbox": [
+          323.4,
+          271.56,
+          408.36,
+          375.12
+        ]
+      },
+      "provenance": {
+        "source_file": "Acceptance_Sampling_OC_Curve_ME327E.pdf",
+        "source_sha256": "a47b093530435fbddde0958b0f692a1d1a20d47dd6a134e7d63ac148b71c3237",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:18.882354+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 3,
+        "xref": 18,
+        "bboxes": [
+          [
+            323.4,
+            271.56,
+            408.36,
+            375.12
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-oc-curve-a47b09353043:p0002:text",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-oc-curve-a47b09353043",
+      "kind": "page_text",
+      "text": "Operating Characteristic Curve\nIn practice, however, the shape of the OC curve is not ideal.\nIf the observed number of nonconforming items or nonconformities\n  is less than or equal to c, the lot is accepted. Otherwise, the lot is\n rejected.\nTo construct a type A OC curve, we assume that the sample is\n chosen from an isolated lot of finite size.\nThe probability of accepting the lot is calculated based on a\n hypergeometric distribution.\nThe probability of finding x nonconforming items in the sample is\n                 𝐷 𝑁−𝐷\n given by, 𝑃𝑥=  𝑥  𝑛−𝑥                  𝑁\n                     𝑛\nWhere D represents the number of nonconforming items in the lot.\nSince the lot will be accepted if c or fewer nonconforming items are\nfound, the probability of lot acceptance is\n                                                  𝑐\n                𝑃𝑎= 𝑃𝑥≤𝑐= ෍ 𝑃(𝑥)\n                                      𝑥=0         ME3327E QUALITY, RELIABILITY AND MAINTENANCE                                                             2",
+      "locator": {
+        "page": 2,
+        "slide": 2,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Acceptance_Sampling_OC_Curve_ME327E.pdf",
+        "source_sha256": "a47b093530435fbddde0958b0f692a1d1a20d47dd6a134e7d63ac148b71c3237",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:18.882361+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "0a65c4dfa752dd7dee91dfe6def5b3dce3e9b6851590a479b68561b0f297d686",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              15.77,
+              3.29,
+              532.98,
+              41.77
+            ],
+            "text": "Operating Characteristic Curve",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              52.72,
+              706.88,
+              104.79
+            ],
+            "text": "In practice, however, the shape of the OC curve is not ideal.\nIf the observed number of nonconforming items or nonconformities",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              105.49,
+              671.94,
+              184.01
+            ],
+            "text": "is less than or equal to c, the lot is accepted. Otherwise, the lot is \nrejected.\nTo construct a type A OC curve, we assume that the sample is",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              184.74,
+              630.02,
+              236.81
+            ],
+            "text": "chosen from an isolated lot of finite size. \nThe probability of accepting the lot is calculated based on a",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              237.51,
+              685.95,
+              289.64
+            ],
+            "text": "hypergeometric distribution. \nThe probability of finding x nonconforming items in the sample is",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              198.38,
+              290.81,
+              209.89,
+              306.91
+            ],
+            "text": "𝐷",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              225.98,
+              290.81,
+              261.64,
+              306.91
+            ],
+            "text": "𝑁−𝐷",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              199.34,
+              309.65,
+              208.84,
+              325.75
+            ],
+            "text": "𝑥",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              21.6,
+              309.93,
+              184.42,
+              335.6
+            ],
+            "text": "given by, 𝑃𝑥=",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              223.94,
+              309.65,
+              259.75,
+              340.27
+            ],
+            "text": "𝑛−𝑥\n𝑁",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              343.01,
+              692.61,
+              434.62
+            ],
+            "text": "𝑛\nWhere D represents the number of nonconforming items in the lot. \nSince the lot will be accepted if c or fewer nonconforming items are \nfound, the probability of lot acceptance is",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              412.51,
+              433.63,
+              420.63,
+              449.73
+            ],
+            "text": "𝑐",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              435.91,
+              461.69,
+              480.78,
+              483.68
+            ],
+            "text": "𝑃(𝑥)",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              239.21,
+              461.69,
+              431.43,
+              486.81
+            ],
+            "text": "𝑃𝑎= 𝑃𝑥≤𝑐= ෍",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              401.47,
+              494.38,
+              432.38,
+              510.47
+            ],
+            "text": "𝑥=0",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              61.2,
+              502.69,
+              311.01,
+              514.33
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              684.29,
+              502.03,
+              690.38,
+              514.9
+            ],
+            "text": "2",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0002.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-oc-curve-a47b09353043:p0002:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-oc-curve-a47b09353043",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 2,
+        "slide": 2,
+        "bbox": [
+          450.61,
+          492.6,
+          675.04,
+          625.22
+        ]
+      },
+      "provenance": {
+        "source_file": "Acceptance_Sampling_OC_Curve_ME327E.pdf",
+        "source_sha256": "a47b093530435fbddde0958b0f692a1d1a20d47dd6a134e7d63ac148b71c3237",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:18.882403+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 23,
+        "bboxes": [
+          [
+            450.61,
+            492.6,
+            675.04,
+            625.22
+          ],
+          [
+            675.04,
+            492.6,
+            899.47,
+            625.22
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-oc-curve-a47b09353043:p0002:visual-002",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-oc-curve-a47b09353043",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 2,
+        "slide": 2,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Acceptance_Sampling_OC_Curve_ME327E.pdf",
+        "source_sha256": "a47b093530435fbddde0958b0f692a1d1a20d47dd6a134e7d63ac148b71c3237",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:18.882409+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 2,
+        "xref": 26,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-oc-curve-a47b09353043:p0003:text",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-oc-curve-a47b09353043",
+      "kind": "page_text",
+      "text": "Operating Characteristic Curve\nTo construct a type B OC curve, we assume that a stream of lots is\n produced by the process and that the lot size is large (atleast 10\n times) compared to the sample size.\nA binomial distribution can be used to find the probability of\n observing x nonconforming items in a sample of size n.\nAssuming the lot proportion nonconforming is p, this probability is\n                          𝑛\n given by,      𝑃𝑥= 𝑥𝑝𝑥(1 −𝑝)𝑛−𝑥\nIf the lot size is large and the probability of a nonconforming item is\n small\nPoisson distribution can be used as an approximation to the\n binomial distribution.\nThe probability of x nonconforming items in the sample is found\n                                         𝜆𝑥𝑒−𝜆\n from,          𝑃𝑥=\n                                                      𝑥!\nWhere, λ = np represents the average number of nonconforming items\nin the sample",
+      "locator": {
+        "page": 3,
+        "slide": 3,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Acceptance_Sampling_OC_Curve_ME327E.pdf",
+        "source_sha256": "a47b093530435fbddde0958b0f692a1d1a20d47dd6a134e7d63ac148b71c3237",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:18.882414+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "d5e8d8687c36dbb2451a27e553539a7a735c5eaadf3588a62a21b2f374a407e0",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              15.77,
+              3.29,
+              532.98,
+              41.77
+            ],
+            "text": "Operating Characteristic Curve",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              40.72,
+              680.36,
+              66.39
+            ],
+            "text": "To construct a type B OC curve, we assume that a stream of lots is",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              67.12,
+              666.79,
+              145.61
+            ],
+            "text": "produced by the process and that the lot size is large (atleast 10 \ntimes) compared to the sample size.\nA binomial distribution can be used to find the probability of",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              146.34,
+              697.01,
+              198.41
+            ],
+            "text": "observing x nonconforming items in a sample of size n.\nAssuming the lot proportion nonconforming is p, this probability is",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              21.6,
+              195.24,
+              345.9,
+              231.29
+            ],
+            "text": "given by,                         𝑃𝑥= 𝑛",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              333.53,
+              205.82,
+              485.73,
+              243.03
+            ],
+            "text": "𝑥𝑝𝑥(1 −𝑝)𝑛−𝑥",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              238.83,
+              706.27,
+              264.53
+            ],
+            "text": "If the lot size is large and the probability of a nonconforming item is",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              265.29,
+              625.39,
+              317.36
+            ],
+            "text": "small\nPoisson distribution can be used as an approximation to the",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              318.09,
+              672.05,
+              370.16
+            ],
+            "text": "binomial distribution.\nThe probability of x nonconforming items in the sample is found",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              21.6,
+              372.84,
+              428.75,
+              406.78
+            ],
+            "text": "from,                                           𝑃𝑥= 𝜆𝑥𝑒−𝜆",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              400.39,
+              715.64,
+              465.7
+            ],
+            "text": "𝑥!\nWhere, λ = np represents the average number of nonconforming items \nin the sample",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              61.2,
+              502.69,
+              311.01,
+              514.33
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              684.29,
+              502.03,
+              690.38,
+              514.9
+            ],
+            "text": "3",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0003.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-oc-curve-a47b09353043:p0003:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-oc-curve-a47b09353043",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 3,
+        "slide": 3,
+        "bbox": [
+          450.61,
+          492.6,
+          675.04,
+          625.22
+        ]
+      },
+      "provenance": {
+        "source_file": "Acceptance_Sampling_OC_Curve_ME327E.pdf",
+        "source_sha256": "a47b093530435fbddde0958b0f692a1d1a20d47dd6a134e7d63ac148b71c3237",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:18.882454+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 23,
+        "bboxes": [
+          [
+            450.61,
+            492.6,
+            675.04,
+            625.22
+          ],
+          [
+            675.04,
+            492.6,
+            899.47,
+            625.22
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-oc-curve-a47b09353043:p0003:visual-002",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-oc-curve-a47b09353043",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 3,
+        "slide": 3,
+        "bbox": [
+          679.8,
+          -0.0,
+          720.0,
+          48.96
+        ]
+      },
+      "provenance": {
+        "source_file": "Acceptance_Sampling_OC_Curve_ME327E.pdf",
+        "source_sha256": "a47b093530435fbddde0958b0f692a1d1a20d47dd6a134e7d63ac148b71c3237",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:18.882462+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 2,
+        "xref": 45,
+        "bboxes": [
+          [
+            679.8,
+            -0.0,
+            720.0,
+            48.96
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-oc-curve-a47b09353043:p0004:text",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-oc-curve-a47b09353043",
+      "kind": "page_text",
+      "text": "Exercise\nConstruct an OC curve for a single sampling plan where the\nlot size is 2000, the sample size is 50, and the acceptance\nnumber is 2.\n\nLot Acceptance Probabilities for Different Values of Proportion\nNonconforming for the Sampling Plan N = 2000, n = 50, c = 2",
+      "locator": {
+        "page": 4,
+        "slide": 4,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Acceptance_Sampling_OC_Curve_ME327E.pdf",
+        "source_sha256": "a47b093530435fbddde0958b0f692a1d1a20d47dd6a134e7d63ac148b71c3237",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:18.882468+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "7dcf99aca37ad28db16b76e1d3ffb47a99dea4b1a32ed2a2a8f6a3bdf3f314cb",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              14.06,
+              -4.4,
+              140.93,
+              30.58
+            ],
+            "text": "Exercise",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              6.84,
+              27.87,
+              672.05,
+              113.54
+            ],
+            "text": "Construct an OC curve for a single sampling plan where the \nlot size is 2000, the sample size is 50, and the acceptance \nnumber is 2.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              6.84,
+              137.02,
+              695.5,
+              193.88
+            ],
+            "text": "Lot Acceptance Probabilities for Different Values of Proportion \nNonconforming for the Sampling Plan N = 2000, n = 50, c = 2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              61.2,
+              502.03,
+              690.38,
+              514.9
+            ],
+            "text": "4\nME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0004.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-oc-curve-a47b09353043:p0004:formula-001",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-oc-curve-a47b09353043",
+      "kind": "formula",
+      "text": "Lot Acceptance Probabilities for Different Values of Proportion \nNonconforming for the Sampling Plan N = 2000, n = 50, c = 2",
+      "locator": {
+        "page": 4,
+        "slide": 4,
+        "bbox": [
+          6.84,
+          137.02,
+          695.5,
+          193.88
+        ]
+      },
+      "provenance": {
+        "source_file": "Acceptance_Sampling_OC_Curve_ME327E.pdf",
+        "source_sha256": "a47b093530435fbddde0958b0f692a1d1a20d47dd6a134e7d63ac148b71c3237",
+        "extractor": "pymupdf-layout-heuristic",
+        "extracted_at": "2026-09-03T07:07:18.882482+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "8b003085c53a6ca43025783142423d2601bdbb42bfa42d41242214de5357aef4",
+      "metadata": {
+        "formula_index": 1
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-oc-curve-a47b09353043:p0004:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-oc-curve-a47b09353043",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 4,
+        "slide": 4,
+        "bbox": [
+          450.61,
+          492.6,
+          675.04,
+          625.22
+        ]
+      },
+      "provenance": {
+        "source_file": "Acceptance_Sampling_OC_Curve_ME327E.pdf",
+        "source_sha256": "a47b093530435fbddde0958b0f692a1d1a20d47dd6a134e7d63ac148b71c3237",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:18.882491+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 23,
+        "bboxes": [
+          [
+            450.61,
+            492.6,
+            675.04,
+            625.22
+          ],
+          [
+            675.04,
+            492.6,
+            899.47,
+            625.22
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-oc-curve-a47b09353043:p0004:visual-002",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-oc-curve-a47b09353043",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 4,
+        "slide": 4,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Acceptance_Sampling_OC_Curve_ME327E.pdf",
+        "source_sha256": "a47b093530435fbddde0958b0f692a1d1a20d47dd6a134e7d63ac148b71c3237",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:18.882496+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 2,
+        "xref": 26,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-oc-curve-a47b09353043:p0004:visual-003",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-oc-curve-a47b09353043",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 4,
+        "slide": 4,
+        "bbox": [
+          0.0,
+          194.64,
+          720.0,
+          491.16
+        ]
+      },
+      "provenance": {
+        "source_file": "Acceptance_Sampling_OC_Curve_ME327E.pdf",
+        "source_sha256": "a47b093530435fbddde0958b0f692a1d1a20d47dd6a134e7d63ac148b71c3237",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:18.882502+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 3,
+        "xref": 57,
+        "bboxes": [
+          [
+            0.0,
+            194.64,
+            720.0,
+            491.16
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-oc-curve-a47b09353043:p0005:text",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-oc-curve-a47b09353043",
+      "kind": "page_text",
+      "text": "Construct an OC curve for a single sampling plan where the\nlot size is 2000, the sample size is 50, and the acceptance\nnumber is 2.",
+      "locator": {
+        "page": 5,
+        "slide": 5,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Acceptance_Sampling_OC_Curve_ME327E.pdf",
+        "source_sha256": "a47b093530435fbddde0958b0f692a1d1a20d47dd6a134e7d63ac148b71c3237",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:18.882506+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "52d1f75b9d45ed757b631389cc5cd0404dc5defe971d439af6c9c60715bb290b",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              6.84,
+              6.44,
+              672.05,
+              92.11
+            ],
+            "text": "Construct an OC curve for a single sampling plan where the \nlot size is 2000, the sample size is 50, and the acceptance \nnumber is 2.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              61.2,
+              502.03,
+              690.38,
+              514.9
+            ],
+            "text": "5\nME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0005.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-oc-curve-a47b09353043:p0005:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-oc-curve-a47b09353043",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 5,
+        "slide": 5,
+        "bbox": [
+          450.61,
+          492.6,
+          675.04,
+          625.22
+        ]
+      },
+      "provenance": {
+        "source_file": "Acceptance_Sampling_OC_Curve_ME327E.pdf",
+        "source_sha256": "a47b093530435fbddde0958b0f692a1d1a20d47dd6a134e7d63ac148b71c3237",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:18.882519+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 23,
+        "bboxes": [
+          [
+            450.61,
+            492.6,
+            675.04,
+            625.22
+          ],
+          [
+            675.04,
+            492.6,
+            899.47,
+            625.22
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-oc-curve-a47b09353043:p0005:visual-002",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-oc-curve-a47b09353043",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 5,
+        "slide": 5,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Acceptance_Sampling_OC_Curve_ME327E.pdf",
+        "source_sha256": "a47b093530435fbddde0958b0f692a1d1a20d47dd6a134e7d63ac148b71c3237",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:18.882526+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 2,
+        "xref": 26,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-oc-curve-a47b09353043:p0005:visual-003",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-oc-curve-a47b09353043",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 5,
+        "slide": 5,
+        "bbox": [
+          4.08,
+          95.04,
+          716.04,
+          494.52
+        ]
+      },
+      "provenance": {
+        "source_file": "Acceptance_Sampling_OC_Curve_ME327E.pdf",
+        "source_sha256": "a47b093530435fbddde0958b0f692a1d1a20d47dd6a134e7d63ac148b71c3237",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:18.882533+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 3,
+        "xref": 61,
+        "bboxes": [
+          [
+            4.08,
+            95.04,
+            716.04,
+            494.52
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-oc-curve-a47b09353043:p0006:text",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-oc-curve-a47b09353043",
+      "kind": "page_text",
+      "text": "Effect of the sample size on the shape of the OC curve",
+      "locator": {
+        "page": 6,
+        "slide": 6,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Acceptance_Sampling_OC_Curve_ME327E.pdf",
+        "source_sha256": "a47b093530435fbddde0958b0f692a1d1a20d47dd6a134e7d63ac148b71c3237",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:18.882539+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "eaf5597a3bf42994a82873400ff3100c4507a005d941cf3a64de0a076fc9c205",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              6.84,
+              26.16,
+              598.03,
+              54.21
+            ],
+            "text": "Effect of the sample size on the shape of the OC curve",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              61.2,
+              502.03,
+              690.38,
+              514.9
+            ],
+            "text": "6\nME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0006.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-oc-curve-a47b09353043:p0006:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-oc-curve-a47b09353043",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 6,
+        "slide": 6,
+        "bbox": [
+          450.61,
+          492.6,
+          675.04,
+          625.22
+        ]
+      },
+      "provenance": {
+        "source_file": "Acceptance_Sampling_OC_Curve_ME327E.pdf",
+        "source_sha256": "a47b093530435fbddde0958b0f692a1d1a20d47dd6a134e7d63ac148b71c3237",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:18.882549+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 23,
+        "bboxes": [
+          [
+            450.61,
+            492.6,
+            675.04,
+            625.22
+          ],
+          [
+            675.04,
+            492.6,
+            899.47,
+            625.22
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-oc-curve-a47b09353043:p0006:visual-002",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-oc-curve-a47b09353043",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 6,
+        "slide": 6,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Acceptance_Sampling_OC_Curve_ME327E.pdf",
+        "source_sha256": "a47b093530435fbddde0958b0f692a1d1a20d47dd6a134e7d63ac148b71c3237",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:18.882554+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 2,
+        "xref": 26,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-oc-curve-a47b09353043:p0006:visual-003",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-oc-curve-a47b09353043",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 6,
+        "slide": 6,
+        "bbox": [
+          6.12,
+          66.96,
+          712.15,
+          489.84
+        ]
+      },
+      "provenance": {
+        "source_file": "Acceptance_Sampling_OC_Curve_ME327E.pdf",
+        "source_sha256": "a47b093530435fbddde0958b0f692a1d1a20d47dd6a134e7d63ac148b71c3237",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:18.882559+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 3,
+        "xref": 66,
+        "bboxes": [
+          [
+            6.12,
+            66.96,
+            712.15,
+            489.84
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-oc-curve-a47b09353043:p0007:text",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-oc-curve-a47b09353043",
+      "kind": "page_text",
+      "text": "Effect of the acceptance number on the shape of the OC\ncurve",
+      "locator": {
+        "page": 7,
+        "slide": 7,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Acceptance_Sampling_OC_Curve_ME327E.pdf",
+        "source_sha256": "a47b093530435fbddde0958b0f692a1d1a20d47dd6a134e7d63ac148b71c3237",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:18.882564+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "441adde5c70207478e0ff5487861466e6a482a2f1a34543c6963cd9ea0020589",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              6.84,
+              9.0,
+              626.59,
+              65.86
+            ],
+            "text": "Effect of the acceptance number on the shape of the OC \ncurve",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              61.2,
+              502.03,
+              690.38,
+              514.9
+            ],
+            "text": "7\nME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0007.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-oc-curve-a47b09353043:p0007:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-oc-curve-a47b09353043",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 7,
+        "slide": 7,
+        "bbox": [
+          450.61,
+          492.6,
+          675.04,
+          625.22
+        ]
+      },
+      "provenance": {
+        "source_file": "Acceptance_Sampling_OC_Curve_ME327E.pdf",
+        "source_sha256": "a47b093530435fbddde0958b0f692a1d1a20d47dd6a134e7d63ac148b71c3237",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:18.882571+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 23,
+        "bboxes": [
+          [
+            450.61,
+            492.6,
+            675.04,
+            625.22
+          ],
+          [
+            675.04,
+            492.6,
+            899.47,
+            625.22
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-oc-curve-a47b09353043:p0007:visual-002",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-oc-curve-a47b09353043",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 7,
+        "slide": 7,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Acceptance_Sampling_OC_Curve_ME327E.pdf",
+        "source_sha256": "a47b093530435fbddde0958b0f692a1d1a20d47dd6a134e7d63ac148b71c3237",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:18.882577+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 2,
+        "xref": 26,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-oc-curve-a47b09353043:p0007:visual-003",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-oc-curve-a47b09353043",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 7,
+        "slide": 7,
+        "bbox": [
+          11.52,
+          68.04,
+          703.96,
+          490.33
+        ]
+      },
+      "provenance": {
+        "source_file": "Acceptance_Sampling_OC_Curve_ME327E.pdf",
+        "source_sha256": "a47b093530435fbddde0958b0f692a1d1a20d47dd6a134e7d63ac148b71c3237",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:18.882584+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 3,
+        "xref": 71,
+        "bboxes": [
+          [
+            11.52,
+            68.04,
+            703.96,
+            490.33
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-oc-curve-a47b09353043:p0008:text",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-oc-curve-a47b09353043",
+      "kind": "page_text",
+      "text": "Types of Sampling\n\n Sampling plans are strategies used in quality control to\n decide whether to accept or reject a lot (batch) of items\n based on inspection of a sample. There are several types of\n attribute sampling plans, each with different procedures and\n purposes.\n Single Sampling Plan\nDouble Sampling Plan\n Multiple Sampling Plan\n Sequential Sampling Plan",
+      "locator": {
+        "page": 8,
+        "slide": 8,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Acceptance_Sampling_OC_Curve_ME327E.pdf",
+        "source_sha256": "a47b093530435fbddde0958b0f692a1d1a20d47dd6a134e7d63ac148b71c3237",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:18.882590+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "0cde7d4c71f0d484f5c2f036fb99a38d299d443349a16df4d9a54dbe29b006a7",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              14.06,
+              19.71,
+              313.93,
+              58.19
+            ],
+            "text": "Types of Sampling",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              21.43,
+              77.6,
+              691.49,
+              336.09
+            ],
+            "text": "Sampling plans are strategies used in quality control to \ndecide whether to accept or reject a lot (batch) of items \nbased on inspection of a sample. There are several types of \nattribute sampling plans, each with different procedures and \npurposes.\nSingle Sampling Plan\nDouble Sampling Plan\nMultiple Sampling Plan\nSequential Sampling Plan",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              61.2,
+              502.03,
+              690.38,
+              514.9
+            ],
+            "text": "8\nME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0008.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-oc-curve-a47b09353043:p0008:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-oc-curve-a47b09353043",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 8,
+        "slide": 8,
+        "bbox": [
+          450.61,
+          492.6,
+          675.04,
+          625.22
+        ]
+      },
+      "provenance": {
+        "source_file": "Acceptance_Sampling_OC_Curve_ME327E.pdf",
+        "source_sha256": "a47b093530435fbddde0958b0f692a1d1a20d47dd6a134e7d63ac148b71c3237",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:18.882615+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 23,
+        "bboxes": [
+          [
+            450.61,
+            492.6,
+            675.04,
+            625.22
+          ],
+          [
+            675.04,
+            492.6,
+            899.47,
+            625.22
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-oc-curve-a47b09353043:p0008:visual-002",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-oc-curve-a47b09353043",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 8,
+        "slide": 8,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Acceptance_Sampling_OC_Curve_ME327E.pdf",
+        "source_sha256": "a47b093530435fbddde0958b0f692a1d1a20d47dd6a134e7d63ac148b71c3237",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:18.882621+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 2,
+        "xref": 26,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-oc-curve-a47b09353043:p0009:text",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-oc-curve-a47b09353043",
+      "kind": "page_text",
+      "text": "Single Sampling Plan\n\nProcess: Take one random sample of size n from the lot.\n  Count the number of nonconforming items.\n   If the count is less than or equal to the acceptance\n    number c, accept the lot.\n   If the count exceeds c, reject the lot.\nAdvantages: Simple to administer and requires relatively\n  straightforward calculation.\nDisadvantages: May require more inspected items on\n  average compared to other plans, especially when the lots\n  are of consistently good quality.",
+      "locator": {
+        "page": 9,
+        "slide": 9,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Acceptance_Sampling_OC_Curve_ME327E.pdf",
+        "source_sha256": "a47b093530435fbddde0958b0f692a1d1a20d47dd6a134e7d63ac148b71c3237",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:18.882626+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "124fa122b9741827a75513ffc1e0604d9e25d8759d8af4c3007e7dc2d179a6e3",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              15.77,
+              16.06,
+              361.11,
+              54.54
+            ],
+            "text": "Single Sampling Plan",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              15.77,
+              83.6,
+              659.28,
+              111.65
+            ],
+            "text": "Process: Take one random sample of size n from the lot.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              42.77,
+              112.4,
+              518.11,
+              140.45
+            ],
+            "text": "Count the number of nonconforming items.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              51.77,
+              141.17,
+              630.79,
+              169.26
+            ],
+            "text": "If the count is less than or equal to the acceptance",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              15.77,
+              170.02,
+              676.75,
+              255.67
+            ],
+            "text": "number c, accept the lot.\nIf the count exceeds c, reject the lot.\nAdvantages: Simple to administer and requires relatively",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              15.77,
+              256.39,
+              644.12,
+              313.29
+            ],
+            "text": "straightforward calculation.\nDisadvantages: May require more inspected items on",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              42.77,
+              314.04,
+              688.7,
+              370.89
+            ],
+            "text": "average compared to other plans, especially when the lots \nare of consistently good quality.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              61.2,
+              502.03,
+              690.38,
+              514.9
+            ],
+            "text": "9\nME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0009.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-oc-curve-a47b09353043:p0009:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-oc-curve-a47b09353043",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 9,
+        "slide": 9,
+        "bbox": [
+          450.61,
+          492.6,
+          675.04,
+          625.22
+        ]
+      },
+      "provenance": {
+        "source_file": "Acceptance_Sampling_OC_Curve_ME327E.pdf",
+        "source_sha256": "a47b093530435fbddde0958b0f692a1d1a20d47dd6a134e7d63ac148b71c3237",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:18.882648+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 23,
+        "bboxes": [
+          [
+            450.61,
+            492.6,
+            675.04,
+            625.22
+          ],
+          [
+            675.04,
+            492.6,
+            899.47,
+            625.22
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-oc-curve-a47b09353043:p0009:visual-002",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-oc-curve-a47b09353043",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 9,
+        "slide": 9,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Acceptance_Sampling_OC_Curve_ME327E.pdf",
+        "source_sha256": "a47b093530435fbddde0958b0f692a1d1a20d47dd6a134e7d63ac148b71c3237",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:18.882653+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 2,
+        "xref": 26,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-oc-curve-a47b09353043:p0010:text",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-oc-curve-a47b09353043",
+      "kind": "page_text",
+      "text": "Double Sampling Plan\n\nProcess: Take a first sample n1, then:\n   If the number of nonconforming items is ≤ c1, accept the\n       lot.\n   If it is ≥ r1, reject the lot.\n   If it’s between these values, take a second sample of size\n      n2 and combine findings:\n     If total nonconforming items from both samples ≤ c2,\n        accept the lot.\n     If ≥ r2, reject the lot.\nAdvantages: Often results in fewer inspections, on average,\n  especially when product quality is clearly good or bad in\n  the first sample.\nDisadvantages: More complex to execute and administer\n  than single plans.",
+      "locator": {
+        "page": 10,
+        "slide": 10,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Acceptance_Sampling_OC_Curve_ME327E.pdf",
+        "source_sha256": "a47b093530435fbddde0958b0f692a1d1a20d47dd6a134e7d63ac148b71c3237",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:18.882658+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "e16cebb00fd34e907d3542187cdd7404ffa77b37134eddebbc8fa13443e563ce",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              15.77,
+              16.06,
+              376.56,
+              54.54
+            ],
+            "text": "Double Sampling Plan",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              15.77,
+              76.73,
+              446.3,
+              108.87
+            ],
+            "text": "Process: Take a first sample n1, then:",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              51.77,
+              105.5,
+              698.77,
+              137.67
+            ],
+            "text": "If the number of nonconforming items is ≤ c1, accept the",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              51.77,
+              134.36,
+              702.22,
+              220.01
+            ],
+            "text": "lot.\nIf it is ≥ r1, reject the lot.\nIf it’s between these values, take a second sample of size",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              78.79,
+              220.76,
+              353.69,
+              254.69
+            ],
+            "text": "n2 and combine findings:",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              87.79,
+              249.58,
+              693.74,
+              281.72
+            ],
+            "text": "If total nonconforming items from both samples ≤ c2,",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              15.77,
+              278.38,
+              700.49,
+              364.03
+            ],
+            "text": "accept the lot.\nIf ≥ r2, reject the lot.\nAdvantages: Often results in fewer inspections, on average,",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              15.77,
+              364.75,
+              684.0,
+              450.46
+            ],
+            "text": "especially when product quality is clearly good or bad in \nthe first sample.\nDisadvantages: More complex to execute and administer",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              42.77,
+              451.2,
+              236.57,
+              479.26
+            ],
+            "text": "than single plans.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              61.2,
+              502.03,
+              693.02,
+              514.9
+            ],
+            "text": "10\nME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0010.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-oc-curve-a47b09353043:p0010:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-oc-curve-a47b09353043",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 10,
+        "slide": 10,
+        "bbox": [
+          450.61,
+          492.6,
+          675.04,
+          625.22
+        ]
+      },
+      "provenance": {
+        "source_file": "Acceptance_Sampling_OC_Curve_ME327E.pdf",
+        "source_sha256": "a47b093530435fbddde0958b0f692a1d1a20d47dd6a134e7d63ac148b71c3237",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:18.882682+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 23,
+        "bboxes": [
+          [
+            450.61,
+            492.6,
+            675.04,
+            625.22
+          ],
+          [
+            675.04,
+            492.6,
+            899.47,
+            625.22
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-oc-curve-a47b09353043:p0010:visual-002",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-oc-curve-a47b09353043",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 10,
+        "slide": 10,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Acceptance_Sampling_OC_Curve_ME327E.pdf",
+        "source_sha256": "a47b093530435fbddde0958b0f692a1d1a20d47dd6a134e7d63ac148b71c3237",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:18.882687+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 2,
+        "xref": 26,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-oc-curve-a47b09353043:p0011:text",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-oc-curve-a47b09353043",
+      "kind": "page_text",
+      "text": "Multiple Sampling Plan\n\nProcess: Similar to double sampling, but involves several\n  possible samples and decision stages.\n  At each stage, after inspecting the added sample, you\n     decide whether to accept, reject, or continue sampling.\nAdvantages:\n  Tends to minimize the average number of items\n     inspected since decisions are made as soon as possible.\nDisadvantages:\n  Most complex administratively; highest record-keeping\n     and operational requirements.",
+      "locator": {
+        "page": 11,
+        "slide": 11,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Acceptance_Sampling_OC_Curve_ME327E.pdf",
+        "source_sha256": "a47b093530435fbddde0958b0f692a1d1a20d47dd6a134e7d63ac148b71c3237",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:18.882692+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "526ebfdf4fbf0f026b4df9a00cf89d0b5afad88a536d0913069e10312b3f431f",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              15.77,
+              16.06,
+              400.94,
+              54.54
+            ],
+            "text": "Multiple Sampling Plan",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              15.77,
+              76.73,
+              676.05,
+              104.78
+            ],
+            "text": "Process: Similar to double sampling, but involves several",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              42.77,
+              105.5,
+              464.87,
+              133.59
+            ],
+            "text": "possible samples and decision stages.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              51.77,
+              134.36,
+              670.87,
+              162.41
+            ],
+            "text": "At each stage, after inspecting the added sample, you",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              15.77,
+              163.16,
+              682.92,
+              220.01
+            ],
+            "text": "decide whether to accept, reject, or continue sampling.\nAdvantages:",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              51.77,
+              220.76,
+              605.38,
+              248.81
+            ],
+            "text": "Tends to minimize the average number of items",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              15.77,
+              249.58,
+              695.83,
+              306.43
+            ],
+            "text": "inspected since decisions are made as soon as possible.\nDisadvantages:",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              51.77,
+              307.18,
+              693.6,
+              335.23
+            ],
+            "text": "Most complex administratively; highest record-keeping",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              78.79,
+              335.98,
+              412.32,
+              364.03
+            ],
+            "text": "and operational requirements.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              61.2,
+              502.03,
+              693.02,
+              514.9
+            ],
+            "text": "11\nME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0011.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-oc-curve-a47b09353043:p0011:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-oc-curve-a47b09353043",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 11,
+        "slide": 11,
+        "bbox": [
+          450.61,
+          492.6,
+          675.04,
+          625.22
+        ]
+      },
+      "provenance": {
+        "source_file": "Acceptance_Sampling_OC_Curve_ME327E.pdf",
+        "source_sha256": "a47b093530435fbddde0958b0f692a1d1a20d47dd6a134e7d63ac148b71c3237",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:18.882711+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 23,
+        "bboxes": [
+          [
+            450.61,
+            492.6,
+            675.04,
+            625.22
+          ],
+          [
+            675.04,
+            492.6,
+            899.47,
+            625.22
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-oc-curve-a47b09353043:p0011:visual-002",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-oc-curve-a47b09353043",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 11,
+        "slide": 11,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Acceptance_Sampling_OC_Curve_ME327E.pdf",
+        "source_sha256": "a47b093530435fbddde0958b0f692a1d1a20d47dd6a134e7d63ac148b71c3237",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:18.882716+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 2,
+        "xref": 26,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-oc-curve-a47b09353043:p0012:text",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-oc-curve-a47b09353043",
+      "kind": "page_text",
+      "text": "Sequential Sampling Plan\n\nProcess: Inspect items one at a time and after each, decide\n   to accept, reject, or inspect more.\n  Uses a graph (acceptance and rejection lines) plotting\n     cumulative nonconforming items against items\n     inspected to decide when to stop.\nAdvantages:\n  Can minimize inspection efforts—potentially leading to\n     very few items needing inspection when quality level is\n      clearly good or bad.\nDisadvantages:\n  Most mathematically complex, and requires constant\n     record-keeping during inspection.",
+      "locator": {
+        "page": 12,
+        "slide": 12,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Acceptance_Sampling_OC_Curve_ME327E.pdf",
+        "source_sha256": "a47b093530435fbddde0958b0f692a1d1a20d47dd6a134e7d63ac148b71c3237",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:18.882721+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "c7cd48041ce67a95b0e903f26dea13f2ecaadd3fc6412e8584809ce4bcb28935",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              15.77,
+              16.06,
+              431.17,
+              54.54
+            ],
+            "text": "Sequential Sampling Plan",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              15.77,
+              76.73,
+              696.36,
+              104.78
+            ],
+            "text": "Process: Inspect items one at a time and after each, decide",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              42.77,
+              105.5,
+              408.99,
+              133.59
+            ],
+            "text": "to accept, reject, or inspect more.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              51.77,
+              134.36,
+              679.22,
+              162.41
+            ],
+            "text": "Uses a graph (acceptance and rejection lines) plotting",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              15.77,
+              163.16,
+              596.14,
+              248.81
+            ],
+            "text": "cumulative nonconforming items against items \ninspected to decide when to stop.\nAdvantages:",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              51.77,
+              249.58,
+              692.35,
+              277.63
+            ],
+            "text": "Can minimize inspection efforts—potentially leading to",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              15.77,
+              278.38,
+              694.61,
+              364.03
+            ],
+            "text": "very few items needing inspection when quality level is \nclearly good or bad.\nDisadvantages:",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              51.77,
+              364.75,
+              661.69,
+              392.84
+            ],
+            "text": "Most mathematically complex, and requires constant",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              78.79,
+              393.6,
+              459.84,
+              421.65
+            ],
+            "text": "record-keeping during inspection.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              61.2,
+              502.03,
+              693.02,
+              514.9
+            ],
+            "text": "12\nME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0012.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-oc-curve-a47b09353043:p0012:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-oc-curve-a47b09353043",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 12,
+        "slide": 12,
+        "bbox": [
+          450.61,
+          492.6,
+          675.04,
+          625.22
+        ]
+      },
+      "provenance": {
+        "source_file": "Acceptance_Sampling_OC_Curve_ME327E.pdf",
+        "source_sha256": "a47b093530435fbddde0958b0f692a1d1a20d47dd6a134e7d63ac148b71c3237",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:18.882741+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 23,
+        "bboxes": [
+          [
+            450.61,
+            492.6,
+            675.04,
+            625.22
+          ],
+          [
+            675.04,
+            492.6,
+            899.47,
+            625.22
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-oc-curve-a47b09353043:p0012:visual-002",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-oc-curve-a47b09353043",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 12,
+        "slide": 12,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Acceptance_Sampling_OC_Curve_ME327E.pdf",
+        "source_sha256": "a47b093530435fbddde0958b0f692a1d1a20d47dd6a134e7d63ac148b71c3237",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:18.882746+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 2,
+        "xref": 26,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-oc-curve-a47b09353043:p0013:text",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-oc-curve-a47b09353043",
+      "kind": "page_text",
+      "text": "Comparison Table\n\nSampling   Simplicity  Average   Administrative  Typical Use Cases\nPlan                 Items     Cost\n                      Inspected\nSingle       Easiest     Highest    Lowest          Simple, small, or\n                                                        infrequently\n                                                   inspected lots\nDouble     Moderate   Lower     Medium       When lot qualities\n                        than                       vary or inspection\n                          single                              is expensive\nMultiple   Harder     Lowest     Highest         High-volume\n                                                      production, cost-\n                                                          sensitive industries\nSequential  Most         Potentially  High             Destructive testing,\n           complex    lowest                      urgent decisions",
+      "locator": {
+        "page": 13,
+        "slide": 13,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Acceptance_Sampling_OC_Curve_ME327E.pdf",
+        "source_sha256": "a47b093530435fbddde0958b0f692a1d1a20d47dd6a134e7d63ac148b71c3237",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:18.882751+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "ffdc92050ac7201e29a89969635250a70dfa96539b7340cf9dd7b94576ed4c07",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              15.77,
+              16.06,
+              312.83,
+              54.54
+            ],
+            "text": "Comparison Table",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              528.02,
+              70.42,
+              707.4,
+              93.79
+            ],
+            "text": "Typical Use Cases",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              8.86,
+              70.42,
+              107.63,
+              117.79
+            ],
+            "text": "Sampling \nPlan",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              363.24,
+              70.42,
+              515.32,
+              117.79
+            ],
+            "text": "Administrative \nCost",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              130.78,
+              70.42,
+              347.25,
+              141.79
+            ],
+            "text": "Simplicity\nAverage \nItems \nInspected",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              8.86,
+              150.43,
+              683.45,
+              221.86
+            ],
+            "text": "Single\nEasiest\nHighest\nLowest\nSimple, small, or \ninfrequently \ninspected lots",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              8.86,
+              230.45,
+              310.88,
+              301.88
+            ],
+            "text": "Double\nModerate\nLower \nthan \nsingle",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              363.24,
+              230.45,
+              699.86,
+              301.88
+            ],
+            "text": "Medium\nWhen lot qualities \nvary or inspection \nis expensive",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              8.86,
+              310.46,
+              705.01,
+              381.89
+            ],
+            "text": "Multiple\nHarder\nLowest\nHighest\nHigh-volume \nproduction, cost-\nsensitive industries",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              8.86,
+              390.48,
+              210.72,
+              437.91
+            ],
+            "text": "Sequential\nMost \ncomplex",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              249.84,
+              390.48,
+              351.56,
+              437.91
+            ],
+            "text": "Potentially \nlowest",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              363.24,
+              390.48,
+              708.9,
+              437.91
+            ],
+            "text": "High\nDestructive testing, \nurgent decisions",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              61.2,
+              502.03,
+              693.02,
+              514.9
+            ],
+            "text": "13\nME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0013.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-oc-curve-a47b09353043:p0013:table-001",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-oc-curve-a47b09353043",
+      "kind": "table",
+      "text": "Sampling Simplicity Average Administrative Typical Use Cases\nPlan Items Cost\nInspected |  |  |  | \nSingle | Easiest | Highest | Lowest | Simple, small, or\ninfrequently\ninspected lots\nDouble Moderate Lower Medium When lot qualities\nthan vary or inspection\nsingle is expensive |  |  |  | \nMultiple | Harder | Lowest | Highest | High-volume\nproduction, cost-\nsensitive industries\nSequential Most Potentially High Destructive testing,\ncomplex lowest urgent decisions |  |  |  | \nME3327E QUALITY, RELIABILITY AND MAINTENANCE 13 |  |  |  |",
+      "locator": {
+        "page": 13,
+        "slide": 13,
+        "bbox": [
+          0.43,
+          66.04,
+          717.62,
+          540.0
+        ]
+      },
+      "provenance": {
+        "source_file": "Acceptance_Sampling_OC_Curve_ME327E.pdf",
+        "source_sha256": "a47b093530435fbddde0958b0f692a1d1a20d47dd6a134e7d63ac148b71c3237",
+        "extractor": "pymupdf-table",
+        "extracted_at": "2026-09-03T07:07:18.882769+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e92b4810ce055b01a2fe644b0d092b4926142dd602eb6684782c2927c5d325c3",
+      "metadata": {
+        "table_index": 1
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-oc-curve-a47b09353043:p0013:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-oc-curve-a47b09353043",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 13,
+        "slide": 13,
+        "bbox": [
+          450.61,
+          492.6,
+          675.04,
+          625.22
+        ]
+      },
+      "provenance": {
+        "source_file": "Acceptance_Sampling_OC_Curve_ME327E.pdf",
+        "source_sha256": "a47b093530435fbddde0958b0f692a1d1a20d47dd6a134e7d63ac148b71c3237",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:18.882788+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 23,
+        "bboxes": [
+          [
+            450.61,
+            492.6,
+            675.04,
+            625.22
+          ],
+          [
+            675.04,
+            492.6,
+            899.47,
+            625.22
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-oc-curve-a47b09353043:p0013:visual-002",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-oc-curve-a47b09353043",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 13,
+        "slide": 13,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Acceptance_Sampling_OC_Curve_ME327E.pdf",
+        "source_sha256": "a47b093530435fbddde0958b0f692a1d1a20d47dd6a134e7d63ac148b71c3237",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:18.882793+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 2,
+        "xref": 26,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-oc-curve-a47b09353043:p0014:text",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-oc-curve-a47b09353043",
+      "kind": "page_text",
+      "text": "Evaluating Sampling Plans\n  Evaluating sampling plans involves analyzing how well a\n  given plan performs, especially in the context of quality\n  control. Several key measures are used to assess the\n  effectiveness and efficiency of sampling plans.\n Operating Characteristic (OC) Curve\nDefinition: The OC curve plots the probability of accepting a\n  lot (Pa) versus the proportion nonconforming in the lot (p).\nPurpose: It visually shows the discriminatory power of the\n plan—how well it can distinguish between good and poor\n quality lots.\nSteeper OC curves (more “S-shaped”) indicate greater\n discriminatory power.\nA plan should ideally accept lots with low nonconformance most of\n the time and rarely accept lots with high nonconformance",
+      "locator": {
+        "page": 14,
+        "slide": 14,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Acceptance_Sampling_OC_Curve_ME327E.pdf",
+        "source_sha256": "a47b093530435fbddde0958b0f692a1d1a20d47dd6a134e7d63ac148b71c3237",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:18.882797+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "c2cd575bb6175c9f5a8cfb6d95eda55227a97939d977e61d4f750128115d10af",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              14.06,
+              5.64,
+              450.62,
+              44.12
+            ],
+            "text": "Evaluating Sampling Plans",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              30.36,
+              52.73,
+              655.9,
+              167.21
+            ],
+            "text": "Evaluating sampling plans involves analyzing how well a \ngiven plan performs, especially in the context of quality \ncontrol. Several key measures are used to assess the \neffectiveness and efficiency of sampling plans.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              21.36,
+              168.87,
+              605.74,
+              206.23
+            ],
+            "text": "Operating Characteristic (OC) Curve",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              213.08,
+              696.5,
+              241.13
+            ],
+            "text": "Definition: The OC curve plots the probability of accepting a",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              21.36,
+              241.85,
+              659.08,
+              274.02
+            ],
+            "text": "lot (Pa) versus the proportion nonconforming in the lot (p).",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              276.7,
+              661.87,
+              304.75
+            ],
+            "text": "Purpose: It visually shows the discriminatory power of the",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              21.36,
+              305.5,
+              659.54,
+              362.35
+            ],
+            "text": "plan—how well it can distinguish between good and poor \nquality lots.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              369.08,
+              580.6,
+              394.78
+            ],
+            "text": "Steeper OC curves (more “S-shaped”) indicate greater",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              21.36,
+              395.53,
+              243.71,
+              421.2
+            ],
+            "text": "discriminatory power.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              429.97,
+              697.51,
+              455.64
+            ],
+            "text": "A plan should ideally accept lots with low nonconformance most of",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              21.36,
+              456.37,
+              600.49,
+              482.04
+            ],
+            "text": "the time and rarely accept lots with high nonconformance",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              61.2,
+              502.69,
+              311.01,
+              514.33
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              681.53,
+              502.03,
+              693.02,
+              514.9
+            ],
+            "text": "14",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0014.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-oc-curve-a47b09353043:p0014:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-oc-curve-a47b09353043",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 14,
+        "slide": 14,
+        "bbox": [
+          450.61,
+          492.6,
+          675.04,
+          625.22
+        ]
+      },
+      "provenance": {
+        "source_file": "Acceptance_Sampling_OC_Curve_ME327E.pdf",
+        "source_sha256": "a47b093530435fbddde0958b0f692a1d1a20d47dd6a134e7d63ac148b71c3237",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:18.882832+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 23,
+        "bboxes": [
+          [
+            450.61,
+            492.6,
+            675.04,
+            625.22
+          ],
+          [
+            675.04,
+            492.6,
+            899.47,
+            625.22
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-oc-curve-a47b09353043:p0014:visual-002",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-oc-curve-a47b09353043",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 14,
+        "slide": 14,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Acceptance_Sampling_OC_Curve_ME327E.pdf",
+        "source_sha256": "a47b093530435fbddde0958b0f692a1d1a20d47dd6a134e7d63ac148b71c3237",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:18.882839+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 2,
+        "xref": 26,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    }
+  ],
+  "schema_version": "1.0",
+  "created_at": "2026-09-03T07:07:18.882846+00:00"
+}

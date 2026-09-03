@@ -1,0 +1,3331 @@
+{
+  "document_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a",
+  "course_id": "qrm",
+  "source_id": "quality-cost-l5-note",
+  "source_file": "Quality_Cost_L5_Note.pdf",
+  "source_sha256": "4f5dd3c4bf6aa53ccc8930cce619c6a2b704a9399f9844865318c3cd88d6d5eb",
+  "units": [
+    {
+      "unit_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a:p0001:text",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a",
+      "kind": "page_text",
+      "text": "Quality, Reliability &\n    ME3327E\n\n\n\n\n             Course Instructor:\n                   Dr. Nehem Tudu\nAssistant Professor, Dept. of Mechanical Engineering",
+      "locator": {
+        "page": 1,
+        "slide": 1,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_L5_Note.pdf",
+        "source_sha256": "4f5dd3c4bf6aa53ccc8930cce619c6a2b704a9399f9844865318c3cd88d6d5eb",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:22.390591+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "be125b2a4bd449acfd44e6cd7912c630de3a9bccea1dfb69d211c7d09bfd297b",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              98.83,
+              49.79,
+              634.57,
+              112.21
+            ],
+            "text": "Quality, Reliability &",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              191.59,
+              108.11,
+              528.55,
+              170.53
+            ],
+            "text": "Maintenance",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              237.46,
+              166.4,
+              482.73,
+              228.86
+            ],
+            "text": "ME3327E",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              260.02,
+              352.12,
+              466.39,
+              384.16
+            ],
+            "text": "Course Instructor:",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              89.71,
+              382.36,
+              630.39,
+              444.64
+            ],
+            "text": "Dr. Nehem Tudu\nAssistant Professor, Dept. of Mechanical Engineering",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0001.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a:p0001:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 1,
+        "slide": 1,
+        "bbox": [
+          320.4,
+          223.68,
+          405.48,
+          327.24
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_L5_Note.pdf",
+        "source_sha256": "4f5dd3c4bf6aa53ccc8930cce619c6a2b704a9399f9844865318c3cd88d6d5eb",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:22.390633+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 13,
+        "bboxes": [
+          [
+            320.4,
+            223.68,
+            405.48,
+            327.24
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a:p0002:text",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a",
+      "kind": "page_text",
+      "text": "Quality Cost\n\n\n\n\n\n                                       ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 2,
+        "slide": 2,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_L5_Note.pdf",
+        "source_sha256": "4f5dd3c4bf6aa53ccc8930cce619c6a2b704a9399f9844865318c3cd88d6d5eb",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:22.390641+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "9529c9dff4fe8fe21e9267b0c98c0a963facc95db8b91d1c343353f5a10f3d09",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              12.67,
+              23.97,
+              179.72,
+              56.97
+            ],
+            "text": "Quality Cost",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n2",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0002.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a:p0002:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 2,
+        "slide": 2,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_L5_Note.pdf",
+        "source_sha256": "4f5dd3c4bf6aa53ccc8930cce619c6a2b704a9399f9844865318c3cd88d6d5eb",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:22.390650+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a:p0002:visual-002",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 2,
+        "slide": 2,
+        "bbox": [
+          2.04,
+          65.76,
+          719.16,
+          491.4
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_L5_Note.pdf",
+        "source_sha256": "4f5dd3c4bf6aa53ccc8930cce619c6a2b704a9399f9844865318c3cd88d6d5eb",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:22.390655+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 2,
+        "xref": 23,
+        "bboxes": [
+          [
+            2.04,
+            65.76,
+            719.16,
+            491.4
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a:p0003:text",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a",
+      "kind": "page_text",
+      "text": "Measuring Quality Costs\n\n• The magnitude of quality costs is important to management because\n  such indices as return on investment are calculated from it.\n• For comparing quality costs over time, magnitude may not be the\n measure to use because conditions often change from one quarter to\n  the next.\n• The number of units produced may change, which affects the direct\n  costs of labor and materials, so the total cost in Rupees/dollars may\n  not be comparable.\n• To alleviate this situation, a measurement base that accounts for\n  labor hours, manufacturing costs, sales Rupees/dollars, or units\n  produced could be used to produce an index.\n     • Labor-based index\n     • Cost-based index\n     • Sales-based index\n     • Unit-based index\n\n\n\n                                        ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 3,
+        "slide": 3,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_L5_Note.pdf",
+        "source_sha256": "4f5dd3c4bf6aa53ccc8930cce619c6a2b704a9399f9844865318c3cd88d6d5eb",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:22.390661+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "84788bad9665196d07ea01ee39afcd6ff159e6892609bbb59be33db3ebccd44c",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              12.67,
+              23.97,
+              346.24,
+              56.97
+            ],
+            "text": "Measuring Quality Costs",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              71.04,
+              698.69,
+              98.79
+            ],
+            "text": "• The magnitude of quality costs is important to management because",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              97.85,
+              666.17,
+              154.85
+            ],
+            "text": "such indices as return on investment are calculated from it.\n• For comparing quality costs over time, magnitude may not be the",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              153.89,
+              705.22,
+              234.07
+            ],
+            "text": "measure to use because conditions often change from one quarter to \nthe next.\n• The number of units produced may change, which affects the direct",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              233.11,
+              687.07,
+              313.15
+            ],
+            "text": "costs of labor and materials, so the total cost in Rupees/dollars may \nnot be comparable.\n• To alleviate this situation, a measurement base that accounts for",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              25.2,
+              312.17,
+              646.72,
+              359.26
+            ],
+            "text": "labor hours, manufacturing costs, sales Rupees/dollars, or units \nproduced could be used to produce an index.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              43.2,
+              360.03,
+              224.67,
+              463.75
+            ],
+            "text": "• Labor-based index\n• Cost-based index\n• Sales-based index\n• Unit-based index",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n3",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0003.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a:p0003:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 3,
+        "slide": 3,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_L5_Note.pdf",
+        "source_sha256": "4f5dd3c4bf6aa53ccc8930cce619c6a2b704a9399f9844865318c3cd88d6d5eb",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:22.390696+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a:p0004:text",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a",
+      "kind": "page_text",
+      "text": "Exercise\n\nA medical industry manufacturer of blood filtration products, used in\ndialysis, has to meet rigid standards in the field. Product design,\nprecision manufacturing equipment, and raw material/component\nquality from suppliers are all important. Product failure at the customer\nlevel is quite expensive and could cost ₹ 25,00,000 for each occurrence.\nYearly expenditures for the past year are shown in Table 3. Analyze the\nvarious quality cost components. What proportion are they of total\nquality costs? Find the total quality cost as a proportion of\nmanufacturing costs and sales and comment. Should senior\nmanagement stress less on design issues?\n\n\n\n\n\n                                        ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 4,
+        "slide": 4,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_L5_Note.pdf",
+        "source_sha256": "4f5dd3c4bf6aa53ccc8930cce619c6a2b704a9399f9844865318c3cd88d6d5eb",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:22.390702+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "938f40831a2698c0f965eddf01704f4c3e7004f4fd8d6a2d045f51cd954e804d",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              12.67,
+              20.52,
+              119.61,
+              52.59
+            ],
+            "text": "Exercise",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              85.66,
+              707.88,
+              342.98
+            ],
+            "text": "A medical industry manufacturer of blood filtration products, used in \ndialysis, has to meet rigid standards in the field. Product design, \nprecision manufacturing equipment, and raw material/component \nquality from suppliers are all important. Product failure at the customer \nlevel is quite expensive and could cost ₹ 25,00,000 for each occurrence. \nYearly expenditures for the past year are shown in Table 3. Analyze the \nvarious quality cost components. What proportion are they of total \nquality costs? Find the total quality cost as a proportion of \nmanufacturing costs and sales and comment. Should senior \nmanagement stress less on design issues?",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n4",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0004.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a:p0004:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 4,
+        "slide": 4,
+        "bbox": [
+          687.36,
+          0.0,
+          719.88,
+          39.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_L5_Note.pdf",
+        "source_sha256": "4f5dd3c4bf6aa53ccc8930cce619c6a2b704a9399f9844865318c3cd88d6d5eb",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:22.390730+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 33,
+        "bboxes": [
+          [
+            687.36,
+            0.0,
+            719.88,
+            39.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a:p0005:text",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a",
+      "kind": "page_text",
+      "text": "Table 3 Quality Cost Expenditures\n\nCost Categories                                      Amount (₹)\n\nReview and update of design                                   2,00,00,000\n\nPlanning for quality through quality improvement teams         50,00,000\n\nOperator training                                            20,00,000\nMaintenance of ISO certification                                1,00,00,000\n\nVendor selection                                             20,00,000\nIncoming raw material inspection                              30,00,000\nCalibration of test equipment                                 10,00,000\nIn-house product testing                                      40,00,000\nScrap costs of non conforming product                         50,00,000\n\nFailure within warranty period                                 1,00,00,000\n\nManufacturing costs                                          700,00,00,000\n\nSales                                                       1000,00,00,000\n\n\n\n\n                                       ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 5,
+        "slide": 5,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_L5_Note.pdf",
+        "source_sha256": "4f5dd3c4bf6aa53ccc8930cce619c6a2b704a9399f9844865318c3cd88d6d5eb",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:22.390735+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "2f20a0e20a78be6732dd65dfe365f8ce4ade01da34233b3366be7857543af2f0",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              12.67,
+              23.97,
+              470.94,
+              56.97
+            ],
+            "text": "Table 3 Quality Cost Expenditures",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              12.36,
+              86.18,
+              643.56,
+              106.22
+            ],
+            "text": "Cost Categories\nAmount (₹)",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              12.36,
+              116.76,
+              647.36,
+              136.83
+            ],
+            "text": "Review and update of design\n2,00,00,000",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              12.36,
+              147.4,
+              632.17,
+              167.44
+            ],
+            "text": "Planning for quality through quality improvement teams\n50,00,000",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              12.36,
+              178.0,
+              647.34,
+              225.64
+            ],
+            "text": "Operator training\n20,00,000\nMaintenance of ISO certification\n1,00,00,000",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              12.36,
+              236.18,
+              632.23,
+              366.67
+            ],
+            "text": "Vendor selection\n20,00,000\nIncoming raw material inspection\n30,00,000\nCalibration of test equipment\n10,00,000\nIn-house product testing\n40,00,000\nScrap costs of non conforming product\n50,00,000",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              12.36,
+              377.25,
+              647.34,
+              397.29
+            ],
+            "text": "Failure within warranty period\n1,00,00,000",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              12.36,
+              407.85,
+              667.5,
+              427.89
+            ],
+            "text": "Manufacturing costs\n700,00,00,000",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              12.36,
+              438.45,
+              677.7,
+              458.49
+            ],
+            "text": "Sales\n1000,00,00,000",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n5",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0005.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a:p0005:table-001",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a",
+      "kind": "table",
+      "text": "Cost Categories | Amount (₹)\nReview and update of design | 2,00,00,000\nPlanning for quality through quality improvement teams | 50,00,000\nOperator training | 20,00,000\nMaintenance of ISO certification | 1,00,00,000\nVendor selection | 20,00,000\nIncoming raw material inspection | 30,00,000\nCalibration of test equipment | 10,00,000\nIn-house product testing | 40,00,000\nScrap costs of non conforming product | 50,00,000\nFailure within warranty period | 1,00,00,000\nManufacturing costs | 700,00,00,000\nSales | 1000,00,00,000",
+      "locator": {
+        "page": 5,
+        "slide": 5,
+        "bbox": [
+          7.22,
+          80.43,
+          712.19,
+          463.23
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_L5_Note.pdf",
+        "source_sha256": "4f5dd3c4bf6aa53ccc8930cce619c6a2b704a9399f9844865318c3cd88d6d5eb",
+        "extractor": "pymupdf-table",
+        "extracted_at": "2026-09-03T07:07:22.390760+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "cfd9817155617e22f350b1d403e4553dc211d5b584b9a48c46452a2a35be92b6",
+      "metadata": {
+        "table_index": 1
+      },
+      "near_duplicate_of": "qrm-quality-cost-l5-note-4f5dd3c4bf6a:p0005:text"
+    },
+    {
+      "unit_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a:p0005:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 5,
+        "slide": 5,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_L5_Note.pdf",
+        "source_sha256": "4f5dd3c4bf6aa53ccc8930cce619c6a2b704a9399f9844865318c3cd88d6d5eb",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:22.390780+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a:p0006:text",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a",
+      "kind": "page_text",
+      "text": "Impact of Quality Improvement on Quality Costs\n\n\n\n\n\n                       Quality costs versus level of quality\n\n                                       ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 6,
+        "slide": 6,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_L5_Note.pdf",
+        "source_sha256": "4f5dd3c4bf6aa53ccc8930cce619c6a2b704a9399f9844865318c3cd88d6d5eb",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:22.390786+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "79b64b5bf0b28cf943432b0d6ede5342f3a13610010455f51573fc08158334a5",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              12.67,
+              22.24,
+              614.41,
+              52.24
+            ],
+            "text": "Impact of Quality Improvement on Quality Costs",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              182.74,
+              471.57,
+              438.21,
+              489.59
+            ],
+            "text": "Quality costs versus level of quality",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n6",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0006.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a:p0006:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 6,
+        "slide": 6,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_L5_Note.pdf",
+        "source_sha256": "4f5dd3c4bf6aa53ccc8930cce619c6a2b704a9399f9844865318c3cd88d6d5eb",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:22.390795+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a:p0006:visual-002",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 6,
+        "slide": 6,
+        "bbox": [
+          4.32,
+          67.21,
+          717.62,
+          458.4
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_L5_Note.pdf",
+        "source_sha256": "4f5dd3c4bf6aa53ccc8930cce619c6a2b704a9399f9844865318c3cd88d6d5eb",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:22.390800+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 2,
+        "xref": 45,
+        "bboxes": [
+          [
+            4.32,
+            67.21,
+            717.62,
+            458.4
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a:p0007:text",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a",
+      "kind": "page_text",
+      "text": "Quality Function Deployment\n\n• QFD is a planning tool that focuses on designing quality into a product\n  or service by incorporating customer needs.\n• It is a systems approach involving cross-functional teams (whose\n members are not necessarily from product design) that looks at the\n  complete cycle of product development.\n• This quality cycle starts with creating a design that meets customer\n  needs and continues on through conducting detailed product\n  analyses of parts and components to achieve the desired product,\n  identifying the processes necessary to make the product, developing\n  product requirements, prototype testing, final product or service\n  testing, and finishing with after-sales troubleshooting.\n• QFD reduces the product development cycle time in each functional area,\n  from product inception and definition to production and sales.\n\n\n\n\n\n                                        ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 7,
+        "slide": 7,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_L5_Note.pdf",
+        "source_sha256": "4f5dd3c4bf6aa53ccc8930cce619c6a2b704a9399f9844865318c3cd88d6d5eb",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:22.390805+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "b74df87e5eaa04c91955d8fb650ce3155061f17278455e76e1273f090bb9ac3c",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              12.67,
+              23.97,
+              415.77,
+              56.97
+            ],
+            "text": "Quality Function Deployment",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              73.32,
+              710.15,
+              101.07
+            ],
+            "text": "• QFD is a planning tool that focuses on designing quality into a product",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              103.01,
+              655.49,
+              163.01
+            ],
+            "text": "or service by incorporating customer needs. \n• It is a systems approach involving cross-functional teams (whose",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              164.93,
+              685.49,
+              250.75
+            ],
+            "text": "members are not necessarily from product design) that looks at the \ncomplete cycle of product development. \n• This quality cycle starts with creating a design that meets customer",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              25.2,
+              252.67,
+              697.27,
+              380.38
+            ],
+            "text": "needs and continues on through conducting detailed product \nanalyses of parts and components to achieve the desired product, \nidentifying the processes necessary to make the product, developing \nproduct requirements, prototype testing, final product or service \ntesting, and finishing with after-sales troubleshooting.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              388.83,
+              685.82,
+              414.19
+            ],
+            "text": "• QFD reduces the product development cycle time in each functional area,",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              25.2,
+              415.99,
+              581.18,
+              437.95
+            ],
+            "text": "from product inception and definition to production and sales.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n7",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0007.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a:p0007:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 7,
+        "slide": 7,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_L5_Note.pdf",
+        "source_sha256": "4f5dd3c4bf6aa53ccc8930cce619c6a2b704a9399f9844865318c3cd88d6d5eb",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:22.390839+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a:p0008:text",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a",
+      "kind": "page_text",
+      "text": "QFD Process",
+      "locator": {
+        "page": 8,
+        "slide": 8,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_L5_Note.pdf",
+        "source_sha256": "4f5dd3c4bf6aa53ccc8930cce619c6a2b704a9399f9844865318c3cd88d6d5eb",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:22.390845+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "c62ca2eb93ab076e4ab37e9cae71795c2c1b6815b6b16111256ecaf790ef4c83",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              12.67,
+              23.97,
+              182.06,
+              56.97
+            ],
+            "text": "QFD Process",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              657.17,
+              510.03,
+              663.27,
+              522.05
+            ],
+            "text": "8",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0008.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a:p0008:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 8,
+        "slide": 8,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_L5_Note.pdf",
+        "source_sha256": "4f5dd3c4bf6aa53ccc8930cce619c6a2b704a9399f9844865318c3cd88d6d5eb",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:22.390851+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a:p0008:visual-002",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 8,
+        "slide": 8,
+        "bbox": [
+          59.4,
+          2.51,
+          608.0,
+          537.6
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_L5_Note.pdf",
+        "source_sha256": "4f5dd3c4bf6aa53ccc8930cce619c6a2b704a9399f9844865318c3cd88d6d5eb",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:22.390856+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 2,
+        "xref": 51,
+        "bboxes": [
+          [
+            59.4,
+            2.51,
+            608.0,
+            537.6
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a:p0009:text",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a",
+      "kind": "page_text",
+      "text": "Correlation matrix of\n“Hows”",
+      "locator": {
+        "page": 9,
+        "slide": 9,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_L5_Note.pdf",
+        "source_sha256": "4f5dd3c4bf6aa53ccc8930cce619c6a2b704a9399f9844865318c3cd88d6d5eb",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:22.390861+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "d43e5e929df97a5be525b76598aeca55b663403ad347da10d5c7e8a7b23ca04c",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              12.67,
+              9.23,
+              279.43,
+              71.64
+            ],
+            "text": "Correlation matrix of \n“Hows”",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              657.17,
+              510.03,
+              663.27,
+              522.05
+            ],
+            "text": "9",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0009.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a:p0009:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 9,
+        "slide": 9,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_L5_Note.pdf",
+        "source_sha256": "4f5dd3c4bf6aa53ccc8930cce619c6a2b704a9399f9844865318c3cd88d6d5eb",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:22.390868+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a:p0009:visual-002",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 9,
+        "slide": 9,
+        "bbox": [
+          41.52,
+          0.49,
+          665.18,
+          536.51
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_L5_Note.pdf",
+        "source_sha256": "4f5dd3c4bf6aa53ccc8930cce619c6a2b704a9399f9844865318c3cd88d6d5eb",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:22.390873+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 2,
+        "xref": 55,
+        "bboxes": [
+          [
+            41.52,
+            0.49,
+            665.18,
+            536.51
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a:p0010:text",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a",
+      "kind": "page_text",
+      "text": "Importance Rating of Credit-Card Customer Requirements and Customer Assessment of\n                                    Competitors\n\n\n\n                                             Competitive Assessment of Companies\nCustomer Requirement (“Whats”)\n                                    A        B        C       D\n\nLow interest rate                            2        2        4        2\n\nError-free transactions                       5         5        3        3\n\nNo annual fee                              1        5        2        3\n\nExtended warranty at no additional cost         3        2        1        4\n\nCustomer service 24 hours a day               4        2        4        3\n\nCustomers’ advocate in billing disputes          4        2        3        3\n\n\n\n\n\n                                      ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 10,
+        "slide": 10,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_L5_Note.pdf",
+        "source_sha256": "4f5dd3c4bf6aa53ccc8930cce619c6a2b704a9399f9844865318c3cd88d6d5eb",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:22.390878+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "32eb8afecd95a0042f4570fced659d7069496ee7e8c58bbeea785c88db7bb19d",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              40.25,
+              24.32,
+              683.58,
+              42.32
+            ],
+            "text": "Importance Rating of Credit-Card Customer Requirements and Customer Assessment of",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              314.86,
+              45.92,
+              405.06,
+              63.92
+            ],
+            "text": "Competitors",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              383.5,
+              126.35,
+              667.14,
+              144.35
+            ],
+            "text": "Competitive Assessment of Companies",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              15.77,
+              141.16,
+              263.31,
+              159.16
+            ],
+            "text": "Customer Requirement (“Whats”)",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              391.94,
+              155.56,
+              659.36,
+              173.56
+            ],
+            "text": "A\nB\nC\nD",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              15.77,
+              184.76,
+              658.38,
+              202.98
+            ],
+            "text": "Low interest rate\n2\n2\n2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              563.14,
+              185.6,
+              572.27,
+              203.6
+            ],
+            "text": "4",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              15.77,
+              213.97,
+              658.38,
+              232.17
+            ],
+            "text": "Error-free transactions\n3\n3",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              390.84,
+              214.74,
+              487.4,
+              233.6
+            ],
+            "text": "5\n5",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              15.77,
+              243.18,
+              658.38,
+              261.37
+            ],
+            "text": "No annual fee\n1\n2\n3",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              477.41,
+              243.9,
+              486.54,
+              261.9
+            ],
+            "text": "5",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              15.77,
+              272.39,
+              572.84,
+              290.58
+            ],
+            "text": "Extended warranty at no additional cost\n3\n2\n1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              648.02,
+              273.04,
+              657.15,
+              291.04
+            ],
+            "text": "4",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              15.77,
+              301.6,
+              658.38,
+              319.79
+            ],
+            "text": "Customer service 24 hours a day\n4\n2\n3",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              563.14,
+              302.2,
+              572.27,
+              320.2
+            ],
+            "text": "4",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              392.54,
+              330.45,
+              401.68,
+              348.48
+            ],
+            "text": "4",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              15.77,
+              330.8,
+              658.38,
+              349.0
+            ],
+            "text": "Customers’ advocate in billing disputes\n2\n3\n3",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n10",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0010.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a:p0010:table-001",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a",
+      "kind": "table",
+      "text": "Customer Requirement (“Whats”) | Competitive Assessment of Companies |  |  | \n | A | B | C | D\nLow interest rate | 2 | 2 | 4 | 2\nError-free transactions | 5 | 5 | 3 | 3\nNo annual fee | 1 | 5 | 2 | 3\nExtended warranty at no additional cost | 3 | 2 | 1 | 4\nCustomer service 24 hours a day | 4 | 2 | 4 | 3\nCustomers’ advocate in billing disputes | 4 | 2 | 3 | 3",
+      "locator": {
+        "page": 10,
+        "slide": 10,
+        "bbox": [
+          8.57,
+          119.43,
+          696.2,
+          353.03
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_L5_Note.pdf",
+        "source_sha256": "4f5dd3c4bf6aa53ccc8930cce619c6a2b704a9399f9844865318c3cd88d6d5eb",
+        "extractor": "pymupdf-table",
+        "extracted_at": "2026-09-03T07:07:22.390902+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "6c3f521468425d333bdaee27c57aea800cb6d7a3b601e29a3974acf201d4a6a7",
+      "metadata": {
+        "table_index": 1
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a:p0011:text",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a",
+      "kind": "page_text",
+      "text": "Target Goals of Technical Descriptors\n\n\n\n\n\n             ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 11,
+        "slide": 11,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_L5_Note.pdf",
+        "source_sha256": "4f5dd3c4bf6aa53ccc8930cce619c6a2b704a9399f9844865318c3cd88d6d5eb",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:22.390922+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "ea383ca938c7e47f1f90d09eaf8d8923ff52dced0dbc660289355961049c9f3f",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              187.22,
+              60.08,
+              454.29,
+              78.08
+            ],
+            "text": "Target Goals of Technical Descriptors",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n11",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0011.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a:p0011:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 11,
+        "slide": 11,
+        "bbox": [
+          0.0,
+          89.4,
+          720.0,
+          450.6
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_L5_Note.pdf",
+        "source_sha256": "4f5dd3c4bf6aa53ccc8930cce619c6a2b704a9399f9844865318c3cd88d6d5eb",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:22.390929+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 65,
+        "bboxes": [
+          [
+            0.0,
+            89.4,
+            720.0,
+            450.6
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a:p0012:text",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a",
+      "kind": "page_text",
+      "text": "Quality Loss Function\n\n• The Quality Loss Function can be defined as a mathematical model\n  that measures the financial loss incurred due to deviations from\n  customer requirements or specifications.\n• The function takes into account factors such as customer\n  dissatisfaction, rework costs, warranty claims, and lost sales\n  opportunities.\n• The relevance of the Quality Loss Function in Quality Management is\n  evident in its ability to identify areas where improvements can be\n made to reduce defects and enhance customer satisfaction.\n• By understanding the financial implications of quality issues,\n  organizations can prioritize their efforts and allocate resources\n  effectively to address the most critical areas of concern.\n\n\n\n\n\n                                        ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 12,
+        "slide": 12,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_L5_Note.pdf",
+        "source_sha256": "4f5dd3c4bf6aa53ccc8930cce619c6a2b704a9399f9844865318c3cd88d6d5eb",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:22.390935+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "2b47b556d6b70cadb3d439ea8d99782c1842c1b21b766c24c7378e53af548a3e",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              12.67,
+              23.97,
+              305.12,
+              56.97
+            ],
+            "text": "Quality Loss Function",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              73.32,
+              678.85,
+              101.07
+            ],
+            "text": "• The Quality Loss Function can be defined as a mathematical model",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              103.01,
+              651.67,
+              188.93
+            ],
+            "text": "that measures the financial loss incurred due to deviations from \ncustomer requirements or specifications. \n• The function takes into account factors such as customer",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              190.83,
+              698.04,
+              276.67
+            ],
+            "text": "dissatisfaction, rework costs, warranty claims, and lost sales \nopportunities.\n• The relevance of the Quality Loss Function in Quality Management is",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              278.59,
+              666.98,
+              364.42
+            ],
+            "text": "evident in its ability to identify areas where improvements can be \nmade to reduce defects and enhance customer satisfaction. \n• By understanding the financial implications of quality issues,",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              25.2,
+              366.34,
+              637.08,
+              416.26
+            ],
+            "text": "organizations can prioritize their efforts and allocate resources \neffectively to address the most critical areas of concern.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n12",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0012.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a:p0012:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 12,
+        "slide": 12,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_L5_Note.pdf",
+        "source_sha256": "4f5dd3c4bf6aa53ccc8930cce619c6a2b704a9399f9844865318c3cd88d6d5eb",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:22.390969+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a:p0013:text",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a",
+      "kind": "page_text",
+      "text": "Significance of quality loss function\n\n• It helps organizations to identify the root causes of quality defects\n and take appropriate corrective actions.\n• It enables organizations to set quality targets and measure their\n  progress towards achieving them.\n• It provides a common language for communication within the\n  organization and with external stakeholders.\n• It serves as a valuable tool for Quality Management businesses to\n  drive continuous improvement, enhance customer satisfaction, and\n  reduce costs associated with quality defects.\n\n\n\n\n\n                                        ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 13,
+        "slide": 13,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_L5_Note.pdf",
+        "source_sha256": "4f5dd3c4bf6aa53ccc8930cce619c6a2b704a9399f9844865318c3cd88d6d5eb",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:22.390975+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "5fe42900ca67bdba352f9587b558676e8af45ec9481f2260f665396a81d96f1b",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              12.67,
+              23.97,
+              502.16,
+              56.97
+            ],
+            "text": "Significance of quality loss function",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              73.32,
+              670.7,
+              101.07
+            ],
+            "text": "• It helps organizations to identify the root causes of quality defects",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              103.01,
+              649.94,
+              163.01
+            ],
+            "text": "and take appropriate corrective actions. \n• It enables organizations to set quality targets and measure their",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              164.93,
+              630.07,
+              224.83
+            ],
+            "text": "progress towards achieving them.\n• It provides a common language for communication within the",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              226.75,
+              666.89,
+              286.63
+            ],
+            "text": "organization and with external stakeholders. \n• It serves as a valuable tool for Quality Management businesses to",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              25.2,
+              288.55,
+              686.64,
+              338.48
+            ],
+            "text": "drive continuous improvement, enhance customer satisfaction, and \nreduce costs associated with quality defects.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n13",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0013.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a:p0013:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 13,
+        "slide": 13,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_L5_Note.pdf",
+        "source_sha256": "4f5dd3c4bf6aa53ccc8930cce619c6a2b704a9399f9844865318c3cd88d6d5eb",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:22.390999+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a:p0014:text",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a",
+      "kind": "page_text",
+      "text": "Benefits from quality loss function\n\n• Organizations: By implementing the Quality Loss Function,\n  organizations can identify areas of improvement, reduce defects, and\n  ultimately enhance customer satisfaction.\n• Customers: The Quality Loss Function helps organizations prioritize\n  customer requirements and ensure that products or services meet\n  their expectations.\n• Employees: By reducing quality defects, organizations create a better\n  working environment for employees.\n• Suppliers: The Quality Loss Function encourages collaboration and\n  communication between organizations and their suppliers.\n• Shareholders: Shareholders benefit from the implementation of the\n  Quality Loss Function through increased profitability and improved\n  return on investment.\n\n\n\n\n                                        ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 14,
+        "slide": 14,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_L5_Note.pdf",
+        "source_sha256": "4f5dd3c4bf6aa53ccc8930cce619c6a2b704a9399f9844865318c3cd88d6d5eb",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:22.391003+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "223d76958a3e732724a7c908ff08c45fed9d969228a44b34451b74f5d2d1a26c",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              12.67,
+              23.97,
+              491.14,
+              56.97
+            ],
+            "text": "Benefits from quality loss function",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              73.32,
+              600.58,
+              101.07
+            ],
+            "text": "• Organizations: By implementing the Quality Loss Function,",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              103.01,
+              702.77,
+              188.93
+            ],
+            "text": "organizations can identify areas of improvement, reduce defects, and \nultimately enhance customer satisfaction. \n• Customers: The Quality Loss Function helps organizations prioritize",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              190.83,
+              702.09,
+              276.67
+            ],
+            "text": "customer requirements and ensure that products or services meet \ntheir expectations. \n• Employees: By reducing quality defects, organizations create a better",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              278.59,
+              675.99,
+              338.48
+            ],
+            "text": "working environment for employees.\n• Suppliers: The Quality Loss Function encourages collaboration and",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              340.42,
+              691.65,
+              400.42
+            ],
+            "text": "communication between organizations and their suppliers. \n• Shareholders: Shareholders benefit from the implementation of the",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              25.2,
+              402.34,
+              679.44,
+              452.26
+            ],
+            "text": "Quality Loss Function through increased profitability and improved \nreturn on investment.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n14",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0014.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a:p0014:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 14,
+        "slide": 14,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_L5_Note.pdf",
+        "source_sha256": "4f5dd3c4bf6aa53ccc8930cce619c6a2b704a9399f9844865318c3cd88d6d5eb",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:22.391031+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a:p0015:text",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a",
+      "kind": "page_text",
+      "text": "Best practices\n\n• Data Collection and Analysis: Organizations should establish robust\n  data collection processes to gather relevant information on quality\n  defects, customer complaints, and other quality-related metrics.\n• Cross-functional Collaboration: Quality Management is a cross-\n  functional endeavor that requires collaboration between different\n  departments and stakeholders.\n• Continuous Improvement: The Quality Loss Function should be\n  viewed as a continuous improvement tool.\n• Supplier Engagement: Organizations should involve their suppliers in\n  quality improvement efforts.\n• Leadership Support: Top management support is critical for the\n  successful implementation of the Quality Loss Function.\n\n\n\n\n\n                                        ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 15,
+        "slide": 15,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_L5_Note.pdf",
+        "source_sha256": "4f5dd3c4bf6aa53ccc8930cce619c6a2b704a9399f9844865318c3cd88d6d5eb",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:22.391037+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "1bb41205973d2fcf2369b50901027be367e23f8135bc6ed488bcb88dfe6cd207",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              12.67,
+              23.97,
+              201.53,
+              56.97
+            ],
+            "text": "Best practices",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              73.32,
+              687.26,
+              101.07
+            ],
+            "text": "• Data Collection and Analysis: Organizations should establish robust",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              103.01,
+              676.87,
+              188.93
+            ],
+            "text": "data collection processes to gather relevant information on quality \ndefects, customer complaints, and other quality-related metrics.\n• Cross-functional Collaboration: Quality Management is a cross-",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              190.83,
+              672.17,
+              276.67
+            ],
+            "text": "functional endeavor that requires collaboration between different \ndepartments and stakeholders. \n• Continuous Improvement: The Quality Loss Function should be",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              278.59,
+              701.12,
+              338.48
+            ],
+            "text": "viewed as a continuous improvement tool. \n• Supplier Engagement: Organizations should involve their suppliers in",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              340.42,
+              648.64,
+              400.42
+            ],
+            "text": "quality improvement efforts. \n• Leadership Support: Top management support is critical for the",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              25.2,
+              402.34,
+              572.52,
+              426.34
+            ],
+            "text": "successful implementation of the Quality Loss Function.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n15",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0015.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a:p0015:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 15,
+        "slide": 15,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_L5_Note.pdf",
+        "source_sha256": "4f5dd3c4bf6aa53ccc8930cce619c6a2b704a9399f9844865318c3cd88d6d5eb",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:22.391068+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a:p0016:text",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a",
+      "kind": "page_text",
+      "text": "Product Control Model\n\n• Product control is another method of statistical quality control in\n  which the quality of a product is controlled while the product is ready\n  to dispatch or sell to the customers. Product control used the\n  technique of acceptance sampling to detect defects and control the\n  quality of a product.\n\n\n\n\n\n                                        ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 16,
+        "slide": 16,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_L5_Note.pdf",
+        "source_sha256": "4f5dd3c4bf6aa53ccc8930cce619c6a2b704a9399f9844865318c3cd88d6d5eb",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:22.391074+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "d342acde68ea4b0694b1c9d0e55a95f289a148defbce8c2c4b1a8280ec5559b8",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              12.67,
+              23.97,
+              325.55,
+              56.97
+            ],
+            "text": "Product Control Model",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              73.32,
+              658.88,
+              101.07
+            ],
+            "text": "• Product control is another method of statistical quality control in",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              25.2,
+              103.01,
+              706.34,
+              204.78
+            ],
+            "text": "which the quality of a product is controlled while the product is ready \nto dispatch or sell to the customers. Product control used the \ntechnique of acceptance sampling to detect defects and control the \nquality of a product.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n16",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0016.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a:p0016:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 16,
+        "slide": 16,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_L5_Note.pdf",
+        "source_sha256": "4f5dd3c4bf6aa53ccc8930cce619c6a2b704a9399f9844865318c3cd88d6d5eb",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:22.391093+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a:p0017:text",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a",
+      "kind": "page_text",
+      "text": "Statistical Concept and Techniques\n\nTerms\n• Population: Set of all items that posses a certain characteristics of\n  interest\n• Sample: Subset of Population\n• Parameters: Characteristics of Population\n• Statistics (Estimator): Characteristics of Sample\n                                                    𝑛𝐴• Probability: Chance of occurrence of the events; 𝑃𝐴=\n                                            𝑁\n• Simple events: Cannot be broken down into other events\n• Compound events: Made up of 2 or more events\n• Complimentary events: Complimentary of events; 𝑃𝐴𝑐= 1 −𝑃(𝐴)\n\n\n\n\n\n                                        ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 17,
+        "slide": 17,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_L5_Note.pdf",
+        "source_sha256": "4f5dd3c4bf6aa53ccc8930cce619c6a2b704a9399f9844865318c3cd88d6d5eb",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:22.391098+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "2aa52e9fda054bb0036f416f9b8e295ae75d5d0bef0b7916326aee4f5848f865",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              12.67,
+              23.97,
+              484.74,
+              56.97
+            ],
+            "text": "Statistical Concept and Techniques",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              77.04,
+              65.63,
+              101.07
+            ],
+            "text": "Terms",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              109.37,
+              667.03,
+              137.09
+            ],
+            "text": "• Population: Set of all items that posses a certain characteristics of",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              139.01,
+              480.53,
+              270.79
+            ],
+            "text": "interest\n• Sample: Subset of Population\n• Parameters: Characteristics of Population\n• Statistics (Estimator): Characteristics of Sample",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              580.06,
+              276.82,
+              602.14,
+              297.27
+            ],
+            "text": "𝑛𝐴",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              282.79,
+              573.48,
+              310.51
+            ],
+            "text": "• Probability: Chance of occurrence of the events; 𝑃𝐴=",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              302.98,
+              698.74,
+              423.1
+            ],
+            "text": "𝑁\n• Simple events: Cannot be broken down into other events\n• Compound events: Made up of 2 or more events\n• Complimentary events: Complimentary of events; 𝑃𝐴𝑐= 1 −𝑃(𝐴)",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n17",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0017.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a:p0017:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 17,
+        "slide": 17,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_L5_Note.pdf",
+        "source_sha256": "4f5dd3c4bf6aa53ccc8930cce619c6a2b704a9399f9844865318c3cd88d6d5eb",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:22.391128+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a:p0018:text",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a",
+      "kind": "page_text",
+      "text": "Statistical Concept and Techniques\n\nTerms\n• Additive Law: 𝑃𝐴∪𝐵= 𝑃𝐴+ 𝑃𝐵−𝑃(𝐴∩𝐵)\n• Multiplicative Law: 𝑃𝐴∩𝐵= 𝑃𝐴𝑃𝐵𝐴= 𝑃𝐵𝑃𝐴𝐵\n• Statistics: Science that deals with collection, analysis\n     • Descriptive statistics\n     • Inferential statistics\n• Data collection: Variables\n     • Continuous\n     • Discrete\n• Accuracy: Degree of uniformity\n• Precision: Degree of Variability\n\n\n\n\n\n                                        ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 18,
+        "slide": 18,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_L5_Note.pdf",
+        "source_sha256": "4f5dd3c4bf6aa53ccc8930cce619c6a2b704a9399f9844865318c3cd88d6d5eb",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:22.391134+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "25e95abd2963a1fe5254584ef536ade3cbefdb063c61d171969a051d28a0b0fa",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              12.67,
+              23.97,
+              484.74,
+              56.97
+            ],
+            "text": "Statistical Concept and Techniques",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              77.04,
+              65.63,
+              101.07
+            ],
+            "text": "Terms",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              109.37,
+              612.6,
+              208.86
+            ],
+            "text": "• Additive Law: 𝑃𝐴∪𝐵= 𝑃𝐴+ 𝑃𝐵−𝑃(𝐴∩𝐵)\n• Multiplicative Law: 𝑃𝐴∩𝐵= 𝑃𝐴𝑃𝐵𝐴= 𝑃𝐵𝑃𝐴𝐵\n• Statistics: Science that deals with collection, analysis",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              212.28,
+              270.67,
+              302.35
+            ],
+            "text": "• Descriptive statistics\n• Inferential statistics\n• Data collection: Variables",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              305.73,
+              327.0,
+              431.74
+            ],
+            "text": "• Continuous\n• Discrete\n• Accuracy: Degree of uniformity\n• Precision: Degree of Variability",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n18",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0018.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a:p0018:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 18,
+        "slide": 18,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_L5_Note.pdf",
+        "source_sha256": "4f5dd3c4bf6aa53ccc8930cce619c6a2b704a9399f9844865318c3cd88d6d5eb",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:22.391153+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a:p0019:text",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a",
+      "kind": "page_text",
+      "text": "Statistical Concept and Techniques\n\nTerms\n• Measurement Scales:\n     • Nominal scale\n     • Ordinal scale\n     • Interval scale\n     • Ratio scale\n• Measure of central tendency:\n                  𝑛                𝑁\n                   σ𝑖=1 𝑋𝑖                σ𝑖=1 𝑋𝑖     • Mean: ത𝑋=       (Sample); 𝜇=       (Population)\n                 𝑛               𝑁\n     • Median: Value in the middle when observation is ranked\n     • Mode: Most frequently value occurred\n     • Trimmed mean\n\n\n\n\n\n                                        ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 19,
+        "slide": 19,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_L5_Note.pdf",
+        "source_sha256": "4f5dd3c4bf6aa53ccc8930cce619c6a2b704a9399f9844865318c3cd88d6d5eb",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:22.391158+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "7cb5b39772afb91de27085b6c5a7155da6a86f7fe2b44ea346389c110fd02e48",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              12.67,
+              23.97,
+              484.74,
+              56.97
+            ],
+            "text": "Statistical Concept and Techniques",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              77.04,
+              65.63,
+              101.07
+            ],
+            "text": "Terms",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              109.37,
+              233.9,
+              137.09
+            ],
+            "text": "• Measurement Scales:",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              140.5,
+              311.88,
+              288.07
+            ],
+            "text": "• Nominal scale\n• Ordinal scale\n• Interval scale\n• Ratio scale\n• Measure of central tendency:",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              167.18,
+              295.82,
+              201.31,
+              316.56
+            ],
+            "text": "σ𝑖=1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              357.89,
+              295.94,
+              392.02,
+              316.68
+            ],
+            "text": "σ𝑖=1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              43.2,
+              300.94,
+              161.16,
+              327.77
+            ],
+            "text": "• Mean: ത𝑋=",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              178.58,
+              291.47,
+              351.87,
+              336.89
+            ],
+            "text": "𝑛\n𝑋𝑖\n𝑛\n(Sample); 𝜇=",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              369.29,
+              291.71,
+              527.08,
+              336.89
+            ],
+            "text": "𝑁\n𝑋𝑖\n𝑁\n(Population)",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              43.2,
+              335.55,
+              562.74,
+              418.39
+            ],
+            "text": "• Median: Value in the middle when observation is ranked\n• Mode: Most frequently value occurred\n• Trimmed mean",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n19",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0019.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a:p0019:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 19,
+        "slide": 19,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_L5_Note.pdf",
+        "source_sha256": "4f5dd3c4bf6aa53ccc8930cce619c6a2b704a9399f9844865318c3cd88d6d5eb",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:22.391179+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a:p0020:text",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a",
+      "kind": "page_text",
+      "text": "Statistical Concept and Techniques\n\nTerms\n• Measures of Dispersion (Variability):\n    • Range\n                      σ𝑖=1𝑁(𝑋𝑖−𝜇)2                     σ𝑖=1𝑛  (𝑋𝑖−ത𝑋)2    • Variance: 𝜎2 =            (Population); 𝑠2 =\n                   𝑁                        𝑛−1\n     (Sample)\n    • Standard variation\n    • Interquartile range (IQR): 𝑄3 −𝑄1\n                                           𝑛                                𝑛     σ𝑖=1 (𝑋𝑖−ത𝑋)3                 =    • Skewness Coefficient: 𝛾1                                 (𝑛−1)(𝑛−2)     𝑠3\n    • Kurtosis Coefficient:\n          𝑛(𝑛+ 1)      σ𝑖=1𝑛(𝑋𝑖−ത𝑋)4    3(𝑛−1)3\n   𝛾2 =                      −      (𝑛−1)(𝑛−2)(𝑛−3)      𝑠4      (𝑛−2)(𝑛−3)\n\n\n\n\n\n                                        ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 20,
+        "slide": 20,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_L5_Note.pdf",
+        "source_sha256": "4f5dd3c4bf6aa53ccc8930cce619c6a2b704a9399f9844865318c3cd88d6d5eb",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:22.391185+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "32906b37fb83fdc361469beadaab749d40616c819410489e4dddd7cee60a6559",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              12.67,
+              23.97,
+              484.74,
+              56.97
+            ],
+            "text": "Statistical Concept and Techniques",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              77.36,
+              75.31,
+              105.32
+            ],
+            "text": "Terms",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              113.69,
+              377.4,
+              141.41
+            ],
+            "text": "• Measures of Dispersion (Variability):",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              43.2,
+              144.53,
+              121.37,
+              172.25
+            ],
+            "text": "• Range",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              226.94,
+              175.91,
+              320.14,
+              201.67
+            ],
+            "text": "𝑁(𝑋𝑖−𝜇)2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              524.59,
+              175.79,
+              620.31,
+              201.67
+            ],
+            "text": "𝑛\n(𝑋𝑖−ത𝑋)2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              214.58,
+              180.44,
+              251.86,
+              203.05
+            ],
+            "text": "σ𝑖=1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              512.23,
+              180.44,
+              549.48,
+              203.17
+            ],
+            "text": "σ𝑖=1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              43.2,
+              181.74,
+              208.05,
+              215.22
+            ],
+            "text": "• Variance: 𝜎2 =",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              260.81,
+              181.74,
+              505.7,
+              225.24
+            ],
+            "text": "𝑁\n(Population); 𝑠2 =",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              445.15,
+              309.13,
+              536.4,
+              335.07
+            ],
+            "text": "𝑛\n(𝑋𝑖−ത𝑋)3",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              432.79,
+              313.76,
+              469.93,
+              336.51
+            ],
+            "text": "σ𝑖=1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              43.2,
+              207.7,
+              583.96,
+              352.83
+            ],
+            "text": "𝑛−1\n(Sample)\n• Standard variation\n• Interquartile range (IQR): 𝑄3 −𝑄1\n• Skewness Coefficient: 𝛾1 =",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              330.65,
+              314.84,
+              428.78,
+              358.59
+            ],
+            "text": "𝑛\n(𝑛−1)(𝑛−2)",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              43.2,
+              338.2,
+              493.32,
+              387.82
+            ],
+            "text": "𝑠3\n• Kurtosis Coefficient:",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              343.97,
+              383.53,
+              470.53,
+              415.71
+            ],
+            "text": "𝑛(𝑋𝑖−ത𝑋)4",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              326.93,
+              387.24,
+              373.55,
+              416.79
+            ],
+            "text": "σ𝑖=1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              40.8,
+              388.2,
+              322.98,
+              446.43
+            ],
+            "text": "𝛾2 =\n𝑛(𝑛+ 1)\n(𝑛−1)(𝑛−2)(𝑛−3)",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              387.53,
+              384.49,
+              625.24,
+              446.43
+            ],
+            "text": "𝑠4\n−\n3(𝑛−1)3",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              499.99,
+              422.38,
+              651.95,
+              446.43
+            ],
+            "text": "(𝑛−2)(𝑛−3)",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n20",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0020.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a:p0020:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 20,
+        "slide": 20,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_L5_Note.pdf",
+        "source_sha256": "4f5dd3c4bf6aa53ccc8930cce619c6a2b704a9399f9844865318c3cd88d6d5eb",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:22.391220+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a:p0021:text",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a",
+      "kind": "page_text",
+      "text": "Statistical Concept and Techniques\n\nTerms\n• Measures of Association:\n     • Correlation coefficient:\n                        σ𝑖=1𝑛(𝑋𝑖−ത𝑋)(𝑌𝑖−ത𝑌)\n          𝑟=\n                     σ𝑖=1𝑛(𝑋𝑖−ത𝑋)2  σ𝑖=1𝑛(𝑌𝑖−ത𝑌)2\n\n\n\n\n\n                                        ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 21,
+        "slide": 21,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_L5_Note.pdf",
+        "source_sha256": "4f5dd3c4bf6aa53ccc8930cce619c6a2b704a9399f9844865318c3cd88d6d5eb",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:22.391227+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "60c724c4692cadbf5b52d18beec84a91ee2d995ed2dbee75709d26d787f7e1e6",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              12.67,
+              23.97,
+              484.74,
+              56.97
+            ],
+            "text": "Statistical Concept and Techniques",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              77.36,
+              75.31,
+              105.32
+            ],
+            "text": "Terms",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              113.69,
+              268.9,
+              141.41
+            ],
+            "text": "• Measures of Association:",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              43.2,
+              144.82,
+              265.58,
+              170.18
+            ],
+            "text": "• Correlation coefficient:",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              283.25,
+              163.8,
+              464.7,
+              193.34
+            ],
+            "text": "𝑛(𝑋𝑖−ത𝑋)(𝑌𝑖−ത𝑌)",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              178.22,
+              167.38,
+              310.32,
+              206.89
+            ],
+            "text": "𝑟=\nσ𝑖=1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              402.43,
+              211.32,
+              513.74,
+              240.64
+            ],
+            "text": "𝑛(𝑌𝑖−ത𝑌)2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              234.26,
+              214.68,
+              276.96,
+              242.32
+            ],
+            "text": "σ𝑖=1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              249.89,
+              211.32,
+              429.62,
+              242.32
+            ],
+            "text": "𝑛(𝑋𝑖−ത𝑋)2\nσ𝑖=1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n21",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0021.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a:p0021:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-l5-note-4f5dd3c4bf6a",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 21,
+        "slide": 21,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_L5_Note.pdf",
+        "source_sha256": "4f5dd3c4bf6aa53ccc8930cce619c6a2b704a9399f9844865318c3cd88d6d5eb",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:22.391239+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    }
+  ],
+  "schema_version": "1.0",
+  "created_at": "2026-09-03T07:07:22.391245+00:00"
+}

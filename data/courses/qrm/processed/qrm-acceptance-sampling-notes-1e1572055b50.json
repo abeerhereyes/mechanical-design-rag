@@ -1,0 +1,1397 @@
+{
+  "document_id": "qrm-acceptance-sampling-notes-1e1572055b50",
+  "course_id": "qrm",
+  "source_id": "acceptance-sampling-notes",
+  "source_file": "Quality_Reliability_Maintenance_Acceptance_Sampling_Notes.pdf",
+  "source_sha256": "1e1572055b507896a6a77dc8d0cdcfd367ede3e67b23e312116697793dd8916a",
+  "units": [
+    {
+      "unit_id": "qrm-acceptance-sampling-notes-1e1572055b50:p0001:text",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-notes-1e1572055b50",
+      "kind": "page_text",
+      "text": "QUALITY, RELIABILITY AND MAINTENANCE\n            ME327E\n\n\n\n\n\n                      Course Instructor:\n                               Dr. Nehem Tudu\n            Assistant Professor, Dept. of Mechanical Engineering",
+      "locator": {
+        "page": 1,
+        "slide": 1,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Acceptance_Sampling_Notes.pdf",
+        "source_sha256": "1e1572055b507896a6a77dc8d0cdcfd367ede3e67b23e312116697793dd8916a",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:26.438115+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "592a5260bd14c4f553479b415a4541478c9d4d8ee762417674e13f3daf290079",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              71.95,
+              142.64,
+              649.87,
+              192.07
+            ],
+            "text": "QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              304.92,
+              187.97,
+              417.33,
+              237.43
+            ],
+            "text": "ME327E",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              285.58,
+              373.73,
+              442.73,
+              401.98
+            ],
+            "text": "Course Instructor:",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              161.95,
+              399.7,
+              560.97,
+              453.6
+            ],
+            "text": "Dr. Nehem Tudu\nAssistant Professor, Dept. of Mechanical Engineering",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0001.png"
+      },
+      "near_duplicate_of": "qrm-acceptance-sampling-oc-curve-a47b09353043:p0001:text"
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-notes-1e1572055b50:p0002:text",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-notes-1e1572055b50",
+      "kind": "page_text",
+      "text": "What is Acceptance Sampling?\n Definition:\n   Acceptance sampling is a statistical quality control\n      technique used to determine whether to accept or\n       reject a batch (lot) of products by inspecting only a\n     sample of items, not the entire lot.\n Attribute vs. Variable Inspection:\n    Attribute: Classifies each item as conforming or\n     nonconforming (does not specify how much it\n      deviates).\n   Variable: Measures a numerical quality characteristic\n       (e.g., weight, length, concentration).\n Acceptance sampling can be performed during inspection of\n incoming raw materials, components, and assemblies, in\n various phases of in-process operations, or during final\n product or service inspection.",
+      "locator": {
+        "page": 2,
+        "slide": 2,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Acceptance_Sampling_Notes.pdf",
+        "source_sha256": "1e1572055b507896a6a77dc8d0cdcfd367ede3e67b23e312116697793dd8916a",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:26.438169+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "87b84f288d85bcd58efdb1e7b5b4dfc99bc4fe59872bee632895f666f6835320",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              14.06,
+              19.71,
+              512.96,
+              58.19
+            ],
+            "text": "What is Acceptance Sampling?",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              21.43,
+              67.27,
+              170.83,
+              95.36
+            ],
+            "text": "Definition:",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              57.43,
+              96.12,
+              645.36,
+              124.17
+            ],
+            "text": "Acceptance sampling is a statistical quality control",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              21.43,
+              124.92,
+              650.02,
+              239.38
+            ],
+            "text": "technique used to determine whether to accept or \nreject a batch (lot) of products by inspecting only a \nsample of items, not the entire lot.\nAttribute vs. Variable Inspection:",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              57.43,
+              240.15,
+              612.6,
+              268.2
+            ],
+            "text": "Attribute: Classifies each item as conforming or",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              57.43,
+              268.95,
+              673.4,
+              354.61
+            ],
+            "text": "nonconforming (does not specify how much it \ndeviates).\nVariable: Measures a numerical quality characteristic",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              21.43,
+              355.37,
+              700.03,
+              498.65
+            ],
+            "text": "(e.g., weight, length, concentration).\nAcceptance sampling can be performed during inspection of \nincoming raw materials, components, and assemblies, in \nvarious phases of in-process operations, or during final \nproduct or service inspection.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              61.2,
+              502.03,
+              690.38,
+              514.9
+            ],
+            "text": "2\nME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0002.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-notes-1e1572055b50:p0003:text",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-notes-1e1572055b50",
+      "kind": "page_text",
+      "text": "Purpose of Acceptance Sampling\n\nKey Purpose:\n   To decide whether to accept or reject a batch of products\n   based on the inspection results from a sample rather than\n  100% inspection.\nWhy Not Inspect Everything?\nDestructive testing may make 100% inspection impossible.\nSampling saves time & resources.\nReduces inspection errors due to fatigue.\n\n“Acceptance sampling can be performed during inspection\nof incoming raw materials, components, and assemblies, in\nvarious phases of in-process operations, or during final\nproduct or service inspection.”",
+      "locator": {
+        "page": 3,
+        "slide": 3,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Acceptance_Sampling_Notes.pdf",
+        "source_sha256": "1e1572055b507896a6a77dc8d0cdcfd367ede3e67b23e312116697793dd8916a",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:26.438209+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "417d685d690bb441e04411f86842ae1c1b901aa8ad4912cde75bffb4e9b0f40b",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              15.77,
+              16.06,
+              547.66,
+              54.54
+            ],
+            "text": "Purpose of Acceptance Sampling",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              15.77,
+              83.6,
+              165.72,
+              111.65
+            ],
+            "text": "Key Purpose:",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              15.77,
+              112.4,
+              692.14,
+              313.29
+            ],
+            "text": "To decide whether to accept or reject a batch of products \nbased on the inspection results from a sample rather than \n100% inspection.\nWhy Not Inspect Everything?\nDestructive testing may make 100% inspection impossible.\nSampling saves time & resources.\nReduces inspection errors due to fatigue.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              15.77,
+              342.84,
+              680.21,
+              457.32
+            ],
+            "text": "“Acceptance sampling can be performed during inspection \nof incoming raw materials, components, and assemblies, in \nvarious phases of in-process operations, or during final \nproduct or service inspection.”",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              61.2,
+              502.03,
+              690.38,
+              514.9
+            ],
+            "text": "3\nME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0003.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-notes-1e1572055b50:p0004:text",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-notes-1e1572055b50",
+      "kind": "page_text",
+      "text": "Where is Acceptance Sampling Used?\n\n  Common Applications:\n Incoming materials: Quality assurance for parts/raw\n    materials.\n  In-process inspection: Quality checks during\n    manufacturing.\n  Finished products: Final inspection before sale or\n    shipment.\n  Inter-organizational: Between companies and\n    suppliers/vendors.\n  Internal checks: Between departments or divisions\n    within a company",
+      "locator": {
+        "page": 4,
+        "slide": 4,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Acceptance_Sampling_Notes.pdf",
+        "source_sha256": "1e1572055b507896a6a77dc8d0cdcfd367ede3e67b23e312116697793dd8916a",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:26.438241+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "bec06c52d6882b12da59ce76e1776ff7052399d531b80821e37b1b59cdf7b933",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              15.77,
+              7.59,
+              623.36,
+              46.07
+            ],
+            "text": "Where is Acceptance Sampling Used?",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              37.2,
+              77.6,
+              640.73,
+              140.45
+            ],
+            "text": "Common Applications:\nIncoming materials: Quality assurance for parts/raw",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              37.2,
+              141.17,
+              561.96,
+              204.07
+            ],
+            "text": "materials.\nIn-process inspection: Quality checks during",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              37.2,
+              204.82,
+              612.5,
+              267.67
+            ],
+            "text": "manufacturing.\nFinished products: Final inspection before sale or",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              37.2,
+              268.39,
+              566.06,
+              331.29
+            ],
+            "text": "shipment.\nInter-organizational: Between companies and",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              37.2,
+              332.04,
+              625.37,
+              394.89
+            ],
+            "text": "suppliers/vendors.\nInternal checks: Between departments or divisions",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              64.2,
+              395.61,
+              257.62,
+              423.7
+            ],
+            "text": "within a company",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              61.2,
+              502.03,
+              690.38,
+              514.9
+            ],
+            "text": "4\nME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0004.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-notes-1e1572055b50:p0005:text",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-notes-1e1572055b50",
+      "kind": "page_text",
+      "text": "Why is Acceptance Sampling\nRelevant?\n\n Sampling doesn’t improve process quality—only\n    decides batch acceptance.\n  Quality must be designed and built into\n    products/processes.\n Acceptance sampling helps monitor but cannot\n    \"inspect quality into\" products.",
+      "locator": {
+        "page": 5,
+        "slide": 5,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Acceptance_Sampling_Notes.pdf",
+        "source_sha256": "1e1572055b507896a6a77dc8d0cdcfd367ede3e67b23e312116697793dd8916a",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:26.438268+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "072c4675b910e0f90cccc102906868b196ed6ce71e24a52d3d1d41642000b379",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              15.77,
+              11.98,
+              478.04,
+              83.9
+            ],
+            "text": "Why is Acceptance Sampling \nRelevant?",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              37.2,
+              115.44,
+              602.88,
+              143.49
+            ],
+            "text": "Sampling doesn’t improve process quality—only",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              37.2,
+              144.24,
+              505.68,
+              207.09
+            ],
+            "text": "decides batch acceptance.\nQuality must be designed and built into",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              37.2,
+              207.81,
+              589.58,
+              270.72
+            ],
+            "text": "products/processes.\nAcceptance sampling helps monitor but cannot",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              64.2,
+              271.47,
+              403.39,
+              299.52
+            ],
+            "text": "\"inspect quality into\" products.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              61.2,
+              502.03,
+              690.38,
+              514.9
+            ],
+            "text": "5\nME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0005.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-notes-1e1572055b50:p0006:text",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-notes-1e1572055b50",
+      "kind": "page_text",
+      "text": "Advantages and Disadvantages of\nSampling\n\n Advantages\n Essential where inspection is destructive\nEconomical and less handling damage\nReduces inspection errors (less fatigue)\n Motivates suppliers/processes to improve quality\n Disadvantages\nRisk of accepting bad or rejecting good lots (risks)\nLess information than 100% inspection\nMore planning/documentation than 100% inspection",
+      "locator": {
+        "page": 6,
+        "slide": 6,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Acceptance_Sampling_Notes.pdf",
+        "source_sha256": "1e1572055b507896a6a77dc8d0cdcfd367ede3e67b23e312116697793dd8916a",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:26.438292+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "4e7df4aada1a88d01be59de89f8b84440e5b1613c7fa53f5059b982314e3ee6f",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              15.77,
+              11.98,
+              550.04,
+              83.9
+            ],
+            "text": "Advantages and Disadvantages of \nSampling",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              22.63,
+              114.96,
+              628.71,
+              421.47
+            ],
+            "text": "Advantages\nEssential where inspection is destructive\nEconomical and less handling damage\nReduces inspection errors (less fatigue)\nMotivates suppliers/processes to improve quality\nDisadvantages\nRisk of accepting bad or rejecting good lots (risks)\nLess information than 100% inspection\nMore planning/documentation than 100% inspection",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              61.2,
+              502.03,
+              690.38,
+              514.9
+            ],
+            "text": "6\nME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0006.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-notes-1e1572055b50:p0007:text",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-notes-1e1572055b50",
+      "kind": "page_text",
+      "text": "Producer’s Risk & Consumer’s Risk\n in Acceptance Sampling\n\nProducer’s Risk (α):\nThe probability of rejecting a \"good\" lot, typically one with an\nacceptable low level of nonconformance. This risk arises due to\nthe random nature of sampling.\n  Goal: Minimize α to avoid unnecessary rejection of acceptable lots.\n\nConsumer’s Risk (β):\nThe probability of accepting a \"bad\" lot, one with a high or\nunacceptable level of nonconformance. This risk also stems\nfrom sampling variation.\n  Goal: Minimize β to protect the consumer from poor quality.",
+      "locator": {
+        "page": 7,
+        "slide": 7,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Acceptance_Sampling_Notes.pdf",
+        "source_sha256": "1e1572055b507896a6a77dc8d0cdcfd367ede3e67b23e312116697793dd8916a",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:26.438319+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "153ed290a4303fb6d52a0de41634ead15ddf207d397cc7fb5bba2aa678db361b",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              15.77,
+              10.11,
+              600.89,
+              84.23
+            ],
+            "text": "Producer’s Risk & Consumer’s Risk \nin Acceptance Sampling",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              114.74,
+              232.17,
+              142.89
+            ],
+            "text": "Producer’s Risk (α):",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              155.37,
+              708.14,
+              252.6
+            ],
+            "text": "The probability of rejecting a \"good\" lot, typically one with an \nacceptable low level of nonconformance. This risk arises due to \nthe random nature of sampling.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              28.8,
+              264.77,
+              700.91,
+              290.55
+            ],
+            "text": "Goal: Minimize α to avoid unnecessary rejection of acceptable lots.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              304.75,
+              245.88,
+              332.9
+            ],
+            "text": "Consumer’s Risk (β):",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              345.41,
+              664.37,
+              442.61
+            ],
+            "text": "The probability of accepting a \"bad\" lot, one with a high or \nunacceptable level of nonconformance. This risk also stems \nfrom sampling variation.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              28.8,
+              454.79,
+              626.64,
+              480.55
+            ],
+            "text": "Goal: Minimize β to protect the consumer from poor quality.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              61.2,
+              502.69,
+              311.01,
+              514.33
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              684.29,
+              502.03,
+              690.38,
+              514.9
+            ],
+            "text": "7",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0007.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-notes-1e1572055b50:p0008:text",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-notes-1e1572055b50",
+      "kind": "page_text",
+      "text": "Quality Levels - AQL & LQL\n\n Term             Description       Interpretation\nAQL           Maximum %        Sets the threshold\n                  nonconforming     for what producers (Acceptable\n                   considered \"good\" want accepted Quality Level)\n LQL/RQL       Minimum %        Sets the threshold\n (Limiting/Reject  nonconforming     for what\n able Quality      considered \"bad\"  consumers want\n Level)                                 rejected",
+      "locator": {
+        "page": 8,
+        "slide": 8,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Acceptance_Sampling_Notes.pdf",
+        "source_sha256": "1e1572055b507896a6a77dc8d0cdcfd367ede3e67b23e312116697793dd8916a",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:26.438351+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "bc8882793810777189ee1f7f8dffd29f6019e7574d38b021161c8d85806a8d9e",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              15.77,
+              8.41,
+              465.25,
+              46.92
+            ],
+            "text": "Quality Levels - AQL & LQL",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              24.29,
+              85.89,
+              641.4,
+              113.91
+            ],
+            "text": "Term\nDescription\nInterpretation",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              249.46,
+              122.74,
+              456.33,
+              208.4
+            ],
+            "text": "Maximum % \nnonconforming \nconsidered \"good\"",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              474.65,
+              122.74,
+              689.23,
+              208.4
+            ],
+            "text": "Sets the threshold \nfor what producers \nwant accepted",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              24.29,
+              122.74,
+              192.26,
+              214.34
+            ],
+            "text": "AQL \n(Acceptable \nQuality Level)",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              249.46,
+              223.16,
+              442.47,
+              308.83
+            ],
+            "text": "Minimum % \nnonconforming \nconsidered \"bad\"",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              24.29,
+              223.16,
+              223.25,
+              337.56
+            ],
+            "text": "LQL/RQL \n(Limiting/Reject\nable Quality \nLevel)",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              474.65,
+              223.16,
+              676.23,
+              337.63
+            ],
+            "text": "Sets the threshold \nfor what \nconsumers want \nrejected",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              61.2,
+              502.69,
+              311.01,
+              514.33
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              684.29,
+              502.03,
+              690.38,
+              514.9
+            ],
+            "text": "8",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0008.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-notes-1e1572055b50:p0009:text",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-notes-1e1572055b50",
+      "kind": "page_text",
+      "text": "Operating Characteristic Curve\nThe Operating Characteristic (OC) curve is a graphical\n representation of the performance of a sampling plan.\nPlots the probability of accepting a lot (Pa) (y-axis) against the\n proportion nonconforming (p) in the lot (x-axis).\nDiscriminatory Power:\n  Shows how well a sampling plan can distinguish between “good”\n  (low defect) and “bad” (high defect) lots.\nDecision Rule:\n  High Pa for good quality.\n  Low Pa for poor quality.\nSampling Parameters Impact:\n  Sample size (n), Acceptance number (c), Lot size (N) affect the\n  curve shape.",
+      "locator": {
+        "page": 9,
+        "slide": 9,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Acceptance_Sampling_Notes.pdf",
+        "source_sha256": "1e1572055b507896a6a77dc8d0cdcfd367ede3e67b23e312116697793dd8916a",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:26.438385+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "661328070c51e77080a3c84363f49ebf9ef6ec311b9643f86d47e2eebdf0e21d",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              15.77,
+              3.29,
+              532.98,
+              41.77
+            ],
+            "text": "Operating Characteristic Curve",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              52.71,
+              633.62,
+              80.76
+            ],
+            "text": "The Operating Characteristic (OC) curve is a graphical",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              21.6,
+              81.51,
+              614.02,
+              109.56
+            ],
+            "text": "representation of the performance of a sampling plan.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              116.33,
+              705.86,
+              148.47
+            ],
+            "text": "Plots the probability of accepting a lot (Pa) (y-axis) against the",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              21.6,
+              145.13,
+              552.0,
+              173.18
+            ],
+            "text": "proportion nonconforming (p) in the lot (x-axis).",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              179.93,
+              266.62,
+              207.98
+            ],
+            "text": "Discriminatory Power:",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              28.8,
+              214.74,
+              685.4,
+              266.84
+            ],
+            "text": "Shows how well a sampling plan can distinguish between “good” \n(low defect) and “bad” (high defect) lots.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              275.6,
+              179.62,
+              303.65
+            ],
+            "text": "Decision Rule:",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              28.8,
+              310.41,
+              286.72,
+              341.48
+            ],
+            "text": "High Pa for good quality.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              28.8,
+              344.82,
+              274.25,
+              375.92
+            ],
+            "text": "Low Pa for poor quality.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              379.18,
+              345.05,
+              407.23
+            ],
+            "text": "Sampling Parameters Impact:",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              28.8,
+              413.99,
+              657.1,
+              466.06
+            ],
+            "text": "Sample size (n), Acceptance number (c), Lot size (N) affect the \ncurve shape.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              61.2,
+              502.69,
+              311.01,
+              514.33
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              684.29,
+              502.03,
+              690.38,
+              514.9
+            ],
+            "text": "9",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0009.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-notes-1e1572055b50:p0010:text",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-notes-1e1572055b50",
+      "kind": "page_text",
+      "text": "The Ideal OC Curve (Conceptual)\nIdeal Shape:\n  Probability of acceptance (Pa) is 1 for all lots with defect\n   proportion ≤ p₀ (all “good” lots accepted).\n  Probability drops instantly to 0 for p > p₀ (all “bad” lots rejected).\nReality:\n  Practical OC curves are not ideal—in practice, there's always a\n   chance of accepting/rejecting due to sampling variation.\n\n\n\n\n\n                                                                                                                     10",
+      "locator": {
+        "page": 10,
+        "slide": 10,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Acceptance_Sampling_Notes.pdf",
+        "source_sha256": "1e1572055b507896a6a77dc8d0cdcfd367ede3e67b23e312116697793dd8916a",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:26.438418+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "b0acaad18dc2e6e6ac6ed20280d5b112b6c611d0a17c7bbdf742284302af5918",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              15.77,
+              3.29,
+              558.16,
+              41.77
+            ],
+            "text": "The Ideal OC Curve (Conceptual)",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              39.84,
+              147.55,
+              67.89
+            ],
+            "text": "Ideal Shape:",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              28.8,
+              68.62,
+              609.15,
+              98.09
+            ],
+            "text": "Probability of acceptance (Pa) is 1 for all lots with defect",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              43.2,
+              95.08,
+              465.56,
+              126.15
+            ],
+            "text": "proportion ≤ p₀ (all “good” lots accepted).",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              123.52,
+              695.61,
+              180.0
+            ],
+            "text": "Probability drops instantly to 0 for p > p₀ (all “bad” lots rejected).\nReality:",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              28.8,
+              180.76,
+              676.2,
+              206.43
+            ],
+            "text": "Practical OC curves are not ideal—in practice, there's always a",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              43.2,
+              207.18,
+              614.99,
+              232.85
+            ],
+            "text": "chance of accepting/rejecting due to sampling variation.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              681.53,
+              502.03,
+              693.02,
+              514.9
+            ],
+            "text": "10",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0010.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-notes-1e1572055b50:p0011:text",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-notes-1e1572055b50",
+      "kind": "page_text",
+      "text": "Operating Characteristic Curve\nIn practice, however, the shape of the OC curve is not ideal.\nIf the observed number of nonconforming items or nonconformities\n  is less than or equal to c, the lot is accepted. Otherwise, the lot is\n rejected.\nTo construct a type A OC curve, we assume that the sample is\n chosen from an isolated lot of finite size.\nThe probability of accepting the lot is calculated based on a\n hypergeometric distribution.\nThe probability of finding x nonconforming items in the sample is\n                 𝐷 𝑁−𝐷\n given by, 𝑃𝑥=  𝑥  𝑛−𝑥                  𝑁\n                     𝑛\nWhere D represents the number of nonconforming items in the lot.\nSince the lot will be accepted if c or fewer nonconforming items are\nfound, the probability of lot acceptance is\n                                                  𝑐\n                𝑃𝑎= 𝑃𝑥≤𝑐= ෍ 𝑃(𝑥)\n                                      𝑥=0         ME3327E QUALITY, RELIABILITY AND MAINTENANCE                                                                11",
+      "locator": {
+        "page": 11,
+        "slide": 11,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Acceptance_Sampling_Notes.pdf",
+        "source_sha256": "1e1572055b507896a6a77dc8d0cdcfd367ede3e67b23e312116697793dd8916a",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:26.438451+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "30a670578a54c176826ccf5b3a40db0329be7e7e41895a2882aaadcd292a60fd",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              15.77,
+              3.29,
+              532.98,
+              41.77
+            ],
+            "text": "Operating Characteristic Curve",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              52.72,
+              706.88,
+              104.79
+            ],
+            "text": "In practice, however, the shape of the OC curve is not ideal.\nIf the observed number of nonconforming items or nonconformities",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              105.49,
+              671.94,
+              184.01
+            ],
+            "text": "is less than or equal to c, the lot is accepted. Otherwise, the lot is \nrejected.\nTo construct a type A OC curve, we assume that the sample is",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              184.74,
+              630.02,
+              236.81
+            ],
+            "text": "chosen from an isolated lot of finite size. \nThe probability of accepting the lot is calculated based on a",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              237.51,
+              685.95,
+              289.64
+            ],
+            "text": "hypergeometric distribution. \nThe probability of finding x nonconforming items in the sample is",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              198.38,
+              290.81,
+              209.89,
+              306.91
+            ],
+            "text": "𝐷",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              225.98,
+              290.81,
+              261.64,
+              306.91
+            ],
+            "text": "𝑁−𝐷",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              199.34,
+              309.65,
+              208.84,
+              325.75
+            ],
+            "text": "𝑥",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              21.6,
+              309.93,
+              184.42,
+              335.6
+            ],
+            "text": "given by, 𝑃𝑥=",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              223.94,
+              309.65,
+              259.75,
+              340.27
+            ],
+            "text": "𝑛−𝑥\n𝑁",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              343.01,
+              692.61,
+              434.62
+            ],
+            "text": "𝑛\nWhere D represents the number of nonconforming items in the lot. \nSince the lot will be accepted if c or fewer nonconforming items are \nfound, the probability of lot acceptance is",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              412.51,
+              433.63,
+              420.63,
+              449.73
+            ],
+            "text": "𝑐",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              435.91,
+              461.69,
+              480.78,
+              483.68
+            ],
+            "text": "𝑃(𝑥)",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              239.21,
+              461.69,
+              431.43,
+              486.81
+            ],
+            "text": "𝑃𝑎= 𝑃𝑥≤𝑐= ෍",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              401.47,
+              494.38,
+              432.38,
+              510.47
+            ],
+            "text": "𝑥=0",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              61.2,
+              502.69,
+              311.01,
+              514.33
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              681.53,
+              502.03,
+              693.02,
+              514.9
+            ],
+            "text": "11",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0011.png"
+      },
+      "near_duplicate_of": "qrm-acceptance-sampling-oc-curve-a47b09353043:p0002:text"
+    },
+    {
+      "unit_id": "qrm-acceptance-sampling-notes-1e1572055b50:p0012:text",
+      "course_id": "qrm",
+      "document_id": "qrm-acceptance-sampling-notes-1e1572055b50",
+      "kind": "page_text",
+      "text": "Operating Characteristic Curve\nTo construct a type B OC curve, we assume that a stream of lots is\n produced by the process and that the lot size is large (atleast 10\n times) compared to the sample size.\nA binomial distribution can be used to find the probability of\n observing x nonconforming items in a sample of size n.\nAssuming the lot proportion nonconforming is p, this probability is\n                          𝑛\n given by,      𝑃𝑥= 𝑥𝑝𝑥(1 −𝑝)𝑛−𝑥\nIf the lot size is large and the probability of a nonconforming item is\n small\nPoisson distribution can be used as an approximation to the\n binomial distribution.\nThe probability of x nonconforming items in the sample is found\n                                         𝜆𝑥𝑒−𝜆\n from,          𝑃𝑥=\n                                                      𝑥!\nWhere, λ = np represents the average number of nonconforming items\nin the sample",
+      "locator": {
+        "page": 12,
+        "slide": 12,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Acceptance_Sampling_Notes.pdf",
+        "source_sha256": "1e1572055b507896a6a77dc8d0cdcfd367ede3e67b23e312116697793dd8916a",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:26.438496+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "d5e8d8687c36dbb2451a27e553539a7a735c5eaadf3588a62a21b2f374a407e0",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              15.77,
+              3.29,
+              532.98,
+              41.77
+            ],
+            "text": "Operating Characteristic Curve",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              40.72,
+              680.36,
+              66.39
+            ],
+            "text": "To construct a type B OC curve, we assume that a stream of lots is",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              67.12,
+              666.79,
+              145.61
+            ],
+            "text": "produced by the process and that the lot size is large (atleast 10 \ntimes) compared to the sample size.\nA binomial distribution can be used to find the probability of",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              146.34,
+              697.01,
+              198.41
+            ],
+            "text": "observing x nonconforming items in a sample of size n.\nAssuming the lot proportion nonconforming is p, this probability is",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              21.6,
+              195.24,
+              345.9,
+              231.29
+            ],
+            "text": "given by,                         𝑃𝑥= 𝑛",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              333.53,
+              205.82,
+              485.73,
+              243.03
+            ],
+            "text": "𝑥𝑝𝑥(1 −𝑝)𝑛−𝑥",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              238.83,
+              706.27,
+              264.53
+            ],
+            "text": "If the lot size is large and the probability of a nonconforming item is",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              265.29,
+              625.39,
+              317.36
+            ],
+            "text": "small\nPoisson distribution can be used as an approximation to the",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              318.09,
+              672.05,
+              370.16
+            ],
+            "text": "binomial distribution.\nThe probability of x nonconforming items in the sample is found",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              21.6,
+              372.84,
+              428.75,
+              406.78
+            ],
+            "text": "from,                                           𝑃𝑥= 𝜆𝑥𝑒−𝜆",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              400.39,
+              715.64,
+              465.7
+            ],
+            "text": "𝑥!\nWhere, λ = np represents the average number of nonconforming items \nin the sample",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              61.2,
+              502.69,
+              311.01,
+              514.33
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              681.53,
+              502.03,
+              693.02,
+              514.9
+            ],
+            "text": "12",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0012.png"
+      },
+      "near_duplicate_of": "qrm-acceptance-sampling-oc-curve-a47b09353043:p0003:text"
+    }
+  ],
+  "schema_version": "1.0",
+  "created_at": "2026-09-03T07:07:26.438535+00:00"
+}

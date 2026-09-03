@@ -55,7 +55,17 @@ class LexicalCrossEncoder:
             {**c, "rerank_score": self.score(query, c["text"])} for c in candidates
         ]
         scored.sort(key=lambda x: x["rerank_score"], reverse=True)
-        return scored[:top_k]
+        unique = []
+        seen = set()
+        for item in scored:
+            canonical_id = item.get("metadata", {}).get("canonical_id", item["id"])
+            if canonical_id in seen:
+                continue
+            seen.add(canonical_id)
+            unique.append(item)
+            if len(unique) == top_k:
+                break
+        return unique
 
 
 if __name__ == "__main__":

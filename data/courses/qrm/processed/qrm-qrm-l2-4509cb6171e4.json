@@ -1,0 +1,1491 @@
+{
+  "document_id": "qrm-qrm-l2-4509cb6171e4",
+  "course_id": "qrm",
+  "source_id": "qrm-l2",
+  "source_file": "l2.pdf",
+  "source_sha256": "4509cb6171e42d088d30cc7dd97c262ef9227ade51547668fc27a06e4d1b53e3",
+  "units": [
+    {
+      "unit_id": "qrm-qrm-l2-4509cb6171e4:p0001:text",
+      "course_id": "qrm",
+      "document_id": "qrm-qrm-l2-4509cb6171e4",
+      "kind": "page_text",
+      "text": "Quality, Reliability &\n    ME3327E\n\n\n\n\n             Course Instructor:\n                   Dr. Nehem Tudu\nAssistant Professor, Dept. of Mechanical Engineering",
+      "locator": {
+        "page": 1,
+        "slide": 1,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "l2.pdf",
+        "source_sha256": "4509cb6171e42d088d30cc7dd97c262ef9227ade51547668fc27a06e4d1b53e3",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:57.476445+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "be125b2a4bd449acfd44e6cd7912c630de3a9bccea1dfb69d211c7d09bfd297b",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              98.83,
+              49.79,
+              634.57,
+              112.21
+            ],
+            "text": "Quality, Reliability &",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              191.59,
+              108.11,
+              528.55,
+              170.53
+            ],
+            "text": "Maintenance",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              237.46,
+              166.4,
+              482.73,
+              228.86
+            ],
+            "text": "ME3327E",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              260.02,
+              352.12,
+              466.39,
+              384.16
+            ],
+            "text": "Course Instructor:",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              89.71,
+              382.36,
+              630.39,
+              444.64
+            ],
+            "text": "Dr. Nehem Tudu\nAssistant Professor, Dept. of Mechanical Engineering",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0001.png"
+      },
+      "near_duplicate_of": "qrm-probability-distribution-l6-b8e4e6eede40:p0001:text"
+    },
+    {
+      "unit_id": "qrm-qrm-l2-4509cb6171e4:p0002:text",
+      "course_id": "qrm",
+      "document_id": "qrm-qrm-l2-4509cb6171e4",
+      "kind": "page_text",
+      "text": "Quality\n Quality means fitness for use.\n   • There are two general aspects of fitness for use: quality of design and quality of\n    conformance.\n\n Quality is inversely proportional to variability.\n   • A few years ago, one of the automobile companies in the United States performed a\n    comparative study of a transmission that was manufactured in a domestic plant and by a\n    Japanese supplier.\n   • An analysis of warranty claims and repair costs indicated that there was a striking\n     difference between the two sources of production, with the Japanese-produced\n     transmission having much lower costs.\n\n\n\n\n\n        Warranty costs for transmissions          Distributions of critical dimensions for transmissions\n                                        ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 2,
+        "slide": 2,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "l2.pdf",
+        "source_sha256": "4509cb6171e42d088d30cc7dd97c262ef9227ade51547668fc27a06e4d1b53e3",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:57.476478+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "e26fbea824dc783560b7ce5c43c9202733f98a483060290100706ae3227ab492",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              7.2,
+              5.84,
+              120.21,
+              45.8
+            ],
+            "text": "Quality",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              14.33,
+              47.72,
+              230.71,
+              65.72
+            ],
+            "text": "Quality means fitness for use.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              30.22,
+              72.08,
+              626.96,
+              90.08
+            ],
+            "text": "• There are two general aspects of fitness for use: quality of design and quality of",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              43.78,
+              91.76,
+              144.56,
+              109.76
+            ],
+            "text": "conformance.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              14.21,
+              126.52,
+              344.85,
+              144.52
+            ],
+            "text": "Quality is inversely proportional to variability.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              30.22,
+              149.51,
+              666.52,
+              167.54
+            ],
+            "text": "• A few years ago, one of the automobile companies in the United States performed a",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              30.22,
+              169.24,
+              693.41,
+              231.28
+            ],
+            "text": "comparative study of a transmission that was manufactured in a domestic plant and by a \nJapanese supplier.\n• An analysis of warranty claims and repair costs indicated that there was a striking",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              43.78,
+              233.08,
+              630.63,
+              270.76
+            ],
+            "text": "difference between the two sources of production, with the Japanese-produced \ntransmission having much lower costs.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              72.19,
+              482.27,
+              710.55,
+              529.25
+            ],
+            "text": "MAINTENANCE\n2\nWarranty costs for transmissions\nDistributions of critical dimensions for transmissions",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0002.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-qrm-l2-4509cb6171e4:p0003:text",
+      "course_id": "qrm",
+      "document_id": "qrm-qrm-l2-4509cb6171e4",
+      "kind": "page_text",
+      "text": "Quality Engineering terminology\n\n\n Every product possesses a number of elements that jointly describe what the\n    user or consumer thinks of as quality. These parameters are often called quality\n     characteristics. Sometimes these are called critical-to-quality (CTQ)\n     characteristics. B may be of several types:\n      Physical: length, weight, voltage, viscosity\n     Sensory: taste, appearance, color\n    Time Orientation: reliability, durability, serviceability\n Quality engineering is the set of operational, managerial, and engineering\n     activities that a company uses to ensure that the quality characteristics of a\n    product are at the nominal or required levels and that the variability around\n    these desired levels is minimum.\n Other terminologies: statistical methods; variability; attributes or variables;\n     specifications; nominal or target value; upper specification limit (USL); lower\n     specification limit (LSL); over-the-wall; nonconforming products; nonconformity;\n     defective; defects; concurrent engineering.\n\n\n\n\n\n                                        ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 3,
+        "slide": 3,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "l2.pdf",
+        "source_sha256": "4509cb6171e42d088d30cc7dd97c262ef9227ade51547668fc27a06e4d1b53e3",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:57.476530+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "fd077f84eb2a3b7ef48dd49a9454163e1a6b9ef5f19013d882416ced0c4944d5",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              7.2,
+              5.84,
+              515.01,
+              45.8
+            ],
+            "text": "Quality Engineering terminology",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              18.0,
+              82.44,
+              675.82,
+              105.47
+            ],
+            "text": "Every product possesses a number of elements that jointly describe what the",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              45.96,
+              107.03,
+              695.4,
+              170.27
+            ],
+            "text": "user or consumer thinks of as quality. These parameters are often called quality \ncharacteristics. Sometimes these are called critical-to-quality (CTQ) \ncharacteristics. B may be of several types:",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              54.0,
+              174.02,
+              453.02,
+              243.59
+            ],
+            "text": "Physical: length, weight, voltage, viscosity\nSensory: taste, appearance, color\nTime Orientation: reliability, durability, serviceability",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              18.0,
+              252.15,
+              648.58,
+              275.18
+            ],
+            "text": "Quality engineering is the set of operational, managerial, and engineering",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              45.96,
+              276.74,
+              666.84,
+              340.0
+            ],
+            "text": "activities that a company uses to ensure that the quality characteristics of a \nproduct are at the nominal or required levels and that the variability around \nthese desired levels is minimum.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              18.0,
+              348.65,
+              660.86,
+              371.68
+            ],
+            "text": "Other terminologies: statistical methods; variability; attributes or variables;",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              45.96,
+              373.24,
+              701.7,
+              436.49
+            ],
+            "text": "specifications; nominal or target value; upper specification limit (USL); lower \nspecification limit (LSL); over-the-wall; nonconforming products; nonconformity; \ndefective; defects; concurrent engineering.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n3",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0003.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-qrm-l2-4509cb6171e4:p0004:text",
+      "course_id": "qrm",
+      "document_id": "qrm-qrm-l2-4509cb6171e4",
+      "kind": "page_text",
+      "text": "History of Quality Control and\nImprovement\n\n\n\n\n\n                                        ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 4,
+        "slide": 4,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "l2.pdf",
+        "source_sha256": "4509cb6171e42d088d30cc7dd97c262ef9227ade51547668fc27a06e4d1b53e3",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:57.476570+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "091cbb679a4437700ae863dcd04bc5fc17b941b62ea973b0d454e0095ac6d14c",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              7.2,
+              5.55,
+              483.84,
+              88.71
+            ],
+            "text": "History of Quality Control and \nImprovement",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n4",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0004.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-qrm-l2-4509cb6171e4:p0005:text",
+      "course_id": "qrm",
+      "document_id": "qrm-qrm-l2-4509cb6171e4",
+      "kind": "page_text",
+      "text": "History of Quality Control and\nImprovement\nFrederick W. Taylor introduced some principles of scientific management as mass\n   production industries began to develop prior to 1900\nFrank Gilbreth and others extended this concept to the study of motion and work\n   design\nIn 1924, Walter A. Shewhart of the Bell Telephone Laboratories developed the\n    statistical control chart concept, which is often considered the formal beginning of\n    statistical quality control. Toward the end of the 1920s, Harold F. Dodge and Harry\n   G. Romig, both of Bell Telephone Laboratories, developed statistically based\n   acceptance sampling as an alternative to 100% inspection. By the middle of the\n   1930s, statistical quality-control methods were in wide use at Western Electric, the\n   manufacturing arm of the Bell System.\nThe American Society for Quality Control was formed in 1946. This organization\n   promotes the use of quality improvement techniques for all types of products and\n   services\nThe 1950s and 1960s saw the emergence of reliability engineering\nIn the 1950s, designed experiments for product and process improvement were\n    first introduced in the United States.\n                                        ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 5,
+        "slide": 5,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "l2.pdf",
+        "source_sha256": "4509cb6171e42d088d30cc7dd97c262ef9227ade51547668fc27a06e4d1b53e3",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:57.476588+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "6f159109cd2a73496317cb6fa61daab75f50ed0ee21ef77be76fb6099355f74b",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              7.2,
+              -0.26,
+              483.84,
+              82.9
+            ],
+            "text": "History of Quality Control and \nImprovement",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              78.54,
+              700.85,
+              101.6
+            ],
+            "text": "Frederick W. Taylor introduced some principles of scientific management as mass",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              35.16,
+              103.17,
+              465.02,
+              123.21
+            ],
+            "text": "production industries began to develop prior to 1900",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              131.74,
+              701.59,
+              154.77
+            ],
+            "text": "Frank Gilbreth and others extended this concept to the study of motion and work",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              35.16,
+              156.33,
+              88.01,
+              176.37
+            ],
+            "text": "design",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              185.02,
+              676.38,
+              208.05
+            ],
+            "text": "In 1924, Walter A. Shewhart of the Bell Telephone Laboratories developed the",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              35.16,
+              209.59,
+              712.09,
+              337.67
+            ],
+            "text": "statistical control chart concept, which is often considered the formal beginning of \nstatistical quality control. Toward the end of the 1920s, Harold F. Dodge and Harry \nG. Romig, both of Bell Telephone Laboratories, developed statistically based \nacceptance sampling as an alternative to 100% inspection. By the middle of the \n1930s, statistical quality-control methods were in wide use at Western Electric, the \nmanufacturing arm of the Bell System.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              346.23,
+              682.49,
+              369.26
+            ],
+            "text": "The American Society for Quality Control was formed in 1946. This organization",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              35.16,
+              370.82,
+              704.92,
+              412.46
+            ],
+            "text": "promotes the use of quality improvement techniques for all types of products and \nservices",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              420.99,
+              571.85,
+              444.02
+            ],
+            "text": "The 1950s and 1960s saw the emergence of reliability engineering",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              452.65,
+              686.1,
+              475.7
+            ],
+            "text": "In the 1950s, designed experiments for product and process improvement were",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              35.16,
+              477.28,
+              330.09,
+              497.32
+            ],
+            "text": "first introduced in the United States.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n5",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0005.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-qrm-l2-4509cb6171e4:p0006:text",
+      "course_id": "qrm",
+      "document_id": "qrm-qrm-l2-4509cb6171e4",
+      "kind": "page_text",
+      "text": "ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 6,
+        "slide": 6,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "l2.pdf",
+        "source_sha256": "4509cb6171e42d088d30cc7dd97c262ef9227ade51547668fc27a06e4d1b53e3",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:57.476633+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "f49410e5be53a4beb182b186661440f6a9b6d7168662fa75c50167519c892eb8",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n6",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0006.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-qrm-l2-4509cb6171e4:p0007:text",
+      "course_id": "qrm",
+      "document_id": "qrm-qrm-l2-4509cb6171e4",
+      "kind": "page_text",
+      "text": "The 7 Core Pillars of QMS (ISO 9001)\n\nISO 9001 standard frameworks are anchored in seven fundamental\nQuality Management Principles (QMPs) configured for organizational\ncohesion:\n\n 1.  Customer Focus: Meeting needs and striving to exceed expectations.\n 2.  Leadership: Creating unity of purpose and corporate direction.\n 3.  Engagement of People: Empowering competent staff at all tiers.\n 4.  Process Approach: Managing activities as interrelated, logical\n    workflows.\n 5.  Improvement: Maintaining an ongoing focal commitment to\n     optimization.\n 6.  Evidence-based Decisions: Choosing paths based on systemic data\n     analysis.\n 7.  Relationship Management: Nurturing mutual value with critical\n     partners.\n\n\n\n\n\n                                     ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 7,
+        "slide": 7,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "l2.pdf",
+        "source_sha256": "4509cb6171e42d088d30cc7dd97c262ef9227ade51547668fc27a06e4d1b53e3",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:57.476649+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "273d500a4fb63e3239cdb9a59f13f7fa68256facd7c644643b4f49b295adf7b7",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              60.1,
+              25.7,
+              616.12,
+              61.43
+            ],
+            "text": "The 7 Core Pillars of QMS (ISO 9001)",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              28.51,
+              79.54,
+              642.88,
+              149.9
+            ],
+            "text": "ISO 9001 standard frameworks are anchored in seven fundamental \nQuality Management Principles (QMPs) configured for organizational \ncohesion:",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              34.37,
+              175.76,
+              682.6,
+              438.18
+            ],
+            "text": "1.\nCustomer Focus: Meeting needs and striving to exceed expectations.\n2.\nLeadership: Creating unity of purpose and corporate direction.\n3.\nEngagement of People: Empowering competent staff at all tiers.\n4.\nProcess Approach: Managing activities as interrelated, logical \nworkflows.\n5.\nImprovement: Maintaining an ongoing focal commitment to \noptimization.\n6.\nEvidence-based Decisions: Choosing paths based on systemic data \nanalysis.\n7.\nRelationship Management: Nurturing mutual value with critical \npartners.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n7",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0007.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-qrm-l2-4509cb6171e4:p0008:text",
+      "course_id": "qrm",
+      "document_id": "qrm-qrm-l2-4509cb6171e4",
+      "kind": "page_text",
+      "text": "Strategic Value Propositions\n\nImplementing QMS principles is not a compliance checklist; it dictates\ncommercial survival and high-velocity scaling:\n\n   Risk Mitigation & Resilience\n   Standardizing key pathways radically minimizes downstream product\n    failure, scrap rates, regulatory litigation, and catastrophic public recalls.\n\n   Cost Reductions & Profitability\n   Directly optimizes internal resource allocation, removing redundant\n   actions, reducing process variations, and conserving operational\n   runway.\n  Brand Equity & Customer Trust\n    Delivering uniform outputs repeatedly matches expectations, creating\n    stable organic retention rates and justifying premium pricing structures.\n\n\n\n\n                                   ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 8,
+        "slide": 8,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "l2.pdf",
+        "source_sha256": "4509cb6171e42d088d30cc7dd97c262ef9227ade51547668fc27a06e4d1b53e3",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:57.476686+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "84e7dc89562b05ce902e8103835c0483fe0bd72581b2be3d232282297d887662",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              54.6,
+              29.97,
+              488.29,
+              65.7
+            ],
+            "text": "Strategic Value Propositions",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              35.83,
+              80.94,
+              594.76,
+              122.61
+            ],
+            "text": "Implementing QMS principles is not a compliance checklist; it dictates \ncommercial survival and high-velocity scaling:",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              75.19,
+              164.18,
+              448.63,
+              195.35
+            ],
+            "text": "Risk Mitigation & Resilience",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              60.6,
+              203.0,
+              625.31,
+              244.67
+            ],
+            "text": "Standardizing key pathways radically minimizes downstream product \nfailure, scrap rates, regulatory litigation, and catastrophic public recalls.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              75.19,
+              270.38,
+              487.69,
+              301.55
+            ],
+            "text": "Cost Reductions & Profitability",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              60.6,
+              309.97,
+              596.28,
+              373.26
+            ],
+            "text": "Directly optimizes internal resource allocation, removing redundant \nactions, reducing process variations, and conserving operational \nrunway.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              64.34,
+              378.16,
+              628.21,
+              449.75
+            ],
+            "text": "Brand Equity & Customer Trust\nDelivering uniform outputs repeatedly matches expectations, creating \nstable organic retention rates and justifying premium pricing structures.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n8",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0008.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-qrm-l2-4509cb6171e4:p0009:text",
+      "course_id": "qrm",
+      "document_id": "qrm-qrm-l2-4509cb6171e4",
+      "kind": "page_text",
+      "text": "The Road to Operational Excellence\n\n\n        Align & Design:\n        Strategic Setup: Translate the seven QMPs into explicit, top-tier corporate\n         objectives, establishing clear metrics of success and process benchmarks.\n\n\n           Process Mapping:\n             Practical Execution: Embed standard checkpoints inside production\n             workflows. Establish visible, accessible document hierarchies and\n            feedback chains.\n\n          Engage & Train:\n            Sustain Engagement: Decentralize standard checks. Train teams to\n             run root-cause analysis locally, eliminating functional communication\n                silos.\n\n        Excel & Evolve:\n       Peak Standards: Run data audits regularly. Execute continuous\n        improvement loops (Kaizen, DMAIC) to transition from standard control into\n         predictive Quality 4.0.\n                                    ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 9,
+        "slide": 9,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "l2.pdf",
+        "source_sha256": "4509cb6171e42d088d30cc7dd97c262ef9227ade51547668fc27a06e4d1b53e3",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:57.476736+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "c605b0e8ab1348a06b0a75e3d897979b6c5e831fcfbe326259dc7577ddb16949",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              33.96,
+              34.27,
+              656.5,
+              78.31
+            ],
+            "text": "The Road to Operational Excellence",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              105.7,
+              109.52,
+              706.8,
+              174.16
+            ],
+            "text": "Align & Design:\nStrategic Setup: Translate the seven QMPs into explicit, top-tier corporate \nobjectives, establishing clear metrics of success and process benchmarks.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              145.99,
+              205.71,
+              700.93,
+              289.03
+            ],
+            "text": "Process Mapping:\nPractical Execution: Embed standard checkpoints inside production \nworkflows. Establish visible, accessible document hierarchies and \nfeedback chains.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              145.99,
+              311.19,
+              700.15,
+              394.5
+            ],
+            "text": "Engage & Train:\nSustain Engagement: Decentralize standard checks. Train teams to \nrun root-cause analysis locally, eliminating functional communication \nsilos.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              105.7,
+              416.65,
+              709.76,
+              499.98
+            ],
+            "text": "Excel & Evolve:\nPeak Standards: Run data audits regularly. Execute continuous \nimprovement loops (Kaizen, DMAIC) to transition from standard control into \npredictive Quality 4.0.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n9",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0009.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-qrm-l2-4509cb6171e4:p0010:text",
+      "course_id": "qrm",
+      "document_id": "qrm-qrm-l2-4509cb6171e4",
+      "kind": "page_text",
+      "text": "Dimensions of Quality\n\n\n\n\n\n                                       ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 10,
+        "slide": 10,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "l2.pdf",
+        "source_sha256": "4509cb6171e42d088d30cc7dd97c262ef9227ade51547668fc27a06e4d1b53e3",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:57.476783+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "ffe9cc5dfa51643585a7c3d871789b2a961d396327ded73c48c24e9f1e279eb9",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              13.97,
+              19.39,
+              394.91,
+              63.43
+            ],
+            "text": "Dimensions of Quality",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n10",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0010.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-qrm-l2-4509cb6171e4:p0011:text",
+      "course_id": "qrm",
+      "document_id": "qrm-qrm-l2-4509cb6171e4",
+      "kind": "page_text",
+      "text": "Key Components of Quality Management\n\n        Quality Planning\n\n       • Establish quality objectives and determine the necessary processes,\n          resources, and timelines to meet them.\n\n        Quality Assurance\n\n       • Implement systematic, preventive measures and maintain\n        documented procedures to ensure that processes consistently\n         produce compliant outcomes.\n\n        Quality Control\n\n       • Monitor outputs using inspections, testing, and measurement to\n          detect deviations from specifications.\n\n        Quality Improvement\n\n       • Continuously enhance processes by identifying inefficiencies and\n         removing root causes of defects or failures.\n\n\n                                       ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 11,
+        "slide": 11,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "l2.pdf",
+        "source_sha256": "4509cb6171e42d088d30cc7dd97c262ef9227ade51547668fc27a06e4d1b53e3",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:57.476799+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "5b9cf2878d0d8d33192eb62e98dee089f8dfe2662ae12e6724ff7903b10ba549",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              9.29,
+              17.55,
+              657.72,
+              57.51
+            ],
+            "text": "Key Components of Quality Management",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              75.17,
+              70.03,
+              212.63,
+              90.1
+            ],
+            "text": "Quality Planning",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              74.28,
+              105.62,
+              644.88,
+              125.69
+            ],
+            "text": "• Establish quality objectives and determine the necessary processes,",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              92.28,
+              127.75,
+              415.85,
+              147.79
+            ],
+            "text": "resources, and timelines to meet them.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              75.17,
+              173.87,
+              225.13,
+              193.91
+            ],
+            "text": "Quality Assurance",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              74.28,
+              209.45,
+              565.77,
+              229.52
+            ],
+            "text": "• Implement systematic, preventive measures and maintain",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              92.28,
+              231.57,
+              600.61,
+              273.57
+            ],
+            "text": "documented procedures to ensure that processes consistently \nproduce compliant outcomes.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              75.17,
+              300.0,
+              201.85,
+              320.07
+            ],
+            "text": "Quality Control",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              74.28,
+              335.63,
+              619.77,
+              355.67
+            ],
+            "text": "• Monitor outputs using inspections, testing, and measurement to",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              92.28,
+              357.71,
+              400.23,
+              377.75
+            ],
+            "text": "detect deviations from specifications.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              75.17,
+              403.82,
+              253.88,
+              423.89
+            ],
+            "text": "Quality Improvement",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              74.28,
+              439.42,
+              621.57,
+              459.48
+            ],
+            "text": "• Continuously enhance processes by identifying inefficiencies and",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              92.28,
+              461.54,
+              446.43,
+              481.58
+            ],
+            "text": "removing root causes of defects or failures.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n11",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0011.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-qrm-l2-4509cb6171e4:p0012:text",
+      "course_id": "qrm",
+      "document_id": "qrm-qrm-l2-4509cb6171e4",
+      "kind": "page_text",
+      "text": "Statistical Methods for Quality Control and\nImprovement\n• Three major areas:\n    • Statistical process control\n    • Design of experiments\n    • Acceptance sampling\n\n\n\n\n\n                                 Production process inputs and outputs\n                                       ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 12,
+        "slide": 12,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "l2.pdf",
+        "source_sha256": "4509cb6171e42d088d30cc7dd97c262ef9227ade51547668fc27a06e4d1b53e3",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:57.476847+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "db5830809bddb7cb82f5407a94b49da4b1dfc1d5a473770a40cd233520f349ef",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              12.67,
+              18.91,
+              606.01,
+              87.55
+            ],
+            "text": "Statistical Methods for Quality Control and \nImprovement",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              12.67,
+              91.36,
+              250.69,
+              123.65
+            ],
+            "text": "• Three major areas:",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              48.67,
+              126.98,
+              313.68,
+              216.5
+            ],
+            "text": "• Statistical process control\n• Design of experiments\n• Acceptance sampling",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              280.99,
+              479.44,
+              563.66,
+              497.44
+            ],
+            "text": "Production process inputs and outputs",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n12",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0012.png"
+      },
+      "near_duplicate_of": "qrm-quality-tools-me3327e-2c19568e08c4:p0002:text"
+    },
+    {
+      "unit_id": "qrm-qrm-l2-4509cb6171e4:p0013:text",
+      "course_id": "qrm",
+      "document_id": "qrm-qrm-l2-4509cb6171e4",
+      "kind": "page_text",
+      "text": "Statistical process control\n • A control chart is one of the primary techniques of\n   statistical process control (SPC).\n\n\n\n\n\n                         A typical control chart\n\n\n\n                                       ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 13,
+        "slide": 13,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "l2.pdf",
+        "source_sha256": "4509cb6171e42d088d30cc7dd97c262ef9227ade51547668fc27a06e4d1b53e3",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:57.476869+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "746173f5d58dbc470c5cba4374f5cbd7819ef424e5f561b222a01673c60e7ab6",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              12.67,
+              36.69,
+              368.77,
+              69.72
+            ],
+            "text": "Statistical process control",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              26.06,
+              81.6,
+              623.0,
+              113.89
+            ],
+            "text": "• A control chart is one of the primary techniques of",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              44.06,
+              116.17,
+              402.96,
+              144.13
+            ],
+            "text": "statistical process control (SPC).",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              275.81,
+              453.83,
+              436.73,
+              471.83
+            ],
+            "text": "A typical control chart",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n13",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0013.png"
+      },
+      "near_duplicate_of": "qrm-quality-tools-me3327e-2c19568e08c4:p0003:text"
+    },
+    {
+      "unit_id": "qrm-qrm-l2-4509cb6171e4:p0014:text",
+      "course_id": "qrm",
+      "document_id": "qrm-qrm-l2-4509cb6171e4",
+      "kind": "page_text",
+      "text": "Design of experiments\n • Genichi Taguchi\n • One major type of designed experiment is the factorial\n   design\n\n\n\n\n\n                                 Factorial designs for the process\n\n\n\n\n\n                                       ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 14,
+        "slide": 14,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "l2.pdf",
+        "source_sha256": "4509cb6171e42d088d30cc7dd97c262ef9227ade51547668fc27a06e4d1b53e3",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:57.476890+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "5202b5572028154295cfe268d42928352fb85268a593667a2d8d02f94d473fbc",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              12.67,
+              36.69,
+              318.84,
+              69.72
+            ],
+            "text": "Design of experiments",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              26.06,
+              81.6,
+              670.51,
+              154.21
+            ],
+            "text": "• Genichi Taguchi\n• One major type of designed experiment is the factorial",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              44.06,
+              156.47,
+              117.86,
+              184.46
+            ],
+            "text": "design",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              238.85,
+              422.08,
+              473.32,
+              440.11
+            ],
+            "text": "Factorial designs for the process",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n14",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0014.png"
+      },
+      "near_duplicate_of": "qrm-quality-tools-me3327e-2c19568e08c4:p0004:text"
+    },
+    {
+      "unit_id": "qrm-qrm-l2-4509cb6171e4:p0015:text",
+      "course_id": "qrm",
+      "document_id": "qrm-qrm-l2-4509cb6171e4",
+      "kind": "page_text",
+      "text": "Acceptance sampling\n\nAcceptance sampling, defined as the inspection and classification of a\nsample of units selected at random from a larger batch or lot and the\nultimate decision about disposition of the lot, usually occurs at two\npoints: incoming raw materials or components, or final production.\n\n\n\n\n\n                               Variations of acceptance sampling\n                                        ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 15,
+        "slide": 15,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "l2.pdf",
+        "source_sha256": "4509cb6171e42d088d30cc7dd97c262ef9227ade51547668fc27a06e4d1b53e3",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:57.476911+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "321e873e9a72ae4556a8a15a93b4c26a08189fbc4b2006bfea9ae3a4ee560989",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              14.38,
+              14.69,
+              310.4,
+              47.72
+            ],
+            "text": "Acceptance sampling",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              8.5,
+              60.1,
+              689.93,
+              161.88
+            ],
+            "text": "Acceptance sampling, defined as the inspection and classification of a \nsample of units selected at random from a larger batch or lot and the \nultimate decision about disposition of the lot, usually occurs at two \npoints: incoming raw materials or components, or final production.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              231.77,
+              486.68,
+              480.37,
+              504.68
+            ],
+            "text": "Variations of acceptance sampling",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n15",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0015.png"
+      },
+      "near_duplicate_of": "qrm-quality-tools-me3327e-2c19568e08c4:p0005:text"
+    }
+  ],
+  "schema_version": "1.0",
+  "created_at": "2026-09-03T07:07:57.476935+00:00"
+}

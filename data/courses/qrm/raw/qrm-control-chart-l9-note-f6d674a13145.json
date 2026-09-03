@@ -1,0 +1,1574 @@
+{
+  "document_id": "qrm-control-chart-l9-note-f6d674a13145",
+  "course_id": "qrm",
+  "source_id": "control-chart-l9-note",
+  "source_file": "Quality_Reliability_Maintenance_Control_Chart_Note_L9.pdf",
+  "source_sha256": "f6d674a13145ca2f13d03f9245c235858af6380ace52dfdc53d6acf480485ae7",
+  "units": [
+    {
+      "unit_id": "qrm-control-chart-l9-note-f6d674a13145:p0001:text",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-l9-note-f6d674a13145",
+      "kind": "page_text",
+      "text": "Quality, Reliability &\n   Maintenance\n    ME3327E\n\n\n\n\n             Course Instructor:\n                   Dr. Nehem Tudu\nAssistant Professor, Dept. of Mechanical Engineering",
+      "locator": {
+        "page": 1,
+        "slide": 1,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_Note_L9.pdf",
+        "source_sha256": "f6d674a13145ca2f13d03f9245c235858af6380ace52dfdc53d6acf480485ae7",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:41.890078+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "ea961a3c7991aba9f0e743cc8826df764fa1413a1ae1a4a1cef38e288ff10412",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              98.83,
+              49.79,
+              634.57,
+              112.21
+            ],
+            "text": "Quality, Reliability &",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              191.59,
+              108.11,
+              528.55,
+              170.53
+            ],
+            "text": "Maintenance",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              237.46,
+              166.4,
+              482.73,
+              228.86
+            ],
+            "text": "ME3327E",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              260.02,
+              352.12,
+              466.39,
+              384.16
+            ],
+            "text": "Course Instructor:",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              89.71,
+              382.36,
+              630.39,
+              444.64
+            ],
+            "text": "Dr. Nehem Tudu\nAssistant Professor, Dept. of Mechanical Engineering",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0001.png"
+      },
+      "near_duplicate_of": "qrm-control-chart-2-note-3aa698963876:p0001:text"
+    },
+    {
+      "unit_id": "qrm-control-chart-l9-note-f6d674a13145:p0001:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-l9-note-f6d674a13145",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 1,
+        "slide": 1,
+        "bbox": [
+          320.4,
+          223.68,
+          405.48,
+          327.24
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_Note_L9.pdf",
+        "source_sha256": "f6d674a13145ca2f13d03f9245c235858af6380ace52dfdc53d6acf480485ae7",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:41.890111+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 13,
+        "bboxes": [
+          [
+            320.4,
+            223.68,
+            405.48,
+            327.24
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-l9-note-f6d674a13145:p0002:text",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-l9-note-f6d674a13145",
+      "kind": "page_text",
+      "text": "Statistical Process Control\n\n• A control chart is a graphical tool for monitoring the activity of an\n  ongoing process.\n• Control charts are sometimes referred to as Shewhart control charts,\n  because Walter A. Shewhart first proposed their general theory.",
+      "locator": {
+        "page": 2,
+        "slide": 2,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_Note_L9.pdf",
+        "source_sha256": "f6d674a13145ca2f13d03f9245c235858af6380ace52dfdc53d6acf480485ae7",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:41.890119+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "f3dc9338073b1fc367cff5abf5cd02ef68945c73b7a1c198d55ccd536d7edaca",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              7.2,
+              13.01,
+              359.57,
+              46.04
+            ],
+            "text": "Statistical Process Control",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              61.59,
+              664.96,
+              89.34
+            ],
+            "text": "• A control chart is a graphical tool for monitoring the activity of an",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              25.2,
+              94.15,
+              189.17,
+              118.15
+            ],
+            "text": "ongoing process.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              129.31,
+              698.57,
+              157.03
+            ],
+            "text": "• Control charts are sometimes referred to as Shewhart control charts,",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              25.2,
+              161.83,
+              645.62,
+              185.83
+            ],
+            "text": "because Walter A. Shewhart first proposed their general theory.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              657.17,
+              510.03,
+              663.27,
+              522.05
+            ],
+            "text": "2",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0002.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-l9-note-f6d674a13145:p0002:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-l9-note-f6d674a13145",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 2,
+        "slide": 2,
+        "bbox": [
+          163.56,
+          184.56,
+          721.92,
+          522.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_Note_L9.pdf",
+        "source_sha256": "f6d674a13145ca2f13d03f9245c235858af6380ace52dfdc53d6acf480485ae7",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:41.890138+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 17,
+        "bboxes": [
+          [
+            163.56,
+            184.56,
+            721.92,
+            522.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-l9-note-f6d674a13145:p0002:visual-002",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-l9-note-f6d674a13145",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 2,
+        "slide": 2,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_Note_L9.pdf",
+        "source_sha256": "f6d674a13145ca2f13d03f9245c235858af6380ace52dfdc53d6acf480485ae7",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:41.890149+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 2,
+        "xref": 22,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-l9-note-f6d674a13145:p0003:text",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-l9-note-f6d674a13145",
+      "kind": "page_text",
+      "text": "Benefits of Control Charts\n• When to take corrective action.\n• Type of remedial action necessary.\n• When to leave a process alone.\n• Process capability.\n• Possible means of quality improvement.\n\nCause of Variations:\n• Special Cause (As per Deming 15%): If an observation falls outside the\n  control limits or a non-random pattern is exhibited, special causes are\n assumed to exist, and the process is said to be out of control.\n• Common Cause (As per Deming 85%): If quality characteristic values\n  are within control limits and no non-random pattern is visible, it is\n assumed that a system of common causes exists and that the process\n  is in a state of statistical control.\n\n\n\n                                        ME3327E QUALITY, RELIABILITY AND\n                                               MAINTENANCE",
+      "locator": {
+        "page": 3,
+        "slide": 3,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_Note_L9.pdf",
+        "source_sha256": "f6d674a13145ca2f13d03f9245c235858af6380ace52dfdc53d6acf480485ae7",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:41.890154+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "5576e8d7e1b74a01b6bdd1480d75cbb8f96fa6abbefb35799f3af5643ac2bfe4",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              7.2,
+              5.58,
+              327.06,
+              35.58
+            ],
+            "text": "Benefits of Control Charts",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              30.05,
+              414.84,
+              245.33
+            ],
+            "text": "• When to take corrective action.\n• Type of remedial action necessary.\n• When to leave a process alone.\n• Process capability.\n• Possible means of quality improvement.\nCause of Variations:",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              256.54,
+              706.66,
+              284.26
+            ],
+            "text": "• Special Cause (As per Deming 15%): If an observation falls outside the",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              25.2,
+              289.06,
+              707.23,
+              341.86
+            ],
+            "text": "control limits or a non-random pattern is exhibited, special causes are \nassumed to exist, and the process is said to be out of control.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              352.88,
+              690.79,
+              380.63
+            ],
+            "text": "• Common Cause (As per Deming 85%): If quality characteristic values",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              25.2,
+              385.44,
+              703.58,
+              467.04
+            ],
+            "text": "are within control limits and no non-random pattern is visible, it is \nassumed that a system of common causes exists and that the process \nis in a state of statistical control.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n3",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0003.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-l9-note-f6d674a13145:p0003:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-l9-note-f6d674a13145",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 3,
+        "slide": 3,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_Note_L9.pdf",
+        "source_sha256": "f6d674a13145ca2f13d03f9245c235858af6380ace52dfdc53d6acf480485ae7",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:41.890190+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 22,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-l9-note-f6d674a13145:p0004:text",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-l9-note-f6d674a13145",
+      "kind": "page_text",
+      "text": "Selection of Control Limits\nThe center line (CL) and control limits (UCL/LCL) are given by:\n               𝐶𝐿= 𝐸෠𝜃\n               𝑈𝐶𝐿= 𝐸෠𝜃+ 𝑘𝜎෠𝜃\n                L𝐶𝐿= 𝐸෠𝜃−𝑘𝜎෠𝜃\n\nExercise: A semi automatic turret lathe machines the thickness of a part\nthat is subsequently used in an assembly. The process mean is known to be\n30 mm with a standard deviation of 1.5mm. Construct a control chart for\nthe average thickness using 3σ limits if samples of size 5 are randomly\nselected from the process. Table shows the average thickness of 15\nsamples selected from the process. Plot these on a control chart and make\ninferences.\n         Sample    ഥ𝒙(mm)    Sample   ഥ𝒙(mm)   Sample   ഥ𝒙(mm)\n\n         1          31.56     6         31.45    11        30.20\n\n         2          29.50     7         29.70    12        29.10\n\n         3          30.50     8         31.48    13        30.85\n\n         4          30.72     9         29.52    14        31.55\n         5          28.92     10        28.30    15        29.43      4",
+      "locator": {
+        "page": 4,
+        "slide": 4,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_Note_L9.pdf",
+        "source_sha256": "f6d674a13145ca2f13d03f9245c235858af6380ace52dfdc53d6acf480485ae7",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:41.890196+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "8e55c1817283fcc5261fe8b579fd2934b678e44310e53cbb1bdaa44017a9ef84",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              7.2,
+              6.19,
+              366.77,
+              39.19
+            ],
+            "text": "Selection of Control Limits",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              39.53,
+              576.59,
+              62.57
+            ],
+            "text": "The center line (CL) and control limits (UCL/LCL) are given by:",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              254.81,
+              64.18,
+              454.18,
+              154.22
+            ],
+            "text": "𝐶𝐿= 𝐸෠𝜃\n𝑈𝐶𝐿= 𝐸෠𝜃+ 𝑘𝜎෠𝜃\nL𝐶𝐿= 𝐸෠𝜃−𝑘𝜎෠𝜃",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              170.71,
+              713.7,
+              359.39
+            ],
+            "text": "Exercise: A semi automatic turret lathe machines the thickness of a part \nthat is subsequently used in an assembly. The process mean is known to be \n30 mm with a standard deviation of 1.5mm. Construct a control chart for \nthe average thickness using 3σ limits if samples of size 5 are randomly \nselected from the process. Table shows the average thickness of 15 \nsamples selected from the process. Plot these on a control chart and make \ninferences.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              97.99,
+              356.22,
+              633.09,
+              377.08
+            ],
+            "text": "Sample\nഥ𝒙(mm)\nSample\nഥ𝒙(mm)\nSample\nഥ𝒙(mm)",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              97.99,
+              388.12,
+              617.79,
+              408.16
+            ],
+            "text": "1\n31.56\n6\n31.45\n11\n30.20",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              97.99,
+              419.3,
+              617.83,
+              439.37
+            ],
+            "text": "2\n29.50\n7\n29.70\n12\n29.10",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              97.99,
+              450.55,
+              617.79,
+              470.59
+            ],
+            "text": "3\n30.50\n8\n31.48\n13\n30.85",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              97.99,
+              481.75,
+              617.79,
+              501.79
+            ],
+            "text": "4\n30.72\n9\n29.52\n14\n31.55",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              657.17,
+              510.03,
+              663.27,
+              522.05
+            ],
+            "text": "4",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              97.99,
+              512.95,
+              617.79,
+              532.99
+            ],
+            "text": "5\n28.92\n10\n28.30\n15\n29.43",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0004.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-l9-note-f6d674a13145:p0004:table-001",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-l9-note-f6d674a13145",
+      "kind": "table",
+      "text": "1 | 31.56 | 6 | 31.45 | 11 | 30.20",
+      "locator": {
+        "page": 4,
+        "slide": 4,
+        "bbox": [
+          94.65,
+          380.76,
+          650.04,
+          411.96
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_Note_L9.pdf",
+        "source_sha256": "f6d674a13145ca2f13d03f9245c235858af6380ace52dfdc53d6acf480485ae7",
+        "extractor": "pymupdf-table",
+        "extracted_at": "2026-09-03T07:07:41.890238+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "95900982699a1fb5f1deef8c728cd13321f11816263c39863ab3586b8f409881",
+      "metadata": {
+        "table_index": 1
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-l9-note-f6d674a13145:p0004:table-002",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-l9-note-f6d674a13145",
+      "kind": "table",
+      "text": "3 | 30.50 | 8 | 31.48 | 13 | 30.85",
+      "locator": {
+        "page": 4,
+        "slide": 4,
+        "bbox": [
+          94.65,
+          443.16,
+          650.04,
+          474.36
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_Note_L9.pdf",
+        "source_sha256": "f6d674a13145ca2f13d03f9245c235858af6380ace52dfdc53d6acf480485ae7",
+        "extractor": "pymupdf-table",
+        "extracted_at": "2026-09-03T07:07:41.890246+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "0841442e4f248625fadd0c66e78a8ba6a97c8878c59fafcdeedd8294b56665d3",
+      "metadata": {
+        "table_index": 2
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-l9-note-f6d674a13145:p0004:table-003",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-l9-note-f6d674a13145",
+      "kind": "table",
+      "text": "5 | 28.92 | 10 | 28.30 | 15 | 29.43",
+      "locator": {
+        "page": 4,
+        "slide": 4,
+        "bbox": [
+          94.65,
+          505.56,
+          650.04,
+          536.76
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_Note_L9.pdf",
+        "source_sha256": "f6d674a13145ca2f13d03f9245c235858af6380ace52dfdc53d6acf480485ae7",
+        "extractor": "pymupdf-table",
+        "extracted_at": "2026-09-03T07:07:41.890252+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "038a01e0b3e4506d63983909bbeca2af65b6599d8210ea69c0201d3842852b7b",
+      "metadata": {
+        "table_index": 3
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-l9-note-f6d674a13145:p0004:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-l9-note-f6d674a13145",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 4,
+        "slide": 4,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_Note_L9.pdf",
+        "source_sha256": "f6d674a13145ca2f13d03f9245c235858af6380ace52dfdc53d6acf480485ae7",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:41.890260+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 22,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-l9-note-f6d674a13145:p0005:text",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-l9-note-f6d674a13145",
+      "kind": "page_text",
+      "text": "Control chart for average thickness.\n\n\n\n\n\n                                        ME3327E QUALITY, RELIABILITY AND\n                                               MAINTENANCE",
+      "locator": {
+        "page": 5,
+        "slide": 5,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_Note_L9.pdf",
+        "source_sha256": "f6d674a13145ca2f13d03f9245c235858af6380ace52dfdc53d6acf480485ae7",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:41.890265+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "94a2e1fcc9741a8842743ae289253ee66efbe6618867c97b48c69c883df07048",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              7.2,
+              13.01,
+              481.16,
+              46.04
+            ],
+            "text": "Control chart for average thickness.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n5",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0005.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-l9-note-f6d674a13145:p0005:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-l9-note-f6d674a13145",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 5,
+        "slide": 5,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_Note_L9.pdf",
+        "source_sha256": "f6d674a13145ca2f13d03f9245c235858af6380ace52dfdc53d6acf480485ae7",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:41.890274+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 22,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-l9-note-f6d674a13145:p0005:visual-002",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-l9-note-f6d674a13145",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 5,
+        "slide": 5,
+        "bbox": [
+          8.16,
+          57.23,
+          705.81,
+          479.86
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_Note_L9.pdf",
+        "source_sha256": "f6d674a13145ca2f13d03f9245c235858af6380ace52dfdc53d6acf480485ae7",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:41.890280+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 2,
+        "xref": 49,
+        "bboxes": [
+          [
+            8.16,
+            57.23,
+            705.81,
+            479.86
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-l9-note-f6d674a13145:p0006:text",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-l9-note-f6d674a13145",
+      "kind": "page_text",
+      "text": "Errors in Making Inferences from Control Charts\n\n• Type I Errors\n\n\n\n\n\n                                        ME3327E QUALITY, RELIABILITY AND\n                                               MAINTENANCE",
+      "locator": {
+        "page": 6,
+        "slide": 6,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_Note_L9.pdf",
+        "source_sha256": "f6d674a13145ca2f13d03f9245c235858af6380ace52dfdc53d6acf480485ae7",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:41.890288+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "3b3445950e0790376c14f052a08e3c2607aa926da36be473ae768cf8f1d1c695",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              7.2,
+              17.73,
+              599.36,
+              47.76
+            ],
+            "text": "Errors in Making Inferences from Control Charts",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              68.11,
+              146.28,
+              95.83
+            ],
+            "text": "• Type I Errors",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n6",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0006.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-l9-note-f6d674a13145:p0006:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-l9-note-f6d674a13145",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 6,
+        "slide": 6,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_Note_L9.pdf",
+        "source_sha256": "f6d674a13145ca2f13d03f9245c235858af6380ace52dfdc53d6acf480485ae7",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:41.890299+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 22,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-l9-note-f6d674a13145:p0006:visual-002",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-l9-note-f6d674a13145",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 6,
+        "slide": 6,
+        "bbox": [
+          168.96,
+          44.03,
+          664.41,
+          484.08
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_Note_L9.pdf",
+        "source_sha256": "f6d674a13145ca2f13d03f9245c235858af6380ace52dfdc53d6acf480485ae7",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:41.890305+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 2,
+        "xref": 53,
+        "bboxes": [
+          [
+            168.96,
+            44.03,
+            664.41,
+            484.08
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-l9-note-f6d674a13145:p0007:text",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-l9-note-f6d674a13145",
+      "kind": "page_text",
+      "text": "Errors in Making Inferences from Control Charts\n\n• Type II Errors\n\n\n\n\n\n                                        ME3327E QUALITY, RELIABILITY AND\n                                               MAINTENANCE",
+      "locator": {
+        "page": 7,
+        "slide": 7,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_Note_L9.pdf",
+        "source_sha256": "f6d674a13145ca2f13d03f9245c235858af6380ace52dfdc53d6acf480485ae7",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:41.890310+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "0bce042f855a711dbfa59d91940a7399d74a20b8f5ea736ad5725806dde0e43a",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              7.2,
+              17.73,
+              599.36,
+              47.76
+            ],
+            "text": "Errors in Making Inferences from Control Charts",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              68.11,
+              152.28,
+              95.83
+            ],
+            "text": "• Type II Errors",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n7",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0007.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-l9-note-f6d674a13145:p0007:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-l9-note-f6d674a13145",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 7,
+        "slide": 7,
+        "bbox": [
+          155.16,
+          33.48,
+          693.84,
+          493.92
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_Note_L9.pdf",
+        "source_sha256": "f6d674a13145ca2f13d03f9245c235858af6380ace52dfdc53d6acf480485ae7",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:41.890320+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 56,
+        "bboxes": [
+          [
+            155.16,
+            33.48,
+            693.84,
+            493.92
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-l9-note-f6d674a13145:p0007:visual-002",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-l9-note-f6d674a13145",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 7,
+        "slide": 7,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_Note_L9.pdf",
+        "source_sha256": "f6d674a13145ca2f13d03f9245c235858af6380ace52dfdc53d6acf480485ae7",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:41.890326+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 2,
+        "xref": 22,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-l9-note-f6d674a13145:p0008:text",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-l9-note-f6d674a13145",
+      "kind": "page_text",
+      "text": "Exercise 2\n\nA control chart is to be constructed for the average breaking strength of\nnylon fibers. Samples of size 5 are randomly chosen from the process.\nThe process mean and standard deviation are estimated to be 120 kg\nand 8 kg, respectively.\n\na)   If the control limits are placed three standard deviations from the\n   process mean, what is the probability of a type I error?\n\nb)  If the process mean shifts to 125 kg, what is the probability of\n   concluding that the process is in control and hence making a type II\n    error on the first sample plotted after the shift?\n\nc) What is the probability of detecting the shift by the second sample\n    plotted after the shift if the samples are chosen independently?\n\n\n\n\n\n                ME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+      "locator": {
+        "page": 8,
+        "slide": 8,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_Note_L9.pdf",
+        "source_sha256": "f6d674a13145ca2f13d03f9245c235858af6380ace52dfdc53d6acf480485ae7",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:41.890331+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "628e44eeca7645fbecaf3597019d42ca1278ff70e4e4abfa8af3feb356149da5",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              7.2,
+              6.19,
+              141.38,
+              39.19
+            ],
+            "text": "Exercise 2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              60.34,
+              708.6,
+              170.76
+            ],
+            "text": "A control chart is to be constructed for the average breaking strength of \nnylon fibers. Samples of size 5 are randomly chosen from the process. \nThe process mean and standard deviation are estimated to be 120 kg \nand 8 kg, respectively.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              185.64,
+              684.82,
+              209.64
+            ],
+            "text": "a) If the control limits are placed three standard deviations from the",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              43.2,
+              214.46,
+              575.64,
+              238.46
+            ],
+            "text": "process mean, what is the probability of a type I error?",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              253.22,
+              647.66,
+              277.22
+            ],
+            "text": "b) If the process mean shifts to 125 kg, what is the probability of",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              43.2,
+              282.02,
+              701.26,
+              334.82
+            ],
+            "text": "concluding that the process is in control and hence making a type II \nerror on the first sample plotted after the shift?",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              349.61,
+              696.43,
+              373.61
+            ],
+            "text": "c) What is the probability of detecting the shift by the second sample",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              43.2,
+              378.41,
+              662.93,
+              402.41
+            ],
+            "text": "plotted after the shift if the samples are chosen independently?",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              113.42,
+              503.47,
+              368.56,
+              515.47
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND MAINTENANCE",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              657.17,
+              510.03,
+              663.27,
+              522.05
+            ],
+            "text": "8",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0008.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-l9-note-f6d674a13145:p0008:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-l9-note-f6d674a13145",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 8,
+        "slide": 8,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_Note_L9.pdf",
+        "source_sha256": "f6d674a13145ca2f13d03f9245c235858af6380ace52dfdc53d6acf480485ae7",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:41.890360+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 22,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-l9-note-f6d674a13145:p0009:text",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-l9-note-f6d674a13145",
+      "kind": "page_text",
+      "text": "Solution",
+      "locator": {
+        "page": 9,
+        "slide": 9,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_Note_L9.pdf",
+        "source_sha256": "f6d674a13145ca2f13d03f9245c235858af6380ace52dfdc53d6acf480485ae7",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:41.890365+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "8270f2824111e04d9278c01a92b388147d9d02e0b50d946d25d00db375ff1282",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              7.2,
+              6.19,
+              121.45,
+              39.19
+            ],
+            "text": "Solution",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              657.17,
+              510.03,
+              663.27,
+              522.05
+            ],
+            "text": "9",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0009.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-l9-note-f6d674a13145:p0009:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-l9-note-f6d674a13145",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 9,
+        "slide": 9,
+        "bbox": [
+          31.44,
+          21.84,
+          612.0,
+          521.76
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_Note_L9.pdf",
+        "source_sha256": "f6d674a13145ca2f13d03f9245c235858af6380ace52dfdc53d6acf480485ae7",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:41.890371+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 61,
+        "bboxes": [
+          [
+            31.44,
+            21.84,
+            612.0,
+            521.76
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-l9-note-f6d674a13145:p0009:visual-002",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-l9-note-f6d674a13145",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 9,
+        "slide": 9,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_Note_L9.pdf",
+        "source_sha256": "f6d674a13145ca2f13d03f9245c235858af6380ace52dfdc53d6acf480485ae7",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:41.890377+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 2,
+        "xref": 22,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-l9-note-f6d674a13145:p0010:text",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-l9-note-f6d674a13145",
+      "kind": "page_text",
+      "text": "Solution",
+      "locator": {
+        "page": 10,
+        "slide": 10,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_Note_L9.pdf",
+        "source_sha256": "f6d674a13145ca2f13d03f9245c235858af6380ace52dfdc53d6acf480485ae7",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:41.890382+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "8270f2824111e04d9278c01a92b388147d9d02e0b50d946d25d00db375ff1282",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              7.2,
+              6.19,
+              121.45,
+              39.19
+            ],
+            "text": "Solution",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              651.05,
+              510.03,
+              663.27,
+              522.05
+            ],
+            "text": "10",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0010.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-l9-note-f6d674a13145:p0010:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-l9-note-f6d674a13145",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 10,
+        "slide": 10,
+        "bbox": [
+          55.68,
+          17.88,
+          630.84,
+          513.48
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_Note_L9.pdf",
+        "source_sha256": "f6d674a13145ca2f13d03f9245c235858af6380ace52dfdc53d6acf480485ae7",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:41.890387+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 64,
+        "bboxes": [
+          [
+            55.68,
+            17.88,
+            630.84,
+            513.48
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-control-chart-l9-note-f6d674a13145:p0010:visual-002",
+      "course_id": "qrm",
+      "document_id": "qrm-control-chart-l9-note-f6d674a13145",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 10,
+        "slide": 10,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_Control_Chart_Note_L9.pdf",
+        "source_sha256": "f6d674a13145ca2f13d03f9245c235858af6380ace52dfdc53d6acf480485ae7",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:41.890393+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 2,
+        "xref": 22,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    }
+  ],
+  "schema_version": "1.0",
+  "created_at": "2026-09-03T07:07:41.890399+00:00"
+}

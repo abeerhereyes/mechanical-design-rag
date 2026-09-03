@@ -1,0 +1,2022 @@
+{
+  "document_id": "qrm-probability-distribution-l6-b8e4e6eede40",
+  "course_id": "qrm",
+  "source_id": "probability-distribution-l6",
+  "source_file": "Quality_Reliability_Maintenance_L6_Probability_Distribution.pdf",
+  "source_sha256": "b8e4e6eede4032049e6af819507115f70c1b12e50c5fb62013db0575975bba20",
+  "units": [
+    {
+      "unit_id": "qrm-probability-distribution-l6-b8e4e6eede40:p0001:text",
+      "course_id": "qrm",
+      "document_id": "qrm-probability-distribution-l6-b8e4e6eede40",
+      "kind": "page_text",
+      "text": "Quality, Reliability &\n    ME3327E\n\n\n\n\n             Course Instructor:\n                   Dr. Nehem Tudu\nAssistant Professor, Dept. of Mechanical Engineering",
+      "locator": {
+        "page": 1,
+        "slide": 1,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L6_Probability_Distribution.pdf",
+        "source_sha256": "b8e4e6eede4032049e6af819507115f70c1b12e50c5fb62013db0575975bba20",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:43.924499+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "be125b2a4bd449acfd44e6cd7912c630de3a9bccea1dfb69d211c7d09bfd297b",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              98.83,
+              49.79,
+              634.57,
+              112.21
+            ],
+            "text": "Quality, Reliability &",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              191.59,
+              108.11,
+              528.55,
+              170.53
+            ],
+            "text": "Maintenance",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              237.46,
+              166.4,
+              482.73,
+              228.86
+            ],
+            "text": "ME3327E",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              260.02,
+              352.12,
+              466.39,
+              384.16
+            ],
+            "text": "Course Instructor:",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              89.71,
+              382.36,
+              630.39,
+              444.64
+            ],
+            "text": "Dr. Nehem Tudu\nAssistant Professor, Dept. of Mechanical Engineering",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0001.png"
+      },
+      "near_duplicate_of": "qrm-quality-cost-l5-note-4f5dd3c4bf6a:p0001:text"
+    },
+    {
+      "unit_id": "qrm-probability-distribution-l6-b8e4e6eede40:p0001:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-probability-distribution-l6-b8e4e6eede40",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 1,
+        "slide": 1,
+        "bbox": [
+          320.4,
+          223.68,
+          405.48,
+          327.24
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L6_Probability_Distribution.pdf",
+        "source_sha256": "b8e4e6eede4032049e6af819507115f70c1b12e50c5fb62013db0575975bba20",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:43.924533+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 13,
+        "bboxes": [
+          [
+            320.4,
+            223.68,
+            405.48,
+            327.24
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-probability-distribution-l6-b8e4e6eede40:p0002:text",
+      "course_id": "qrm",
+      "document_id": "qrm-probability-distribution-l6-b8e4e6eede40",
+      "kind": "page_text",
+      "text": "Probability Distributions\n\nFor a discrete random variable X, which takes on the values\nx1, x2, and soon, a probability distribution function p(x) has\nthe following properties:\n𝑝𝑥𝑖≥0, for all i, where 𝑝𝑥𝑖= 𝑃𝑋= 𝑥𝑖, 𝑖= 1, 2, 3, … 𝑛\n       ෍ 𝑝𝑥𝑖= 1\n                           𝑎𝑙𝑙𝑖\nWhen X is a continuous random variable, the probability\ndensity function is represented by f(x), which has the\nfollowing properties:\n𝑓𝑥≥0, for all x, where 𝑃𝑎≤𝑥≤𝑏= ׬ 𝑏𝑓𝑥𝑑𝑥                                        𝑎               ∞\n           න 𝑓𝑥𝑑𝑥= 1\n                −∞\n\n\n                                        ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 2,
+        "slide": 2,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L6_Probability_Distribution.pdf",
+        "source_sha256": "b8e4e6eede4032049e6af819507115f70c1b12e50c5fb62013db0575975bba20",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:43.924540+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "6c1cf99fc6021a0cd3bc82656f233ebc433e87d69856c93453926600d7de9dfa",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              12.67,
+              23.97,
+              346.8,
+              56.97
+            ],
+            "text": "Probability Distributions",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              74.72,
+              700.15,
+              196.58
+            ],
+            "text": "For a discrete random variable X, which takes on the values \nx1, x2, and soon, a probability distribution function p(x) has \nthe following properties:\n𝑝𝑥𝑖≥0, for all i, where 𝑝𝑥𝑖= 𝑃𝑋= 𝑥𝑖, 𝑖= 1, 2, 3, … 𝑛",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              278.93,
+              210.85,
+              316.0,
+              238.84
+            ],
+            "text": "෍",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.25,
+              210.85,
+              437.0,
+              242.92
+            ],
+            "text": "𝑝𝑥𝑖= 1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              277.37,
+              252.38,
+              316.93,
+              272.8
+            ],
+            "text": "𝑎𝑙𝑙𝑖",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              275.62,
+              651.23,
+              357.37
+            ],
+            "text": "When X is a continuous random variable, the probability \ndensity function is represented by f(x), which has the \nfollowing properties:",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              517.99,
+              361.97,
+              621.69,
+              400.99
+            ],
+            "text": "𝑏𝑓𝑥𝑑𝑥",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              373.0,
+              525.1,
+              410.71
+            ],
+            "text": "𝑓𝑥≥0, for all x, where 𝑃𝑎≤𝑥≤𝑏= ׬𝑎",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              287.21,
+              396.89,
+              306.06,
+              417.31
+            ],
+            "text": "∞",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              264.65,
+              422.78,
+              287.23,
+              450.79
+            ],
+            "text": "න",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              310.61,
+              422.9,
+              449.73,
+              450.91
+            ],
+            "text": "𝑓𝑥𝑑𝑥= 1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              276.89,
+              455.23,
+              310.62,
+              475.65
+            ],
+            "text": "−∞",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n2",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0002.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-probability-distribution-l6-b8e4e6eede40:p0002:formula-001",
+      "course_id": "qrm",
+      "document_id": "qrm-probability-distribution-l6-b8e4e6eede40",
+      "kind": "formula",
+      "text": "For a discrete random variable X, which takes on the values \nx1, x2, and soon, a probability distribution function p(x) has \nthe following properties:\n𝑝𝑥𝑖≥0, for all i, where 𝑝𝑥𝑖= 𝑃𝑋= 𝑥𝑖, 𝑖= 1, 2, 3, … 𝑛",
+      "locator": {
+        "page": 2,
+        "slide": 2,
+        "bbox": [
+          7.2,
+          74.72,
+          700.15,
+          196.58
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L6_Probability_Distribution.pdf",
+        "source_sha256": "b8e4e6eede4032049e6af819507115f70c1b12e50c5fb62013db0575975bba20",
+        "extractor": "pymupdf-layout-heuristic",
+        "extracted_at": "2026-09-03T07:07:43.924571+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "98f529571fc32ae3878c747a350542d6f560115b04f5bf8cd4bac89a9f37ee21",
+      "metadata": {
+        "formula_index": 1
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-probability-distribution-l6-b8e4e6eede40:p0002:formula-002",
+      "course_id": "qrm",
+      "document_id": "qrm-probability-distribution-l6-b8e4e6eede40",
+      "kind": "formula",
+      "text": "𝑓𝑥≥0, for all x, where 𝑃𝑎≤𝑥≤𝑏= ׬𝑎",
+      "locator": {
+        "page": 2,
+        "slide": 2,
+        "bbox": [
+          7.2,
+          373.0,
+          525.1,
+          410.71
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L6_Probability_Distribution.pdf",
+        "source_sha256": "b8e4e6eede4032049e6af819507115f70c1b12e50c5fb62013db0575975bba20",
+        "extractor": "pymupdf-layout-heuristic",
+        "extracted_at": "2026-09-03T07:07:43.924584+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "033bf2cbb121bc1d72fbbd3bfff02efa7760238687256dc7bc9c41b3750c46a0",
+      "metadata": {
+        "formula_index": 2
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-probability-distribution-l6-b8e4e6eede40:p0002:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-probability-distribution-l6-b8e4e6eede40",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 2,
+        "slide": 2,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L6_Probability_Distribution.pdf",
+        "source_sha256": "b8e4e6eede4032049e6af819507115f70c1b12e50c5fb62013db0575975bba20",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:43.924593+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-probability-distribution-l6-b8e4e6eede40:p0003:text",
+      "course_id": "qrm",
+      "document_id": "qrm-probability-distribution-l6-b8e4e6eede40",
+      "kind": "page_text",
+      "text": "Cumulative Distribution Function\n\nThe cumulative distribution function is usually denoted by\nF(x) and represents the probability of the random variable X\ntaking on a value less than or equal to x, that is,\n         𝐹𝑥= 𝑃(𝑋≤𝑥)\nFor a discrete random variable, 𝐹𝑥= σ𝑎𝑙𝑙𝑖𝑃(𝑥𝑖) for 𝑥𝑖≤𝑥\nIf X is a continuous random variable, 𝐹𝑥= ׬ 𝑥𝑓𝑡𝑑𝑡                               −∞\nNote that F(x) is a non-decreasing function of x such that:\n       𝑥→∞𝐹𝑥=lim         1; 𝑥→−∞𝐹𝑥=lim       0                                   𝑡\n            𝑑𝐹(𝑡)   𝑑[ ׬  𝑓𝑦𝑑𝑦]                   −∞\n            =         = 𝑓(𝑡)\n              𝑑𝑡          𝑑𝑡\n\n\n\n\n                                        ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 3,
+        "slide": 3,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L6_Probability_Distribution.pdf",
+        "source_sha256": "b8e4e6eede4032049e6af819507115f70c1b12e50c5fb62013db0575975bba20",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:43.924598+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "d895138548de223f48e62aced1dd1639b3768d5f2f03a00dbb22fc83ae5ff7ce",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              12.67,
+              20.52,
+              452.11,
+              52.59
+            ],
+            "text": "Cumulative Distribution Function",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              85.93,
+              686.37,
+              174.37
+            ],
+            "text": "The cumulative distribution function is usually denoted by \nF(x) and represents the probability of the random variable X\ntaking on a value less than or equal to x, that is,",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              175.94,
+              709.29,
+              249.57
+            ],
+            "text": "𝐹𝑥= 𝑃(𝑋≤𝑥)\nFor a discrete random variable, 𝐹𝑥= σ𝑎𝑙𝑙𝑖𝑃(𝑥𝑖) for 𝑥𝑖≤𝑥",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              535.63,
+              250.51,
+              646.78,
+              289.53
+            ],
+            "text": "𝑥𝑓𝑡𝑑𝑡",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              261.54,
+              563.72,
+              299.25
+            ],
+            "text": "If X is a continuous random variable, 𝐹𝑥= ׬−∞",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              305.69,
+              664.73,
+              333.65
+            ],
+            "text": "Note that F(x) is a non-decreasing function of x such that:",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              174.86,
+              335.6,
+              539.0,
+              378.83
+            ],
+            "text": "lim\n𝑥→∞𝐹𝑥= 1;\nlim\n𝑥→−∞𝐹𝑥= 0",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              325.73,
+              368.13,
+              456.02,
+              407.15
+            ],
+            "text": "𝑡\n𝑓𝑦𝑑𝑦]",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              176.42,
+              382.04,
+              245.86,
+              410.03
+            ],
+            "text": "𝑑𝐹(𝑡)",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              282.29,
+              379.16,
+              353.82,
+              416.87
+            ],
+            "text": "𝑑[׬−∞",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              197.06,
+              403.14,
+              274.51,
+              449.88
+            ],
+            "text": "𝑑𝑡\n=",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              355.13,
+              403.14,
+              543.52,
+              449.88
+            ],
+            "text": "𝑑𝑡\n= 𝑓(𝑡)",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n3",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0003.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-probability-distribution-l6-b8e4e6eede40:p0003:formula-001",
+      "course_id": "qrm",
+      "document_id": "qrm-probability-distribution-l6-b8e4e6eede40",
+      "kind": "formula",
+      "text": "𝐹𝑥= 𝑃(𝑋≤𝑥)\nFor a discrete random variable, 𝐹𝑥= σ𝑎𝑙𝑙𝑖𝑃(𝑥𝑖) for 𝑥𝑖≤𝑥",
+      "locator": {
+        "page": 3,
+        "slide": 3,
+        "bbox": [
+          7.2,
+          175.94,
+          709.29,
+          249.57
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L6_Probability_Distribution.pdf",
+        "source_sha256": "b8e4e6eede4032049e6af819507115f70c1b12e50c5fb62013db0575975bba20",
+        "extractor": "pymupdf-layout-heuristic",
+        "extracted_at": "2026-09-03T07:07:43.924623+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "57b29a5b31c03db9b1762792fbaacbe5099ad60f820aae939c6f8104ceca3b4b",
+      "metadata": {
+        "formula_index": 1
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-probability-distribution-l6-b8e4e6eede40:p0003:formula-002",
+      "course_id": "qrm",
+      "document_id": "qrm-probability-distribution-l6-b8e4e6eede40",
+      "kind": "formula",
+      "text": "If X is a continuous random variable, 𝐹𝑥= ׬−∞",
+      "locator": {
+        "page": 3,
+        "slide": 3,
+        "bbox": [
+          7.2,
+          261.54,
+          563.72,
+          299.25
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L6_Probability_Distribution.pdf",
+        "source_sha256": "b8e4e6eede4032049e6af819507115f70c1b12e50c5fb62013db0575975bba20",
+        "extractor": "pymupdf-layout-heuristic",
+        "extracted_at": "2026-09-03T07:07:43.924631+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "43320e3c2497e509bd6e362e274d317c76237de7f4e2185572f269ae708b791e",
+      "metadata": {
+        "formula_index": 2
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-probability-distribution-l6-b8e4e6eede40:p0003:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-probability-distribution-l6-b8e4e6eede40",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 3,
+        "slide": 3,
+        "bbox": [
+          687.36,
+          0.0,
+          719.88,
+          39.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L6_Probability_Distribution.pdf",
+        "source_sha256": "b8e4e6eede4032049e6af819507115f70c1b12e50c5fb62013db0575975bba20",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:43.924639+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 32,
+        "bboxes": [
+          [
+            687.36,
+            0.0,
+            719.88,
+            39.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-probability-distribution-l6-b8e4e6eede40:p0004:text",
+      "course_id": "qrm",
+      "document_id": "qrm-probability-distribution-l6-b8e4e6eede40",
+      "kind": "page_text",
+      "text": "Expected Value\nThe expected value or mean of a random variable is given by\n     𝜇= 𝐸𝑋= σ𝑎𝑙𝑙𝑖𝑥𝑖𝑃(𝑥𝑖)   if X is discrete\n    𝜇= 𝐸𝑋= ׬ ∞𝑥𝑓𝑥𝑑𝑥    if X is continuous               −∞\nThe variance of a random variable X is given by\n    𝑉𝑎𝑟𝑋= 𝐸 𝑋−𝜇2 = 𝐸𝑋2 −[𝐸𝑋]2\nExercise:\nLet X denote a random variable that represents the number\nof defective solders in a printed circuit board. The probability\ndistribution of the discrete random variable X is given by\n\n                                    x   0   1   2   3\nEvaluate mean and variance.        p(x) 0.3  0.4  0.2  0.1\n\n\n\n                                        ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 4,
+        "slide": 4,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L6_Probability_Distribution.pdf",
+        "source_sha256": "b8e4e6eede4032049e6af819507115f70c1b12e50c5fb62013db0575975bba20",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:43.924644+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "99eaf3f6e4cbb0092cab515fb4e8e0f5723b0b849bc41986aa3f86922bfe541c",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              12.67,
+              20.52,
+              215.22,
+              52.59
+            ],
+            "text": "Expected Value",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              57.1,
+              699.43,
+              85.06
+            ],
+            "text": "The expected value or mean of a random variable is given by",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              117.38,
+              95.53,
+              602.48,
+              130.0
+            ],
+            "text": "𝜇= 𝐸𝑋= σ𝑎𝑙𝑙𝑖𝑥𝑖𝑃(𝑥𝑖)\nif X is discrete",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              266.33,
+              130.8,
+              619.58,
+              170.65
+            ],
+            "text": "∞𝑥𝑓𝑥𝑑𝑥\nif X is continuous",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              100.34,
+              141.88,
+              294.42,
+              179.59
+            ],
+            "text": "𝜇= 𝐸𝑋= ׬−∞",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              186.01,
+              545.96,
+              213.97
+            ],
+            "text": "The variance of a random variable X is given by",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              107.42,
+              205.48,
+              611.55,
+              243.67
+            ],
+            "text": "𝑉𝑎𝑟𝑋= 𝐸\n𝑋−𝜇2 = 𝐸𝑋2 −[𝐸𝑋]2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              256.43,
+              705.17,
+              385.24
+            ],
+            "text": "Exercise:\nLet X denote a random variable that represents the number \nof defective solders in a printed circuit board. The probability \ndistribution of the discrete random variable X is given by",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              408.77,
+              402.05,
+              643.18,
+              459.22
+            ],
+            "text": "x\n0\n1\n2\n3\np(x) 0.3\n0.4\n0.2\n0.1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              437.69,
+              332.06,
+              465.65
+            ],
+            "text": "Evaluate mean and variance.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n4",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0004.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-probability-distribution-l6-b8e4e6eede40:p0004:formula-001",
+      "course_id": "qrm",
+      "document_id": "qrm-probability-distribution-l6-b8e4e6eede40",
+      "kind": "formula",
+      "text": "𝜇= 𝐸𝑋= σ𝑎𝑙𝑙𝑖𝑥𝑖𝑃(𝑥𝑖)\nif X is discrete",
+      "locator": {
+        "page": 4,
+        "slide": 4,
+        "bbox": [
+          117.38,
+          95.53,
+          602.48,
+          130.0
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L6_Probability_Distribution.pdf",
+        "source_sha256": "b8e4e6eede4032049e6af819507115f70c1b12e50c5fb62013db0575975bba20",
+        "extractor": "pymupdf-layout-heuristic",
+        "extracted_at": "2026-09-03T07:07:43.924668+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "7f040579d45d830eee0621e7eeee2f280701f5c5ecefd236e0b68a74e50c606b",
+      "metadata": {
+        "formula_index": 1
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-probability-distribution-l6-b8e4e6eede40:p0004:table-001",
+      "course_id": "qrm",
+      "document_id": "qrm-probability-distribution-l6-b8e4e6eede40",
+      "kind": "table",
+      "text": "x | 0 | 1 | 2 | 3\np(x) | 0.3 | 0.4 | 0.2 | 0.1",
+      "locator": {
+        "page": 4,
+        "slide": 4,
+        "bbox": [
+          402.23,
+          395.16,
+          655.53,
+          461.4
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L6_Probability_Distribution.pdf",
+        "source_sha256": "b8e4e6eede4032049e6af819507115f70c1b12e50c5fb62013db0575975bba20",
+        "extractor": "pymupdf-table",
+        "extracted_at": "2026-09-03T07:07:43.924675+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "9e62183d2b1f06a2e1618cd6c943bff2d8c993f6d74b44bafe6cf3a1c933cc7c",
+      "metadata": {
+        "table_index": 1
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-probability-distribution-l6-b8e4e6eede40:p0004:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-probability-distribution-l6-b8e4e6eede40",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 4,
+        "slide": 4,
+        "bbox": [
+          687.36,
+          0.0,
+          719.88,
+          39.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L6_Probability_Distribution.pdf",
+        "source_sha256": "b8e4e6eede4032049e6af819507115f70c1b12e50c5fb62013db0575975bba20",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:43.924683+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 32,
+        "bboxes": [
+          [
+            687.36,
+            0.0,
+            719.88,
+            39.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-probability-distribution-l6-b8e4e6eede40:p0005:text",
+      "course_id": "qrm",
+      "document_id": "qrm-probability-distribution-l6-b8e4e6eede40",
+      "kind": "page_text",
+      "text": "Expected Value\nThe expected value or mean of a random variable is given by\n     𝜇= 𝐸𝑋= σ𝑎𝑙𝑙𝑖𝑥𝑖𝑃(𝑥𝑖)   if X is discrete\n    𝜇= 𝐸𝑋= ׬ ∞𝑥𝑓𝑥𝑑𝑥    if X is continuous               −∞\nThe variance of a random variable X is given by\n    𝑉𝑎𝑟𝑋= 𝐸 𝑋−𝜇2 = 𝐸𝑋2 −[𝐸𝑋]2\nExercise:\nConsider a continuous random variable X representing the\ntime taken to assemble a part. The variable X is known to be\nbetween 0 and 2 minutes, and its probability density function,\n                      𝑥\nf(x), is given by 𝑓𝑥=    , 0 < 𝑥≤2. Evaluate mean.\n                       2\n\n\n\n\n\n                                        ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 5,
+        "slide": 5,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L6_Probability_Distribution.pdf",
+        "source_sha256": "b8e4e6eede4032049e6af819507115f70c1b12e50c5fb62013db0575975bba20",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:43.924687+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "a8594620b8b8258dcb3a851814a9dd70ddd2d23f171b0c58d4fa93e276ce5055",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              12.67,
+              20.52,
+              215.22,
+              52.59
+            ],
+            "text": "Expected Value",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              57.1,
+              699.43,
+              85.06
+            ],
+            "text": "The expected value or mean of a random variable is given by",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              117.38,
+              95.53,
+              602.48,
+              130.0
+            ],
+            "text": "𝜇= 𝐸𝑋= σ𝑎𝑙𝑙𝑖𝑥𝑖𝑃(𝑥𝑖)\nif X is discrete",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              266.33,
+              130.8,
+              619.58,
+              170.65
+            ],
+            "text": "∞𝑥𝑓𝑥𝑑𝑥\nif X is continuous",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              100.34,
+              141.88,
+              294.42,
+              179.59
+            ],
+            "text": "𝜇= 𝐸𝑋= ׬−∞",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              186.01,
+              545.96,
+              213.97
+            ],
+            "text": "The variance of a random variable X is given by",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              107.42,
+              205.48,
+              611.55,
+              243.67
+            ],
+            "text": "𝑉𝑎𝑟𝑋= 𝐸\n𝑋−𝜇2 = 𝐸𝑋2 −[𝐸𝑋]2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              256.43,
+              718.33,
+              419.93
+            ],
+            "text": "Exercise: \nConsider a continuous random variable X representing the \ntime taken to assemble a part. The variable X is known to be \nbetween 0 and 2 minutes, and its probability density function, \nf(x), is given by 𝑓𝑥=",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              274.01,
+              380.57,
+              608.71,
+              433.19
+            ],
+            "text": "𝑥\n2 , 0 < 𝑥≤2. Evaluate mean.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n5",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0005.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-probability-distribution-l6-b8e4e6eede40:p0005:formula-001",
+      "course_id": "qrm",
+      "document_id": "qrm-probability-distribution-l6-b8e4e6eede40",
+      "kind": "formula",
+      "text": "𝜇= 𝐸𝑋= σ𝑎𝑙𝑙𝑖𝑥𝑖𝑃(𝑥𝑖)\nif X is discrete",
+      "locator": {
+        "page": 5,
+        "slide": 5,
+        "bbox": [
+          117.38,
+          95.53,
+          602.48,
+          130.0
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L6_Probability_Distribution.pdf",
+        "source_sha256": "b8e4e6eede4032049e6af819507115f70c1b12e50c5fb62013db0575975bba20",
+        "extractor": "pymupdf-layout-heuristic",
+        "extracted_at": "2026-09-03T07:07:43.924711+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "7f040579d45d830eee0621e7eeee2f280701f5c5ecefd236e0b68a74e50c606b",
+      "metadata": {
+        "formula_index": 1
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-probability-distribution-l6-b8e4e6eede40:p0005:formula-002",
+      "course_id": "qrm",
+      "document_id": "qrm-probability-distribution-l6-b8e4e6eede40",
+      "kind": "formula",
+      "text": "Exercise: \nConsider a continuous random variable X representing the \ntime taken to assemble a part. The variable X is known to be \nbetween 0 and 2 minutes, and its probability density function, \nf(x), is given by 𝑓𝑥=",
+      "locator": {
+        "page": 5,
+        "slide": 5,
+        "bbox": [
+          7.2,
+          256.43,
+          718.33,
+          419.93
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L6_Probability_Distribution.pdf",
+        "source_sha256": "b8e4e6eede4032049e6af819507115f70c1b12e50c5fb62013db0575975bba20",
+        "extractor": "pymupdf-layout-heuristic",
+        "extracted_at": "2026-09-03T07:07:43.924718+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "2f62599811e81ed60401079616672b258532f8dc6aaff0bc9b18976cab3ea062",
+      "metadata": {
+        "formula_index": 2
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-probability-distribution-l6-b8e4e6eede40:p0005:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-probability-distribution-l6-b8e4e6eede40",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 5,
+        "slide": 5,
+        "bbox": [
+          687.36,
+          0.0,
+          719.88,
+          39.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L6_Probability_Distribution.pdf",
+        "source_sha256": "b8e4e6eede4032049e6af819507115f70c1b12e50c5fb62013db0575975bba20",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:43.924731+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 32,
+        "bboxes": [
+          [
+            687.36,
+            0.0,
+            719.88,
+            39.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-probability-distribution-l6-b8e4e6eede40:p0006:text",
+      "course_id": "qrm",
+      "document_id": "qrm-probability-distribution-l6-b8e4e6eede40",
+      "kind": "page_text",
+      "text": "Discrete Distributions\nHypergeometric Distribution: A hypergeometric distribution is useful\nin sampling from a finite population (or lot) without replacement\n(i.e., without placing the sample elements back in the population)\nwhen the items or outcomes can be categorized into one of two\ngroups (usually called success and failure).\n                 𝐷 𝑁−𝐷\n                     𝑥  𝑛−𝑥     𝑝𝑥=     𝑥= 0, 1, 2, … min (𝑛, 𝐷)                   𝑁\n                      𝑛\nWhere, D = number of nonconforming items in the population, N =\nsize of the population, n = size of the sample, x = number of\nnonconforming items in the sample\n            𝑛𝐷            𝑛𝐷     𝑁−𝑛   𝜇= 𝐸𝑋=    𝜎2 = 𝑉𝑎𝑟𝑋=    1 −𝐷           𝑁;          𝑁    𝑁  𝑁−1\nExercise: A lot of 20 chips contains 5 nonconforming ones. If an\ninspector randomly samples 4 items, find the probability of 3\nnonconforming chips. Evaluate mean, variance and standard\n\n                                        ME3327E QUALITY, RELIABILITY ANDdeviation.                                                                                                           6",
+      "locator": {
+        "page": 6,
+        "slide": 6,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L6_Probability_Distribution.pdf",
+        "source_sha256": "b8e4e6eede4032049e6af819507115f70c1b12e50c5fb62013db0575975bba20",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:43.924735+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "060c89c358d90258e05fe4bac1d719188647ca87e2c6c468e8d5203db8638b35",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              7.2,
+              7.82,
+              293.95,
+              39.89
+            ],
+            "text": "Discrete Distributions",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              38.95,
+              712.36,
+              171.94
+            ],
+            "text": "Hypergeometric Distribution: A hypergeometric distribution is useful \nin sampling from a finite population (or lot) without replacement \n(i.e., without placing the sample elements back in the population) \nwhen the items or outcomes can be categorized into one of two \ngroups (usually called success and failure).",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              234.26,
+              177.77,
+              247.32,
+              196.03
+            ],
+            "text": "𝐷",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              265.85,
+              177.77,
+              306.39,
+              196.03
+            ],
+            "text": "𝑁−𝐷",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              235.46,
+              199.13,
+              246.24,
+              217.39
+            ],
+            "text": "𝑥",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              143.78,
+              203.62,
+              218.47,
+              228.6
+            ],
+            "text": "𝑝𝑥=",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              327.05,
+              203.62,
+              576.14,
+              228.6
+            ],
+            "text": "𝑥= 0, 1, 2, … min (𝑛, 𝐷)",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              263.45,
+              199.13,
+              304.23,
+              233.95
+            ],
+            "text": "𝑛−𝑥\n𝑁",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              264.41,
+              237.05,
+              276.25,
+              255.31
+            ],
+            "text": "𝑛",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              261.2,
+              688.79,
+              340.2
+            ],
+            "text": "Where, D = number of nonconforming items in the population, N = \nsize of the population, n = size of the sample, x = number of \nnonconforming items in the sample",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              68.76,
+              339.96,
+              233.89,
+              383.78
+            ],
+            "text": "𝜇= 𝐸𝑋= 𝑛𝐷",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              209.06,
+              339.96,
+              458.82,
+              400.47
+            ],
+            "text": "𝑁; 𝜎2 = 𝑉𝑎𝑟𝑋= 𝑛𝐷",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              433.99,
+              339.96,
+              539.34,
+              400.47
+            ],
+            "text": "𝑁\n1 −𝐷",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              521.71,
+              375.46,
+              540.0,
+              400.47
+            ],
+            "text": "𝑁",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              339.96,
+              651.87,
+              518.91
+            ],
+            "text": "𝑁−𝑛\n𝑁−1\nExercise: A lot of 20 chips contains 5 nonconforming ones. If an \ninspector randomly samples 4 items, find the probability of 3 \nnonconforming chips. Evaluate mean, variance and standard \ndeviation.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n6",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0006.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-probability-distribution-l6-b8e4e6eede40:p0006:formula-001",
+      "course_id": "qrm",
+      "document_id": "qrm-probability-distribution-l6-b8e4e6eede40",
+      "kind": "formula",
+      "text": "Where, D = number of nonconforming items in the population, N = \nsize of the population, n = size of the sample, x = number of \nnonconforming items in the sample",
+      "locator": {
+        "page": 6,
+        "slide": 6,
+        "bbox": [
+          7.2,
+          261.2,
+          688.79,
+          340.2
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L6_Probability_Distribution.pdf",
+        "source_sha256": "b8e4e6eede4032049e6af819507115f70c1b12e50c5fb62013db0575975bba20",
+        "extractor": "pymupdf-layout-heuristic",
+        "extracted_at": "2026-09-03T07:07:43.924771+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "0c2c16153a789898460e63d99bb3f62ceb5e8d37c64d929b7a522d7e041f9373",
+      "metadata": {
+        "formula_index": 1
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-probability-distribution-l6-b8e4e6eede40:p0006:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-probability-distribution-l6-b8e4e6eede40",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 6,
+        "slide": 6,
+        "bbox": [
+          687.36,
+          0.0,
+          719.88,
+          39.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L6_Probability_Distribution.pdf",
+        "source_sha256": "b8e4e6eede4032049e6af819507115f70c1b12e50c5fb62013db0575975bba20",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:43.924781+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 32,
+        "bboxes": [
+          [
+            687.36,
+            0.0,
+            719.88,
+            39.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-probability-distribution-l6-b8e4e6eede40:p0007:text",
+      "course_id": "qrm",
+      "document_id": "qrm-probability-distribution-l6-b8e4e6eede40",
+      "kind": "page_text",
+      "text": "Discrete Distributions\nBinomial Distribution: Consider a series of independent trials\nwhere each trial results in one of two outcomes. These\noutcomes are labelled as either a success or a failure. The\nprobability p of success on any trial is assumed to be\nconstant. Let X denote the number of successes if n such\ntrials are conducted. Then the probability of x successes is\ngiven by\n             𝑛\n    𝑝𝑥=                                            0, 1, 2, … , 𝑛           𝑥𝑝𝑥(1 −𝑝)𝑛−𝑥𝑥=\n    𝜇= 𝐸𝑋= 𝑛𝑝; 𝜎2 = 𝑉𝑎𝑟𝑋= 𝑛𝑝(1 −𝑝)\nExercise: A manufacturing process is estimated to produce 5%\nnonconforming items. If a random sample of five items is\nchosen, find the probability of getting two nonconforming\nitems. Evaluate mean, variance and standard deviation.\n\n                                        ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 7,
+        "slide": 7,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L6_Probability_Distribution.pdf",
+        "source_sha256": "b8e4e6eede4032049e6af819507115f70c1b12e50c5fb62013db0575975bba20",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:43.924786+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "231c397ad775a1c31fcd80ab89147296bd170c0a3a369a3d8f3ad5288d5ff366",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              12.67,
+              20.52,
+              299.42,
+              52.59
+            ],
+            "text": "Discrete Distributions",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              57.1,
+              710.5,
+              266.54
+            ],
+            "text": "Binomial Distribution: Consider a series of independent trials \nwhere each trial results in one of two outcomes. These \noutcomes are labelled as either a success or a failure. The \nprobability p of success on any trial is assumed to be \nconstant. Let X denote the number of successes if n such \ntrials are conducted. Then the probability of x successes is \ngiven by",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              111.62,
+              268.86,
+              232.79,
+              314.73
+            ],
+            "text": "𝑝𝑥= 𝑛",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              217.1,
+              282.43,
+              607.63,
+              329.73
+            ],
+            "text": "𝑥𝑝𝑥(1 −𝑝)𝑛−𝑥𝑥= 0, 1, 2, … , 𝑛",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              323.46,
+              717.92,
+              493.25
+            ],
+            "text": "𝜇= 𝐸𝑋= 𝑛𝑝;  𝜎2 = 𝑉𝑎𝑟𝑋= 𝑛𝑝(1 −𝑝)\nExercise: A manufacturing process is estimated to produce 5% \nnonconforming items. If a random sample of five items is \nchosen, find the probability of getting two nonconforming \nitems. Evaluate mean, variance and standard deviation.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n7",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0007.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-probability-distribution-l6-b8e4e6eede40:p0007:formula-001",
+      "course_id": "qrm",
+      "document_id": "qrm-probability-distribution-l6-b8e4e6eede40",
+      "kind": "formula",
+      "text": "𝜇= 𝐸𝑋= 𝑛𝑝;  𝜎2 = 𝑉𝑎𝑟𝑋= 𝑛𝑝(1 −𝑝)\nExercise: A manufacturing process is estimated to produce 5% \nnonconforming items. If a random sample of five items is \nchosen, find the probability of getting two nonconforming \nitems. Evaluate mean, variance and standard deviation.",
+      "locator": {
+        "page": 7,
+        "slide": 7,
+        "bbox": [
+          7.2,
+          323.46,
+          717.92,
+          493.25
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L6_Probability_Distribution.pdf",
+        "source_sha256": "b8e4e6eede4032049e6af819507115f70c1b12e50c5fb62013db0575975bba20",
+        "extractor": "pymupdf-layout-heuristic",
+        "extracted_at": "2026-09-03T07:07:43.924814+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "932e76afc7c6a16d20ba4eb1dc28460f63301dec02ecb090610419b8904d3840",
+      "metadata": {
+        "formula_index": 1
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-probability-distribution-l6-b8e4e6eede40:p0007:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-probability-distribution-l6-b8e4e6eede40",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 7,
+        "slide": 7,
+        "bbox": [
+          687.36,
+          0.0,
+          719.88,
+          39.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L6_Probability_Distribution.pdf",
+        "source_sha256": "b8e4e6eede4032049e6af819507115f70c1b12e50c5fb62013db0575975bba20",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:43.924828+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 32,
+        "bboxes": [
+          [
+            687.36,
+            0.0,
+            719.88,
+            39.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-probability-distribution-l6-b8e4e6eede40:p0008:text",
+      "course_id": "qrm",
+      "document_id": "qrm-probability-distribution-l6-b8e4e6eede40",
+      "kind": "page_text",
+      "text": "ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 8,
+        "slide": 8,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L6_Probability_Distribution.pdf",
+        "source_sha256": "b8e4e6eede4032049e6af819507115f70c1b12e50c5fb62013db0575975bba20",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:43.924833+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "f49410e5be53a4beb182b186661440f6a9b6d7168662fa75c50167519c892eb8",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n8",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0008.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-probability-distribution-l6-b8e4e6eede40:p0008:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-probability-distribution-l6-b8e4e6eede40",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 8,
+        "slide": 8,
+        "bbox": [
+          687.36,
+          0.0,
+          719.88,
+          39.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L6_Probability_Distribution.pdf",
+        "source_sha256": "b8e4e6eede4032049e6af819507115f70c1b12e50c5fb62013db0575975bba20",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:43.924839+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 32,
+        "bboxes": [
+          [
+            687.36,
+            0.0,
+            719.88,
+            39.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-probability-distribution-l6-b8e4e6eede40:p0008:visual-002",
+      "course_id": "qrm",
+      "document_id": "qrm-probability-distribution-l6-b8e4e6eede40",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 8,
+        "slide": 8,
+        "bbox": [
+          2.76,
+          1.56,
+          685.56,
+          498.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L6_Probability_Distribution.pdf",
+        "source_sha256": "b8e4e6eede4032049e6af819507115f70c1b12e50c5fb62013db0575975bba20",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:43.924844+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 2,
+        "xref": 47,
+        "bboxes": [
+          [
+            2.76,
+            1.56,
+            685.56,
+            498.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-probability-distribution-l6-b8e4e6eede40:p0009:text",
+      "course_id": "qrm",
+      "document_id": "qrm-probability-distribution-l6-b8e4e6eede40",
+      "kind": "page_text",
+      "text": "Discrete Distributions\nPoisson Distribution: A Poisson distribution is used to model the\nnumber of events that happen within a product unit (number of\ndefective rivets in an airplane wing), space or volume (blemishes per\n200 square meters of fabric), or time period (machine breakdowns\nper month). It is assumed that the events happen randomly and\nindependently.\nThe Poisson random variable is denoted by X. An observed value of X\nis represented by x. The probability distribution (or mass) function of\nthe number of events (x) is given by\n                            𝑒−𝜆𝜆𝑥\n         𝑝𝑥=    𝑥= 0, 1, 2, …\n                                      𝑥!\n               𝜇= 𝜎2 = 𝜆\n\nExercise: It is estimated that the average number of surface defects\nin 20 m2 of paper produced by a process is 3. What is the probability\nof finding no more than two defects in 40 m2 of paper through\nrandom selection? Evaluate mean, variance and standard deviation.\n\n                                        ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 9,
+        "slide": 9,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L6_Probability_Distribution.pdf",
+        "source_sha256": "b8e4e6eede4032049e6af819507115f70c1b12e50c5fb62013db0575975bba20",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:43.924848+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "dd448d1b8b727794dfdf6d22c324a981cd987436c23b8afb44bc6049744ce17d",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              7.2,
+              7.82,
+              293.95,
+              39.89
+            ],
+            "text": "Discrete Distributions",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.13,
+              43.56,
+              711.41,
+              294.51
+            ],
+            "text": "Poisson Distribution: A Poisson distribution is used to model  the \nnumber of events that happen within a product unit (number of \ndefective rivets in an airplane wing), space or volume (blemishes per \n200 square meters of fabric), or time period (machine breakdowns \nper month). It is assumed that the events happen randomly and \nindependently.\nThe Poisson random variable is denoted by X. An observed value of X \nis represented by x. The probability distribution (or mass) function of \nthe number of events (x) is given by",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              301.06,
+              304.09,
+              353.53,
+              326.54
+            ],
+            "text": "𝑒−𝜆𝜆𝑥",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              219.46,
+              317.69,
+              294.15,
+              342.67
+            ],
+            "text": "𝑝𝑥=",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.13,
+              317.69,
+              704.15,
+              493.39
+            ],
+            "text": "𝑥!\n𝑥= 0, 1, 2, …\n𝜇= 𝜎2 = 𝜆\nExercise: It is estimated that the average number of surface defects \nin 20 m2 of paper produced by a process is 3. What is the probability \nof finding no more than two defects in 40 m2 of paper through \nrandom selection? Evaluate mean, variance and standard deviation.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n9",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0009.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-probability-distribution-l6-b8e4e6eede40:p0009:formula-001",
+      "course_id": "qrm",
+      "document_id": "qrm-probability-distribution-l6-b8e4e6eede40",
+      "kind": "formula",
+      "text": "𝑥!\n𝑥= 0, 1, 2, …\n𝜇= 𝜎2 = 𝜆\nExercise: It is estimated that the average number of surface defects \nin 20 m2 of paper produced by a process is 3. What is the probability \nof finding no more than two defects in 40 m2 of paper through \nrandom selection? Evaluate mean, variance and standard deviation.",
+      "locator": {
+        "page": 9,
+        "slide": 9,
+        "bbox": [
+          7.13,
+          317.69,
+          704.15,
+          493.39
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L6_Probability_Distribution.pdf",
+        "source_sha256": "b8e4e6eede4032049e6af819507115f70c1b12e50c5fb62013db0575975bba20",
+        "extractor": "pymupdf-layout-heuristic",
+        "extracted_at": "2026-09-03T07:07:43.924882+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "7f7e44c79d38868f54d9ed234a57215562b235179f2866ee412a1102886a33eb",
+      "metadata": {
+        "formula_index": 1
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-probability-distribution-l6-b8e4e6eede40:p0009:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-probability-distribution-l6-b8e4e6eede40",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 9,
+        "slide": 9,
+        "bbox": [
+          687.36,
+          0.0,
+          719.88,
+          39.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L6_Probability_Distribution.pdf",
+        "source_sha256": "b8e4e6eede4032049e6af819507115f70c1b12e50c5fb62013db0575975bba20",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:43.924897+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 32,
+        "bboxes": [
+          [
+            687.36,
+            0.0,
+            719.88,
+            39.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-probability-distribution-l6-b8e4e6eede40:p0010:text",
+      "course_id": "qrm",
+      "document_id": "qrm-probability-distribution-l6-b8e4e6eede40",
+      "kind": "page_text",
+      "text": "ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 10,
+        "slide": 10,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L6_Probability_Distribution.pdf",
+        "source_sha256": "b8e4e6eede4032049e6af819507115f70c1b12e50c5fb62013db0575975bba20",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:43.924902+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "f49410e5be53a4beb182b186661440f6a9b6d7168662fa75c50167519c892eb8",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n10",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0010.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-probability-distribution-l6-b8e4e6eede40:p0010:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-probability-distribution-l6-b8e4e6eede40",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 10,
+        "slide": 10,
+        "bbox": [
+          687.36,
+          0.0,
+          719.88,
+          39.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L6_Probability_Distribution.pdf",
+        "source_sha256": "b8e4e6eede4032049e6af819507115f70c1b12e50c5fb62013db0575975bba20",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:43.924908+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 32,
+        "bboxes": [
+          [
+            687.36,
+            0.0,
+            719.88,
+            39.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-probability-distribution-l6-b8e4e6eede40:p0010:visual-002",
+      "course_id": "qrm",
+      "document_id": "qrm-probability-distribution-l6-b8e4e6eede40",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 10,
+        "slide": 10,
+        "bbox": [
+          111.12,
+          -0.0,
+          608.88,
+          540.0
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L6_Probability_Distribution.pdf",
+        "source_sha256": "b8e4e6eede4032049e6af819507115f70c1b12e50c5fb62013db0575975bba20",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:43.924913+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 2,
+        "xref": 52,
+        "bboxes": [
+          [
+            111.12,
+            -0.0,
+            608.88,
+            540.0
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    }
+  ],
+  "schema_version": "1.0",
+  "created_at": "2026-09-03T07:07:43.924918+00:00"
+}

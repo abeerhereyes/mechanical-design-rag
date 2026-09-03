@@ -1,0 +1,2066 @@
+{
+  "document_id": "qrm-quality-cost-me3327e-5fbb72433bf9",
+  "course_id": "qrm",
+  "source_id": "quality-cost-me3327e",
+  "source_file": "Quality_Cost_ME3327E.pdf",
+  "source_sha256": "5fbb72433bf974bb8d6d7bd6fbac99485b743d241fb1389c813fa0feffb37a61",
+  "units": [
+    {
+      "unit_id": "qrm-quality-cost-me3327e-5fbb72433bf9:p0001:text",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-me3327e-5fbb72433bf9",
+      "kind": "page_text",
+      "text": "Quality, Reliability &\n    ME3327E\n\n\n\n\n             Course Instructor:\n                   Dr. Nehem Tudu\nAssistant Professor, Dept. of Mechanical Engineering",
+      "locator": {
+        "page": 1,
+        "slide": 1,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_ME3327E.pdf",
+        "source_sha256": "5fbb72433bf974bb8d6d7bd6fbac99485b743d241fb1389c813fa0feffb37a61",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:24.770969+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "be125b2a4bd449acfd44e6cd7912c630de3a9bccea1dfb69d211c7d09bfd297b",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              98.83,
+              49.79,
+              634.57,
+              112.21
+            ],
+            "text": "Quality, Reliability &",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              191.59,
+              108.11,
+              528.55,
+              170.53
+            ],
+            "text": "Maintenance",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              237.46,
+              166.4,
+              482.73,
+              228.86
+            ],
+            "text": "ME3327E",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              260.02,
+              352.12,
+              466.39,
+              384.16
+            ],
+            "text": "Course Instructor:",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              89.71,
+              382.36,
+              630.39,
+              444.64
+            ],
+            "text": "Dr. Nehem Tudu\nAssistant Professor, Dept. of Mechanical Engineering",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0001.png"
+      },
+      "near_duplicate_of": "qrm-quality-cost-l5-note-4f5dd3c4bf6a:p0001:text"
+    },
+    {
+      "unit_id": "qrm-quality-cost-me3327e-5fbb72433bf9:p0001:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-me3327e-5fbb72433bf9",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 1,
+        "slide": 1,
+        "bbox": [
+          320.4,
+          223.68,
+          405.48,
+          327.24
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_ME3327E.pdf",
+        "source_sha256": "5fbb72433bf974bb8d6d7bd6fbac99485b743d241fb1389c813fa0feffb37a61",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:24.771002+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 13,
+        "bboxes": [
+          [
+            320.4,
+            223.68,
+            405.48,
+            327.24
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-me3327e-5fbb72433bf9:p0002:text",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-me3327e-5fbb72433bf9",
+      "kind": "page_text",
+      "text": "Quality Systems and Standards\n• The three standards of ISO 9000 are:\n     • ISO 9000:2000 Quality Management System—Fundamentals and Vocabulary\n     • ISO 9001:2000 Quality Management System—Requirements\n     • ISO 9004:2000 Quality Management System—Guidelines for Performance\n     Improvement\n• ISO 9000 is also an American National Standards Institute and an ASQ\n  standard.\n• The ISO 9001:2000 standard has eight clauses:\n   1.  Scope\n   2.  Normative References\n   3.  Definitions\n   4.  Quality Management Systems\n   5.  Management Responsibility\n   6.  Resource Management\n   7.  Product (or Service) Realization\n   8.  Measurement, Analysis, and Improvement.\n\n\n\n                                       ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 2,
+        "slide": 2,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_ME3327E.pdf",
+        "source_sha256": "5fbb72433bf974bb8d6d7bd6fbac99485b743d241fb1389c813fa0feffb37a61",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:24.771010+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "da8aab703b911eebb646a3734f3aaec98baa1025141dff1db634be371924bcc7",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              12.67,
+              7.58,
+              434.97,
+              40.58
+            ],
+            "text": "Quality Systems and Standards",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              11.5,
+              45.36,
+              385.15,
+              73.08
+            ],
+            "text": "• The three standards of ISO 9000 are:",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              47.5,
+              74.14,
+              686.73,
+              145.66
+            ],
+            "text": "• ISO 9000:2000 Quality Management System—Fundamentals and Vocabulary\n• ISO 9001:2000 Quality Management System—Requirements\n• ISO 9004:2000 Quality Management System—Guidelines for Performance",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              11.5,
+              144.83,
+              709.51,
+              197.9
+            ],
+            "text": "Improvement\n• ISO 9000 is also an American National Standards Institute and an ASQ",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              11.5,
+              196.94,
+              485.11,
+              254.07
+            ],
+            "text": "standard.\n• The ISO 9001:2000 standard has eight clauses:",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              33.1,
+              258.14,
+              452.93,
+              463.0
+            ],
+            "text": "1.\nScope\n2.\nNormative References\n3.\nDefinitions\n4.\nQuality Management Systems\n5.\nManagement Responsibility\n6.\nResource Management\n7.\nProduct (or Service) Realization\n8.\nMeasurement, Analysis, and Improvement.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n2",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0002.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-me3327e-5fbb72433bf9:p0002:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-me3327e-5fbb72433bf9",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 2,
+        "slide": 2,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_ME3327E.pdf",
+        "source_sha256": "5fbb72433bf974bb8d6d7bd6fbac99485b743d241fb1389c813fa0feffb37a61",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:24.771041+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-me3327e-5fbb72433bf9:p0003:text",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-me3327e-5fbb72433bf9",
+      "kind": "page_text",
+      "text": "The Link Between Quality and Productivity\n• Effective quality improvement can be instrumental in increasing\n  productivity and reducing cost.\n• When technological advances occur rapidly and when the new\n  technologies are used quickly to exploit competitive advantages, the\n  problems of designing and manufacturing products of superior quality\n  are greatly complicated.\n• Often, too little attention is paid to achieving all dimensions of an\n  optimal process: economy, efficiency, productivity, and quality.\n• Effective quality improvement can be instrumental in increasing\n  productivity and reducing cost.\n• An engineering study of this process reveals that excessive process\n  variability is responsible for the extremely high fallout.\n• Note that the installation of statistical process control and the\n  reduction of variability that follows result in reduction in\n  manufacturing costs.\n\n\n                                        ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 3,
+        "slide": 3,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_ME3327E.pdf",
+        "source_sha256": "5fbb72433bf974bb8d6d7bd6fbac99485b743d241fb1389c813fa0feffb37a61",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:24.771047+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "fd9f4622775f7f1315d6c5aa775448532550158bccd5417b9a26a456dcbd9e53",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              12.67,
+              36.69,
+              596.5,
+              69.72
+            ],
+            "text": "The Link Between Quality and Productivity",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              82.22,
+              649.75,
+              109.94
+            ],
+            "text": "• Effective quality improvement can be instrumental in increasing",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              108.98,
+              637.76,
+              165.99
+            ],
+            "text": "productivity and reducing cost.\n• When technological advances occur rapidly and when the new",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              165.05,
+              711.89,
+              268.25
+            ],
+            "text": "technologies are used quickly to exploit competitive advantages, the \nproblems of designing and manufacturing products of superior quality \nare greatly complicated.\n• Often, too little attention is paid to achieving all dimensions of an",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              267.27,
+              649.75,
+              324.31
+            ],
+            "text": "optimal process: economy, efficiency, productivity, and quality. \n• Effective quality improvement can be instrumental in increasing",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              323.35,
+              677.47,
+              380.35
+            ],
+            "text": "productivity and reducing cost.\n• An engineering study of this process reveals that excessive process",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              379.39,
+              630.46,
+              436.54
+            ],
+            "text": "variability is responsible for the extremely high fallout.\n• Note that the installation of statistical process control and the",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              25.2,
+              435.58,
+              578.33,
+              482.62
+            ],
+            "text": "reduction of variability that follows result in reduction in \nmanufacturing costs.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n3",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0003.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-me3327e-5fbb72433bf9:p0003:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-me3327e-5fbb72433bf9",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 3,
+        "slide": 3,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_ME3327E.pdf",
+        "source_sha256": "5fbb72433bf974bb8d6d7bd6fbac99485b743d241fb1389c813fa0feffb37a61",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:24.771080+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-me3327e-5fbb72433bf9:p0004:text",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-me3327e-5fbb72433bf9",
+      "kind": "page_text",
+      "text": "Product and Service Cost\n\nDirect and Indirect Cost\n• Direct costs, such as direct labor and materials, are a function of the\n number of units of the manufactured product or the number of\n  customers serviced.\n• Indirect cost, do not change with each unit produced or each\n  customer served, such as machine setup for the same product,\n  depreciation of building, property taxes, and so on.\n• Indirect costs should be distributed to products or services based on\n  cause-and-effect relations or actual use.\n• Traditional accounting methods can lead to misleading\n  product/service costs where indirect costs are allocated based on\n  direct labor or direct material.\n• A better estimate of product costing is arrived at by using activities\n  that measure the degree of use of the particular resource. This is\n known as activity-based costing.\n\n\n\n                                        ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 4,
+        "slide": 4,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_ME3327E.pdf",
+        "source_sha256": "5fbb72433bf974bb8d6d7bd6fbac99485b743d241fb1389c813fa0feffb37a61",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:24.771085+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "af318432983e8d240361939b1cd49840ab979d3e9399801ba3307752fb42adea",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              12.67,
+              23.97,
+              352.21,
+              56.97
+            ],
+            "text": "Product and Service Cost",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              74.76,
+              690.6,
+              131.81
+            ],
+            "text": "Direct and Indirect Cost\n• Direct costs, such as direct labor and materials, are a function of the",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              130.85,
+              647.76,
+              211.02
+            ],
+            "text": "number of units of the manufactured product or the number of \ncustomers serviced.\n• Indirect cost, do not change with each unit produced or each",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              210.07,
+              693.6,
+              290.11
+            ],
+            "text": "customer served, such as machine setup for the same product, \ndepreciation of building, property taxes, and so on.\n• Indirect costs should be distributed to products or services based on",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              289.15,
+              560.55,
+              346.16
+            ],
+            "text": "cause-and-effect relations or actual use.\n• Traditional accounting methods can lead to misleading",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              345.22,
+              678.72,
+              425.38
+            ],
+            "text": "product/service costs where indirect costs are allocated based on \ndirect labor or direct material.\n• A better estimate of product costing is arrived at by using activities",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              25.2,
+              424.4,
+              660.56,
+              471.48
+            ],
+            "text": "that measure the degree of use of the particular resource. This is \nknown as activity-based costing.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n4",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0004.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-me3327e-5fbb72433bf9:p0004:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-me3327e-5fbb72433bf9",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 4,
+        "slide": 4,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_ME3327E.pdf",
+        "source_sha256": "5fbb72433bf974bb8d6d7bd6fbac99485b743d241fb1389c813fa0feffb37a61",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:24.771117+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-me3327e-5fbb72433bf9:p0005:text",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-me3327e-5fbb72433bf9",
+      "kind": "page_text",
+      "text": "Activity Based Costing\n\n• Activities are tasks performed by a specialized group or department,\n  say the purchasing unit in an organization, also known as an activity\n  or cost center.\n• The types of transactions that generate costs are identified as cost\n  drivers.\n• Cost drivers are typically categorized into four groups.\n     • Unit-level costs comprise those activities that are associated with each\n      product/service unit.\n     • Batch-level costs are based on activities that are performed once for\n     each lot or batch of products and are not influenced by the number of\n      units in the batch.\n     • Product/service-level cost, which is based on the type of\n      product/service.\n     • Production/service-sustaining cost level, which incorporates activities\n      that use all other resources necessary to maintain operations.\n\n\n                                        ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 5,
+        "slide": 5,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_ME3327E.pdf",
+        "source_sha256": "5fbb72433bf974bb8d6d7bd6fbac99485b743d241fb1389c813fa0feffb37a61",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:24.771122+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "c916cf3a6d489baa7f5c332d38e2798b818814d9937e43adcf6b6b8e614f63b0",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              12.67,
+              23.97,
+              315.15,
+              56.97
+            ],
+            "text": "Activity Based Costing",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              73.32,
+              693.28,
+              101.07
+            ],
+            "text": "• Activities are tasks performed by a specialized group or department,",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              103.01,
+              682.49,
+              188.93
+            ],
+            "text": "say the purchasing unit in an organization, also known as an activity\nor cost center.\n• The types of transactions that generate costs are identified as cost",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              190.83,
+              546.98,
+              250.75
+            ],
+            "text": "drivers.\n• Cost drivers are typically categorized into four groups.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              43.2,
+              254.16,
+              694.33,
+              279.52
+            ],
+            "text": "• Unit-level costs comprise those activities that are associated with each",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              43.2,
+              281.32,
+              673.79,
+              332.09
+            ],
+            "text": "product/service unit.\n• Batch-level costs are based on activities that are performed once for",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              43.2,
+              333.91,
+              690.2,
+              408.31
+            ],
+            "text": "each lot or batch of products and are not influenced by the number of \nunits in the batch. \n• Product/service-level cost, which is based on the type of",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              43.2,
+              410.11,
+              683.85,
+              460.87
+            ],
+            "text": "product/service. \n• Production/service-sustaining cost level, which incorporates activities",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              61.2,
+              462.69,
+              611.39,
+              484.65
+            ],
+            "text": "that use all other resources necessary to maintain operations.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n5",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0005.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-me3327e-5fbb72433bf9:p0005:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-me3327e-5fbb72433bf9",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 5,
+        "slide": 5,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_ME3327E.pdf",
+        "source_sha256": "5fbb72433bf974bb8d6d7bd6fbac99485b743d241fb1389c813fa0feffb37a61",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:24.771152+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-me3327e-5fbb72433bf9:p0006:text",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-me3327e-5fbb72433bf9",
+      "kind": "page_text",
+      "text": "Exercise\nTwo types of microchips (A and B) are being manufactured, with micro chip B\nbeing slightly more complex. There are two sizes of microchip A, A1 and A2. For\neach type and each size, microchips are manufactured in batch sizes of 100,000.\nTable 1 shows the production volume and direct costs/batch, while Table 2\ndisplays the overhead costs for the past year. Using the traditional costing method\n(unit-based costing) of allocating overhead rate based on direct labor costs,\ncalculate the cost per batch of each type of microchip. Calculate the cost per\nbatch using the activity-based costing method and compare with the figures\ncalculated previously.\n                                                     TABLE 2 Overhead Cost of Plant\n   TABLE 1 Production Volm & Direct Costs per Batch of     Category              Cost (INR\n                      Microchips                                                                   Cr.)\n\n                           Microchip A    Microchip B   Setup and Testing     22\n\n                      A1    A2                   Product Lining cost\n\nNo. of batches produced    500    800    1200          Microchip A          55\n\nCost/Batch (in INR Cr.)                                    Microchip B          93\n\nDirect Labor                0.05   0.06   0.08          Other plant cost      45\n\nDirect Material             0.25   0.32   0.38            Total overhead cost    215\n\nProcessing                 0.15    0.2     0.3",
+      "locator": {
+        "page": 6,
+        "slide": 6,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_ME3327E.pdf",
+        "source_sha256": "5fbb72433bf974bb8d6d7bd6fbac99485b743d241fb1389c813fa0feffb37a61",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:24.771157+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "447474cda8fff6a20449df922d275964bfdc762b63444dcd81fd896a6f0f34cf",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              12.67,
+              9.43,
+              122.56,
+              42.43
+            ],
+            "text": "Exercise",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              50.35,
+              710.07,
+              252.83
+            ],
+            "text": "Two types of microchips (A and B) are being manufactured, with micro chip B \nbeing slightly more complex. There are two sizes of microchip A, A1 and A2. For \neach type and each size, microchips are manufactured in batch sizes of 100,000. \nTable 1 shows the production volume and direct costs/batch, while Table 2 \ndisplays the overhead costs for the past year. Using the traditional costing method \n(unit-based costing) of allocating overhead rate based on direct labor costs, \ncalculate the cost per batch of each type of microchip. Calculate the cost per \nbatch using the activity-based costing method and compare with the figures \ncalculated previously.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              474.46,
+              260.94,
+              703.98,
+              278.94
+            ],
+            "text": "TABLE 2 Overhead Cost of Plant",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              32.5,
+              290.06,
+              420.95,
+              308.09
+            ],
+            "text": "TABLE 1 Production Volm & Direct Costs per Batch of",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              458.98,
+              288.4,
+              702.8,
+              328.0
+            ],
+            "text": "Category\nCost (INR \nCr.)",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              184.56,
+              311.7,
+              268.62,
+              329.7
+            ],
+            "text": "Microchips",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              458.98,
+              338.8,
+              653.0,
+              356.8
+            ],
+            "text": "Setup and Testing\n22",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              224.59,
+              338.96,
+              430.85,
+              356.96
+            ],
+            "text": "Microchip A\nMicrochip B",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              458.98,
+              368.0,
+              597.69,
+              386.0
+            ],
+            "text": "Product Lining cost",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              224.59,
+              368.17,
+              303.71,
+              386.17
+            ],
+            "text": "A1\nA2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              458.98,
+              397.21,
+              653.0,
+              415.21
+            ],
+            "text": "Microchip A\n55",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              8.93,
+              397.38,
+              380.17,
+              415.38
+            ],
+            "text": "No. of batches produced\n500\n800\n1200",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              458.98,
+              426.42,
+              653.0,
+              444.42
+            ],
+            "text": "Microchip B\n93",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              8.93,
+              426.59,
+              170.35,
+              444.59
+            ],
+            "text": "Cost/Batch (in INR Cr.)",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              458.98,
+              455.63,
+              653.0,
+              473.63
+            ],
+            "text": "Other plant cost\n45",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              8.93,
+              455.8,
+              375.59,
+              473.8
+            ],
+            "text": "Direct Labor\n0.05\n0.06\n0.08",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              458.98,
+              484.84,
+              662.12,
+              502.84
+            ],
+            "text": "Total overhead cost\n215",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              8.93,
+              485.0,
+              375.59,
+              503.0
+            ],
+            "text": "Direct Material\n0.25\n0.32\n0.38",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              657.17,
+              510.03,
+              663.27,
+              522.05
+            ],
+            "text": "6",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              8.93,
+              514.21,
+              366.47,
+              532.21
+            ],
+            "text": "Processing\n0.15\n0.2\n0.3",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0006.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-me3327e-5fbb72433bf9:p0006:table-001",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-me3327e-5fbb72433bf9",
+      "kind": "table",
+      "text": "|  |  |  |  | Category | Cost (INR\nCr.)\n |  | Microchip A |  | Microchip B | Setup and Testing | 22\n |  | A1 | A2 |  | Product Lining cost | \n | No. of batches produced | 500 | 800 | 1200 | Microchip A | 55\n | Cost/Batch (in INR Cr.) |  |  |  | Microchip B | 93\n | Direct Labor | 0.05 | 0.06 | 0.08 | Other plant cost | 45\n | Direct Material | 0.25 | 0.32 | 0.38 | Total overhead cost | 215\n | Processing | 0.15 | 0.2 | 0.3 |  |",
+      "locator": {
+        "page": 6,
+        "slide": 6,
+        "bbox": [
+          0.57,
+          281.43,
+          718.54,
+          536.4
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_ME3327E.pdf",
+        "source_sha256": "5fbb72433bf974bb8d6d7bd6fbac99485b743d241fb1389c813fa0feffb37a61",
+        "extractor": "pymupdf-table",
+        "extracted_at": "2026-09-03T07:07:24.771193+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "f362f5ea99a6e25f9c8df1da5a38b4527449f2340ba4331fbe4e933253226426",
+      "metadata": {
+        "table_index": 1
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-me3327e-5fbb72433bf9:p0006:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-me3327e-5fbb72433bf9",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 6,
+        "slide": 6,
+        "bbox": [
+          679.68,
+          -0.0,
+          719.16,
+          48.24
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_ME3327E.pdf",
+        "source_sha256": "5fbb72433bf974bb8d6d7bd6fbac99485b743d241fb1389c813fa0feffb37a61",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:24.771213+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 43,
+        "bboxes": [
+          [
+            679.68,
+            -0.0,
+            719.16,
+            48.24
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-me3327e-5fbb72433bf9:p0007:text",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-me3327e-5fbb72433bf9",
+      "kind": "page_text",
+      "text": "Quality Cost\n\n• Financial controls are an important part of business management.\n• These financial controls involve a comparison of actual and budgeted\n  costs, along with analysis and action on the differences between\n  actual and budget.\n• Many organizations now formally evaluate the cost associated with\n  quality.\n• There are several reasons why the cost of quality should be explicitly\n  considered in an organization. These include the following:\n     • The increase in the cost of quality because of the increase in the\n      complexity of manufactured products associated with advances in\n     technology\n     • Increasing awareness of life-cycle costs, including maintenance, spare\n      parts, and the cost of field failures\n     • Quality engineers and managers can most effectively communicate\n      quality issues in a way that management understands.\n\n                                        ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 7,
+        "slide": 7,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_ME3327E.pdf",
+        "source_sha256": "5fbb72433bf974bb8d6d7bd6fbac99485b743d241fb1389c813fa0feffb37a61",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:24.771217+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "b788d0d5866e9a6c3b6fb7cc6579a0375b3f6c17a419da67c8678ec1d18619b3",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              12.67,
+              23.97,
+              179.72,
+              56.97
+            ],
+            "text": "Quality Cost",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              73.32,
+              670.94,
+              101.07
+            ],
+            "text": "• Financial controls are an important part of business management.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              109.37,
+              701.4,
+              137.09
+            ],
+            "text": "• These financial controls involve a comparison of actual and budgeted",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              139.01,
+              681.7,
+              224.83
+            ],
+            "text": "costs, along with analysis and action on the differences between \nactual and budget. \n• Many organizations now formally evaluate the cost associated with",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              226.75,
+              696.91,
+              286.63
+            ],
+            "text": "quality. \n• There are several reasons why the cost of quality should be explicitly",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              25.2,
+              288.55,
+              595.97,
+              312.55
+            ],
+            "text": "considered in an organization. These include the following:",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              43.2,
+              315.93,
+              637.49,
+              341.33
+            ],
+            "text": "• The increase in the cost of quality because of the increase in the",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              43.2,
+              343.15,
+              684.77,
+              417.67
+            ],
+            "text": "complexity of manufactured products associated with advances in \ntechnology\n• Increasing awareness of life-cycle costs, including maintenance, spare",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              43.2,
+              419.47,
+              662.18,
+              470.25
+            ],
+            "text": "parts, and the cost of field failures\n• Quality engineers and managers can most effectively communicate",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              61.2,
+              472.05,
+              544.14,
+              494.01
+            ],
+            "text": "quality issues in a way that management understands.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n7",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0007.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-me3327e-5fbb72433bf9:p0007:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-me3327e-5fbb72433bf9",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 7,
+        "slide": 7,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_ME3327E.pdf",
+        "source_sha256": "5fbb72433bf974bb8d6d7bd6fbac99485b743d241fb1389c813fa0feffb37a61",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:24.771249+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-me3327e-5fbb72433bf9:p0008:text",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-me3327e-5fbb72433bf9",
+      "kind": "page_text",
+      "text": "Quality Cost\n\n\n\n\n\n                                       ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 8,
+        "slide": 8,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_ME3327E.pdf",
+        "source_sha256": "5fbb72433bf974bb8d6d7bd6fbac99485b743d241fb1389c813fa0feffb37a61",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:24.771254+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "9529c9dff4fe8fe21e9267b0c98c0a963facc95db8b91d1c343353f5a10f3d09",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              12.67,
+              23.97,
+              179.72,
+              56.97
+            ],
+            "text": "Quality Cost",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n8",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0008.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-me3327e-5fbb72433bf9:p0008:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-me3327e-5fbb72433bf9",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 8,
+        "slide": 8,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_ME3327E.pdf",
+        "source_sha256": "5fbb72433bf974bb8d6d7bd6fbac99485b743d241fb1389c813fa0feffb37a61",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:24.771261+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-me3327e-5fbb72433bf9:p0008:visual-002",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-me3327e-5fbb72433bf9",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 8,
+        "slide": 8,
+        "bbox": [
+          2.04,
+          65.76,
+          719.16,
+          491.4
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_ME3327E.pdf",
+        "source_sha256": "5fbb72433bf974bb8d6d7bd6fbac99485b743d241fb1389c813fa0feffb37a61",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:24.771266+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 2,
+        "xref": 49,
+        "bboxes": [
+          [
+            2.04,
+            65.76,
+            719.16,
+            491.4
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-me3327e-5fbb72433bf9:p0009:text",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-me3327e-5fbb72433bf9",
+      "kind": "page_text",
+      "text": "Quality Costs Data Requirement\n\n                      • Selling Price\n                  Senior\n                      • Marketing Cost            Management\n                      • General Administrative Cost\n\n                            • Indirect Labor\n                Middle\n                            • Indirect Material            Management\n                            • Fixed Costs\n\n\n                                 • Direct Labor\n             Line Management\n                                 • Direct Material\n\n\n\n\n\n                                       ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 9,
+        "slide": 9,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_ME3327E.pdf",
+        "source_sha256": "5fbb72433bf974bb8d6d7bd6fbac99485b743d241fb1389c813fa0feffb37a61",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:24.771271+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "be33cbc0aea87af4b8c43a8e76298f218e2fa7b1bf713e6e61ec3f7bdaf6f08e",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              12.67,
+              23.97,
+              450.45,
+              56.97
+            ],
+            "text": "Quality Costs Data Requirement",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              179.64,
+              117.2,
+              324.45,
+              171.8
+            ],
+            "text": "Senior \nManagement",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              337.82,
+              92.92,
+              688.71,
+              196.26
+            ],
+            "text": "• Selling Price\n• Marketing Cost\n• General Administrative Cost",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              179.69,
+              251.41,
+              324.34,
+              306.01
+            ],
+            "text": "Middle \nManagement",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              414.94,
+              227.12,
+              634.19,
+              330.45
+            ],
+            "text": "• Indirect Labor\n• Indirect Material\n• Fixed Costs",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              154.51,
+              379.91,
+              691.41,
+              446.04
+            ],
+            "text": "• Direct Labor\n• Direct Material\nLine Management",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n9",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0009.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-me3327e-5fbb72433bf9:p0009:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-me3327e-5fbb72433bf9",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 9,
+        "slide": 9,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_ME3327E.pdf",
+        "source_sha256": "5fbb72433bf974bb8d6d7bd6fbac99485b743d241fb1389c813fa0feffb37a61",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:24.771287+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-me3327e-5fbb72433bf9:p0010:text",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-me3327e-5fbb72433bf9",
+      "kind": "page_text",
+      "text": "Legal Aspects of Quality\n\n• Consumerism and product liability are important reasons why quality\n  assurance is an important business strategy.\n• Consumerism is in part due to the seemingly large number of failures\n  in the field of consumer products and the perception that service\n  quality is declining.\n• Product liability is a major social, market, and economic force.\n• The legal obligation of manufacturers and sellers to compensate for\n  injury or damage caused by defective products is not a recent\n phenomenon.\n• The concept of product liability has been in existence for many years,\n  but its emphasis has changed recently.\n\n\n\n\n\n                                        ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 10,
+        "slide": 10,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_ME3327E.pdf",
+        "source_sha256": "5fbb72433bf974bb8d6d7bd6fbac99485b743d241fb1389c813fa0feffb37a61",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:24.771292+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "81ef7faf52bee154b334601ab052f22bb48e4a7f8645a63ce7e1dac7a6492e03",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              12.67,
+              23.97,
+              339.37,
+              56.97
+            ],
+            "text": "Legal Aspects of Quality",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              73.32,
+              702.87,
+              101.07
+            ],
+            "text": "• Consumerism and product liability are important reasons why quality",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              103.01,
+              702.05,
+              163.01
+            ],
+            "text": "assurance is an important business strategy. \n• Consumerism is in part due to the seemingly large number of failures",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              164.93,
+              686.11,
+              286.63
+            ],
+            "text": "in the field of consumer products and the perception that service \nquality is declining.\n• Product liability is a major social, market, and economic force. \n• The legal obligation of manufacturers and sellers to compensate for",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              25.2,
+              288.55,
+              628.15,
+              338.48
+            ],
+            "text": "injury or damage caused by defective products is not a recent \nphenomenon.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              346.78,
+              702.07,
+              374.5
+            ],
+            "text": "• The concept of product liability has been in existence for many years,",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              25.2,
+              376.42,
+              399.82,
+              400.42
+            ],
+            "text": "but its emphasis has changed recently.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n10",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0010.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-me3327e-5fbb72433bf9:p0010:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-me3327e-5fbb72433bf9",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 10,
+        "slide": 10,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_ME3327E.pdf",
+        "source_sha256": "5fbb72433bf974bb8d6d7bd6fbac99485b743d241fb1389c813fa0feffb37a61",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:24.771317+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-me3327e-5fbb72433bf9:p0011:text",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-me3327e-5fbb72433bf9",
+      "kind": "page_text",
+      "text": "Implementing Quality Improvement\n\n• Strategic management of quality in an organization must involve all\n  three components: quality planning, quality assurance, and quality\n  control and improvement.\n• Furthermore, all of the individuals in the organization must have an\n  understanding of the basic tools of quality improvement.\n• It is increasingly important that everyone in an organization, from top\n management to operating personnel, have an awareness of basic\n  statistical methods and of how these methods are useful in\n  manufacturing, engineering design, and development and in the\n  general business environment.\n\n\n\n\n\n                                        ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 11,
+        "slide": 11,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_ME3327E.pdf",
+        "source_sha256": "5fbb72433bf974bb8d6d7bd6fbac99485b743d241fb1389c813fa0feffb37a61",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:24.771321+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "28c88082f0fd6cefe9c80eea896668e51c96f914408c83d9e69512379071caa8",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              12.67,
+              23.97,
+              506.22,
+              56.97
+            ],
+            "text": "Implementing Quality Improvement",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              73.32,
+              682.66,
+              101.07
+            ],
+            "text": "• Strategic management of quality in an organization must involve all",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              103.01,
+              684.74,
+              188.93
+            ],
+            "text": "three components: quality planning, quality assurance, and quality \ncontrol and improvement. \n• Furthermore, all of the individuals in the organization must have an",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              190.83,
+              705.38,
+              250.75
+            ],
+            "text": "understanding of the basic tools of quality improvement. \n• It is increasingly important that everyone in an organization, from top",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              25.2,
+              252.67,
+              663.17,
+              354.46
+            ],
+            "text": "management to operating personnel, have an awareness of basic \nstatistical methods and of how these methods are useful in \nmanufacturing, engineering design, and development and in the \ngeneral business environment.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n11",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0011.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-me3327e-5fbb72433bf9:p0011:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-me3327e-5fbb72433bf9",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 11,
+        "slide": 11,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_ME3327E.pdf",
+        "source_sha256": "5fbb72433bf974bb8d6d7bd6fbac99485b743d241fb1389c813fa0feffb37a61",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:24.771345+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-me3327e-5fbb72433bf9:p0012:text",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-me3327e-5fbb72433bf9",
+      "kind": "page_text",
+      "text": "Assignment\n\nA company manufacturing a chemical compound has identified the\nfollowing cost components (per kilogram): direct labor, ₹ 200; material,\n₹ 500; energy, ₹ 50; overhead, 30% of direct labor and material. The\nprocess is operating at a yield rate of 96%. A quality improvement team,\nthrough analysis, has been able to increase yield to 97%. Find the cost\nper kilogram of product before and after this improvement. On further\nstudy, the team analyzed the process and was able to eliminate several\nnon-value-added steps. Direct labor and material costs were reduced by\n25%. Calculate the cost per kilogram of product after these process\nchanges are made. By what percentage have total costs been reduced?\nWhat is the percentage increase in capacity?\n\n\n\n\n\n                                        ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 12,
+        "slide": 12,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_ME3327E.pdf",
+        "source_sha256": "5fbb72433bf974bb8d6d7bd6fbac99485b743d241fb1389c813fa0feffb37a61",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:24.771350+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "eafca68d650e00e6546eaf2328e6fab7b880b1c020440fa66ffb54d9aa7e58df",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              12.67,
+              23.97,
+              172.89,
+              56.97
+            ],
+            "text": "Assignment",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              77.04,
+              712.22,
+              360.34
+            ],
+            "text": "A company manufacturing a chemical compound has identified the \nfollowing cost components (per kilogram): direct labor, ₹ 200; material, \n₹ 500; energy, ₹  50; overhead, 30% of direct labor and material. The \nprocess is operating at a yield rate of 96%. A quality improvement team, \nthrough analysis, has been able to increase yield to 97%. Find the cost \nper kilogram of product before and after this improvement. On further \nstudy, the team analyzed the process and was able to eliminate several \nnon-value-added steps. Direct labor and material costs were reduced by \n25%. Calculate the cost per kilogram of product after these process \nchanges are made. By what percentage have total costs been reduced? \nWhat is the percentage increase in capacity?",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n12",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0012.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-me3327e-5fbb72433bf9:p0012:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-me3327e-5fbb72433bf9",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 12,
+        "slide": 12,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_ME3327E.pdf",
+        "source_sha256": "5fbb72433bf974bb8d6d7bd6fbac99485b743d241fb1389c813fa0feffb37a61",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:24.771377+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-me3327e-5fbb72433bf9:p0013:text",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-me3327e-5fbb72433bf9",
+      "kind": "page_text",
+      "text": "Assignment\n\nIn a doctor’s office with an office administrator and a nurse, the\naverage waiting time for patients prior to being seen by the physician is\n15minutes. The average examination time by the physician, per patient,\nis 10 minutes. Currently, the office administrator schedules patients\nevery 15 minutes for a 6-hour period. When salary and benefits are\nconverted to an hourly rate, for a nurse it is ₹ 40/hour, while for an\noffice administrator it is ₹ 20/hour. The practice, which treats\nMedicare/Medicaid patients, receives an average reimbursement of ₹\n400 per patient visit. Excluding the physician’s salary and other\noverhead costs associated with equipment, discuss the current\nprofitability of operations of the office. Assume that the office staff\nwork 8 hours/day. Effective process improvement measures were taken\nby incorporating electronic medical records and check-in via the\nInternet. Such steps reduced average waiting time per patient to 10\nminutes. If the office administrator now schedules patients every 10\nminutes, what is the profitability measure? Assume that the physician\nwill see all scheduled patients for the day.\n                                        ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 13,
+        "slide": 13,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_ME3327E.pdf",
+        "source_sha256": "5fbb72433bf974bb8d6d7bd6fbac99485b743d241fb1389c813fa0feffb37a61",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:24.771382+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "ad80a94e9b948742def686f5c206e8f4927d16d063c91c1a6b2e0ce5363871bf",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              12.67,
+              8.01,
+              172.89,
+              41.01
+            ],
+            "text": "Assignment",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              65.93,
+              708.67,
+              504.74
+            ],
+            "text": "In a doctor’s office with an office administrator and a nurse, the \naverage waiting time for patients prior to being seen by the physician is \n15minutes. The average examination time by the physician, per patient, \nis 10 minutes. Currently, the office administrator schedules patients \nevery 15 minutes for a 6-hour period. When salary and benefits are \nconverted to an hourly rate, for a nurse it is ₹ 40/hour, while for an \noffice administrator it is ₹ 20/hour. The practice, which treats \nMedicare/Medicaid patients, receives an average reimbursement of ₹ \n400 per patient visit. Excluding the physician’s salary and other \noverhead costs associated with equipment, discuss the current \nprofitability of operations of the office. Assume that the office staff \nwork 8 hours/day. Effective process improvement measures were taken \nby incorporating electronic medical records and check-in via the \nInternet. Such steps reduced average waiting time per patient to 10 \nminutes. If the office administrator now schedules patients every 10 \nminutes, what is the profitability measure? Assume that the physician \nwill see all scheduled patients for the day.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n13",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0013.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-quality-cost-me3327e-5fbb72433bf9:p0013:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-quality-cost-me3327e-5fbb72433bf9",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 13,
+        "slide": 13,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Cost_ME3327E.pdf",
+        "source_sha256": "5fbb72433bf974bb8d6d7bd6fbac99485b743d241fb1389c813fa0feffb37a61",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:24.771421+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    }
+  ],
+  "schema_version": "1.0",
+  "created_at": "2026-09-03T07:07:24.771426+00:00"
+}

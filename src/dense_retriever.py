@@ -19,8 +19,11 @@ from sklearn.feature_extraction.text import HashingVectorizer
 import numpy as np
 from src.chunker import Chunk, load_corpus
 import os
+import hashlib
+import json
+from typing import Optional
 
-COLLECTION_NAME = "mech_design"
+COLLECTION_NAME = "course_content_v1"
 EMBED_DIM = 384
 
 
@@ -37,8 +40,26 @@ class LocalHashEmbedder(embedding_functions.EmbeddingFunction):
         mat = self._vec.transform(input)
         return mat.toarray().astype(np.float32).tolist()
 
-    def name(self):
+    @staticmethod
+    def name():
         return "local-hash-char-ngram-384"
+
+    def get_config(self):
+        return {"dim": self.dim}
+
+    @staticmethod
+    def build_from_config(config):
+        return LocalHashEmbedder(dim=int(config.get("dim", EMBED_DIM)))
+
+
+def chunks_content_hash(chunks: list[Chunk]) -> str:
+    payload = [
+        {"id": chunk.id, "text": chunk.text, "metadata": chunk.metadata}
+        for chunk in sorted(chunks, key=lambda item: item.id)
+    ]
+    return hashlib.sha256(
+        json.dumps(payload, sort_keys=True, ensure_ascii=False).encode("utf-8")
+    ).hexdigest()
 
 
 def build_dense_index(chunks: list[Chunk], persist_dir: str):
@@ -48,7 +69,11 @@ def build_dense_index(chunks: list[Chunk], persist_dir: str):
         client.delete_collection(COLLECTION_NAME)
     except Exception:
         pass
-    collection = client.create_collection(name=COLLECTION_NAME, embedding_function=ef)
+    collection = client.create_collection(
+        name=COLLECTION_NAME,
+        embedding_function=ef,
+        metadata={"content_hash": chunks_content_hash(chunks)},
+    )
     collection.add(
         ids=[c.id for c in chunks],
         documents=[c.text for c in chunks],
@@ -63,8 +88,30 @@ def get_collection(persist_dir: str):
     return client.get_collection(name=COLLECTION_NAME, embedding_function=ef)
 
 
-def dense_search(collection, query: str, k: int = 5):
-    res = collection.query(query_texts=[query], n_results=k)
+def ensure_dense_index(chunks: list[Chunk], persist_dir: str):
+    """Load the current index, rebuilding it when approved content changed."""
+    try:
+        collection = get_collection(persist_dir)
+        metadata = collection.metadata or {}
+        if (
+            collection.count() == len(chunks)
+            and metadata.get("content_hash") == chunks_content_hash(chunks)
+        ):
+            return collection
+    except Exception:
+        pass
+    return build_dense_index(chunks, persist_dir)
+
+
+def dense_search(collection, query: str, k: int = 5, course_id: Optional[str] = None):
+    count = collection.count()
+    if course_id:
+        matching = collection.get(where={"course_id": course_id}, include=[])
+        count = len(matching["ids"])
+    if count == 0:
+        return []
+    kwargs = {"where": {"course_id": course_id}} if course_id else {}
+    res = collection.query(query_texts=[query], n_results=min(k, count), **kwargs)
     out = []
     for i in range(len(res["ids"][0])):
         out.append(

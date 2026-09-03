@@ -1,0 +1,3483 @@
+{
+  "document_id": "qrm-qrm-l8-27cb8fc97460",
+  "course_id": "qrm",
+  "source_id": "qrm-l8",
+  "source_file": "Quality_Reliability_Maintenance_L8.pdf",
+  "source_sha256": "27cb8fc97460ea766ae5093f70df775771682dd19d787ad51dbecfde41678e4f",
+  "units": [
+    {
+      "unit_id": "qrm-qrm-l8-27cb8fc97460:p0001:text",
+      "course_id": "qrm",
+      "document_id": "qrm-qrm-l8-27cb8fc97460",
+      "kind": "page_text",
+      "text": "Quality, Reliability &\n    ME3327E\n\n\n\n\n             Course Instructor:\n                   Dr. Nehem Tudu\nAssistant Professor, Dept. of Mechanical Engineering",
+      "locator": {
+        "page": 1,
+        "slide": 1,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L8.pdf",
+        "source_sha256": "27cb8fc97460ea766ae5093f70df775771682dd19d787ad51dbecfde41678e4f",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:46.860343+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "be125b2a4bd449acfd44e6cd7912c630de3a9bccea1dfb69d211c7d09bfd297b",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              98.83,
+              49.79,
+              634.57,
+              112.21
+            ],
+            "text": "Quality, Reliability &",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              191.59,
+              108.11,
+              528.55,
+              170.53
+            ],
+            "text": "Maintenance",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              237.46,
+              166.4,
+              482.73,
+              228.86
+            ],
+            "text": "ME3327E",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              260.02,
+              352.12,
+              466.39,
+              384.16
+            ],
+            "text": "Course Instructor:",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              89.71,
+              382.36,
+              630.39,
+              444.64
+            ],
+            "text": "Dr. Nehem Tudu\nAssistant Professor, Dept. of Mechanical Engineering",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0001.png"
+      },
+      "near_duplicate_of": "qrm-probability-distribution-l6-b8e4e6eede40:p0001:text"
+    },
+    {
+      "unit_id": "qrm-qrm-l8-27cb8fc97460:p0001:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-qrm-l8-27cb8fc97460",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 1,
+        "slide": 1,
+        "bbox": [
+          320.4,
+          223.68,
+          405.48,
+          327.24
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L8.pdf",
+        "source_sha256": "27cb8fc97460ea766ae5093f70df775771682dd19d787ad51dbecfde41678e4f",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:46.860370+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 13,
+        "bboxes": [
+          [
+            320.4,
+            223.68,
+            405.48,
+            327.24
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-qrm-l8-27cb8fc97460:p0002:text",
+      "course_id": "qrm",
+      "document_id": "qrm-qrm-l8-27cb8fc97460",
+      "kind": "page_text",
+      "text": "Weibull Distribution\nA Weibull random variable is typically used in reliability analysis to\ndescribe the time to failure of mechanical and electrical components. It\nis a three-parameter distribution. A Weibull probability density function\nis given by\n              𝛽 𝑥−𝛾 𝛽−1             𝛽     𝑓𝑥=       𝑒𝑥𝑝−𝑥−𝛾        , 𝑥≥𝛾\n              𝛼   𝛼            𝛼\n\nThe parameters are a location parameter 𝛾−∞< 𝛾< ∞, a scale\nparameter 𝛼𝛼> 0  , and a shape parameter 𝛽𝛽> 0  .\n\nThe mean and the variance of the Weibull distribution are\n                                1\n           𝜇= 𝐸𝑋= 𝛾+ 𝛼Γ 𝛽+ 1\n                                                        2\n                          2         1\n         𝜎2 = 𝑉𝑎𝑟𝑋= 𝛼2 Γ     1 −Γ     1                  𝛽+     𝛽+\n\n\n\n                                        ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 2,
+        "slide": 2,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L8.pdf",
+        "source_sha256": "27cb8fc97460ea766ae5093f70df775771682dd19d787ad51dbecfde41678e4f",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:46.860378+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "513af3d3685e20c7fcfcb7d3679006cc633040e45c1b393358a50038d8bc9e78",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              12.67,
+              12.79,
+              288.92,
+              45.82
+            ],
+            "text": "Weibull Distribution",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              55.1,
+              706.25,
+              165.5
+            ],
+            "text": "A Weibull random variable is typically used in reliability analysis to \ndescribe the time to failure of mechanical and electrical components. It \nis a three-parameter distribution. A Weibull probability density function \nis given by",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              302.45,
+              168.27,
+              337.81,
+              185.83
+            ],
+            "text": "𝛽−1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              495.19,
+              168.27,
+              507.23,
+              185.83
+            ],
+            "text": "𝛽",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              235.22,
+              170.23,
+              289.85,
+              194.26
+            ],
+            "text": "𝑥−𝛾",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              125.54,
+              170.23,
+              218.68,
+              212.38
+            ],
+            "text": "𝑓𝑥= 𝛽",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              342.77,
+              170.23,
+              482.59,
+              212.38
+            ],
+            "text": "𝑒𝑥𝑝−𝑥−𝛾",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              521.95,
+              188.35,
+              588.22,
+              212.38
+            ],
+            "text": ", 𝑥≥𝛾",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              204.14,
+              204.43,
+              218.54,
+              228.46
+            ],
+            "text": "𝛼",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              255.29,
+              204.43,
+              269.69,
+              228.46
+            ],
+            "text": "𝛼",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              448.03,
+              204.43,
+              462.43,
+              228.46
+            ],
+            "text": "𝛼",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              244.39,
+              666.48,
+              297.9
+            ],
+            "text": "The parameters are a location parameter 𝛾−∞< 𝛾< ∞, a scale \nparameter 𝛼𝛼> 0 , and a shape parameter 𝛽𝛽> 0 .",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              312.67,
+              570.07,
+              336.67
+            ],
+            "text": "The mean and the variance of the Weibull distribution are",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              214.34,
+              341.13,
+              443.57,
+              383.28
+            ],
+            "text": "𝜇= 𝐸𝑋= 𝛾+ 𝛼Γ 1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              429.31,
+              359.25,
+              486.41,
+              399.36
+            ],
+            "text": "𝛽+ 1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              574.66,
+              402.56,
+              584.82,
+              420.12
+            ],
+            "text": "2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              119.18,
+              411.48,
+              369.63,
+              453.62
+            ],
+            "text": "𝜎2 = 𝑉𝑎𝑟𝑋= 𝛼2 Γ 2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              355.37,
+              411.48,
+              508.85,
+              469.7
+            ],
+            "text": "𝛽+ 1 −Γ 1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              494.59,
+              429.6,
+              551.57,
+              469.7
+            ],
+            "text": "𝛽+ 1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n2",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0002.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-qrm-l8-27cb8fc97460:p0002:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-qrm-l8-27cb8fc97460",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 2,
+        "slide": 2,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L8.pdf",
+        "source_sha256": "27cb8fc97460ea766ae5093f70df775771682dd19d787ad51dbecfde41678e4f",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:46.860419+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-qrm-l8-27cb8fc97460:p0003:text",
+      "course_id": "qrm",
+      "document_id": "qrm-qrm-l8-27cb8fc97460",
+      "kind": "page_text",
+      "text": "Weibull Distribution\nThe mean and the variance of the Weibull distribution are\n                                1\n           𝜇= 𝐸𝑋= 𝛾+ 𝛼Γ 𝛽+ 1\n                                                        2\n                          2         1\n         𝜎2 = 𝑉𝑎𝑟𝑋= 𝛼2 Γ     1 −Γ     1                  𝛽+     𝛽+\nGamma function, Γ 𝑡= ׬∞𝑒−𝑥𝑥𝑡−1𝑑𝑥                         0\nIf u is integer then Γ 𝑢= 𝑢−1 !\n\nThe cumulative distribution function of a Weibull random variable is\n                            𝛽                          𝑥−𝛾\ngiven by 𝐹𝑥= 1 −𝑒𝑥𝑝−              , 𝑥≥𝛾\n                          𝛼\n\n\n\n\n\n                                        ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 3,
+        "slide": 3,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L8.pdf",
+        "source_sha256": "27cb8fc97460ea766ae5093f70df775771682dd19d787ad51dbecfde41678e4f",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:46.860425+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "1c5258259fc63cf7d771dfeb70d851a3dc879eb08ea9dfc0ca2b5622e00e3fbc",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              12.67,
+              12.79,
+              288.92,
+              45.82
+            ],
+            "text": "Weibull Distribution",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              55.1,
+              570.07,
+              79.1
+            ],
+            "text": "The mean and the variance of the Weibull distribution are",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              217.1,
+              83.56,
+              446.45,
+              125.71
+            ],
+            "text": "𝜇= 𝐸𝑋= 𝛾+ 𝛼Γ 1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              432.19,
+              101.68,
+              489.17,
+              141.79
+            ],
+            "text": "𝛽+ 1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              577.54,
+              145.13,
+              587.68,
+              162.67
+            ],
+            "text": "2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              122.06,
+              153.99,
+              372.4,
+              196.18
+            ],
+            "text": "𝜎2 = 𝑉𝑎𝑟𝑋= 𝛼2 Γ 2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              358.13,
+              153.99,
+              511.62,
+              212.26
+            ],
+            "text": "𝛽+ 1 −Γ 1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              497.35,
+              172.15,
+              554.45,
+              212.26
+            ],
+            "text": "𝛽+ 1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              270.05,
+              228.2,
+              400.78,
+              261.58
+            ],
+            "text": "∞𝑒−𝑥𝑥𝑡−1𝑑𝑥",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              237.55,
+              275.27,
+              269.98
+            ],
+            "text": "Gamma function, Γ 𝑡= ׬0",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              280.14,
+              350.48,
+              304.86
+            ],
+            "text": "If u is integer then Γ 𝑢= 𝑢−1 !",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              319.63,
+              673.85,
+              343.63
+            ],
+            "text": "The cumulative distribution function of a Weibull random variable is",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              346.73,
+              349.66,
+              358.75,
+              367.2
+            ],
+            "text": "𝛽",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              300.53,
+              356.86,
+              334.44,
+              374.4
+            ],
+            "text": "𝑥−𝛾",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              365.85,
+              284.86,
+              390.55
+            ],
+            "text": "given by 𝐹𝑥= 1 −𝑒𝑥𝑝−",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              369.41,
+              365.85,
+              438.19,
+              390.55
+            ],
+            "text": ", 𝑥≥𝛾",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              311.69,
+              383.02,
+              323.36,
+              400.56
+            ],
+            "text": "𝛼",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n3",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0003.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-qrm-l8-27cb8fc97460:p0003:formula-001",
+      "course_id": "qrm",
+      "document_id": "qrm-qrm-l8-27cb8fc97460",
+      "kind": "formula",
+      "text": "If u is integer then Γ 𝑢= 𝑢−1 !",
+      "locator": {
+        "page": 3,
+        "slide": 3,
+        "bbox": [
+          7.2,
+          280.14,
+          350.48,
+          304.86
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L8.pdf",
+        "source_sha256": "27cb8fc97460ea766ae5093f70df775771682dd19d787ad51dbecfde41678e4f",
+        "extractor": "pymupdf-layout-heuristic",
+        "extracted_at": "2026-09-03T07:07:46.860450+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "ed1d00862939f1418e2e98d9805bd03ba8fff47393039b132bdb1aacc25a1028",
+      "metadata": {
+        "formula_index": 1
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-qrm-l8-27cb8fc97460:p0003:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-qrm-l8-27cb8fc97460",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 3,
+        "slide": 3,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L8.pdf",
+        "source_sha256": "27cb8fc97460ea766ae5093f70df775771682dd19d787ad51dbecfde41678e4f",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:46.860459+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-qrm-l8-27cb8fc97460:p0004:text",
+      "course_id": "qrm",
+      "document_id": "qrm-qrm-l8-27cb8fc97460",
+      "kind": "page_text",
+      "text": "Weibull Distribution\n\n\n\n\n\n             Weibull probability density functions (γ=0, α=1, β=0.5,1,2,4)\n\n                                       ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 4,
+        "slide": 4,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L8.pdf",
+        "source_sha256": "27cb8fc97460ea766ae5093f70df775771682dd19d787ad51dbecfde41678e4f",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:46.860464+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "6f51235db5f86e371d3679bdf8dadca7aefd024d2aca478d24ebe8c9f0c25ff3",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              12.67,
+              12.79,
+              288.92,
+              45.82
+            ],
+            "text": "Weibull Distribution",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              118.37,
+              477.83,
+              555.98,
+              495.83
+            ],
+            "text": "Weibull probability density functions (γ=0, α=1, β=0.5,1,2,4)",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n4",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0004.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-qrm-l8-27cb8fc97460:p0004:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-qrm-l8-27cb8fc97460",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 4,
+        "slide": 4,
+        "bbox": [
+          85.08,
+          45.84,
+          634.92,
+          465.96
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L8.pdf",
+        "source_sha256": "27cb8fc97460ea766ae5093f70df775771682dd19d787ad51dbecfde41678e4f",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:46.860475+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 34,
+        "bboxes": [
+          [
+            85.08,
+            45.84,
+            634.92,
+            465.96
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-qrm-l8-27cb8fc97460:p0004:visual-002",
+      "course_id": "qrm",
+      "document_id": "qrm-qrm-l8-27cb8fc97460",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 4,
+        "slide": 4,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L8.pdf",
+        "source_sha256": "27cb8fc97460ea766ae5093f70df775771682dd19d787ad51dbecfde41678e4f",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:46.860480+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 2,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-qrm-l8-27cb8fc97460:p0005:text",
+      "course_id": "qrm",
+      "document_id": "qrm-qrm-l8-27cb8fc97460",
+      "kind": "page_text",
+      "text": "Exercise\nThe time to failure for a cathode ray tube can be modeled\nusing a Weibull distribution with parameters 𝛾= 0, 𝛽=\n1\n  and 𝛼= 200 ℎ𝑜𝑢𝑟𝑠.\n3\na)  Find the mean time to failure and its standard deviation.\nb) What is the probability of a tube operating for at least 800\n   hours?\n\n\n\n\n\n                                        ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 5,
+        "slide": 5,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L8.pdf",
+        "source_sha256": "27cb8fc97460ea766ae5093f70df775771682dd19d787ad51dbecfde41678e4f",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:46.860485+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "d39acd5149b7f0dfa4717eba28c3d4b3de9e133661e67690af163452b4c5d8fc",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              12.67,
+              12.79,
+              122.58,
+              45.82
+            ],
+            "text": "Exercise",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              52.49,
+              668.12,
+              161.15
+            ],
+            "text": "The time to failure for a cathode ray tube can be modeled \nusing a Weibull distribution with parameters 𝛾= 0, 𝛽=\n1\n3 and 𝛼= 200 ℎ𝑜𝑢𝑟𝑠.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              165.92,
+              714.17,
+              234.08
+            ],
+            "text": "a) Find the mean time to failure and its standard deviation.\nb) What is the probability of a tube operating for at least 800",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              47.76,
+              236.36,
+              124.93,
+              264.32
+            ],
+            "text": "hours?",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n5",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0005.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-qrm-l8-27cb8fc97460:p0005:formula-001",
+      "course_id": "qrm",
+      "document_id": "qrm-qrm-l8-27cb8fc97460",
+      "kind": "formula",
+      "text": "The time to failure for a cathode ray tube can be modeled \nusing a Weibull distribution with parameters 𝛾= 0, 𝛽=\n1\n3 and 𝛼= 200 ℎ𝑜𝑢𝑟𝑠.",
+      "locator": {
+        "page": 5,
+        "slide": 5,
+        "bbox": [
+          7.2,
+          52.49,
+          668.12,
+          161.15
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L8.pdf",
+        "source_sha256": "27cb8fc97460ea766ae5093f70df775771682dd19d787ad51dbecfde41678e4f",
+        "extractor": "pymupdf-layout-heuristic",
+        "extracted_at": "2026-09-03T07:07:46.860504+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "4cea010f1f084983bad6e58c6a9b69eea4327e90afdaa51235191da4d4cb3f1a",
+      "metadata": {
+        "formula_index": 1
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-qrm-l8-27cb8fc97460:p0005:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-qrm-l8-27cb8fc97460",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 5,
+        "slide": 5,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L8.pdf",
+        "source_sha256": "27cb8fc97460ea766ae5093f70df775771682dd19d787ad51dbecfde41678e4f",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:46.860516+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-qrm-l8-27cb8fc97460:p0006:text",
+      "course_id": "qrm",
+      "document_id": "qrm-qrm-l8-27cb8fc97460",
+      "kind": "page_text",
+      "text": "Exponential\nFeature    Normal Distribution                        Weibull Distribution\n                                    Distribution\n                                                                 Flexible (skewed,\n            Symmetric, bell-        Right-skewed, steep\nShape                                                       exponential, or bell-\n           shaped                 decline\n                                                      shaped)\nDomain          −∞, ∞                      [0, ∞)                      [0, ∞)\n                             Memoryless (past\nKey         Driven by Central Limit                         Flexible hazard rate\n                                        history doesn't affect\nProperty    Theorem                                   (models age/wear)\n                                         future)\n\nParameters Mean (µ), Std Dev (σ)  Rate (λ)             Shape (β), Scale (α)\n\n                                                       Decreasing (β < 1),\nFailure      Increases sharply after\n                                  Constant over time     Constant (β = 1),\nRate      mean\n                                                            Increasing (β > 1)\n\nPrimary     Natural variations,     Time between random  Reliability engineering,\nUse        measurement errors    Poisson events        equipment lifespan\n\n\n\n\n\n                                       ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 6,
+        "slide": 6,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L8.pdf",
+        "source_sha256": "27cb8fc97460ea766ae5093f70df775771682dd19d787ad51dbecfde41678e4f",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:46.860521+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "c90f7f6652af356ea974b1ec0c9172d22350500e36b4e716608b473feb97aecd",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              10.9,
+              31.64,
+              679.65,
+              73.36
+            ],
+            "text": "Feature\nNormal Distribution\nExponential \nDistribution\nWeibull Distribution",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              10.9,
+              90.46,
+              249.88,
+              132.13
+            ],
+            "text": "Shape\nSymmetric, bell-\nshaped",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              315.89,
+              90.46,
+              483.88,
+              132.13
+            ],
+            "text": "Right-skewed, steep \ndecline",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              10.9,
+              79.66,
+              666.85,
+              169.53
+            ],
+            "text": "Flexible (skewed, \nexponential, or bell-\nshaped)\nDomain\n−∞, ∞\n[0, ∞)\n[0, ∞)",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              10.9,
+              186.41,
+              84.92,
+              228.09
+            ],
+            "text": "Key \nProperty",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              120.98,
+              186.41,
+              307.84,
+              228.09
+            ],
+            "text": "Driven by Central Limit \nTheorem",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              510.0,
+              186.41,
+              677.89,
+              228.09
+            ],
+            "text": "Flexible hazard rate\n(models age/wear)",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              315.89,
+              175.61,
+              484.86,
+              238.91
+            ],
+            "text": "Memoryless (past \nhistory doesn't affect \nfuture)",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              10.9,
+              260.17,
+              671.77,
+              280.24
+            ],
+            "text": "Parameters Mean (µ), Std Dev (σ)\nRate (λ)\nShape (β), Scale (α)",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              10.9,
+              318.58,
+              74.98,
+              360.25
+            ],
+            "text": "Failure \nRate",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              120.98,
+              318.58,
+              466.89,
+              360.25
+            ],
+            "text": "Increases sharply after \nmean\nConstant over time",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              510.0,
+              307.78,
+              668.82,
+              371.05
+            ],
+            "text": "Decreasing (β < 1), \nConstant (β = 1), \nIncreasing (β > 1)",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              10.9,
+              387.75,
+              82.63,
+              429.47
+            ],
+            "text": "Primary \nUse",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              120.98,
+              387.75,
+              282.84,
+              429.47
+            ],
+            "text": "Natural variations, \nmeasurement errors",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              315.89,
+              387.75,
+              499.16,
+              429.47
+            ],
+            "text": "Time between random \nPoisson events",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              510.0,
+              387.75,
+              695.59,
+              429.47
+            ],
+            "text": "Reliability engineering, \nequipment lifespan",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n6",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0006.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-qrm-l8-27cb8fc97460:p0006:table-001",
+      "course_id": "qrm",
+      "document_id": "qrm-qrm-l8-27cb8fc97460",
+      "kind": "table",
+      "text": "Feature | Normal Distribution | Exponential\nDistribution | Weibull Distribution\nShape | Symmetric, bell-\nshaped | Right-skewed, steep\ndecline | Flexible (skewed,\nexponential, or bell-\nshaped)\nDomain | −∞, ∞ | [0, ∞) | [0, ∞)\nKey\nProperty | Driven by Central Limit\nTheorem | Memoryless (past\nhistory doesn't affect\nfuture) | Flexible hazard rate\n(models age/wear)\nParameters | Mean (µ), Std Dev (σ) | Rate (λ) | Shape (β), Scale (α)\nFailure\nRate | Increases sharply after\nmean | Constant over time | Decreasing (β < 1),\nConstant (β = 1),\nIncreasing (β > 1)\nPrimary\nUse | Natural variations,\nmeasurement errors | Time between random\nPoisson events | Reliability engineering,\nequipment lifespan",
+      "locator": {
+        "page": 6,
+        "slide": 6,
+        "bbox": [
+          7.31,
+          28.05,
+          701.23,
+          436.23
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L8.pdf",
+        "source_sha256": "27cb8fc97460ea766ae5093f70df775771682dd19d787ad51dbecfde41678e4f",
+        "extractor": "pymupdf-table",
+        "extracted_at": "2026-09-03T07:07:46.860555+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "ce9f0d5783762588b30cde8bf96e914f990976efe06168389f2a9be6e0d46315",
+      "metadata": {
+        "table_index": 1
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-qrm-l8-27cb8fc97460:p0007:text",
+      "course_id": "qrm",
+      "document_id": "qrm-qrm-l8-27cb8fc97460",
+      "kind": "page_text",
+      "text": "Gamma Distribution\n\nAnother important distribution with applications in reliability analysis is\nthe gamma distribution. Its probability density function is given by\n         𝜆𝑘\n𝑓𝑥=        𝑥≥0        Γ 𝑘𝑥𝑘−1𝑒−𝜆𝑥,\n\nWhere k is a shape parameter, k > 0, and λ is a scale parameter, λ > 0.\nThe mean and the variance of the gamma distribution are\n                       𝑘         𝑘\n             𝜇=      𝜎2 =                           𝜆,         𝜆2\n\n\n\n\n\n                                        ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 7,
+        "slide": 7,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L8.pdf",
+        "source_sha256": "27cb8fc97460ea766ae5093f70df775771682dd19d787ad51dbecfde41678e4f",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:46.860584+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "7fff67a754bfde8a870cf1a974c711cb86b885b83bb0795c8b4439b0e7481e15",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              12.67,
+              24.16,
+              290.93,
+              57.16
+            ],
+            "text": "Gamma Distribution",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              89.36,
+              706.66,
+              142.2
+            ],
+            "text": "Another important distribution with applications in reliability analysis is \nthe gamma distribution. Its probability density function is given by",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              93.74,
+              145.02,
+              113.08,
+              166.49
+            ],
+            "text": "𝜆𝑘",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              157.94,
+              79.13,
+              181.97
+            ],
+            "text": "𝑓𝑥=",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              85.82,
+              154.23,
+              289.95,
+              192.65
+            ],
+            "text": "Γ 𝑘𝑥𝑘−1𝑒−𝜆𝑥, 𝑥≥0",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              206.38,
+              678.03,
+              259.22
+            ],
+            "text": "Where k is a shape parameter, k > 0, and λ is a scale parameter, λ > 0.\nThe mean and the variance of the gamma distribution are",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              261.65,
+              261.16,
+              319.9,
+              303.31
+            ],
+            "text": "𝜇= 𝑘",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              307.13,
+              261.16,
+              453.0,
+              319.39
+            ],
+            "text": "𝜆,\n𝜎2 = 𝑘",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              435.19,
+              293.21,
+              457.45,
+              319.39
+            ],
+            "text": "𝜆2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n7",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0007.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-qrm-l8-27cb8fc97460:p0007:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-qrm-l8-27cb8fc97460",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 7,
+        "slide": 7,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L8.pdf",
+        "source_sha256": "27cb8fc97460ea766ae5093f70df775771682dd19d787ad51dbecfde41678e4f",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:46.860605+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-qrm-l8-27cb8fc97460:p0008:text",
+      "course_id": "qrm",
+      "document_id": "qrm-qrm-l8-27cb8fc97460",
+      "kind": "page_text",
+      "text": "Lognormal Distribution\n\nA random variable X has a lognormal distribution if ln(x) has a normal\ndistribution with mean μ and variance σ2, where ln represents the\nnatural logarithm. Its probability density function is given by 𝑓𝑥=\n  1      −ln 𝑥−𝜇2\n 2𝜋𝜎𝑥𝑒𝑥𝑝     2𝜎2          , 𝑥> 0\n\nThe mean and variance of the lognormal distribution are\n                𝜎2\n 𝐸(𝑋) = 𝑒𝑥𝑝𝜇+          ,    𝑉𝑎𝑟(𝑋) = 𝑒𝑥𝑝2𝜇+ 𝜎2 𝑒𝑥𝑝𝜎2 −1\n               2\n\nThe cumulative distribution function is expressed as\n                              ln 𝑥−𝜇\n        𝐹𝑥= Φ                         ,   𝑥> 0\n                        𝜎\n\nWhere Φ( ) represents the CDF of the standard normal.\n\n\n\n                                        ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 8,
+        "slide": 8,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L8.pdf",
+        "source_sha256": "27cb8fc97460ea766ae5093f70df775771682dd19d787ad51dbecfde41678e4f",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:46.860611+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "17d4445cee9d7d835935a62b7747c89a83a56e5ef9fb13cc9f9a9989faa45fe5",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              12.67,
+              24.16,
+              329.6,
+              57.16
+            ],
+            "text": "Lognormal Distribution",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              89.36,
+              685.43,
+              171.12
+            ],
+            "text": "A random variable X has a lognormal distribution if ln(x) has a normal \ndistribution with mean μ and variance σ2, where ln represents the \nnatural logarithm. Its probability density function is given by 𝑓𝑥=",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              118.46,
+              173.94,
+              220.75,
+              195.41
+            ],
+            "text": "−ln 𝑥−𝜇2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              18.72,
+              177.87,
+              105.14,
+              221.57
+            ],
+            "text": "1\n2𝜋𝜎𝑥𝑒𝑥𝑝",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              154.22,
+              186.86,
+              301.71,
+              221.57
+            ],
+            "text": "2𝜎2\n, 𝑥> 0",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              237.14,
+              557.02,
+              261.14
+            ],
+            "text": "The mean and variance of the lognormal distribution are",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              24.96,
+              262.49,
+              232.16,
+              308.35
+            ],
+            "text": "𝐸(𝑋) = 𝑒𝑥𝑝𝜇+ 𝜎2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              213.14,
+              275.56,
+              686.72,
+              324.43
+            ],
+            "text": "2\n,\n𝑉𝑎𝑟(𝑋) = 𝑒𝑥𝑝2𝜇+ 𝜎2\n𝑒𝑥𝑝𝜎2 −1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              341.21,
+              511.61,
+              365.21
+            ],
+            "text": "The cumulative distribution function is expressed as",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              193.94,
+              369.43,
+              401.28,
+              411.58
+            ],
+            "text": "𝐹𝑥= Φ ln 𝑥−𝜇",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              346.73,
+              387.55,
+              526.01,
+              427.66
+            ],
+            "text": "𝜎\n,\n𝑥> 0",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              444.15,
+              543.69,
+              468.17
+            ],
+            "text": "Where Φ( ) represents the CDF of the standard normal.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n8",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0008.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-qrm-l8-27cb8fc97460:p0008:formula-001",
+      "course_id": "qrm",
+      "document_id": "qrm-qrm-l8-27cb8fc97460",
+      "kind": "formula",
+      "text": "A random variable X has a lognormal distribution if ln(x) has a normal \ndistribution with mean μ and variance σ2, where ln represents the \nnatural logarithm. Its probability density function is given by 𝑓𝑥=",
+      "locator": {
+        "page": 8,
+        "slide": 8,
+        "bbox": [
+          7.2,
+          89.36,
+          685.43,
+          171.12
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L8.pdf",
+        "source_sha256": "27cb8fc97460ea766ae5093f70df775771682dd19d787ad51dbecfde41678e4f",
+        "extractor": "pymupdf-layout-heuristic",
+        "extracted_at": "2026-09-03T07:07:46.860638+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "fd1be8b5faae01b2c2cf9e2fe1f1b7d9967b16895ed5a86ce42052ed032afa8f",
+      "metadata": {
+        "formula_index": 1
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-qrm-l8-27cb8fc97460:p0008:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-qrm-l8-27cb8fc97460",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 8,
+        "slide": 8,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L8.pdf",
+        "source_sha256": "27cb8fc97460ea766ae5093f70df775771682dd19d787ad51dbecfde41678e4f",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:46.860652+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-qrm-l8-27cb8fc97460:p0009:text",
+      "course_id": "qrm",
+      "document_id": "qrm-qrm-l8-27cb8fc97460",
+      "kind": "page_text",
+      "text": "Inferential Statistics\nThe two main procedures of inferential statistics are estimation (point\nand interval) and hypothesis testing\n\nSampling Distributions\n\nA sample variance is an estimator of the population variance. Studying\nthe behavior of these estimators through repeated sampling allows us\nto draw conclusions about the corresponding parameters. The behavior\nof an estimator in repeated sampling is known as the sampling\ndistribution of the estimator, which is expressed as the probability\ndistribution of the statistic.\n\nThe sample mean is one of the most widely used estimators in quality\ncontrol because analysts frequently need to estimate the population\nmean. It is therefore of interest to know the sampling distribution of the\nsample mean; this is described by the central limit theorem.\n\n\n\n                                        ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 9,
+        "slide": 9,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L8.pdf",
+        "source_sha256": "27cb8fc97460ea766ae5093f70df775771682dd19d787ad51dbecfde41678e4f",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:46.860657+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "76d20386f5827b7c1450066771c73fa81d95aeabdd7adbd59bcf9c3ad8893e1f",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              12.67,
+              24.16,
+              284.03,
+              57.16
+            ],
+            "text": "Inferential Statistics",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              68.81,
+              690.82,
+              121.62
+            ],
+            "text": "The two main procedures of inferential statistics are estimation (point \nand interval) and hypothesis testing",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              136.51,
+              232.39,
+              160.51
+            ],
+            "text": "Sampling Distributions",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              175.27,
+              702.45,
+              343.3
+            ],
+            "text": "A sample variance is an estimator of the population variance. Studying \nthe behavior of these estimators through repeated sampling  allows us \nto draw conclusions about the corresponding parameters. The behavior\nof an estimator in repeated sampling is known as the sampling \ndistribution of the estimator, which is expressed as the probability \ndistribution of the statistic.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              358.04,
+              713.47,
+              468.48
+            ],
+            "text": "The sample  mean is one of the most widely used estimators in quality \ncontrol because analysts frequently need to estimate the population  \nmean. It is therefore of interest to know the sampling distribution of the \nsample mean; this is described by the central limit theorem.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n9",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0009.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-qrm-l8-27cb8fc97460:p0009:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-qrm-l8-27cb8fc97460",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 9,
+        "slide": 9,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L8.pdf",
+        "source_sha256": "27cb8fc97460ea766ae5093f70df775771682dd19d787ad51dbecfde41678e4f",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:46.860686+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-qrm-l8-27cb8fc97460:p0010:text",
+      "course_id": "qrm",
+      "document_id": "qrm-qrm-l8-27cb8fc97460",
+      "kind": "page_text",
+      "text": "Sampling Distributions\nExercise:\n\nThe tuft bind strength of a synthetic material used to make carpets is\nknown to have a mean of 50 kg and a standard deviation of 10 kg. If a\nsample of size 40 is randomly selected, what is the probability that the\nsample mean will be less than 52.5 kg?\n\n\n\n\n\n                                        ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 10,
+        "slide": 10,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L8.pdf",
+        "source_sha256": "27cb8fc97460ea766ae5093f70df775771682dd19d787ad51dbecfde41678e4f",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:46.860691+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "72f840049ac06b9dbb57c7f15a917b8ecc71aa3025bd6e1a8f4be80dae09ec88",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              12.67,
+              10.03,
+              323.07,
+              43.03
+            ],
+            "text": "Sampling Distributions",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              50.81,
+              93.96,
+              74.81
+            ],
+            "text": "Exercise:",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              89.69,
+              696.65,
+              200.11
+            ],
+            "text": "The tuft bind strength of a synthetic material used to make carpets is \nknown to have a mean of 50 kg and a standard deviation of 10 kg. If a \nsample of size 40 is randomly selected, what is the probability that the \nsample mean will be less than 52.5 kg?",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n10",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0010.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-qrm-l8-27cb8fc97460:p0010:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-qrm-l8-27cb8fc97460",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 10,
+        "slide": 10,
+        "bbox": [
+          97.92,
+          198.48,
+          639.24,
+          514.44
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L8.pdf",
+        "source_sha256": "27cb8fc97460ea766ae5093f70df775771682dd19d787ad51dbecfde41678e4f",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:46.860707+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 66,
+        "bboxes": [
+          [
+            97.92,
+            198.48,
+            639.24,
+            514.44
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-qrm-l8-27cb8fc97460:p0010:visual-002",
+      "course_id": "qrm",
+      "document_id": "qrm-qrm-l8-27cb8fc97460",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 10,
+        "slide": 10,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L8.pdf",
+        "source_sha256": "27cb8fc97460ea766ae5093f70df775771682dd19d787ad51dbecfde41678e4f",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:46.860713+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 2,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-qrm-l8-27cb8fc97460:p0011:text",
+      "course_id": "qrm",
+      "document_id": "qrm-qrm-l8-27cb8fc97460",
+      "kind": "page_text",
+      "text": "Estimation of Product and Process Parameters\n\nThere are two types of estimation: point estimation and interval\nestimation\n\nIn point estimation, a single numerical value is obtained as an estimate\nof the population parameter.\n\nIn interval estimation, a range or interval is determined such that there\nis some desired level of probability that the true parameter value is\ncontained within it. Interval estimates are also called confidence\nintervals.\n\n\n\n\n\n                                        ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 11,
+        "slide": 11,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L8.pdf",
+        "source_sha256": "27cb8fc97460ea766ae5093f70df775771682dd19d787ad51dbecfde41678e4f",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:46.860719+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "74240007b2037d89cbab1ebcc8daabb67956291c1f2208074952c11ec57c9914",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              12.67,
+              34.12,
+              643.27,
+              67.12
+            ],
+            "text": "Estimation of Product and Process Parameters",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              99.75,
+              634.87,
+              152.59
+            ],
+            "text": "There are two types of estimation: point estimation and interval \nestimation",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              167.47,
+              699.45,
+              220.27
+            ],
+            "text": "In point estimation, a single numerical value is obtained as an estimate \nof the population parameter.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              235.06,
+              702.07,
+              345.46
+            ],
+            "text": "In interval estimation, a range or interval is determined such that there \nis some desired level of probability that the true parameter value is \ncontained within it. Interval estimates are also called confidence \nintervals.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n11",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0011.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-qrm-l8-27cb8fc97460:p0011:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-qrm-l8-27cb8fc97460",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 11,
+        "slide": 11,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L8.pdf",
+        "source_sha256": "27cb8fc97460ea766ae5093f70df775771682dd19d787ad51dbecfde41678e4f",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:46.860737+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-qrm-l8-27cb8fc97460:p0012:text",
+      "course_id": "qrm",
+      "document_id": "qrm-qrm-l8-27cb8fc97460",
+      "kind": "page_text",
+      "text": "Confidence Interval for the Mean\n\n1.  Variance known:\n                     𝜎             𝜎\n            ത𝑋−𝑍ൗ          𝑍ൗ                 𝛼2            𝛼2                𝑛≤𝜇≤ത𝑋+     𝑛\n\n2. Variance Unknown\n                          𝑠                    𝑠\n           ത𝑋−𝑡ൗ              𝑡ൗ                   𝛼2,𝑛−1               𝛼2,𝑛−1                𝑛≤𝜇≤ത𝑋+       𝑛\n\n                    ത𝑋−𝜇\n                             ~𝑡𝑛−1                           𝑠\n                       ൗ                        𝑛\n\n\n\n\n\n                                        ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 12,
+        "slide": 12,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L8.pdf",
+        "source_sha256": "27cb8fc97460ea766ae5093f70df775771682dd19d787ad51dbecfde41678e4f",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:46.860743+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "f96bcf74297ce55047a535b71a4299f33abc46f18ad241a6d5b034840716be99",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              7.2,
+              10.96,
+              461.31,
+              43.96
+            ],
+            "text": "Confidence Interval for the Mean",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              71.83,
+              204.62,
+              95.83
+            ],
+            "text": "1. Variance known:",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              299.45,
+              92.24,
+              313.5,
+              116.28
+            ],
+            "text": "𝜎",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              498.79,
+              92.24,
+              512.84,
+              116.28
+            ],
+            "text": "𝜎",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              198.86,
+              105.84,
+              286.91,
+              145.11
+            ],
+            "text": "ത𝑋−𝑍ൗ\n𝛼2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              307.61,
+              105.84,
+              486.25,
+              151.71
+            ],
+            "text": "𝑛≤𝜇≤ത𝑋+ 𝑍ൗ\n𝛼2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              506.95,
+              127.68,
+              520.73,
+              151.71
+            ],
+            "text": "𝑛",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              165.22,
+              213.67,
+              189.22
+            ],
+            "text": "2. Variance Unknown",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              301.01,
+              185.76,
+              312.1,
+              209.79
+            ],
+            "text": "𝑠",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              533.83,
+              185.76,
+              544.92,
+              209.79
+            ],
+            "text": "𝑠",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              165.38,
+              199.32,
+              286.93,
+              238.59
+            ],
+            "text": "ത𝑋−𝑡ൗ\n𝛼2,𝑛−1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              307.61,
+              199.32,
+              519.75,
+              245.19
+            ],
+            "text": "𝑛≤𝜇≤ത𝑋+ 𝑡ൗ\n𝛼2,𝑛−1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              540.43,
+              221.15,
+              554.22,
+              245.19
+            ],
+            "text": "𝑛",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              297.89,
+              283.22,
+              355.68,
+              311.81
+            ],
+            "text": "ത𝑋−𝜇",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              360.29,
+              305.9,
+              421.21,
+              333.41
+            ],
+            "text": "~𝑡𝑛−1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              301.61,
+              314.3,
+              324.57,
+              350.93
+            ],
+            "text": "ൗ\n𝑠",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              338.33,
+              336.37,
+              352.12,
+              360.41
+            ],
+            "text": "𝑛",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n12",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0012.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-qrm-l8-27cb8fc97460:p0012:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-qrm-l8-27cb8fc97460",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 12,
+        "slide": 12,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L8.pdf",
+        "source_sha256": "27cb8fc97460ea766ae5093f70df775771682dd19d787ad51dbecfde41678e4f",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:46.860761+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-qrm-l8-27cb8fc97460:p0013:text",
+      "course_id": "qrm",
+      "document_id": "qrm-qrm-l8-27cb8fc97460",
+      "kind": "page_text",
+      "text": "Confidence Interval for the Difference Between\nTwo Means\n1.  Variance known:\n\n                         2    2                                  2    2\n                     𝜎1   𝜎2                              𝜎1   𝜎2\n               +        ≤      +      +       ത𝑋1 −ത𝑋2 −𝑍ൗ       ≤𝜇1 −𝜇2     ത𝑋1 −ത𝑋2  𝑍ൗ             𝛼2                          𝛼2                    𝑛1   𝑛2                            𝑛1   𝑛2\n\n2. Variance Unknown\n\n                         2    2                                   2    2\n                        𝑠1   𝑠2                                  𝑠1   𝑠2\n               +        ≤      +      +      ത𝑋1 −ത𝑋2 −𝑡ൗ        ≤𝜇1 −𝜇2     ത𝑋1 −ത𝑋2   𝑡ൗ                𝛼2,𝑣                                   𝛼2,𝑣                    𝑛1  𝑛2                             𝑛1  𝑛2\n\n\n                                                2\n                                  2       2\n                                 𝑠1      𝑠2                           ൗ  +  ൗ                               𝑛1     𝑛2\n        𝑣=                            2                     2\n                      2                     2\n                     𝑠1                   𝑠2                  ൗ                ൗ                     𝑛1                𝑛2           ൙        ൙\n                      +\n                           𝑛1 −1             𝑛2 −1\n\n                                        ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 13,
+        "slide": 13,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L8.pdf",
+        "source_sha256": "27cb8fc97460ea766ae5093f70df775771682dd19d787ad51dbecfde41678e4f",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:46.860766+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "71e14f398800bb380882450bf83d58bd54f5d162692f3220ab58bf9f2ec1420f",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              7.2,
+              15.41,
+              660.41,
+              84.09
+            ],
+            "text": "Confidence Interval for the Difference Between \nTwo Means",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              89.15,
+              190.92,
+              111.11
+            ],
+            "text": "1.\nVariance known:",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              235.46,
+              124.65,
+              244.77,
+              140.75
+            ],
+            "text": "2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              285.89,
+              124.65,
+              295.2,
+              140.75
+            ],
+            "text": "2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              612.46,
+              124.65,
+              621.77,
+              140.75
+            ],
+            "text": "2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              662.86,
+              124.65,
+              672.17,
+              140.75
+            ],
+            "text": "2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              221.42,
+              128.23,
+              241.53,
+              154.55
+            ],
+            "text": "𝜎1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              598.42,
+              128.23,
+              618.53,
+              154.55
+            ],
+            "text": "𝜎1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              250.61,
+              128.23,
+              292.44,
+              166.9
+            ],
+            "text": "+ 𝜎2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              627.58,
+              128.23,
+              669.41,
+              166.9
+            ],
+            "text": "+ 𝜎2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              56.04,
+              140.71,
+              203.74,
+              176.88
+            ],
+            "text": "ത𝑋1 −ത𝑋2 −𝑍ൗ\n𝛼2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              302.33,
+              140.71,
+              580.74,
+              176.88
+            ],
+            "text": "≤𝜇1 −𝜇2 ≤\nത𝑋1 −ത𝑋2 + 𝑍ൗ\n𝛼2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              222.38,
+              159.53,
+              243.82,
+              184.68
+            ],
+            "text": "𝑛1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              272.57,
+              159.53,
+              294.49,
+              184.68
+            ],
+            "text": "𝑛2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              599.38,
+              159.53,
+              620.82,
+              184.68
+            ],
+            "text": "𝑛1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              649.54,
+              159.53,
+              671.46,
+              184.68
+            ],
+            "text": "𝑛2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              200.9,
+              196.28,
+              222.86
+            ],
+            "text": "2. Variance Unknown",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              236.66,
+              236.52,
+              245.97,
+              252.62
+            ],
+            "text": "2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              285.41,
+              236.52,
+              294.72,
+              252.62
+            ],
+            "text": "2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              618.46,
+              236.52,
+              627.77,
+              252.62
+            ],
+            "text": "2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              667.18,
+              236.52,
+              676.49,
+              252.62
+            ],
+            "text": "2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              225.5,
+              240.1,
+              243.93,
+              266.42
+            ],
+            "text": "𝑠1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              607.3,
+              240.1,
+              625.73,
+              266.42
+            ],
+            "text": "𝑠1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              252.17,
+              240.1,
+              293.16,
+              278.77
+            ],
+            "text": "+ 𝑠2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              633.94,
+              240.1,
+              674.93,
+              278.77
+            ],
+            "text": "+ 𝑠2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              51.12,
+              252.58,
+              206.87,
+              288.74
+            ],
+            "text": "ത𝑋1 −ത𝑋2 −𝑡ൗ\n𝛼2,𝑣",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              302.33,
+              252.58,
+              588.67,
+              288.74
+            ],
+            "text": "≤𝜇1 −𝜇2 ≤\nത𝑋1 −ത𝑋2 + 𝑡ൗ\n𝛼2,𝑣",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              225.02,
+              271.4,
+              246.46,
+              296.55
+            ],
+            "text": "𝑛1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              273.41,
+              271.4,
+              295.33,
+              296.55
+            ],
+            "text": "𝑛2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              606.82,
+              271.4,
+              628.26,
+              296.55
+            ],
+            "text": "𝑛1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              655.18,
+              271.4,
+              677.1,
+              296.55
+            ],
+            "text": "𝑛2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              453.79,
+              335.9,
+              463.1,
+              352.0
+            ],
+            "text": "2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              399.65,
+              344.9,
+              408.96,
+              361.0
+            ],
+            "text": "2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              321.29,
+              345.02,
+              330.6,
+              361.12
+            ],
+            "text": "2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              310.01,
+              348.84,
+              341.67,
+              380.07
+            ],
+            "text": "ൗ\n𝑠1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              418.27,
+              365.64,
+              440.18,
+              390.76
+            ],
+            "text": "𝑛2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              339.89,
+              348.84,
+              420.05,
+              392.07
+            ],
+            "text": "𝑛1 +\nൗ\n𝑠2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              150.74,
+              392.14,
+              185.88,
+              414.15
+            ],
+            "text": "𝑣=",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              269.57,
+              404.29,
+              278.89,
+              420.41
+            ],
+            "text": "2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              471.31,
+              404.29,
+              480.63,
+              420.41
+            ],
+            "text": "2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              215.9,
+              412.8,
+              225.22,
+              428.93
+            ],
+            "text": "2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              417.07,
+              412.8,
+              426.39,
+              428.93
+            ],
+            "text": "2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              234.5,
+              433.95,
+              255.96,
+              459.07
+            ],
+            "text": "𝑛1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              435.79,
+              433.95,
+              457.7,
+              459.07
+            ],
+            "text": "𝑛2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              204.62,
+              416.43,
+              295.49,
+              464.45
+            ],
+            "text": "൙\nൗ\n𝑠1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              297.29,
+              416.43,
+              497.11,
+              495.05
+            ],
+            "text": "𝑛1 −1 +\n൙\nൗ\n𝑠2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              499.03,
+              468.63,
+              560.16,
+              495.05
+            ],
+            "text": "𝑛2 −1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n13",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0013.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-qrm-l8-27cb8fc97460:p0013:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-qrm-l8-27cb8fc97460",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 13,
+        "slide": 13,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L8.pdf",
+        "source_sha256": "27cb8fc97460ea766ae5093f70df775771682dd19d787ad51dbecfde41678e4f",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:46.860840+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-qrm-l8-27cb8fc97460:p0014:text",
+      "course_id": "qrm",
+      "document_id": "qrm-qrm-l8-27cb8fc97460",
+      "kind": "page_text",
+      "text": "Confidence Interval for a Proportion\n\n               Ƹ𝑝1 −Ƹ𝑝                      Ƹ𝑝1 −Ƹ𝑝\n     Ƹ𝑝−𝑍ൗ      ≤𝑝≤  ത𝑋1 −ത𝑋2 + 𝑍ൗ         𝛼2                      𝛼2                𝑛                         𝑛\n\nConfidence Interval for the Difference Between Two\nBinomial Proportions\n\n                                    Ƹ𝑝1 1 −Ƹ𝑝1     Ƹ𝑝2 1 −Ƹ𝑝2\n             Ƹ𝑝1 −Ƹ𝑝2 −𝑍ൗ        +        ≤𝑝1 −𝑝2               𝛼2                           𝑛1         𝑛2\n\n                                        Ƹ𝑝1 1 −Ƹ𝑝1     Ƹ𝑝2 1 −Ƹ𝑝2\n     ≤  Ƹ𝑝1 −Ƹ𝑝2 + 𝑍ൗ        +                 𝛼2                             𝑛1         𝑛2\n\n\n\n\n\n                                        ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 14,
+        "slide": 14,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L8.pdf",
+        "source_sha256": "27cb8fc97460ea766ae5093f70df775771682dd19d787ad51dbecfde41678e4f",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:46.860853+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "97e55b04709484bf517d00bec104bc2f57ee9360490c6509fc69bba68170e344",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              7.2,
+              8.81,
+              415.67,
+              36.77
+            ],
+            "text": "Confidence Interval for a Proportion",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              190.1,
+              67.48,
+              268.92,
+              91.51
+            ],
+            "text": "Ƹ𝑝1 −Ƹ𝑝",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              545.83,
+              67.48,
+              624.65,
+              91.51
+            ],
+            "text": "Ƹ𝑝1 −Ƹ𝑝",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              85.1,
+              85.59,
+              170.74,
+              120.31
+            ],
+            "text": "Ƹ𝑝−𝑍ൗ\n𝛼2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              227.54,
+              81.04,
+              526.47,
+              125.71
+            ],
+            "text": "𝑛\n≤𝑝≤\nത𝑋1 −ത𝑋2 + 𝑍ൗ\n𝛼2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              583.3,
+              101.67,
+              597.09,
+              125.71
+            ],
+            "text": "𝑛",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              148.19,
+              629.76,
+              209.78
+            ],
+            "text": "Confidence Interval for the Difference Between Two \nBinomial Proportions",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              277.01,
+              227.34,
+              374.27,
+              256.32
+            ],
+            "text": "Ƹ𝑝1 1 −Ƹ𝑝1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              390.41,
+              227.34,
+              512.05,
+              269.52
+            ],
+            "text": "+ Ƹ𝑝2 1 −Ƹ𝑝2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              529.51,
+              245.49,
+              628.84,
+              274.44
+            ],
+            "text": "≤𝑝1 −𝑝2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              100.34,
+              245.49,
+              257.63,
+              280.2
+            ],
+            "text": "Ƹ𝑝1 −Ƹ𝑝2 −𝑍ൗ\n𝛼2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              318.89,
+              261.57,
+              342.23,
+              289.08
+            ],
+            "text": "𝑛1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              455.83,
+              261.57,
+              479.77,
+              289.08
+            ],
+            "text": "𝑛2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              301.73,
+              312.45,
+              398.87,
+              341.4
+            ],
+            "text": "Ƹ𝑝1 1 −Ƹ𝑝1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              415.15,
+              312.45,
+              536.65,
+              354.6
+            ],
+            "text": "+ Ƹ𝑝2 1 −Ƹ𝑝2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              90.38,
+              330.56,
+              282.37,
+              365.28
+            ],
+            "text": "≤\nƸ𝑝1 −Ƹ𝑝2 + 𝑍ൗ\n𝛼2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              343.61,
+              346.64,
+              366.97,
+              374.16
+            ],
+            "text": "𝑛1",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              480.43,
+              346.64,
+              504.39,
+              374.16
+            ],
+            "text": "𝑛2",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n14",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0014.png"
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-qrm-l8-27cb8fc97460:p0014:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-qrm-l8-27cb8fc97460",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 14,
+        "slide": 14,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L8.pdf",
+        "source_sha256": "27cb8fc97460ea766ae5093f70df775771682dd19d787ad51dbecfde41678e4f",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:46.860881+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-qrm-l8-27cb8fc97460:p0015:text",
+      "course_id": "qrm",
+      "document_id": "qrm-qrm-l8-27cb8fc97460",
+      "kind": "page_text",
+      "text": "Statistical Process Control\n\n• A control chart is a graphical tool for monitoring the activity of an\n  ongoing process.\n• Control charts are sometimes referred to as Shewhart control charts,\n  because Walter A. Shewhart first proposed their general theory.",
+      "locator": {
+        "page": 15,
+        "slide": 15,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L8.pdf",
+        "source_sha256": "27cb8fc97460ea766ae5093f70df775771682dd19d787ad51dbecfde41678e4f",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:46.860887+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "f3dc9338073b1fc367cff5abf5cd02ef68945c73b7a1c198d55ccd536d7edaca",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              7.2,
+              13.01,
+              359.57,
+              46.04
+            ],
+            "text": "Statistical Process Control",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              61.59,
+              664.96,
+              89.34
+            ],
+            "text": "• A control chart is a graphical tool for monitoring the activity of an",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              25.2,
+              94.15,
+              189.17,
+              118.15
+            ],
+            "text": "ongoing process.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              129.31,
+              698.57,
+              157.03
+            ],
+            "text": "• Control charts are sometimes referred to as Shewhart control charts,",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              25.2,
+              161.83,
+              645.62,
+              185.83
+            ],
+            "text": "because Walter A. Shewhart first proposed their general theory.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              651.05,
+              510.03,
+              663.27,
+              522.05
+            ],
+            "text": "15",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0015.png"
+      },
+      "near_duplicate_of": "qrm-control-chart-l9-note-f6d674a13145:p0002:text"
+    },
+    {
+      "unit_id": "qrm-qrm-l8-27cb8fc97460:p0015:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-qrm-l8-27cb8fc97460",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 15,
+        "slide": 15,
+        "bbox": [
+          163.56,
+          184.56,
+          721.92,
+          522.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L8.pdf",
+        "source_sha256": "27cb8fc97460ea766ae5093f70df775771682dd19d787ad51dbecfde41678e4f",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:46.860904+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 79,
+        "bboxes": [
+          [
+            163.56,
+            184.56,
+            721.92,
+            522.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-qrm-l8-27cb8fc97460:p0015:visual-002",
+      "course_id": "qrm",
+      "document_id": "qrm-qrm-l8-27cb8fc97460",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 15,
+        "slide": 15,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L8.pdf",
+        "source_sha256": "27cb8fc97460ea766ae5093f70df775771682dd19d787ad51dbecfde41678e4f",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:46.860916+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 2,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    },
+    {
+      "unit_id": "qrm-qrm-l8-27cb8fc97460:p0016:text",
+      "course_id": "qrm",
+      "document_id": "qrm-qrm-l8-27cb8fc97460",
+      "kind": "page_text",
+      "text": "Benefits of Control Charts\n• When to take corrective action.\n• Type of remedial action necessary.\n• When to leave a process alone.\n• Process capability.\n• Possible means of quality improvement.\n\nCause of Variations:\n• Special Cause (As per Deming 15%): If an observation falls outside the\n  control limits or a non-random pattern is exhibited, special causes are\n assumed to exist, and the process is said to be out of control.\n• Common Cause (As per Deming 85%): If quality characteristic values\n  are within control limits and no non-random pattern is visible, it is\n assumed that a system of common causes exists and that the process\n  is in a state of statistical control.\n\n\n\n                                        ME3327E QUALITY, RELIABILITY AND",
+      "locator": {
+        "page": 16,
+        "slide": 16,
+        "bbox": null
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L8.pdf",
+        "source_sha256": "27cb8fc97460ea766ae5093f70df775771682dd19d787ad51dbecfde41678e4f",
+        "extractor": "pymupdf",
+        "extracted_at": "2026-09-03T07:07:46.860922+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "approved",
+      "content_hash": "6d186e9344580d0e818f0cd7fd2754b5705f8fa7e2e61d661c032d61d703df23",
+      "metadata": {
+        "layout_blocks": [
+          {
+            "bbox": [
+              7.2,
+              5.58,
+              327.06,
+              35.58
+            ],
+            "text": "Benefits of Control Charts",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              30.05,
+              414.84,
+              245.33
+            ],
+            "text": "• When to take corrective action.\n• Type of remedial action necessary.\n• When to leave a process alone.\n• Process capability.\n• Possible means of quality improvement.\nCause of Variations:",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              256.54,
+              706.66,
+              284.26
+            ],
+            "text": "• Special Cause (As per Deming 15%): If an observation falls outside the",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              25.2,
+              289.06,
+              707.23,
+              341.86
+            ],
+            "text": "control limits or a non-random pattern is exhibited, special causes are \nassumed to exist, and the process is said to be out of control.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              7.2,
+              352.88,
+              690.79,
+              380.63
+            ],
+            "text": "• Common Cause (As per Deming 85%): If quality characteristic values",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              25.2,
+              385.44,
+              703.58,
+              467.04
+            ],
+            "text": "are within control limits and no non-random pattern is visible, it is \nassumed that a system of common causes exists and that the process \nis in a state of statistical control.",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              271.22,
+              502.85,
+              451.3,
+              514.85
+            ],
+            "text": "ME3327E QUALITY, RELIABILITY AND",
+            "block_type": 0
+          },
+          {
+            "bbox": [
+              322.73,
+              510.03,
+              663.27,
+              529.25
+            ],
+            "text": "MAINTENANCE\n16",
+            "block_type": 0
+          }
+        ],
+        "render": "page-0016.png"
+      },
+      "near_duplicate_of": "qrm-control-chart-l9-note-f6d674a13145:p0003:text"
+    },
+    {
+      "unit_id": "qrm-qrm-l8-27cb8fc97460:p0016:visual-001",
+      "course_id": "qrm",
+      "document_id": "qrm-qrm-l8-27cb8fc97460",
+      "kind": "visual",
+      "text": "",
+      "locator": {
+        "page": 16,
+        "slide": 16,
+        "bbox": [
+          667.68,
+          0.0,
+          720.0,
+          63.72
+        ]
+      },
+      "provenance": {
+        "source_file": "Quality_Reliability_Maintenance_L8.pdf",
+        "source_sha256": "27cb8fc97460ea766ae5093f70df775771682dd19d787ad51dbecfde41678e4f",
+        "extractor": "pymupdf-image",
+        "extracted_at": "2026-09-03T07:07:46.860953+00:00",
+        "model": null,
+        "parent_unit_id": null
+      },
+      "review_status": "pending_review",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "metadata": {
+        "visual_index": 1,
+        "xref": 21,
+        "bboxes": [
+          [
+            667.68,
+            0.0,
+            720.0,
+            63.72
+          ]
+        ]
+      },
+      "near_duplicate_of": null
+    }
+  ],
+  "schema_version": "1.0",
+  "created_at": "2026-09-03T07:07:46.860959+00:00"
+}

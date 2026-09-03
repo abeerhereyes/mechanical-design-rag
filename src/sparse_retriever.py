@@ -17,6 +17,7 @@ hoping a bigger model fixes it implicitly.
 import re
 from rank_bm25 import BM25Okapi
 from src.chunker import Chunk
+from typing import Optional
 
 
 def tokenize(text: str) -> list[str]:
@@ -29,9 +30,14 @@ class SparseIndex:
         self.corpus_tokens = [tokenize(c.text) for c in chunks]
         self.bm25 = BM25Okapi(self.corpus_tokens)
 
-    def search(self, query: str, k: int = 5):
+    def search(self, query: str, k: int = 5, course_id: Optional[str] = None):
         scores = self.bm25.get_scores(tokenize(query))
-        ranked = sorted(range(len(scores)), key=lambda i: scores[i], reverse=True)[:k]
+        eligible = [
+            index
+            for index, chunk in enumerate(self.chunks)
+            if course_id is None or chunk.metadata.get("course_id") == course_id
+        ]
+        ranked = sorted(eligible, key=lambda i: scores[i], reverse=True)[:k]
         return [
             {"id": self.chunks[i].id, "text": self.chunks[i].text,
              "metadata": self.chunks[i].metadata, "score": float(scores[i])}
