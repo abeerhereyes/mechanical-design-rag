@@ -1,6 +1,6 @@
 # Mechanical Design RAG
 
-A portfolio-grade assistant for mechanical-design questions about bolts,
+A  assistant for mechanical-design questions about bolts,
 welds, springs, and bearings. It routes each question to either:
 
 - a deterministic Python engineering calculation, or
